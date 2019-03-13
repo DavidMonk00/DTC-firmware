@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Mar 10 16:13:42 2019
+# Process ID: 39380
+# Current directory: /DataStore/awr01/trunk/dtc
+# Command line: vivado top/top.xpr
+# Log file: /DataStore/awr01/trunk/dtc/vivado.log
+# Journal file: /DataStore/awr01/trunk/dtc/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project top/top.xpr
+update_compile_order -fileset sources_1
+archive_project /DataStore/awr01/trunk/dtc/top.xpr.zip -force -exclude_run_results -include_local_ip_cache -include_config_settings
