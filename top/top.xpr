@@ -18,7 +18,6 @@
     <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
     <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
     <Option Name="TargetLanguage" Val="VHDL"/>
-    <Option Name="TargetSimulator" Val="ModelSim"/>
     <Option Name="BoardPart" Val=""/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
@@ -75,74 +74,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/ip/amc13_link_gth/amc13_link_gth.xci">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/amc13_link_7s/firmware/cgn/amc13_link_gth/amc13_link_gth.xci"/>
-          <Attr Name="ImportTime" Val="1516708998"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/virtex7_rx_buf/virtex7_rx_buf.xci">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/cgn/virtex7_rx_buf/virtex7_rx_buf.xci"/>
-          <Attr Name="ImportTime" Val="1516709000"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/ngc/gtx_quad_wrapper_8b10bx32b/10g_125mhz/gtx_quad_wrapper_8b10bx32b.ngc">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/ngc/gtx_quad_wrapper_8b10bx32b/10g_125mhz/gtx_quad_wrapper_8b10bx32b.ngc"/>
-          <Attr Name="ImportTime" Val="1523515818"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/ngc/gth_quad_wrapper_8b10bx32b/10g_125mhz/gth_quad_wrapper_8b10bx32b.ngc">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/ngc/gth_quad_wrapper_8b10bx32b/10g_125mhz/gth_quad_wrapper_8b10bx32b.ngc"/>
-          <Attr Name="ImportTime" Val="1523515818"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/sdpram_32x9_16x10/sdpram_32x9_16x10.xci">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/cgn/sdpram_32x9_16x10/sdpram_32x9_16x10.xci"/>
-          <Attr Name="ImportTime" Val="1516708999"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/sdpram_16x10_32x9/sdpram_16x10_32x9.xci">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/cgn/sdpram_16x10_32x9/sdpram_16x10_32x9.xci"/>
-          <Attr Name="ImportTime" Val="1516708999"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/ngc/gig_eth_pcs_pma_v11_5.ngc">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/ngc/gig_eth_pcs_pma_v11_5.ngc"/>
-          <Attr Name="ImportTime" Val="1523515811"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/ngc/tri_mode_eth_mac_v5_5.ngc">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/ngc/tri_mode_eth_mac_v5_5.ngc"/>
-          <Attr Name="ImportTime" Val="1523515811"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/projects/tracktrigger/dtc/firmware/hdl/common/xml_utilities.vhd">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/projects/tracktrigger/dtc/firmware/hdl/common/xml_utilities.vhd"/>
@@ -195,14 +126,6 @@
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/projects/tracktrigger/dtc/firmware/hdl/DTC/CICunpacker.vhd"/>
           <Attr Name="ImportTime" Val="1517407880"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/amc13_link_7s/firmware/hdl/release-1.17/DAQ_Link_7S.vhd">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/amc13_link_7s/firmware/hdl/release-1.17/DAQ_Link_7S.vhd"/>
-          <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -303,8 +226,94 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/ip/amc13_link_gth/amc13_link_gth.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/amc13_link_7s/firmware/cgn/amc13_link_gth/amc13_link_gth.xci"/>
+          <Attr Name="ImportTime" Val="1516708998"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/virtex7_rx_buf/virtex7_rx_buf.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/cgn/virtex7_rx_buf/virtex7_rx_buf.xci"/>
+          <Attr Name="ImportTime" Val="1516709000"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/ngc/gtx_quad_wrapper_8b10bx32b/10g_125mhz/gtx_quad_wrapper_8b10bx32b.ngc">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/ngc/gtx_quad_wrapper_8b10bx32b/10g_125mhz/gtx_quad_wrapper_8b10bx32b.ngc"/>
+          <Attr Name="ImportTime" Val="1523515818"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/ngc/gth_quad_wrapper_8b10bx32b/10g_125mhz/gth_quad_wrapper_8b10bx32b.ngc">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/ngc/gth_quad_wrapper_8b10bx32b/10g_125mhz/gth_quad_wrapper_8b10bx32b.ngc"/>
+          <Attr Name="ImportTime" Val="1523515818"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/sdpram_32x9_16x10/sdpram_32x9_16x10.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/cgn/sdpram_32x9_16x10/sdpram_32x9_16x10.xci"/>
+          <Attr Name="ImportTime" Val="1516708999"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/sdpram_16x10_32x9/sdpram_16x10_32x9.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/cgn/sdpram_16x10_32x9/sdpram_16x10_32x9.xci"/>
+          <Attr Name="ImportTime" Val="1516708999"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/ngc/gig_eth_pcs_pma_v11_5.ngc">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/ngc/gig_eth_pcs_pma_v11_5.ngc"/>
+          <Attr Name="ImportTime" Val="1523515811"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/ngc/tri_mode_eth_mac_v5_5.ngc">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/ngc/tri_mode_eth_mac_v5_5.ngc"/>
+          <Attr Name="ImportTime" Val="1523515811"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/amc13_link_7s/firmware/hdl/release-1.17/DAQ_Link_7S.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/amc13_link_7s/firmware/hdl/release-1.17/DAQ_Link_7S.vhd"/>
+          <Attr Name="ImportTime" Val="1523515813"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/amc13_link_7s/firmware/hdl/release-1.17/EthernetCRCD32.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/amc13_link_7s/firmware/hdl/release-1.17/EthernetCRCD32.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -313,6 +322,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/amc13_link_7s/firmware/hdl/release-1.17/FIFO_RESET_7S.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/amc13_link_7s/firmware/hdl/release-1.17/FIFO_RESET_7S.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -321,6 +331,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/amc13_link_7s/firmware/hdl/release-1.17/Hamming.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/amc13_link_7s/firmware/hdl/release-1.17/Hamming.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -329,6 +340,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/ipbus_trans_decl.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/ipbus_trans_decl.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -337,6 +349,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/amc13_link_7s/firmware/hdl/release-1.17/RAM32x6Db.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/amc13_link_7s/firmware/hdl/release-1.17/RAM32x6Db.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -345,6 +358,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/amc13_link_7s/firmware/hdl/release-1.17/TTS_TRIG_if.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/amc13_link_7s/firmware/hdl/release-1.17/TTS_TRIG_if.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -353,6 +367,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_slaves/firmware/hdl/ipbus_reg_types.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/hdl/ipbus_reg_types.vhd"/>
           <Attr Name="ImportTime" Val="1523515816"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -361,6 +376,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_slaves/firmware/hdl/syncreg_w.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/hdl/syncreg_w.vhd"/>
           <Attr Name="ImportTime" Val="1523515816"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -369,6 +385,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_slaves/firmware/hdl/syncreg_r.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/hdl/syncreg_r.vhd"/>
           <Attr Name="ImportTime" Val="1523515816"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -377,6 +394,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_slaves/firmware/hdl/ipbus_syncreg_v.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/hdl/ipbus_syncreg_v.vhd"/>
           <Attr Name="ImportTime" Val="1523515816"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -385,6 +403,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_datapath/firmware/hdl/align_mon.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_datapath/firmware/hdl/align_mon.vhd"/>
           <Attr Name="ImportTime" Val="1523515819"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -393,6 +412,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/amc13_link_7s/firmware/hdl/amc13_link_gth.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/amc13_link_7s/firmware/hdl/amc13_link_gth.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -401,6 +421,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/boards/mp7/base_fw/mp7xe_690/firmware/hdl/mp7_brd_decl.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/boards/mp7/base_fw/mp7xe_690/firmware/hdl/mp7_brd_decl.vhd"/>
           <Attr Name="ImportTime" Val="1523515823"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -409,6 +430,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/boards/mp7/base_fw/common/firmware/hdl/mp7_top_decl.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/boards/mp7/base_fw/common/firmware/hdl/mp7_top_decl.vhd"/>
           <Attr Name="ImportTime" Val="1523515822"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -417,6 +439,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/projects/tracktrigger/dtc/firmware/hdl/top/top_decl.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/projects/tracktrigger/dtc/firmware/hdl/top/top_decl.vhd"/>
           <Attr Name="ImportTime" Val="1517399532"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -425,6 +448,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ctrl/firmware/hdl/board_const_reg.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ctrl/firmware/hdl/board_const_reg.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -433,6 +457,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/bunch_ctr.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/bunch_ctr.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -441,6 +466,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_util/firmware/hdl/ipbus_clock_div.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_util/firmware/hdl/ipbus_clock_div.vhd"/>
           <Attr Name="ImportTime" Val="1523515810"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -449,6 +475,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_util/firmware/hdl/synchroniser.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_util/firmware/hdl/synchroniser.vhd"/>
           <Attr Name="ImportTime" Val="1523515810"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -457,6 +484,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_util/firmware/hdl/clocks_7s_serdes.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_util/firmware/hdl/clocks_7s_serdes.vhd"/>
           <Attr Name="ImportTime" Val="1523515810"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -465,6 +493,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/amc13_link_7s/firmware/hdl/release-1.17/crc16D16.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/amc13_link_7s/firmware/hdl/release-1.17/crc16D16.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -473,6 +502,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/protocol/data_check_8b10b.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/protocol/data_check_8b10b.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -481,6 +511,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_util/firmware/hdl/del_array.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_util/firmware/hdl/del_array.vhd"/>
           <Attr Name="ImportTime" Val="1523515810"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -489,6 +520,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_slaves/firmware/hdl/drp_decl.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/hdl/drp_decl.vhd"/>
           <Attr Name="ImportTime" Val="1523515816"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -497,6 +529,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/common/drp_mux.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/common/drp_mux.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -505,6 +538,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/hdl/emac_hostbus_decl.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/hdl/emac_hostbus_decl.vhd"/>
           <Attr Name="ImportTime" Val="1523515811"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -513,6 +547,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gig_eth_pcs_pma_v11_5/gig_eth_pcs_pma_v11_5/example_design/gig_eth_pcs_pma_v11_5_block.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gig_eth_pcs_pma_v11_5/gig_eth_pcs_pma_v11_5/example_design/gig_eth_pcs_pma_v11_5_block.vhd"/>
           <Attr Name="ImportTime" Val="1523515811"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -521,6 +556,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/hdl/eth_7s_1000basex_gth.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/hdl/eth_7s_1000basex_gth.vhd"/>
           <Attr Name="ImportTime" Val="1523515811"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -529,6 +565,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/packages/package_types.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/packages/package_types.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -537,6 +574,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/crc/ultimate/rtl/vhdl/ucrc_pkg.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/crc/ultimate/rtl/vhdl/ucrc_pkg.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -545,6 +583,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/crc/outputlogic/outputlogic_32b_crc.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/crc/outputlogic/outputlogic_32b_crc.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -553,6 +592,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/crc/gct/gct_crc.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/crc/gct/gct_crc.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -561,6 +601,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/crc/fletcher64/mod_adder_dsp.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/crc/fletcher64/mod_adder_dsp.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -569,6 +610,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/crc/fletcher64/fletcher64.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/crc/fletcher64/fletcher64.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -577,6 +619,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/packages/package_utilities.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/packages/package_utilities.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -585,6 +628,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/packages/package_links.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/packages/package_links.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -593,6 +637,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/freq_ctr_div.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/freq_ctr_div.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -601,6 +646,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/protocol/usrclk_source.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/protocol/usrclk_source.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -609,6 +655,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/gth_3g/xilinx_gth_16b_3g_cpll_multi_gt.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/gth_3g/xilinx_gth_16b_3g_cpll_multi_gt.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -617,6 +664,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_3g_cpll/xilinx_gth_16b_3g_cpll_tx_startup_fsm.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_3g_cpll/xilinx_gth_16b_3g_cpll_tx_startup_fsm.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -625,6 +673,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_3g_cpll/xilinx_gth_16b_3g_cpll_rx_startup_fsm.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_3g_cpll/xilinx_gth_16b_3g_cpll_rx_startup_fsm.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -633,6 +682,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/wrappers/gth_quad_wrapper_8b10bx16b_xi_3g.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/wrappers/gth_quad_wrapper_8b10bx16b_xi_3g.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -641,6 +691,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/protocol/ext_align_gth_16b_3g_spartan.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/protocol/ext_align_gth_16b_3g_spartan.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -649,6 +700,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_5g_cpll/xilinx_gth_16b_5g_cpll.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_5g_cpll/xilinx_gth_16b_5g_cpll.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -657,6 +709,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_5g_cpll/xilinx_gth_16b_5g_cpll/example_design/xilinx_gth_16b_5g_cpll_tx_startup_fsm.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_5g_cpll/xilinx_gth_16b_5g_cpll/example_design/xilinx_gth_16b_5g_cpll_tx_startup_fsm.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -665,6 +718,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_5g_cpll/xilinx_gth_16b_5g_cpll/example_design/xilinx_gth_16b_5g_cpll_rx_startup_fsm.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_5g_cpll/xilinx_gth_16b_5g_cpll/example_design/xilinx_gth_16b_5g_cpll_rx_startup_fsm.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -673,6 +727,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/wrappers/gth_quad_wrapper_8b10bx16b_xi_5g.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/wrappers/gth_quad_wrapper_8b10bx16b_xi_5g.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -681,6 +736,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/protocol/ext_align_gth_16b_5g_spartan.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/protocol/ext_align_gth_16b_5g_spartan.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -689,6 +745,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_multi_gt.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_multi_gt.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -697,6 +754,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_tx_startup_fsm.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_tx_startup_fsm.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -705,6 +763,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_rx_startup_fsm.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_rx_startup_fsm.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -713,6 +772,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_auto_phase_align.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_auto_phase_align.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -721,6 +781,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_tx_manual_phase_align.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_tx_manual_phase_align.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -729,6 +790,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_common_reset.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_common_reset.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -737,6 +799,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_common.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_common.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -745,6 +808,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/wrappers/gth_quad_wrapper_8b10bx32b_xi_10g_low_lat.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/wrappers/gth_quad_wrapper_8b10bx32b_xi_10g_low_lat.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -753,6 +817,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/protocol/ext_align_gth_32b_10g_spartan.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/protocol/ext_align_gth_32b_10g_spartan.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -761,6 +826,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_readout/firmware/hdl/mp7_readout_decl.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_readout/firmware/hdl/mp7_readout_decl.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -769,6 +835,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/mp7_ttc_decl.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/mp7_ttc_decl.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -777,6 +844,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_readout/firmware/hdl/fake_event_src.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_readout/firmware/hdl/fake_event_src.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -785,6 +853,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_slaves/firmware/hdl/ipbus_ctrlreg_v.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/hdl/ipbus_ctrlreg_v.vhd"/>
           <Attr Name="ImportTime" Val="1523515816"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -793,6 +862,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/freq_ctr.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/freq_ctr.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -801,6 +871,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gig_eth_pcs_pma_v11_5/gig_eth_pcs_pma_v11_5/example_design/gig_eth_pcs_pma_v11_5_reset_sync.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gig_eth_pcs_pma_v11_5/gig_eth_pcs_pma_v11_5/example_design/gig_eth_pcs_pma_v11_5_reset_sync.vhd"/>
           <Attr Name="ImportTime" Val="1523515811"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -809,6 +880,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gig_eth_pcs_pma_v11_5/gig_eth_pcs_pma_v11_5/example_design/gig_eth_pcs_pma_v11_5_sync_block.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gig_eth_pcs_pma_v11_5/gig_eth_pcs_pma_v11_5/example_design/gig_eth_pcs_pma_v11_5_sync_block.vhd"/>
           <Attr Name="ImportTime" Val="1523515811"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -817,6 +889,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gig_eth_pcs_pma_v11_5/gig_eth_pcs_pma_v11_5_transceiver_gth.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gig_eth_pcs_pma_v11_5/gig_eth_pcs_pma_v11_5_transceiver_gth.vhd"/>
           <Attr Name="ImportTime" Val="1523515811"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -825,6 +898,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gtwizard_v2_5_gbe_gth/gtwizard_v2_5_gbe_gth.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gtwizard_v2_5_gbe_gth/gtwizard_v2_5_gbe_gth.vhd"/>
           <Attr Name="ImportTime" Val="1523515811"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -833,6 +907,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gtwizard_v2_5_gbe_gth/gtwizard_v2_5_gbe_gth_gt.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gtwizard_v2_5_gbe_gth/gtwizard_v2_5_gbe_gth_gt.vhd"/>
           <Attr Name="ImportTime" Val="1523515811"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -841,6 +916,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gtwizard_v2_5_gbe_gth/gtwizard_v2_5_gbe_gth/example_design/gtwizard_v2_5_gbe_gth_gtrxreset_seq.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gtwizard_v2_5_gbe_gth/gtwizard_v2_5_gbe_gth/example_design/gtwizard_v2_5_gbe_gth_gtrxreset_seq.vhd"/>
           <Attr Name="ImportTime" Val="1523515811"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -849,6 +925,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gtwizard_v2_5_gbe_gth/gtwizard_v2_5_gbe_gth/example_design/gtwizard_v2_5_gbe_gth_init.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gtwizard_v2_5_gbe_gth/gtwizard_v2_5_gbe_gth/example_design/gtwizard_v2_5_gbe_gth_init.vhd"/>
           <Attr Name="ImportTime" Val="1523515811"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -857,6 +934,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gtwizard_v2_5_gbe_gth/gtwizard_v2_5_gbe_gth/example_design/gtwizard_v2_5_gbe_gth_rx_startup_fsm.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gtwizard_v2_5_gbe_gth/gtwizard_v2_5_gbe_gth/example_design/gtwizard_v2_5_gbe_gth_rx_startup_fsm.vhd"/>
           <Attr Name="ImportTime" Val="1523515811"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -865,6 +943,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gtwizard_v2_5_gbe_gth/gtwizard_v2_5_gbe_gth/example_design/gtwizard_v2_5_gbe_gth_sync_block.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gtwizard_v2_5_gbe_gth/gtwizard_v2_5_gbe_gth/example_design/gtwizard_v2_5_gbe_gth_sync_block.vhd"/>
           <Attr Name="ImportTime" Val="1523515811"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -873,6 +952,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gtwizard_v2_5_gbe_gth/gtwizard_v2_5_gbe_gth/example_design/gtwizard_v2_5_gbe_gth_tx_startup_fsm.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_eth/firmware/gen_hdl/gtwizard_v2_5_gbe_gth/gtwizard_v2_5_gbe_gth/example_design/gtwizard_v2_5_gbe_gth_tx_startup_fsm.vhd"/>
           <Attr Name="ImportTime" Val="1523515811"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -881,6 +961,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/opencores_i2c/firmware/hdl/i2c_master_bit_ctrl.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/opencores_i2c/firmware/hdl/i2c_master_bit_ctrl.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -889,6 +970,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/opencores_i2c/firmware/hdl/i2c_master_byte_ctrl.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/opencores_i2c/firmware/hdl/i2c_master_byte_ctrl.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -897,6 +979,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/opencores_i2c/firmware/hdl/i2c_master_registers.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/opencores_i2c/firmware/hdl/i2c_master_registers.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -905,6 +988,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/opencores_i2c/firmware/hdl/i2c_master_top.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/opencores_i2c/firmware/hdl/i2c_master_top.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -913,6 +997,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_ipaddr_block.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_ipaddr_block.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -921,6 +1006,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_rarp_block.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_rarp_block.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -929,6 +1015,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_build_arp.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_build_arp.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -937,6 +1024,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_build_payload.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_build_payload.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -945,6 +1033,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_build_ping.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_build_ping.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -953,6 +1042,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_build_resend.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_build_resend.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -961,6 +1051,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_build_status.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_build_status.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -969,6 +1060,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_status_buffer.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_status_buffer.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -977,6 +1069,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_byte_sum.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_byte_sum.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -985,6 +1078,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_do_rx_reset.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_do_rx_reset.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -993,6 +1087,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_packet_parser.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_packet_parser.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1001,6 +1096,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_rxram_mux.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_rxram_mux.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1009,6 +1105,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_dualportram.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_dualportram.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1017,6 +1114,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_buffer_selector.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_buffer_selector.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1025,6 +1123,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_rxram_shim.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_rxram_shim.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1033,6 +1132,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_dualportram_rx.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_dualportram_rx.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1041,6 +1141,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_dualportram_tx.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_dualportram_tx.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1049,6 +1150,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_rxtransactor_if_simple.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_rxtransactor_if_simple.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1057,6 +1159,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_tx_mux.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_tx_mux.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1065,6 +1168,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_txtransactor_if_simple.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_txtransactor_if_simple.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1073,6 +1177,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_clock_crossing_if.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_clock_crossing_if.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1081,6 +1186,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/udp_if_flat.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/udp_if_flat.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1089,6 +1195,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/trans_arb.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/trans_arb.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1097,6 +1204,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/transactor_if.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/transactor_if.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1105,6 +1213,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/transactor_sm.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/transactor_sm.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1113,6 +1222,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/transactor_cfg.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/transactor_cfg.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1121,6 +1231,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/transactor.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/transactor.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1129,6 +1240,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/ipbus_ctrl.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/ipbus_ctrl.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1137,6 +1249,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/ipbus_dc_fabric_sel.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/ipbus_dc_fabric_sel.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1145,6 +1258,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/ipbus_dc_node.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/ipbus_dc_node.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1153,6 +1267,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_datapath/firmware/hdl/ipbus_decode_mp7_chan_buffer.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_datapath/firmware/hdl/ipbus_decode_mp7_chan_buffer.vhd"/>
           <Attr Name="ImportTime" Val="1523515819"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1161,6 +1276,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ctrl/firmware/hdl/ipbus_decode_mp7_ctrl.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ctrl/firmware/hdl/ipbus_decode_mp7_ctrl.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1169,6 +1285,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_datapath/firmware/hdl/ipbus_decode_mp7_datapath.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_datapath/firmware/hdl/ipbus_decode_mp7_datapath.vhd"/>
           <Attr Name="ImportTime" Val="1523515819"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1177,6 +1294,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_readout/firmware/hdl/ipbus_decode_mp7_readout.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_readout/firmware/hdl/ipbus_decode_mp7_readout.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1185,6 +1303,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_datapath/firmware/hdl/ipbus_decode_mp7_region.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_datapath/firmware/hdl/ipbus_decode_mp7_region.vhd"/>
           <Attr Name="ImportTime" Val="1523515819"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1193,6 +1312,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/ipbus_decode_mp7_ttc.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/ipbus_decode_mp7_ttc.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1201,6 +1321,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_infra/firmware/hdl/ipbus_decode_mp7xe_infra.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_infra/firmware/hdl/ipbus_decode_mp7xe_infra.vhd"/>
           <Attr Name="ImportTime" Val="1523515810"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1209,6 +1330,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_xpoint/firmware/hdl/ipbus_decode_mp7xe_xpoint.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_xpoint/firmware/hdl/ipbus_decode_mp7xe_xpoint.vhd"/>
           <Attr Name="ImportTime" Val="1523515819"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1217,6 +1339,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/ipbus_decode_state_history.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/ipbus_decode_state_history.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1225,6 +1348,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_slaves/firmware/hdl/ipbus_drp_bridge.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/hdl/ipbus_drp_bridge.vhd"/>
           <Attr Name="ImportTime" Val="1523515816"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1233,6 +1357,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_core/firmware/hdl/ipbus_fabric_sel.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_core/firmware/hdl/ipbus_fabric_sel.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1241,6 +1366,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/opencores_i2c/firmware/hdl/ipbus_i2c_master.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/opencores_i2c/firmware/hdl/ipbus_i2c_master.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1249,6 +1375,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_slaves/firmware/hdl/ipbus_ported_dpram36.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/hdl/ipbus_ported_dpram36.vhd"/>
           <Attr Name="ImportTime" Val="1523515816"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1257,6 +1384,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_slaves/firmware/hdl/ipbus_ported_sdpram72.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/hdl/ipbus_ported_sdpram72.vhd"/>
           <Attr Name="ImportTime" Val="1523515816"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1265,6 +1393,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_slaves/firmware/hdl/ipbus_reg_v.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/hdl/ipbus_reg_v.vhd"/>
           <Attr Name="ImportTime" Val="1523515816"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1273,6 +1402,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/rng_n1024_r32_t5_k32_s1c48.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/rng_n1024_r32_t5_k32_s1c48.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1281,6 +1411,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/rng_wrapper.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/rng_wrapper.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1289,6 +1420,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/l1a_gen.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/l1a_gen.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1297,6 +1429,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_util/firmware/hdl/led_stretcher.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_util/firmware/hdl/led_stretcher.vhd"/>
           <Attr Name="ImportTime" Val="1523515810"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1305,6 +1438,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_mezzanine/firmware/hdl/mezzanine_out_lvds.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_mezzanine/firmware/hdl/mezzanine_out_lvds.vhd"/>
           <Attr Name="ImportTime" Val="1523515811"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1313,6 +1447,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_readout/firmware/hdl/mp7_bitshift_delay.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_readout/firmware/hdl/mp7_bitshift_delay.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1321,6 +1456,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/state_history.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/state_history.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1329,6 +1465,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_datapath/firmware/hdl/mp7_derand.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_datapath/firmware/hdl/mp7_derand.vhd"/>
           <Attr Name="ImportTime" Val="1523515819"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1337,6 +1474,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_datapath/firmware/hdl/mp7_daqmux.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_datapath/firmware/hdl/mp7_daqmux.vhd"/>
           <Attr Name="ImportTime" Val="1523515819"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1345,6 +1483,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_datapath/firmware/hdl/mp7_chan_buffer.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_datapath/firmware/hdl/mp7_chan_buffer.vhd"/>
           <Attr Name="ImportTime" Val="1523515819"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1353,6 +1492,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ctrl/firmware/hdl/mp7_ctrl.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ctrl/firmware/hdl/mp7_ctrl.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1361,6 +1501,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_datapath/firmware/hdl/region_info.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_datapath/firmware/hdl/region_info.vhd"/>
           <Attr Name="ImportTime" Val="1523515819"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1369,6 +1510,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/gth_10g/quad_wrapper_gth.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/gth_10g/quad_wrapper_gth.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1377,6 +1519,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/gth_5g/quad_wrapper_gth_5g.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/gth_5g/quad_wrapper_gth_5g.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1385,6 +1528,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/gth_3g/quad_wrapper_gth_3g.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/gth_3g/quad_wrapper_gth_3g.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1393,6 +1537,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_formatter/firmware/hdl/mp7_formatter_tdrproto.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_formatter/firmware/hdl/mp7_formatter_tdrproto.vhd"/>
           <Attr Name="ImportTime" Val="1523515812"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1401,6 +1546,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_formatter/firmware/hdl/mp7_formatter_demux.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_formatter/firmware/hdl/mp7_formatter_demux.vhd"/>
           <Attr Name="ImportTime" Val="1523515812"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1409,6 +1555,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_formatter/firmware/hdl/mp7_formatter_s1proto.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_formatter/firmware/hdl/mp7_formatter_s1proto.vhd"/>
           <Attr Name="ImportTime" Val="1523515812"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1417,6 +1564,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_formatter/firmware/hdl/mp7_formatter_fifo.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_formatter/firmware/hdl/mp7_formatter_fifo.vhd"/>
           <Attr Name="ImportTime" Val="1523515812"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1425,6 +1573,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_formatter/firmware/hdl/mp7_formatter_multi_pkt.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_formatter/firmware/hdl/mp7_formatter_multi_pkt.vhd"/>
           <Attr Name="ImportTime" Val="1523515812"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1433,6 +1582,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_datapath/firmware/hdl/mp7_region.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_datapath/firmware/hdl/mp7_region.vhd"/>
           <Attr Name="ImportTime" Val="1523515819"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1441,6 +1591,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_datapath/firmware/hdl/mp7_datapath.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_datapath/firmware/hdl/mp7_datapath.vhd"/>
           <Attr Name="ImportTime" Val="1523515819"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1449,6 +1600,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_readout/firmware/hdl/tts_sm.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_readout/firmware/hdl/tts_sm.vhd"/>
           <Attr Name="ImportTime" Val="1523515813"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1457,6 +1609,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/projects/tracktrigger/common/mp7_custom/firmware/hdl/mp7_readout.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/projects/tracktrigger/common/mp7_custom/firmware/hdl/mp7_readout.vhd"/>
           <Attr Name="ImportTime" Val="1516709551"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1465,6 +1618,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/ttc_clocks.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/ttc_clocks.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1473,6 +1627,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/ttc_decoder.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/ttc_decoder.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1481,6 +1636,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/ttc_cmd.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/ttc_cmd.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1489,6 +1645,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/ttc_ctrs.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/ttc_ctrs.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1497,6 +1654,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/ttc_history_new.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/ttc_history_new.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1505,6 +1663,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/ttc_cmd_ctrs.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/ttc_cmd_ctrs.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1513,6 +1672,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/tmt_sync.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/tmt_sync.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1521,6 +1681,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_ttc/firmware/hdl/mp7_ttc.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_ttc/firmware/hdl/mp7_ttc.vhd"/>
           <Attr Name="ImportTime" Val="1523515820"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1529,6 +1690,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_slaves/firmware/hdl/trans_buffer.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/hdl/trans_buffer.vhd"/>
           <Attr Name="ImportTime" Val="1523515816"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1537,6 +1699,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_slaves/firmware/hdl/uc_spi_interface.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/hdl/uc_spi_interface.vhd"/>
           <Attr Name="ImportTime" Val="1523515816"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1545,6 +1708,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/ipbus_slaves/firmware/hdl/uc_pipe_interface.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/ipbus_slaves/firmware/hdl/uc_pipe_interface.vhd"/>
           <Attr Name="ImportTime" Val="1523515816"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1553,6 +1717,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_infra/firmware/hdl/uc_if.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_infra/firmware/hdl/uc_if.vhd"/>
           <Attr Name="ImportTime" Val="1523515810"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1561,6 +1726,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_xpoint/firmware/hdl/xpoint.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_xpoint/firmware/hdl/xpoint.vhd"/>
           <Attr Name="ImportTime" Val="1523515819"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1569,6 +1735,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_xpoint/firmware/hdl/mp7xe_xpoint.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_xpoint/firmware/hdl/mp7xe_xpoint.vhd"/>
           <Attr Name="ImportTime" Val="1523515819"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1577,6 +1744,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_infra/firmware/hdl/mp7xe_infra.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_infra/firmware/hdl/mp7xe_infra.vhd"/>
           <Attr Name="ImportTime" Val="1523515810"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1585,6 +1753,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/projects/tracktrigger/dtc/firmware/hdl/top/payload_DTC.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/projects/tracktrigger/dtc/firmware/hdl/top/payload_DTC.vhd"/>
           <Attr Name="ImportTime" Val="1517399532"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1593,6 +1762,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/crc/ultimate/rtl/vhdl/ucrc_par.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/crc/ultimate/rtl/vhdl/ucrc_par.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1601,6 +1771,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/hdl/gth_3g/xilinx_gth_16b_3g_cpll_gt.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/hdl/gth_3g/xilinx_gth_16b_3g_cpll_gt.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1609,6 +1780,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_3g_cpll/xilinx_gth_16b_3g_cpll_gtrxreset_seq.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_3g_cpll/xilinx_gth_16b_3g_cpll_gtrxreset_seq.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1617,6 +1789,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_3g_cpll/xilinx_gth_16b_3g_cpll_sync_block.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_3g_cpll/xilinx_gth_16b_3g_cpll_sync_block.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1625,6 +1798,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_5g_cpll/xilinx_gth_16b_5g_cpll_gt.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_5g_cpll/xilinx_gth_16b_5g_cpll_gt.vhd"/>
           <Attr Name="ImportTime" Val="1523515818"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1633,6 +1807,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_5g_cpll/xilinx_gth_16b_5g_cpll/example_design/xilinx_gth_16b_5g_cpll_sync_block.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_16b_5g_cpll/xilinx_gth_16b_5g_cpll/example_design/xilinx_gth_16b_5g_cpll_sync_block.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1641,6 +1816,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_gt.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_gt.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1649,6 +1825,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_sync_block.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_sync_block.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1657,6 +1834,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_sync_pulse.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/components/mp7_links/firmware/gen_hdl/xilinx_gth_32b_10g_qpll_low_lat/xilinx_gth_32b_10g_qpll_low_lat_sync_pulse.vhd"/>
           <Attr Name="ImportTime" Val="1523515817"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1665,6 +1843,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/cactusupgrades/boards/mp7/base_fw/mp7xe_690/firmware/hdl/mp7xe_690.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../cactusupgrades/boards/mp7/base_fw/mp7xe_690/firmware/hdl/mp7xe_690.vhd"/>
           <Attr Name="ImportTime" Val="1523515823"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -1944,7 +2123,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="top"/>
+        <Option Name="TopModule" Val="DtcTop"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -2009,7 +2188,9 @@
         <Option Name="TopModule" Val="tb"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SimMode" Val="post-implementation"/>
         <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="xsim.simulate.runtime" Val=""/>
         <Option Name="modelsim.simulate.custom_udo" Val="/DataStore/trunk/cactusupgrades/projects/tracktrigger/dtc/TestBench.udo"/>
       </Config>
     </FileSet>
@@ -2056,9 +2237,9 @@
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Flow_AreaOptimized_high" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design">
-          <Option Id="Directive">1</Option>
           <Option Id="ControlSetOptThreshold">1</Option>
           <Option Id="FlattenHierarchy">1</Option>
+          <Option Id="Directive">1</Option>
         </Step>
       </Strategy>
       <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2017"/>
