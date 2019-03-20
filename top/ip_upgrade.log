@@ -1,0 +1,198 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 20 13:23:34 2019
+| Host         : Solomon running 64-bit Linux Mint 18.3 Sylvia
+| Command      : upgrade_ip
+| Device       : xc7vx690tffg1927-3
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'zs_fifo_8k_x_36b'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of zs_fifo_8k_x_36b from xilinx.com:ip:fifo_generator:13.1 (Rev. 3) to xilinx.com:ip:fifo_generator:13.2 (Rev. 3)
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot get value of option ARCHITECTURE : there is no project option called ARCHITECTURE
+WARNING: there are only case-insensitive matches Reset_Pin for parameter RESET_PIN
+WARNING: there are only case-insensitive matches Reset_Pin for parameter RESET_PIN
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 20 13:23:33 2019
+| Host         : Solomon running 64-bit Linux Mint 18.3 Sylvia
+| Command      : upgrade_ip
+| Device       : xc7vx690tffg1927-3
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'virtex7_rx_buf'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of virtex7_rx_buf from xilinx.com:ip:blk_mem_gen:8.3 (Rev. 5) to xilinx.com:ip:blk_mem_gen:8.4 (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 20 13:23:32 2019
+| Host         : Solomon running 64-bit Linux Mint 18.3 Sylvia
+| Command      : upgrade_ip
+| Device       : xc7vx690tffg1927-3
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sdpram_32x9_16x10'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of sdpram_32x9_16x10 from xilinx.com:ip:blk_mem_gen:8.3 (Rev. 5) to xilinx.com:ip:blk_mem_gen:8.4 (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 20 13:23:32 2019
+| Host         : Solomon running 64-bit Linux Mint 18.3 Sylvia
+| Command      : upgrade_ip
+| Device       : xc7vx690tffg1927-3
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'sdpram_16x10_32x9'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of sdpram_16x10_32x9 from xilinx.com:ip:blk_mem_gen:8.3 (Rev. 5) to xilinx.com:ip:blk_mem_gen:8.4 (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 20 13:23:31 2019
+| Host         : Solomon running 64-bit Linux Mint 18.3 Sylvia
+| Command      : upgrade_ip
+| Device       : xc7vx690tffg1927-3
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'fifo_generator_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of fifo_generator_0 from xilinx.com:ip:fifo_generator:13.1 (Rev. 3) to xilinx.com:ip:fifo_generator:13.2 (Rev. 3)
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot get value of option ARCHITECTURE : there is no project option called ARCHITECTURE
+WARNING: there are only case-insensitive matches Reset_Pin for parameter RESET_PIN
+WARNING: there are only case-insensitive matches Reset_Pin for parameter RESET_PIN
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 20 13:23:31 2019
+| Host         : Solomon running 64-bit Linux Mint 18.3 Sylvia
+| Command      : upgrade_ip
+| Device       : xc7vx690tffg1927-3
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blockram_512x36'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of blockram_512x36 from xilinx.com:ip:blk_mem_gen:8.3 (Rev. 5) to xilinx.com:ip:blk_mem_gen:8.4 (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 20 13:23:30 2019
+| Host         : Solomon running 64-bit Linux Mint 18.3 Sylvia
+| Command      : upgrade_ip
+| Device       : xc7vx690tffg1927-3
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_zs_mask_32x72'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of blk_mem_zs_mask_32x72 from xilinx.com:ip:blk_mem_gen:8.3 (Rev. 5) to xilinx.com:ip:blk_mem_gen:8.4 (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 20 13:23:29 2019
+| Host         : Solomon running 64-bit Linux Mint 18.3 Sylvia
+| Command      : upgrade_ip
+| Device       : xc7vx690tffg1927-3
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'amc13_link_gth'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of amc13_link_gth (xilinx.com:ip:gtwizard:3.6) from (Rev. 5) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Mar 20 13:23:27 2019
+| Host         : Solomon running 64-bit Linux Mint 18.3 Sylvia
+| Command      : upgrade_ip
+| Device       : xc7vx690tffg1927-3
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'BinarySorterRam'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of BinarySorterRam from xilinx.com:ip:blk_mem_gen:8.3 (Rev. 5) to xilinx.com:ip:blk_mem_gen:8.4 (Rev. 2)
+
