@@ -1,0 +1,146 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+EEnzxUsbEpotWnzdjTyiRlzhzO/XACVY9UsW+vIKPPfE=
+Z1 w1544171253
+Z2 DPx16 c_reg_fd_v12_0_5 25 c_reg_fd_v12_0_5_viv_comp 0 22 IIR:?O:^X4FZMDfUVIhcA2
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/c_reg_fd_v12_0/hdl/c_reg_fd_v12_0_vh_rfs.vhd
+Z6 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/c_reg_fd_v12_0/hdl/c_reg_fd_v12_0_vh_rfs.vhd
+l0
+L612
+Vk`=AnPcS`o7bdO;PNW3eM3
+!s100 YWSLK`SkoA8513WRDZ>Y41
+Z7 OL;C;10.6b;65
+!i8a 1961781168
+31
+Z8 !s110 1556885079
+!i10b 1
+Z9 !s108 1556885079.000000
+Z10 !s90 -64|-93|-work|c_reg_fd_v12_0_5|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/c_reg_fd_v12_0_5/.cxl.vhdl.c_reg_fd_v12_0_5.c_reg_fd_v12_0_5.lin64.cmf|
+Z11 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/c_reg_fd_v12_0/hdl/c_reg_fd_v12_0_vh_rfs.vhd|
+!i113 0
+Z12 o-93 -work c_reg_fd_v12_0_5
+Z13 tExplicit 1 CvgOpt 0
+n29546c5
+AYlszeyD7ikladfyxE4vA9Q==
+R2
+R3
+R4
+DEx4 work 16 c_reg_fd_v12_0_5 0 22 k`=AnPcS`o7bdO;PNW3eM3
+l647
+L642
+VkNR1Xh]LMe8B]D:FzA_>U1
+!s100 ge6NY3k00jCPSBZ@d1R5@1
+R7
+!i8a 484680416
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n7f03058
+PJO+0yITNeKSKoP2K2CEQiXHODw0MJ2I/Wju2V7dUe7o=
+R3
+R4
+R1
+R0
+R5
+R6
+l0
+L125
+VXCn`=d50c;=:Zn:a8CgDK2
+!s100 =^7M>NhdT=C;fF48:@GT52
+R7
+!i8a 1391664608
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+nc9cd220
+EXVexQ/IEg3N+793uJV8uk4EREYjIuS615DU5sxKaGfw=
+R1
+Z14 DPx17 xbip_utils_v3_0_9 21 xbip_utils_v3_0_9_pkg 0 22 jE:;Q?8;4:RkzCAz_?dYo0
+R3
+R4
+R0
+R5
+R6
+l0
+L332
+VCc?@mFIORTNmOXne7AM2U3
+!s100 LaiRR[bie5NJBYAO7jL]P3
+R7
+!i8a 120649216
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n6c9fa46
+AkdZmungOmnXuKwtDlb4bvA==
+R14
+R3
+R4
+DEx4 work 20 c_reg_fd_v12_0_5_viv 0 22 Cc?@mFIORTNmOXne7AM2U3
+l430
+L362
+VF:W5UR]zTdgeJTBkaiaZh3
+!s100 =?g]Zz^h=ig=[WY[k=Mh70
+R7
+!i8a 1243724768
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+nbac63ec
+Pb02kNv2brsRjddwBJBQFCh8n/9nT5mnSUU6ogqVQy0Q=
+R3
+R4
+R1
+R0
+R5
+R6
+l0
+L215
+VIIR:?O:^X4FZMDfUVIhcA2
+!s100 @IQ7IzgE=_zMK4U>9DkW]0
+R7
+!i8a 297028368
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n4e91be0

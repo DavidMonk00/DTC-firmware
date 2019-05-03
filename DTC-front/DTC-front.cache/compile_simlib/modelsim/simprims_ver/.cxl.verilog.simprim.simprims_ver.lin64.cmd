@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/simprims_ver
+/opt/MentorGraphics/modeltech/bin/vmap simprims_ver /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/simprims_ver
+/opt/MentorGraphics/modeltech/bin/vlog -source +define+XIL_TIMING -64 -work simprims_ver -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/simprims_ver/.cxl.verilog.simprim.simprims_ver.lin64.cmf -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/simprims_ver/.cxl.verilog.simprim_diablo.simprims_ver.lin64.cmf

@@ -1,0 +1,9 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap rama_v1_1_0_lib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/rama_v1_1_0_lib 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:08 on May 03,2019
+vcom -64 -93 -work rama_v1_1_0_lib -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/rama_v1_1_0_lib/.cxl.vhdl.rama_v1_1_0_lib.rama_v1_1_0_lib.lin64.cmf 
+-- Loading package STANDARD
+End time: 13:04:08 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

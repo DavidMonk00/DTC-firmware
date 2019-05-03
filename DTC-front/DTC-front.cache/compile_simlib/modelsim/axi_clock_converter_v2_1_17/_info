@@ -1,0 +1,99 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vaxi_clock_converter_v2_1_17_axi_clock_converter
+Z1 !s110 1556885149
+!i10b 1
+!s100 nQ;45PMn`E6S4niQEV6h=1
+I<mSLI<YoNVn<<=>_HL5Q63
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1544171251
+Z3 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_clock_converter_v2_1/hdl/axi_clock_converter_v2_1_vl_rfs.v
+Z4 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_clock_converter_v2_1/hdl/axi_clock_converter_v2_1_vl_rfs.v
+F/home/dmonk/.cxl.ip/incl/axi_infrastructure_v1_1_0.vh
+L0 654
+Z5 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z6 !s108 1556885149.000000
+Z7 !s107 /home/dmonk/.cxl.ip/incl/axi_infrastructure_v1_1_0.vh|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_clock_converter_v2_1/hdl/axi_clock_converter_v2_1_vl_rfs.v|
+Z8 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|axi_clock_converter_v2_1_17|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_clock_converter_v2_1_17/.cxl.verilog.axi_clock_converter_v2_1_17.axi_clock_converter_v2_1_17.lin64.cmf|
+!i113 0
+Z9 o-work axi_clock_converter_v2_1_17 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work axi_clock_converter_v2_1_17 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+vaxi_clock_converter_v2_1_17_axic_sample_cycle_ratio
+R1
+!i10b 1
+!s100 `@PN22]2OT;5U8zgh2L163
+Ia298L]jZV1=I>e^6aGQ[e1
+R2
+R0
+Z12 w1544171250
+R3
+R4
+L0 359
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vaxi_clock_converter_v2_1_17_axic_sync_clock_converter
+R1
+!i10b 1
+!s100 AP0d@32K:Y68^fQIZW1F13
+Iz_>RT9<WJhN::;Z9X8[ZC2
+R2
+R0
+R12
+R3
+R4
+L0 63
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vaxi_clock_converter_v2_1_17_lite_async
+R1
+!i10b 1
+!s100 L[]gcgO2J<R=3<L0m8iPh0
+IRjilaTAzReAFU=zX;OdeI1
+R2
+R0
+R12
+R3
+R4
+L0 517
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11

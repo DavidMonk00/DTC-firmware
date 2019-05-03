@@ -1,0 +1,33 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap zynq_ultra_ps_e_vip_v1_0_4 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/zynq_ultra_ps_e_vip_v1_0_4 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:06:31 on May 03,2019
+vlog -64 -L axi_vip_v1_1_4 -L zynq_ultra_ps_e_vip_v1_0_4 -L xilinx_vip "+incdir+/home/dmonk/.cxl.ip/incl" -sv -work zynq_ultra_ps_e_vip_v1_0_4 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/zynq_ultra_ps_e_vip_v1_0_4/.cxl.systemverilog.zynq_ultra_ps_e_vip_v1_0_4.zynq_ultra_ps_e_vip_v1_0_4.lin64.cmf 
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_arb_wr
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_arb_rd
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_arb_wr_6
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_arb_rd_6
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_arb_rd_wr
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_sparse_mem
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_reg_map
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_ocm_mem
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_regc
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_ocmc
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_interconnect_model
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_ddr_interconnect_model
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_gen_reset
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_gen_clock
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_ddrc
+-- Compiling package zynq_ultra_ps_e_vip_v1_0_vl_rfs_sv_unit
+-- Importing package xilinx_vip.axi_vip_pkg
+-- Importing package xilinx_vip.xil_common_vip_pkg
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_axi_slave
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_axi_slave_acp
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4_axi_master
+-- Compiling module zynq_ultra_ps_e_vip_v1_0_4
+
+Top level modules:
+	zynq_ultra_ps_e_vip_v1_0_4
+End time: 13:06:32 on May 03,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

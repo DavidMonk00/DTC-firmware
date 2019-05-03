@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axis_broadcaster_v1_1_17
+/opt/MentorGraphics/modeltech/bin/vmap axis_broadcaster_v1_1_17 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axis_broadcaster_v1_1_17
+/opt/MentorGraphics/modeltech/bin/vlog  -64 +incdir+/home/dmonk/.cxl.ip/incl -work axis_broadcaster_v1_1_17 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axis_broadcaster_v1_1_17/.cxl.verilog.axis_broadcaster_v1_1_17.axis_broadcaster_v1_1_17.lin64.cmf

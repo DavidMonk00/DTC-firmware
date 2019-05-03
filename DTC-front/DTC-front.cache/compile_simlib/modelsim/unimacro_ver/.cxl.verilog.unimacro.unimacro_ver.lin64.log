@@ -1,0 +1,34 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap unimacro_ver /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/unimacro_ver 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:02:00 on May 03,2019
+vlog -source -64 -work unimacro_ver -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/unimacro_ver/.cxl.verilog.unimacro.unimacro_ver.lin64.cmf 
+-- Compiling module COUNTER_TC_MACRO
+-- Compiling module EQ_COMPARE_MACRO
+-- Compiling module BRAM_SDP_MACRO
+-- Compiling module ADDSUB_MACRO
+-- Compiling module MACC_MACRO
+-- Compiling module ADDMACC_MACRO
+-- Compiling module BRAM_TDP_MACRO
+-- Compiling module COUNTER_LOAD_MACRO
+-- Compiling module FIFO_DUALCLOCK_MACRO
+-- Compiling module BRAM_SINGLE_MACRO
+-- Compiling module FIFO_SYNC_MACRO
+-- Compiling module MULT_MACRO
+
+Top level modules:
+	COUNTER_TC_MACRO
+	EQ_COMPARE_MACRO
+	BRAM_SDP_MACRO
+	ADDSUB_MACRO
+	MACC_MACRO
+	ADDMACC_MACRO
+	BRAM_TDP_MACRO
+	COUNTER_LOAD_MACRO
+	FIFO_DUALCLOCK_MACRO
+	BRAM_SINGLE_MACRO
+	FIFO_SYNC_MACRO
+	MULT_MACRO
+End time: 13:02:00 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

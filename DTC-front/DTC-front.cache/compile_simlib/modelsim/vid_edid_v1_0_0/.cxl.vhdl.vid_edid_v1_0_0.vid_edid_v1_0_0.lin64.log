@@ -1,0 +1,47 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap vid_edid_v1_0_0 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/vid_edid_v1_0_0 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:03:48 on May 03,2019
+vcom -64 -93 -work vid_edid_v1_0_0 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/vid_edid_v1_0_0/.cxl.vhdl.vid_edid_v1_0_0.vid_edid_v1_0_0.lin64.cmf 
+-- Loading package STANDARD
+-- Compiling package vid_edid_v1_0_0_family_support
+-- Compiling package body vid_edid_v1_0_0_family_support
+-- Loading package vid_edid_v1_0_0_family_support
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package vid_edid_v1_0_0_family_support
+-- Compiling entity vid_edid_v1_0_0_pselect_f
+-- Compiling architecture imp of vid_edid_v1_0_0_pselect_f
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package vid_edid_v1_0_0_proc_common_pkg
+-- Compiling package body vid_edid_v1_0_0_proc_common_pkg
+-- Loading package vid_edid_v1_0_0_proc_common_pkg
+-- Loading package NUMERIC_STD
+-- Compiling entity vid_edid_v1_0_0_counter_f
+-- Compiling architecture imp of vid_edid_v1_0_0_counter_f
+-- Compiling package vid_edid_v1_0_0_common_pkg
+-- Compiling package body vid_edid_v1_0_0_common_pkg
+-- Loading package vid_edid_v1_0_0_common_pkg
+-- Compiling entity vid_edid_v1_0_0_multiplexor
+-- Compiling architecture RTL of vid_edid_v1_0_0_multiplexor
+-- Loading package vid_edid_v1_0_0_proc_common_pkg
+-- Compiling entity vid_edid_v1_0_0_axilite_sif
+-- Compiling architecture RTL of vid_edid_v1_0_0_axilite_sif
+-- Compiling entity vid_edid_v1_0_0_apb_mif
+-- Compiling architecture RTL of vid_edid_v1_0_0_apb_mif
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Compiling entity vid_edid_v1_0_0_psel_decoder
+-- Compiling architecture RTL of vid_edid_v1_0_0_psel_decoder
+-- Loading package vid_edid_v1_0_0_common_pkg
+-- Compiling entity vid_edid_v1_0_0_rom
+-- Compiling architecture rtl of vid_edid_v1_0_0_rom
+-- Compiling entity vid_edid_v1_0_0_axi_apb_bridge
+-- Compiling architecture RTL of vid_edid_v1_0_0_axi_apb_bridge
+-- Compiling entity vid_edid_v1_0_0_edid_rom
+-- Compiling architecture rtl of vid_edid_v1_0_0_edid_rom
+-- Loading entity vid_edid_v1_0_0_rom
+End time: 13:03:48 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

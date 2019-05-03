@@ -1,0 +1,221 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+Eaxi_tft
+Z1 w1544171252
+Z2 DPx14 lib_pkg_v1_0_2 7 lib_pkg 0 22 [AUAFNJW:`2SG<Ko:5ggg3
+Z3 DEx23 axi_master_burst_v2_0_7 16 axi_master_burst 0 22 G:RhSnz_B<gbeAn<`d_iW2
+Z4 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
+Z5 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
+Z6 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z7 DEx20 axi_lite_ipif_v3_0_4 13 axi_lite_ipif 0 22 J1b7VKb;?`UXnaGg<5z0d3
+Z8 DPx20 axi_lite_ipif_v3_0_4 8 ipif_pkg 0 22 zJ]@GWZl6YPP]W9DYEE:f3
+Z9 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z10 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z11 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z12 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z13 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.vhd
+Z14 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.vhd
+l0
+L256
+V9BbSTCVnSDo0fKmIgdRDM0
+!s100 U:OFma5`]ZIa9o>cSDB1W0
+Z15 OL;C;10.6b;65
+31
+Z16 !s110 1556885168
+!i10b 1
+Z17 !s108 1556885168.000000
+Z18 !s90 -64|-93|-work|axi_tft_v2_0_21|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_tft_v2_0_21/.cxl.vhdl.axi_tft_v2_0_21.axi_tft_v2_0_21.lin64.cmf|
+Z19 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.vhd|
+!i113 0
+Z20 o-93 -work axi_tft_v2_0_21
+Z21 tExplicit 1 CvgOpt 0
+Aimp
+R3
+R7
+R2
+R4
+R5
+R6
+R8
+R9
+R10
+R11
+R12
+DEx4 work 7 axi_tft 0 22 9BbSTCVnSDo0fKmIgdRDM0
+l669
+L412
+VU2:f?LC5>6mkzgAVM`i9X3
+!s100 oiWco>7:@G=3E?XOHl<^[0
+R15
+31
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 0
+R20
+R21
+vaxi_tft_v2_0_21_h_sync
+R16
+!i10b 1
+!s100 72_cLJ`2]QM`z0J4CS5Vk1
+I3:1YWBcXzf[aMzz0gSd^K1
+Z22 VDg1SIo80bB@j0V0VzS_@n1
+R0
+R1
+Z23 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v
+Z24 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v
+L0 2427
+Z25 OL;L;10.6b;65
+r1
+!s85 0
+31
+R17
+Z26 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_tft_v2_0/hdl/axi_tft_v2_0_rfs.v|
+Z27 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|axi_tft_v2_0_21|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_tft_v2_0_21/.cxl.verilog.axi_tft_v2_0_21.axi_tft_v2_0_21.lin64.cmf|
+!i113 0
+Z28 o-work axi_tft_v2_0_21 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z29 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work axi_tft_v2_0_21 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z30 tCvgOpt 0
+vaxi_tft_v2_0_21_iic_init
+R16
+!i10b 1
+!s100 MIjEO@SFN]^K5LYbh^1l21
+I]AZCD`_7`7ZNlW[:`@3V00
+R22
+R0
+R1
+R23
+R24
+L0 94
+R25
+r1
+!s85 0
+31
+R17
+R26
+R27
+!i113 0
+R28
+R29
+R30
+vaxi_tft_v2_0_21_line_buffer
+R16
+!i10b 1
+!s100 Hi_5?<QcN@?Q^;]ITAjm22
+IHl]O<7<zdlM?17b0okDd23
+R22
+R0
+R1
+R23
+R24
+L0 2114
+R25
+r1
+!s85 0
+31
+R17
+R26
+R27
+!i113 0
+R28
+R29
+R30
+vaxi_tft_v2_0_21_slave_register
+R16
+!i10b 1
+!s100 YAW::NAfYi[bUCI5hDdQ41
+IhQ=BL`gQn^3N01WWHLa6m1
+R22
+R0
+R1
+R23
+R24
+L0 1519
+R25
+r1
+!s85 0
+31
+R17
+R26
+R27
+!i113 0
+R28
+R29
+R30
+vaxi_tft_v2_0_21_tft_controller
+R16
+!i10b 1
+!s100 ob?lj_39l5CTYjgQLFYSM2
+I5Zo0j5TBV=HCEG8E?ff=P2
+R22
+R0
+R1
+R23
+R24
+L0 2837
+R25
+r1
+!s85 0
+31
+R17
+R26
+R27
+!i113 0
+R28
+R29
+R30
+vaxi_tft_v2_0_21_tft_interface
+R16
+!i10b 1
+!s100 ^^K<aNoPVDTL;ON^ZCLI52
+I@DdgU^7d<:<BSLiIh3=I83
+R22
+R0
+R1
+R23
+R24
+L0 918
+R25
+r1
+!s85 0
+31
+R17
+R26
+R27
+!i113 0
+R28
+R29
+R30
+vaxi_tft_v2_0_21_v_sync
+R16
+!i10b 1
+!s100 jZJMHU;5W[Ll724[`8LW[0
+Il4`I3oMCg_daL8lfVZ9QL3
+R22
+R0
+R1
+R23
+R24
+L0 515
+R25
+r1
+!s85 0
+31
+R17
+R26
+R27
+!i113 0
+R28
+R29
+R30

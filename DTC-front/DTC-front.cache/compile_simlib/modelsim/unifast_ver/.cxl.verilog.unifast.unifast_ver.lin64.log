@@ -1,0 +1,20 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap unifast_ver /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/unifast_ver 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:02:00 on May 03,2019
+vlog -source -64 -work unifast_ver -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/unifast_ver/.cxl.verilog.unifast.unifast_ver.lin64.cmf 
+-- Compiling module MMCME2_ADV
+-- Compiling module PLLE2_ADV
+-- Compiling module GTHE2_CHANNEL
+-- Compiling module DSP48E1
+-- Compiling module GTXE2_CHANNEL
+
+Top level modules:
+	MMCME2_ADV
+	PLLE2_ADV
+	GTHE2_CHANNEL
+	DSP48E1
+	GTXE2_CHANNEL
+End time: 13:02:00 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

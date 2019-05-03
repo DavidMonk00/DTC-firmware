@@ -1,0 +1,10 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap displayport_v8_0_2 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/displayport_v8_0_2 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:05:08 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work displayport_v8_0_2 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/displayport_v8_0_2/.cxl.verilog.displayport_v8_0_2.displayport_v8_0_2.lin64.cmf 
+
+Top level modules:
+End time: 13:05:16 on May 03,2019, Elapsed time: 0:00:08
+Errors: 0, Warnings: 0

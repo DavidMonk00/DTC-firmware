@@ -1,0 +1,20 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap amm_axi_bridge_v1_0_4 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/amm_axi_bridge_v1_0_4 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:05:29 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work amm_axi_bridge_v1_0_4 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/amm_axi_bridge_v1_0_4/.cxl.verilog.amm_axi_bridge_v1_0_4.amm_axi_bridge_v1_0_4.lin64.cmf 
+-- Compiling module amm_axi_bridge_v1_0_4_read_top
+-- Compiling module amm_axi_bridge_v1_0_4_read_multi
+-- Compiling module amm_axi_bridge_v1_0_4_read_demux
+-- Compiling module amm_axi_bridge_v1_0_4_write_top
+-- Compiling module amm_axi_bridge_v1_0_4_write_multi
+-- Compiling module amm_axi_bridge_v1_0_4_write_mux
+-- Compiling module amm_axi_bridge_v1_0_4_top
+-- Compiling module amm_axi_bridge_v1_0_4_fifo
+-- Compiling module amm_axi_bridge_v1_0_4_arbitration
+
+Top level modules:
+	amm_axi_bridge_v1_0_4_top
+End time: 13:05:29 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

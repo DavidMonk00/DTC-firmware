@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/gig_ethernet_pcs_pma_v16_1_5
+/opt/MentorGraphics/modeltech/bin/vmap gig_ethernet_pcs_pma_v16_1_5 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/gig_ethernet_pcs_pma_v16_1_5
+/opt/MentorGraphics/modeltech/bin/vcom  -64 -93 -work gig_ethernet_pcs_pma_v16_1_5 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/gig_ethernet_pcs_pma_v16_1_5/.cxl.vhdl.gig_ethernet_pcs_pma_v16_1_5.gig_ethernet_pcs_pma_v16_1_5.lin64.cmf

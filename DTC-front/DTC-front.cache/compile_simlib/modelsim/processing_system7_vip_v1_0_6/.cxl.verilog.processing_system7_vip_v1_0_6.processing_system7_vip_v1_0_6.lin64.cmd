@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/processing_system7_vip_v1_0_6
+/opt/MentorGraphics/modeltech/bin/vmap processing_system7_vip_v1_0_6 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/processing_system7_vip_v1_0_6
+/opt/MentorGraphics/modeltech/bin/vlog  -64 -L axi_vip_v1_1_4 -L processing_system7_vip_v1_0_6 -L xilinx_vip +incdir+/home/dmonk/.cxl.ip/incl -sv -work processing_system7_vip_v1_0_6 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/processing_system7_vip_v1_0_6/.cxl.systemverilog.processing_system7_vip_v1_0_6.processing_system7_vip_v1_0_6.lin64.cmf

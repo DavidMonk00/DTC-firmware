@@ -1,0 +1,30 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axi_protocol_converter_v2_1_18 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_protocol_converter_v2_1_18 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:06:20 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work axi_protocol_converter_v2_1_18 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_protocol_converter_v2_1_18/.cxl.verilog.axi_protocol_converter_v2_1_18.axi_protocol_converter_v2_1_18.lin64.cmf 
+-- Compiling module axi_protocol_converter_v2_1_18_a_axi3_conv
+-- Compiling module axi_protocol_converter_v2_1_18_axi3_conv
+-- Compiling module axi_protocol_converter_v2_1_18_axilite_conv
+-- Compiling module axi_protocol_converter_v2_1_18_r_axi3_conv
+-- Compiling module axi_protocol_converter_v2_1_18_w_axi3_conv
+-- Compiling module axi_protocol_converter_v2_1_18_b_downsizer
+-- Compiling module axi_protocol_converter_v2_1_18_decerr_slave
+-- Compiling module axi_protocol_converter_v2_1_18_b2s_simple_fifo
+-- Compiling module axi_protocol_converter_v2_1_18_b2s_wrap_cmd
+-- Compiling module axi_protocol_converter_v2_1_18_b2s_incr_cmd
+-- Compiling module axi_protocol_converter_v2_1_18_b2s_wr_cmd_fsm
+-- Compiling module axi_protocol_converter_v2_1_18_b2s_rd_cmd_fsm
+-- Compiling module axi_protocol_converter_v2_1_18_b2s_cmd_translator
+-- Compiling module axi_protocol_converter_v2_1_18_b2s_b_channel
+-- Compiling module axi_protocol_converter_v2_1_18_b2s_r_channel
+-- Compiling module axi_protocol_converter_v2_1_18_b2s_aw_channel
+-- Compiling module axi_protocol_converter_v2_1_18_b2s_ar_channel
+-- Compiling module axi_protocol_converter_v2_1_18_b2s
+-- Compiling module axi_protocol_converter_v2_1_18_axi_protocol_converter
+
+Top level modules:
+	axi_protocol_converter_v2_1_18_axi_protocol_converter
+End time: 13:06:21 on May 03,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

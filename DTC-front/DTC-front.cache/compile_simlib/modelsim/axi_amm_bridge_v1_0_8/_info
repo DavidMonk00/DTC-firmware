@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vaxi_amm_bridge_v1_0_8_fifo
+Z1 !s110 1556884984
+!i10b 1
+!s100 [;AR=VF41fOX_g6=LBhHN3
+IVJ:YbH8P2iSLlAb=AY=AQ3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171250
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_amm_bridge_v1_0/hdl/axi_amm_bridge_v1_0_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_amm_bridge_v1_0/hdl/axi_amm_bridge_v1_0_rfs.v
+L0 737
+Z6 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z7 !s108 1556884984.000000
+Z8 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_amm_bridge_v1_0/hdl/axi_amm_bridge_v1_0_rfs.v|
+Z9 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|axi_amm_bridge_v1_0_8|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_amm_bridge_v1_0_8/.cxl.verilog.axi_amm_bridge_v1_0_8.axi_amm_bridge_v1_0_8.lin64.cmf|
+!i113 0
+Z10 o-work axi_amm_bridge_v1_0_8 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work axi_amm_bridge_v1_0_8 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vaxi_amm_bridge_v1_0_8_full
+R1
+!i10b 1
+!s100 D2dUQ1@NBNS5gSP8`[8[L1
+I9FeH?nfe^kDKd^=XZ48f_3
+R2
+R0
+R3
+R4
+R5
+L0 994
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_amm_bridge_v1_0_8_lite
+R1
+!i10b 1
+!s100 c25[BPeYOjFZIhQ;h<>Sl3
+IX4KiPHUKV2]kb88e42E0?2
+R2
+R0
+R3
+R4
+R5
+L0 138
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_amm_bridge_v1_0_8_top
+R1
+!i10b 1
+!s100 R6TA3YQYYafXEA5?KN=YA0
+I@4Ym_74P1MDbl:8z6^ZH;3
+R2
+R0
+R3
+R4
+R5
+L0 1768
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12

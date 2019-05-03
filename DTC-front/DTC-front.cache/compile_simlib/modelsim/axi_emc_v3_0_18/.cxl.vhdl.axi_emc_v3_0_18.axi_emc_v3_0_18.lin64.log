@@ -1,0 +1,45 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axi_emc_v3_0_18 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_emc_v3_0_18 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:07:04 on May 03,2019
+vcom -64 -93 -work axi_emc_v3_0_18 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_emc_v3_0_18/.cxl.vhdl.axi_emc_v3_0_18.axi_emc_v3_0_18.lin64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package emc_pkg
+-- Compiling package body emc_pkg
+-- Loading package emc_pkg
+-- Loading package NUMERIC_STD
+-- Compiling entity counter_f
+-- Compiling architecture imp of counter_f
+-- Compiling entity pselect_f
+-- Compiling architecture imp of pselect_f
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Compiling entity axi_emc_addr_gen
+-- Compiling architecture imp of axi_emc_addr_gen
+-- Loading package emc_pkg
+-- Compiling entity axi_emc_address_decode
+-- Compiling architecture imp of axi_emc_address_decode
+-- Loading entity pselect_f
+-- Compiling entity axi_emc_native_interface
+-- Compiling architecture imp of axi_emc_native_interface
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_emc_v3_0/hdl/axi_emc_v3_0_vh_rfs.vhd(2527): (vcom-1445) Duplicate signal "single_transfer_cmb" found in sensitivity list.
+-- Loading entity axi_emc_addr_gen
+-- Loading entity axi_emc_address_decode
+-- Loading package lib_pkg
+-- Loading entity srl_fifo_rbu_f
+-- Loading entity counter_f
+-- Compiling entity startup_wrapper
+-- Compiling architecture startup_arch of startup_wrapper
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity axi_emc
+-- Compiling architecture imp of axi_emc
+-- Loading entity axi_emc_native_interface
+-- Loading entity EMC
+-- Loading entity startup_wrapper
+End time: 13:07:05 on May 03,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 1

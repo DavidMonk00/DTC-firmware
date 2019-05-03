@@ -1,0 +1,59 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap xpm /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/xpm 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:02:38 on May 03,2019
+vlog -sv -64 -work xpm -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/xpm/.cxl.verilog.xpm.xpm.lin64.cmf 
+-- Compiling module xpm_memory_base
+-- Compiling module asym_bwe_bb
+-- Compiling module xpm_memory_dpdistram
+-- Compiling module xpm_memory_dprom
+-- Compiling module xpm_memory_sdpram
+-- Compiling module xpm_memory_spram
+-- Compiling module xpm_memory_sprom
+-- Compiling module xpm_memory_tdpram
+-- Compiling module xpm_cdc_single
+-- Compiling module xpm_cdc_gray
+-- Compiling module xpm_cdc_handshake
+-- Compiling module xpm_cdc_pulse
+-- Compiling module xpm_cdc_array_single
+-- Compiling module xpm_cdc_sync_rst
+-- Compiling module xpm_cdc_async_rst
+-- Compiling module xpm_cdc_low_latency_handshake
+-- Compiling module xpm_fifo_base
+-- Compiling module xpm_fifo_rst
+-- Compiling module xpm_counter_updn
+-- Compiling module xpm_fifo_reg_vec
+-- Compiling module xpm_fifo_reg_bit
+-- Compiling module xpm_reg_pipe_bit
+-- Compiling module xpm_fifo_sync
+-- Compiling module xpm_fifo_async
+-- Compiling module xpm_fifo_axis
+-- Compiling module xpm_fifo_axif
+-- Compiling module xpm_fifo_axil
+-- Compiling module xpm_fifo_axi_reg_slice
+-- Compiling module xpm_fifo_tb
+-- Compiling module xpm_fifo_ex
+-- Compiling module xpm_fifo_gen_dverif
+-- Compiling module xpm_fifo_gen_rng
+-- Compiling module xpm_fifo_gen_dgen
+-- Compiling module xpm_fifo_gen_pctrl
+
+Top level modules:
+	xpm_memory_dpdistram
+	xpm_memory_dprom
+	xpm_memory_sdpram
+	xpm_memory_spram
+	xpm_memory_sprom
+	xpm_memory_tdpram
+	xpm_cdc_handshake
+	xpm_cdc_pulse
+	xpm_cdc_array_single
+	xpm_cdc_async_rst
+	xpm_cdc_low_latency_handshake
+	xpm_fifo_axis
+	xpm_fifo_axif
+	xpm_fifo_axil
+	xpm_fifo_tb
+End time: 13:02:38 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

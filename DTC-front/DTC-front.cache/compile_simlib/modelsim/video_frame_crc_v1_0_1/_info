@@ -1,0 +1,77 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vcrc_16_comp
+Z1 !s110 1556884978
+!i10b 1
+!s100 3J9jWEMIRFd1fb:;2VgHB0
+IOoP[]4ffz4_dgAKDY0U;V3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171285
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/video_frame_crc_v1_0/hdl/video_frame_crc_v1_0_vl_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/video_frame_crc_v1_0/hdl/video_frame_crc_v1_0_vl_rfs.v
+L0 1019
+Z6 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z7 !s108 1556884978.000000
+Z8 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/video_frame_crc_v1_0/hdl/video_frame_crc_v1_0_vl_rfs.v|
+Z9 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|video_frame_crc_v1_0_1|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/video_frame_crc_v1_0_1/.cxl.verilog.video_frame_crc_v1_0_1.video_frame_crc_v1_0_1.lin64.cmf|
+!i113 0
+Z10 o-work video_frame_crc_v1_0_1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work video_frame_crc_v1_0_1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vvideo_frame_crc_v1_0_1
+R1
+!i10b 1
+!s100 HIbl3djab;PCL7d2AUWXM2
+IOP6lBB[`^X2PJXO^za7;V0
+R2
+R0
+R3
+R4
+R5
+L0 437
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vvideo_frame_crc_v1_0_1_S_AXI
+R1
+!i10b 1
+!s100 [zTCk8noE@i9S<C2EaJe;0
+IfFfhS7nb:73?NNhmi7dOh3
+R2
+R0
+R3
+R4
+R5
+L0 4
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+nvideo_frame_crc_v1_0_1_@s_@a@x@i

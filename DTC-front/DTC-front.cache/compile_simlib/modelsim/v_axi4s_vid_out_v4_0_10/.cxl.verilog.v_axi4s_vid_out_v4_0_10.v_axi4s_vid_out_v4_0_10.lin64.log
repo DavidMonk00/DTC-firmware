@@ -1,0 +1,20 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap v_axi4s_vid_out_v4_0_10 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/v_axi4s_vid_out_v4_0_10 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:58 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work v_axi4s_vid_out_v4_0_10 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/v_axi4s_vid_out_v4_0_10/.cxl.verilog.v_axi4s_vid_out_v4_0_10.v_axi4s_vid_out_v4_0_10.lin64.cmf 
+-- Compiling module v_axi4s_vid_out_v4_0_10_fifo_async
+-- Compiling module v_axi4s_vid_out_v4_0_10_fifo_sync
+-- Compiling module v_axi4s_vid_out_v4_0_10_cdc_single
+-- Compiling module v_axi4s_vid_out_v4_0_10_coupler
+-- Compiling module v_axi4s_vid_out_v4_0_10_sync
+-- Compiling module v_axi4s_vid_out_v4_0_10_formatter
+-- Compiling module v_axi4s_vid_out_v4_0_10_repeat
+-- Compiling module v_axi4s_vid_out_v4_0_10_remap
+-- Compiling module v_axi4s_vid_out_v4_0_10
+
+Top level modules:
+	v_axi4s_vid_out_v4_0_10
+End time: 13:04:58 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

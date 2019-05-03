@@ -1,0 +1,29 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap v_vid_sdi_tx_bridge_v2_0_0 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/v_vid_sdi_tx_bridge_v2_0_0 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:31 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work v_vid_sdi_tx_bridge_v2_0_0 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/v_vid_sdi_tx_bridge_v2_0_0/.cxl.verilog.v_vid_sdi_tx_bridge_v2_0_0.v_vid_sdi_tx_bridge_v2_0_0.lin64.cmf 
+-- Compiling module v_vid_sdi_tx_bridge_v2_0_0_lib_sync_fifo
+-- Compiling module v_vid_sdi_tx_bridge_v2_0_0_lib_sync_bus
+-- Compiling module v_vid_sdi_tx_bridge_v2_0_0_12g_ce_gen
+-- Compiling module v_vid_sdi_tx_bridge_v2_0_0_12g_clamp
+-- Compiling module v_vid_sdi_tx_bridge_v2_0_0_12g_converter
+-- Compiling module v_vid_sdi_tx_bridge_v2_0_0_12g_embedder
+-- Compiling module v_vid_sdi_tx_bridge_v2_0_0_12g_fifo
+-- Compiling module v_vid_sdi_tx_bridge_v2_0_0_12g_formatter
+-- Compiling module v_vid_sdi_tx_bridge_v2_0_0_12g
+-- Compiling module v_vid_sdi_tx_bridge_v2_0_0_3g_ce_gen
+-- Compiling module v_vid_sdi_tx_bridge_v2_0_0_3g_converter
+-- Compiling module v_vid_sdi_tx_bridge_v2_0_0_3g_embeddder
+-- Compiling module v_vid_sdi_tx_bridge_v2_0_0_3g_fifo
+-- Compiling module v_vid_sdi_tx_bridge_v2_0_0_3g_formatter
+-- Compiling module v_vid_sdi_tx_bridge_v2_0_0_3g
+-- Compiling module v_vid_sdi_tx_bridge_v2_0_0
+
+Top level modules:
+	v_vid_sdi_tx_bridge_v2_0_0_lib_sync_fifo
+	v_vid_sdi_tx_bridge_v2_0_0_lib_sync_bus
+	v_vid_sdi_tx_bridge_v2_0_0
+End time: 13:04:31 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

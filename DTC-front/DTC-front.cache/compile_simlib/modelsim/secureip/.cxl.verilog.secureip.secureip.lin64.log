@@ -1,0 +1,143 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap secureip /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/secureip 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 12:59:27 on May 03,2019
+vlog -source -64 -work secureip -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/secureip/.cxl.verilog.secureip.secureip.lin64.cmf 
+-- Compiling module GTHE2_CHANNEL_FAST_WRAP
+-- Compiling module GTXE2_CHANNEL_FAST_WRAP
+-- Compiling module GTXE2_CHANNEL_WRAP
+-- Compiling module GTXE2_COMMON_WRAP
+-- Compiling module PCIE_2_1_WRAP
+-- Compiling module ISERDESE2_WRAP
+-- Compiling module B_ISERDESE2
+-- Compiling module OSERDESE2_WRAP
+-- Compiling module B_OSERDESE2
+-- Compiling module SIP_IN_FIFO
+-- Compiling module SIP_OUT_FIFO
+-- Compiling module SIP_PHY_CONTROL
+-- Compiling module SIP_PHASER_IN
+-- Compiling module SIP_PHASER_OUT
+-- Compiling module GTHE2_CHANNEL_WRAP
+-- Compiling module GTHE2_COMMON_WRAP
+-- Compiling module PCIE_3_0_WRAP
+-- Compiling module GTPE2_CHANNEL_WRAP
+-- Compiling module GTPE2_COMMON_WRAP
+-- Compiling module SIP_GTHE3_CHANNEL
+-- Compiling module SIP_GTHE3_COMMON
+-- Compiling module SIP_GTYE3_CHANNEL
+-- Compiling module SIP_GTYE3_COMMON
+-- Compiling module SIP_ISERDESE3
+-- Compiling module SIP_OSERDESE3_K2
+-- Compiling module SIP_RXTX_BITSLICE_K2
+-- Compiling module SIP_RX_BITSLICE_K2
+-- Compiling module SIP_TX_BITSLICE_K2
+-- Compiling module SIP_TX_BITSLICE_TRI_K2
+-- Compiling module SIP_BITSLICE_CONTROL_K2
+-- Compiling module SIP_ISERDESE3_D1
+-- Compiling module SIP_OSERDESE3_D1
+-- Compiling module SIP_RXTX_BITSLICE_D1
+-- Compiling module SIP_RX_BITSLICE_D1
+-- Compiling module SIP_TX_BITSLICE_D1
+-- Compiling module SIP_TX_BITSLICE_TRI_D1
+-- Compiling module SIP_BITSLICE_CONTROL_D1
+-- Compiling module SIP_PCIE_3_1
+-- Compiling module SIP_CMAC
+-- Compiling module SIP_CMAC_ES2
+-- Compiling module SIP_ILKN
+-- Compiling module SIP_ILKN_ES2
+-- Compiling module SIP_CMACE4
+-- Compiling module SIP_GTHE4_CHANNEL
+-- Compiling module SIP_GTHE4_COMMON
+-- Compiling module SIP_GTYE4_CHANNEL
+-- Compiling module SIP_GTYE4_COMMON
+-- Compiling module SIP_ILKNE4
+-- Compiling module SIP_PCIE40E4
+-- Compiling module SIP_HBM_ONE_STACK_INTF
+-- Compiling module SIP_HBM_TWO_STACK_INTF
+
+Top level modules:
+	GTHE2_CHANNEL_FAST_WRAP
+	GTXE2_CHANNEL_FAST_WRAP
+	GTXE2_CHANNEL_WRAP
+	GTXE2_COMMON_WRAP
+	PCIE_2_1_WRAP
+	ISERDESE2_WRAP
+	OSERDESE2_WRAP
+	SIP_IN_FIFO
+	SIP_OUT_FIFO
+	SIP_PHY_CONTROL
+	SIP_PHASER_IN
+	SIP_PHASER_OUT
+	GTHE2_CHANNEL_WRAP
+	GTHE2_COMMON_WRAP
+	PCIE_3_0_WRAP
+	GTPE2_CHANNEL_WRAP
+	GTPE2_COMMON_WRAP
+	SIP_GTHE3_CHANNEL
+	SIP_GTHE3_COMMON
+	SIP_GTYE3_CHANNEL
+	SIP_GTYE3_COMMON
+	SIP_ISERDESE3
+	SIP_OSERDESE3_K2
+	SIP_RXTX_BITSLICE_K2
+	SIP_RX_BITSLICE_K2
+	SIP_TX_BITSLICE_K2
+	SIP_TX_BITSLICE_TRI_K2
+	SIP_BITSLICE_CONTROL_K2
+	SIP_ISERDESE3_D1
+	SIP_OSERDESE3_D1
+	SIP_RXTX_BITSLICE_D1
+	SIP_RX_BITSLICE_D1
+	SIP_TX_BITSLICE_D1
+	SIP_TX_BITSLICE_TRI_D1
+	SIP_BITSLICE_CONTROL_D1
+	SIP_PCIE_3_1
+	SIP_CMAC
+	SIP_CMAC_ES2
+	SIP_ILKN
+	SIP_ILKN_ES2
+	SIP_CMACE4
+	SIP_GTHE4_CHANNEL
+	SIP_GTHE4_COMMON
+	SIP_GTYE4_CHANNEL
+	SIP_GTYE4_COMMON
+	SIP_ILKNE4
+	SIP_PCIE40E4
+	SIP_HBM_ONE_STACK_INTF
+	SIP_HBM_TWO_STACK_INTF
+End time: 13:00:57 on May 03,2019, Elapsed time: 0:01:30
+Errors: 0, Warnings: 0
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:00:57 on May 03,2019
+vlog -source -64 -sv -suppress vlog-2583 -work secureip -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/secureip/.cxl.systemverilog.secureip.secureip.lin64.cmf 
+-- Compiling module SIP_FE
+-- Compiling module SIP_HSDAC
+-- Compiling module SIP_HSADC
+-- Compiling module SIP_PCIE4CE4
+-- Compiling module xil_hbm_one_stack_intf_mod1
+-- Compiling module xil_hbm_one_stack_intf_mod2
+-- Compiling module xil_hbm_one_stack_intf_mod4
+-- Compiling module xil_hbm_one_stack_intf_mod6
+-- Compiling module xil_hbm_one_stack_intf_mod786
+-- Compiling module xil_hbm_two_stack_intf_mod1
+-- Compiling module xil_hbm_two_stack_intf_mod2
+-- Compiling module xil_hbm_two_stack_intf_mod4
+-- Compiling module xil_hbm_two_stack_intf_mod6
+-- Compiling module xil_hbm_two_stack_intf_mod786
+###### /opt/Xilinx/Vivado/2018.3/data/secureip/gtm_dual/gtm_dual_002.svp(195970):  in protected region.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/secureip/gtm_dual/gtm_dual_002.svp(195970): (vlog-2633) '<protected>' already exists.
+-- Compiling module SIP_GTM_DUAL
+
+Top level modules:
+	SIP_FE
+	SIP_HSDAC
+	SIP_HSADC
+	SIP_PCIE4CE4
+	xil_hbm_one_stack_intf_mod1
+	xil_hbm_one_stack_intf_mod786
+	xil_hbm_two_stack_intf_mod1
+	xil_hbm_two_stack_intf_mod786
+	SIP_GTM_DUAL
+End time: 13:01:48 on May 03,2019, Elapsed time: 0:00:51
+Errors: 0, Warnings: 1, Suppressed Warnings: 142

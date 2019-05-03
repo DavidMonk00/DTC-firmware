@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/lte_3gpp_mimo_encoder_v4_0_13
+/opt/MentorGraphics/modeltech/bin/vmap lte_3gpp_mimo_encoder_v4_0_13 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/lte_3gpp_mimo_encoder_v4_0_13
+/opt/MentorGraphics/modeltech/bin/vcom  -64 -93 -work lte_3gpp_mimo_encoder_v4_0_13 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/lte_3gpp_mimo_encoder_v4_0_13/.cxl.vhdl.lte_3gpp_mimo_encoder_v4_0_13.lte_3gpp_mimo_encoder_v4_0_13.lin64.cmf

@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/ten_gig_eth_mac_v15_1_6
+/opt/MentorGraphics/modeltech/bin/vmap ten_gig_eth_mac_v15_1_6 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/ten_gig_eth_mac_v15_1_6
+/opt/MentorGraphics/modeltech/bin/vlog  -64 +incdir+/home/dmonk/.cxl.ip/incl -work ten_gig_eth_mac_v15_1_6 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/ten_gig_eth_mac_v15_1_6/.cxl.verilog.ten_gig_eth_mac_v15_1_6.ten_gig_eth_mac_v15_1_6.lin64.cmf

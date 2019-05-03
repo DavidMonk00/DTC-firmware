@@ -1,0 +1,384 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vgeneric_baseblocks_v2_1_0_carry
+Z1 !s110 1556884996
+!i10b 1
+!s100 V@3Xlg2I6_Oc:BT6><fiV0
+IB6Q>T437k>FngUiXh]31k1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171258
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v
+L0 536
+Z6 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z7 !s108 1556884996.000000
+Z8 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/generic_baseblocks_v2_1/hdl/generic_baseblocks_v2_1_vl_rfs.v|
+Z9 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|generic_baseblocks_v2_1_0|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/generic_baseblocks_v2_1_0/.cxl.verilog.generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0.lin64.cmf|
+!i113 0
+Z10 o-work generic_baseblocks_v2_1_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work generic_baseblocks_v2_1_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vgeneric_baseblocks_v2_1_0_carry_and
+R1
+!i10b 1
+!s100 U7hiNWjCn@79A0HcY32PI2
+IEF5eQXRJ?l07o8iejeHHW1
+R2
+R0
+R3
+R4
+R5
+L0 62
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vgeneric_baseblocks_v2_1_0_carry_latch_and
+R1
+!i10b 1
+!s100 ag[^I5[kA:04ZFZgI@f2>3
+IVghl=?04hK08QO?=k1LzK1
+R2
+R0
+R3
+R4
+R5
+L0 179
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vgeneric_baseblocks_v2_1_0_carry_latch_or
+R1
+!i10b 1
+!s100 oL>YQg3T>1bN1PFnoWTDg1
+Io3<neBB;97BH7SW9mNHd31
+R2
+R0
+R3
+R4
+R5
+L0 299
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vgeneric_baseblocks_v2_1_0_carry_or
+R1
+!i10b 1
+!s100 Qn8mE8k7_eAW<Ba_nbSZA2
+IFGLj_HDGn9U]a]SUD[NP[0
+R2
+R0
+R3
+R4
+R5
+L0 415
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vgeneric_baseblocks_v2_1_0_command_fifo
+R1
+!i10b 1
+!s100 QB]eZT=5e4k6jQLYWXgVZ0
+IVhQROjGP1XGA=@FYLPlKf3
+R2
+R0
+R3
+R4
+R5
+L0 655
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vgeneric_baseblocks_v2_1_0_comparator
+R1
+!i10b 1
+!s100 1?aRL^H4I_6mn;Og^W[?33
+I>05FJ7b;iM3]4J;K>519j2
+R2
+R0
+R3
+R4
+R5
+L0 2292
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vgeneric_baseblocks_v2_1_0_comparator_mask
+R1
+!i10b 1
+!s100 LGgAe>L8ZIDXaMld6lLmh0
+IYA^f@>5IgZQd6H6T@C]V@1
+R2
+R0
+R3
+R4
+R5
+L0 1291
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vgeneric_baseblocks_v2_1_0_comparator_mask_static
+R1
+!i10b 1
+!s100 :QGDHlFIkEXJgi=dj<GzZ2
+IJ@FMXWCXkhVCcgGAG]Ban3
+R2
+R0
+R3
+R4
+R5
+L0 1126
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vgeneric_baseblocks_v2_1_0_comparator_sel
+R1
+!i10b 1
+!s100 9iJSUk_<fa9Y37FL]X5bW0
+Iag>bim2mYoOJY7G^_ZzTU1
+R2
+R0
+R3
+R4
+R5
+L0 1968
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vgeneric_baseblocks_v2_1_0_comparator_sel_mask
+R1
+!i10b 1
+!s100 ZKkWWndJG<1@Bf6=l_3<:2
+I>:ES5@d^QoK@fLOQh67aN2
+R2
+R0
+R3
+R4
+R5
+L0 1629
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vgeneric_baseblocks_v2_1_0_comparator_sel_mask_static
+R1
+!i10b 1
+!s100 P6BIXZ?Oe:lTbFeaK:7;F0
+Im4]e?c=EbccKomJ]@H09N3
+R2
+R0
+R3
+R4
+R5
+L0 1455
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vgeneric_baseblocks_v2_1_0_comparator_sel_static
+R1
+!i10b 1
+!s100 abN9iG1DnX3ZaDEi?f>153
+If7:X_0fl_Ld4`TOK^fD_b2
+R2
+R0
+R3
+R4
+R5
+L0 1802
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vgeneric_baseblocks_v2_1_0_comparator_static
+R1
+!i10b 1
+!s100 nDziogKn]@k@PLF_GoXS^0
+IPjfR4=6`T@6aHaeCj]75f2
+R2
+R0
+R3
+R4
+R5
+L0 2133
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vgeneric_baseblocks_v2_1_0_mux
+R1
+!i10b 1
+!s100 GDY?C4;Ma6J5KI0g`AlLU1
+Ih0a08PnRML03GCP3Gbd5U1
+R2
+R0
+R3
+R4
+R5
+L0 2721
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vgeneric_baseblocks_v2_1_0_mux_enc
+R1
+!i10b 1
+!s100 YnWXcR_`zU<JFWiZzS@0K0
+I4JBz7nW?EhhhmKANXjGO;0
+R2
+R0
+R3
+R4
+R5
+L0 2452
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vgeneric_baseblocks_v2_1_0_nto1_mux
+R1
+!i10b 1
+!s100 X7:l9eZHeV`loNoo<=DJk2
+IK_AaIb5FYU^Yi;5A2:hXG0
+R2
+R0
+R3
+R4
+R5
+L0 2890
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12

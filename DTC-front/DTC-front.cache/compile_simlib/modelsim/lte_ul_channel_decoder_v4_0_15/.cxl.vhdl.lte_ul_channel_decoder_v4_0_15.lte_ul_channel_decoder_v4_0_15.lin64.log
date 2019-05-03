@@ -1,0 +1,41 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap lte_ul_channel_decoder_v4_0_15 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/lte_ul_channel_decoder_v4_0_15 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:05:47 on May 03,2019
+vcom -64 -93 -work lte_ul_channel_decoder_v4_0_15 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/lte_ul_channel_decoder_v4_0_15/.cxl.vhdl.lte_ul_channel_decoder_v4_0_15.lte_ul_channel_decoder_v4_0_15.lin64.cmf 
+-- Loading package STANDARD
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(14691): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(17360): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(22035): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(23370): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(23751): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(26240): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(26241): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(26488): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(30655): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(32227): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(33096): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(34177): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(35613): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(37631): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(38274): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(38275): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(38744): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(39083): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(39084): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(39961): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(40070): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(40071): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(41310): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(41726): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(43038): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(43039): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(43529): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(43530): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(44020): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(44021): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(44511): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lte_ul_channel_decoder_v4_0/hdl/lte_ul_channel_decoder_v4_0_vh_rfs.vhd(44512): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
+End time: 13:05:48 on May 03,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 32

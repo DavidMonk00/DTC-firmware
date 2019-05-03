@@ -1,0 +1,17 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axi_ethernet_buffer_v2_0_19 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_ethernet_buffer_v2_0_19 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:05:00 on May 03,2019
+vcom -64 -93 -work axi_ethernet_buffer_v2_0_19 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_ethernet_buffer_v2_0_19/.cxl.vhdl.axi_ethernet_buffer_v2_0_19.axi_ethernet_buffer_v2_0_19.lin64.cmf 
+-- Loading package STANDARD
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd(3216): Nonresolved signal 'initial_index' may have multiple sources.
+  Drivers:
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd(3239):Conditional signal assignment line__3239
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd(3234):Conditional signal assignment line__3234
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd(5436): Nonresolved signal 'initial_index' may have multiple sources.
+  Drivers:
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd(5461):Conditional signal assignment line__5461
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_ethernet_buffer_v2_0/hdl/axi_ethernet_buffer_v2_0_rfs.vhd(5456):Conditional signal assignment line__5456
+End time: 13:05:01 on May 03,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 2

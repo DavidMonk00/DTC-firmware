@@ -1,0 +1,261 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+E4LQKSjIt8QKFacANI3w8kHcV9LFT/cydP5NeSujTy4A=
+Z1 w1544171253
+Z2 DPx25 c_counter_binary_v12_0_12 34 c_counter_binary_v12_0_12_viv_comp 0 22 d=JaCE`TNb]FA4YBYCAA>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/c_counter_binary_v12_0/hdl/c_counter_binary_v12_0_vh_rfs.vhd
+Z6 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/c_counter_binary_v12_0/hdl/c_counter_binary_v12_0_vh_rfs.vhd
+l0
+L2193
+VeYlcz_j`hz4gONKJnK3LJ3
+!s100 Pg9lX0d8Ec3=?FlkK8BMm1
+Z7 OL;C;10.6b;65
+!i8a 844702288
+31
+Z8 !s110 1556885090
+!i10b 1
+Z9 !s108 1556885089.000000
+Z10 !s90 -64|-93|-work|c_counter_binary_v12_0_12|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/c_counter_binary_v12_0_12/.cxl.vhdl.c_counter_binary_v12_0_12.c_counter_binary_v12_0_12.lin64.cmf|
+Z11 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/c_counter_binary_v12_0/hdl/c_counter_binary_v12_0_vh_rfs.vhd|
+!i113 0
+Z12 o-93 -work c_counter_binary_v12_0_12
+Z13 tExplicit 1 CvgOpt 0
+n375c002
+AS5mr/bL6vTmLu+rgKv0UYQ==
+R2
+R3
+R4
+DEx4 work 25 c_counter_binary_v12_0_12 0 22 eYlcz_j`hz4gONKJnK3LJ3
+l2239
+L2234
+V92iBLW1X?n:T<iL78g]0o0
+!s100 @54_N^_NIL6Il6SKDX3b^1
+R7
+!i8a 1390856880
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n7f03058
+P7iwjzR8hidjpA7HVOMNHB3BGZiK6jyF8NRV0oHhVpIg=
+R3
+R4
+R1
+R0
+R5
+R6
+l0
+L226
+V6Ig9ifchU4;FbNbabXeaK0
+!s100 fc8Xc<ioM2dk2BI;BG`3j0
+R7
+!i8a 761859040
+31
+Z14 !s110 1556885089
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n52da40
+EntqIu+ON1qiUreJwvq8/m2KcxiUBKlWxRfVjuUHbD8mkyeVnLFqsAjedT2gvrC9l
+R1
+Z15 DPx17 c_addsub_v12_0_12 28 c_addsub_v12_0_12_pkg_legacy 0 22 E17>R4f<28AOkWKMVRJfX1
+Z16 DPx17 xbip_utils_v3_0_9 21 xbip_utils_v3_0_9_pkg 0 22 jE:;Q?8;4:RkzCAz_?dYo0
+Z17 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z18 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z19 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R3
+R4
+R0
+R5
+R6
+l0
+L334
+VgG3gF80JJbH]IU7=dco2K1
+!s100 ;YX?YKm5P?Zkbo[AN7e7[3
+R7
+!i8a 604506000
+31
+R14
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n377d7f9
+A+LttL/kP0ZS+tj+QcZ7bzA==
+R15
+R16
+R17
+R18
+R19
+R3
+R4
+DEx4 work 32 c_counter_binary_v12_0_12_legacy 0 22 gG3gF80JJbH]IU7=dco2K1
+l906
+L391
+VDe`@Ym6@XL[lTnjn3DB9R3
+!s100 <KH_6XCGWVoHe=h=DY8>K3
+R7
+!i8a 974960176
+31
+R14
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Z20 n7b05a8
+PbUFlYfFV6Qyk9E8LqDavc66HxKSCmQ7hbbE+/qqNbmY=
+R18
+R19
+Z21 DPx19 xbip_counter_v3_0_5 23 xbip_counter_v3_0_5_pkg 0 22 D57<8Uf7NlYUio>Cm;H_33
+R16
+R3
+R4
+R1
+R0
+R5
+R6
+l0
+L1238
+V7[Db;KRQXobScZMoMX3VV0
+!s100 N=B`fT1[^4l^WDPTHD@OT3
+R7
+!i8a 600381024
+31
+b1
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n514d7
+Bo0BtOxA21RNf8oXKqlakiw==
+DPx4 work 29 c_counter_binary_v12_0_12_pkg 0 22 7[Db;KRQXobScZMoMX3VV0
+R18
+R19
+R21
+R16
+R3
+R4
+l0
+L1481
+VhUUgkmKCQCQaSM3gY@PiQ1
+!s100 hd1h1]X3S7?7iH@Y0BZaz3
+R7
+!i8a 439963072
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+nbody
+EEk5lRSGUaZwmpof/SjvGAbx0B8vqXJbq+JiKpPNK1Ac=
+R1
+R18
+R19
+R21
+Z22 DPx25 c_counter_binary_v12_0_12 29 c_counter_binary_v12_0_12_pkg 0 22 7[Db;KRQXobScZMoMX3VV0
+Z23 DPx19 xbip_counter_v3_0_5 28 xbip_counter_v3_0_5_viv_comp 0 22 8Ak`EA_=bV7c:V`8:8ff80
+R16
+R3
+R4
+R0
+R5
+R6
+l0
+L1867
+VJ24bA;4_L78FzgkY]9U8X0
+!s100 49XfKG0=b[PX@a:Pozc;=0
+R7
+!i8a 719878288
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n51ac6
+AKN2LqJLTdIvj+wj0Qx25ig==
+R18
+R19
+R21
+R22
+R23
+R16
+R3
+R4
+DEx4 work 29 c_counter_binary_v12_0_12_viv 0 22 J24bA;4_L78FzgkY]9U8X0
+l2043
+L1921
+VGV4YCn6=gJHz<FBQcHNT<0
+!s100 k6JcHWMn9Da2Bg6[4KIc]1
+R7
+!i8a 2026704976
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R20
+PmpLWtojYId8WvC5pIWVwj1fjcOASyR/BuMO+p62QwaeWcYMt+tcSwyfZ9D7zGymw
+R3
+R4
+R1
+R0
+R5
+R6
+l0
+L119
+Vd=JaCE`TNb]FA4YBYCAA>3
+!s100 0nLQmj;bKgT:z]SXYeV8=0
+R7
+!i8a 1928138592
+31
+R14
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+ncc5d5e0

@@ -1,0 +1,168 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vv_uhdsdi_vidgen_v1_0_1
+Z1 !s110 1556884978
+!i10b 1
+!s100 DTT9fzcaclALFkYK?=Cma0
+IY^8H9DQgo44SGk_QQ_LUf0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171284
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0.v
+L0 64
+Z4 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z5 !s108 1556884978.000000
+Z6 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_vidgen_pal.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_vidgen_ntsc.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_multigenHD_vert.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_multigenHD_output.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_multigenHD_horz.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_multigenHD.v|
+Z7 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|v_uhdsdi_vidgen_v1_0_1|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/v_uhdsdi_vidgen_v1_0_1/.cxl.verilog.v_uhdsdi_vidgen_v1_0_1.v_uhdsdi_vidgen_v1_0_1.lin64.cmf|
+!i113 0
+Z8 o-work v_uhdsdi_vidgen_v1_0_1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work v_uhdsdi_vidgen_v1_0_1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+vv_uhdsdi_vidgen_v1_0_1_multigenHD
+R1
+!i10b 1
+!s100 JGLU0YZZADHWJlXgQH^9D3
+I7OiD^UNPl2IV65_>K4[GW0
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_multigenHD.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_multigenHD.v
+L0 116
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+nv_uhdsdi_vidgen_v1_0_1_multigen@h@d
+vv_uhdsdi_vidgen_v1_0_1_multigenHD_horz
+R1
+!i10b 1
+!s100 n;90;b`YI6:;ZF99Md]0L1
+Ig1Mo3kThiXKUJi5ILRF>Y3
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_multigenHD_horz.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_multigenHD_horz.v
+Z11 L0 68
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+nv_uhdsdi_vidgen_v1_0_1_multigen@h@d_horz
+vv_uhdsdi_vidgen_v1_0_1_multigenHD_output
+R1
+!i10b 1
+!s100 ZGa[W:O_ii1bb:[Xj6P>z0
+IS^In:Pf;XBjNk@=E:M6Gl3
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_multigenHD_output.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_multigenHD_output.v
+R11
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+nv_uhdsdi_vidgen_v1_0_1_multigen@h@d_output
+vv_uhdsdi_vidgen_v1_0_1_multigenHD_vert
+R1
+!i10b 1
+!s100 FDVRAOci3olD1jbJ4Oe[82
+IHGXcnNG_TBU?=::EbI_j12
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_multigenHD_vert.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_multigenHD_vert.v
+Z12 L0 67
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+nv_uhdsdi_vidgen_v1_0_1_multigen@h@d_vert
+vv_uhdsdi_vidgen_v1_0_1_vidgen_ntsc
+R1
+!i10b 1
+!s100 XLmaJKjOGEz1bO3TDhc8e1
+I`ajVn]IXATBfG2R[WaWRD2
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_vidgen_ntsc.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_vidgen_ntsc.v
+R12
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vv_uhdsdi_vidgen_v1_0_1_vidgen_pal
+R1
+!i10b 1
+!s100 6njG6zNId5]3O=U@XGB^:2
+IVW3Vi`?HPMdQO[eI1^3m32
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_vidgen_pal.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_vidgen_v1_0/hdl/v_uhdsdi_vidgen_v1_0_vidgen_pal.v
+R12
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10

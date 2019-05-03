@@ -1,0 +1,420 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+Eahb_data_counter
+Z1 w1544171246
+Z2 DPx26 ahblite_axi_bridge_v3_0_13 22 ahblite_axi_bridge_pkg 0 22 C7:0A6AF]ml6?J``dXz793
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/ahblite_axi_bridge_v3_0/hdl/ahblite_axi_bridge_v3_0_vh_rfs.vhd
+Z8 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/ahblite_axi_bridge_v3_0/hdl/ahblite_axi_bridge_v3_0_vh_rfs.vhd
+l0
+L3345
+VW>1NW<TUJ9cT5PjH=M?_50
+!s100 ZUR9TMMcFc>1m=iASNW8M2
+Z9 OL;C;10.6b;65
+31
+Z10 !s110 1556885057
+!i10b 1
+Z11 !s108 1556885057.000000
+Z12 !s90 -64|-93|-work|ahblite_axi_bridge_v3_0_13|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/ahblite_axi_bridge_v3_0_13/.cxl.vhdl.ahblite_axi_bridge_v3_0_13.ahblite_axi_bridge_v3_0_13.lin64.cmf|
+Z13 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/ahblite_axi_bridge_v3_0/hdl/ahblite_axi_bridge_v3_0_vh_rfs.vhd|
+!i113 0
+Z14 o-93 -work ahblite_axi_bridge_v3_0_13
+Z15 tExplicit 1 CvgOpt 0
+Artl
+Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z17 DEx26 ahblite_axi_bridge_v3_0_13 9 counter_f 0 22 >V??eo7AT2@@CO<dJRh:e2
+R2
+R3
+R4
+R5
+R6
+DEx4 work 16 ahb_data_counter 0 22 W>1NW<TUJ9cT5PjH=M?_50
+l3385
+L3367
+VP<6nVnEdfiViR1NX:I?YA0
+!s100 lk?DnM=>`zaJgbH1]C4S21
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eahb_if
+R1
+R2
+R3
+R4
+R5
+R6
+R0
+R7
+R8
+l0
+L2414
+VaPW8g`iX3UCP_OD]8g3ib3
+!s100 NQBQJ<;m89Y4jkGIAWRn;3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 6 ahb_if 0 22 aPW8g`iX3UCP_OD]8g3ib3
+l2558
+L2506
+VB]?[co]KCh:7QIBOin[6m0
+!s100 M]7AR:Z;U4U2i4[O6^@7E3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eahblite_axi_bridge
+R1
+R3
+R4
+R5
+R6
+R0
+R7
+R8
+l0
+L4257
+ViNdDEK_9RzA>>`2>;SD2G2
+!s100 hUC:CL6HJ<i;Yh72d76cH1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Artl
+R16
+DEx26 ahblite_axi_bridge_v3_0_13 8 time_out 0 22 RBRV;JF_T?8eozdAY92aG0
+DEx26 ahblite_axi_bridge_v3_0_13 12 axi_rchannel 0 22 aKYPUj<LFF=CRFjj3BW323
+DEx26 ahblite_axi_bridge_v3_0_13 12 axi_wchannel 0 22 <Df<@KRe_[MM`5TcY0G=@1
+DEx26 ahblite_axi_bridge_v3_0_13 16 ahb_data_counter 0 22 W>1NW<TUJ9cT5PjH=M?_50
+DEx26 ahblite_axi_bridge_v3_0_13 6 ahb_if 0 22 aPW8g`iX3UCP_OD]8g3ib3
+R2
+DEx26 ahblite_axi_bridge_v3_0_13 19 ahblite_axi_control 0 22 JK>Z=YS:S5=22af9`g0c<3
+R3
+R4
+R5
+R6
+DEx4 work 18 ahblite_axi_bridge 0 22 iNdDEK_9RzA>>`2>;SD2G2
+l4419
+L4353
+Vm4E8JXU3HXi3nBD^z@2^e1
+!s100 X0nR:V_4ao:n6a>Ig`ZiT0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Pahblite_axi_bridge_pkg
+R3
+R4
+R5
+R6
+R1
+R0
+R7
+R8
+l0
+L99
+VC7:0A6AF]ml6?J``dXz793
+!s100 U>zDLFXKE1jHHWYJd39cS0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Bbody
+DPx4 work 22 ahblite_axi_bridge_pkg 0 22 C7:0A6AF]ml6?J``dXz793
+R3
+R4
+R5
+R6
+l0
+L177
+V>7FePLK4K5U]ljXY_n[7V0
+!s100 hYFG7eA`MSecDEO:o9Z9?0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eahblite_axi_control
+R1
+R2
+R3
+R4
+R5
+R6
+R0
+R7
+R8
+l0
+L3602
+VJK>Z=YS:S5=22af9`g0c<3
+!s100 S1`[822am4B`g@njAMOLF1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 19 ahblite_axi_control 0 22 JK>Z=YS:S5=22af9`g0c<3
+l3682
+L3648
+VYhPZbDG8Za`IY_X?XZ?TU2
+!s100 g2KJQKD2Wo<T>Q^0=iI`Y1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eaxi_rchannel
+R1
+R2
+R3
+R4
+R5
+R6
+R0
+R7
+R8
+l0
+L1891
+VaKYPUj<LFF=CRFjj3BW323
+!s100 4l=bfIWQK8K]lORz90lmD3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Artl
+R2
+R3
+R4
+R5
+R6
+DEx4 work 12 axi_rchannel 0 22 aKYPUj<LFF=CRFjj3BW323
+l1956
+L1931
+VImNM93[VLXO`kP2<dL=ST2
+!s100 cG]K3;JK3DoIg`0SnhO[d0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eaxi_wchannel
+R1
+R2
+R3
+R4
+R5
+R6
+R0
+R7
+R8
+l0
+L837
+V<Df<@KRe_[MM`5TcY0G=@1
+!s100 GdYWF2_Qe9XaaJa[:UHXF0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Artl
+R16
+R17
+R2
+R3
+R4
+R5
+R6
+DEx4 work 12 axi_wchannel 0 22 <Df<@KRe_[MM`5TcY0G=@1
+l965
+L910
+V5e6?RM6<CT5WEAKG8>lCW0
+!s100 kHmaT<]o@gdj`@>hJUShe1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Ecounter_f
+R1
+R16
+R5
+R6
+R0
+R7
+R8
+l0
+L306
+V>V??eo7AT2@@CO<dJRh:e2
+!s100 ^5zXUCFEH@5HEN;IliZba1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Aimp
+R16
+R5
+R6
+DEx4 work 9 counter_f 0 22 >V??eo7AT2@@CO<dJRh:e2
+l333
+L328
+VjB[fYMZDSSBfU;IJA_^^81
+!s100 <cXcQzRUM6D1C^GJQ140K0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Etime_out
+R1
+R16
+R3
+R4
+R5
+R6
+R0
+R7
+R8
+l0
+L508
+VRBRV;JF_T?8eozdAY92aG0
+!s100 EhY8KAb5_<AC7[;FYJ9L32
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Artl
+R17
+R16
+R3
+R4
+R5
+R6
+DEx4 work 8 time_out 0 22 RBRV;JF_T?8eozdAY92aG0
+l561
+L534
+V;Me>eZ;`ffKBmBWTTM4P=1
+!s100 M3c<bK5IDOl?L=9f@l;@>3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15

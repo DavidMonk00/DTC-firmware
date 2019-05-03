@@ -1,0 +1,9 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap g709_rs_decoder_v2_2_7 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/g709_rs_decoder_v2_2_7 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:57 on May 03,2019
+vcom -64 -93 -work g709_rs_decoder_v2_2_7 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/g709_rs_decoder_v2_2_7/.cxl.vhdl.g709_rs_decoder_v2_2_7.g709_rs_decoder_v2_2_7.lin64.cmf 
+-- Loading package STANDARD
+End time: 13:04:58 on May 03,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

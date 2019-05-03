@@ -1,0 +1,43 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axi_perf_mon_v5_0_20 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_perf_mon_v5_0_20 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:03:21 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work axi_perf_mon_v5_0_20 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_perf_mon_v5_0_20/.cxl.verilog.axi_perf_mon_v5_0_20.axi_perf_mon_v5_0_20.lin64.cmf 
+-- Compiling module axi_perf_mon_v5_0_20_dff_async_reset
+-- Compiling module axi_perf_mon_v5_0_20_async_fifo
+-- Compiling module axi_perf_mon_v5_0_20_sync_fifo
+-- Compiling module axi_perf_mon_v5_0_20_acc_n_incr
+-- Compiling module axi_perf_mon_v5_0_20_async_stream_fifo
+-- Compiling module axi_perf_mon_v5_0_20_axi_interface
+-- Compiling module axi_perf_mon_v5_0_20_counter
+-- Compiling module axi_perf_mon_v5_0_20_counter_ovf
+-- Compiling module axi_perf_mon_v5_0_20_cdc_sync
+-- Compiling module axi_perf_mon_v5_0_20_flags_gen
+-- Compiling module axi_perf_mon_v5_0_20_glbl_clk_cnt
+-- Compiling module axi_perf_mon_v5_0_20_interrupt_module
+-- Compiling module axi_perf_mon_v5_0_20_intr_sync
+-- Compiling module axi_perf_mon_v5_0_20_metric_calc
+-- Compiling module axi_perf_mon_v5_0_20_metric_counters
+-- Compiling module axi_perf_mon_v5_0_20_metric_sel_n_cnt
+-- Compiling module axi_perf_mon_v5_0_20_mon_fifo
+-- Compiling module axi_perf_mon_v5_0_20_ext_calc
+-- Compiling module axi_perf_mon_v5_0_20_register_module
+-- Compiling module axi_perf_mon_v5_0_20_samp_intl_cnt
+-- Compiling module axi_perf_mon_v5_0_20_samp_metrics_data
+-- Compiling module axi_perf_mon_v5_0_20_strm_fifo_wr_logic
+-- Compiling module axi_perf_mon_v5_0_20_throttle
+-- Compiling module axi_perf_mon_v5_0_20_postTriggerMarker
+-- Compiling module axi_perf_mon_v5_0_20_advanced
+-- Compiling module axi_perf_mon_v5_0_20_profile
+-- Compiling module axi_perf_mon_v5_0_20_acc_sample_profile
+-- Compiling module axi_perf_mon_v5_0_20_register_module_profile
+-- Compiling module axi_perf_mon_v5_0_20_metric_calc_profile
+-- Compiling module axi_perf_mon_v5_0_20_metric_counters_profile
+-- Compiling module axi_perf_mon_v5_0_20_flags_gen_trace
+-- Compiling module axi_perf_mon_v5_0_20_top
+
+Top level modules:
+	axi_perf_mon_v5_0_20_top
+End time: 13:03:21 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

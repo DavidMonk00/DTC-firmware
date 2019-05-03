@@ -1,0 +1,10 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap xsdbm_v2_0_0 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/xsdbm_v2_0_0 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:03:45 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work xsdbm_v2_0_0 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/xsdbm_v2_0_0/.cxl.verilog.xsdbm_v2_0_0.xsdbm_v2_0_0.lin64.cmf 
+
+Top level modules:
+End time: 13:03:45 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

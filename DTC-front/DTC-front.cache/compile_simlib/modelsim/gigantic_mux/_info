@@ -1,0 +1,34 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+v/IvTzxtAxgcKKWOzPD3N6ySRO1qjzPbsgSHAlnBAMF8=
+!s110 1556884960
+!i10b 0
+!s100 I1f?`[1b]?IhQ4GnPGJ`10
+IBjkJz[abNH9>5l<dcSXA:0
+VDg1SIo80bB@j0V0VzS_@n1
+!i8a 554291824
+R0
+w1556884960
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gigantic_mux_v1_0/hdl/gigantic_mux_v1_0_cntr.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gigantic_mux_v1_0/hdl/gigantic_mux_v1_0_cntr.v
+L0 64
+OL;L;10.6b;65
+r1
+!s85 0
+31
+!s108 1556884960.000000
+!s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gigantic_mux_v1_0/hdl/gigantic_mux_v1_0_cntr.v|
+!s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|gigantic_mux|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/gigantic_mux/.cxl.verilog.gigantic_mux.gigantic_mux.lin64.cmf|
+!i113 0
+o-work gigantic_mux -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 +incdir+/home/dmonk/.cxl.ip/incl -work gigantic_mux -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0
+n37ab62

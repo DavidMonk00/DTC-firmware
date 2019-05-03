@@ -1,0 +1,150 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+E8dsg+V1HCF1ZWA6JFhK/4oxwcVHm++j5oWS0YvONMsU=
+Z1 w1544171286
+Z2 DPx18 xbip_addsub_v3_0_5 27 xbip_addsub_v3_0_5_viv_comp 0 22 99n<b15J?EHo:UBA;Y3;b3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/xbip_addsub_v3_0/hdl/xbip_addsub_v3_0_vh_rfs.vhd
+Z6 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/xbip_addsub_v3_0/hdl/xbip_addsub_v3_0_vh_rfs.vhd
+l0
+L520
+V^YTn4bC3HDOfQ5k2?9:nH1
+!s100 M=m:ibdBoKg1n=;[GzT^B0
+Z7 OL;C;10.6b;65
+!i8a 1464304448
+31
+Z8 !s110 1556885075
+!i10b 1
+Z9 !s108 1556885075.000000
+Z10 !s90 -64|-93|-work|xbip_addsub_v3_0_5|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/xbip_addsub_v3_0_5/.cxl.vhdl.xbip_addsub_v3_0_5.xbip_addsub_v3_0_5.lin64.cmf|
+Z11 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/xbip_addsub_v3_0/hdl/xbip_addsub_v3_0_vh_rfs.vhd|
+!i113 0
+Z12 o-93 -work xbip_addsub_v3_0_5
+Z13 tExplicit 1 CvgOpt 0
+n6db8915
+A3emH0vLSHV/5hwxu3aC82w==
+R2
+R3
+R4
+DEx4 work 18 xbip_addsub_v3_0_5 0 22 ^YTn4bC3HDOfQ5k2?9:nH1
+l552
+L547
+V1]YOo3?XbQ6JoHgD426c82
+!s100 f]5[eE]A2KFRKHX^foa;Q1
+R7
+!i8a 893141680
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n7f03058
+P9zHIHLM8mOZ82totFtsM7ePTPgMF73Hkn2cQ+4Zqh6k=
+R3
+R4
+R1
+R0
+R5
+R6
+l0
+L119
+VIBn<4MO>ZPZh_VUCI3z^g0
+!s100 l:i=KWWGD:cFE?Dm5Unj_3
+R7
+!i8a 152812960
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n1d83ed0
+E8+7wny40GDthvrsimtLW4AXQCRRec2bRLovyMf6GXKY=
+R1
+Z14 DPx24 xbip_dsp48_addsub_v3_0_5 33 xbip_dsp48_addsub_v3_0_5_viv_comp 0 22 j0h:WgX5jBi@8>`gc;^l42
+Z15 DPx17 xbip_utils_v3_0_9 21 xbip_utils_v3_0_9_pkg 0 22 jE:;Q?8;4:RkzCAz_?dYo0
+Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R3
+R4
+R0
+R5
+R6
+l0
+L308
+VoT65SVeSH`6=PK5cK]4c?3
+!s100 Nle9;HJGLfHzAn?9i`lg>1
+R7
+!i8a 160861584
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n91db886
+AKR6YDnTzcJyMdrRpzx2uKA==
+R14
+R15
+R16
+R3
+R4
+DEx4 work 22 xbip_addsub_v3_0_5_viv 0 22 oT65SVeSH`6=PK5cK]4c?3
+l383
+L335
+V7GGfMzDW9<aQ8^HPgLMW=3
+!s100 I3KP8VAa7Z_8_YQGflS<V0
+R7
+!i8a 1659853680
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n7b05a8
+P9k85dsWBFfsF/l4TBrezR0Mpf6QYyyRZMVqoqTnVQWY=
+R3
+R4
+R1
+R0
+R5
+R6
+l0
+L208
+V99n<b15J?EHo:UBA;Y3;b3
+!s100 bkNnJKcZV<^D9:ARSPiWM0
+R7
+!i8a 1624579344
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n8345fc0

@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/high_speed_selectio_wiz_v3_2_3
+/opt/MentorGraphics/modeltech/bin/vmap high_speed_selectio_wiz_v3_2_3 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/high_speed_selectio_wiz_v3_2_3
+/opt/MentorGraphics/modeltech/bin/vlog  -64 +incdir+/home/dmonk/.cxl.ip/incl -work high_speed_selectio_wiz_v3_2_3 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/high_speed_selectio_wiz_v3_2_3/.cxl.verilog.high_speed_selectio_wiz_v3_2_3.high_speed_selectio_wiz_v3_2_3.lin64.cmf

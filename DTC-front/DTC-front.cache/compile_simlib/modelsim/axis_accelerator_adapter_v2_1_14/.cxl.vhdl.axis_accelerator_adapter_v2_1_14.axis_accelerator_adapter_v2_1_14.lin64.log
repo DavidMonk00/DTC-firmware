@@ -1,0 +1,333 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axis_accelerator_adapter_v2_1_14 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axis_accelerator_adapter_v2_1_14 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:05:48 on May 03,2019
+vcom -64 -93 -work axis_accelerator_adapter_v2_1_14 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axis_accelerator_adapter_v2_1_14/.cxl.vhdl.axis_accelerator_adapter_v2_1_14.axis_accelerator_adapter_v2_1_14.lin64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package xd_adapter_pkg
+-- Compiling package body xd_adapter_pkg
+-- Loading package xd_adapter_pkg
+-- Loading package xd_adapter_pkg
+-- Compiling entity synchronizer_ff
+-- Compiling architecture xilinx of synchronizer_ff
+-- Compiling entity clk_x_pntrs
+-- Compiling architecture xilinx of clk_x_pntrs
+-- Loading entity synchronizer_ff
+-- Compiling entity axis_acc_adapter_cdc_sync
+-- Compiling architecture implementation of axis_acc_adapter_cdc_sync
+-- Compiling entity symmetric_dp_bank_v6
+-- Compiling architecture rtl of symmetric_dp_bank_v6
+-- Compiling entity dp_bank_sdp_v6
+-- Compiling architecture rtl of dp_bank_sdp_v6
+-- Compiling entity asymmetric_dp_bank_v6
+-- Compiling architecture rtl of asymmetric_dp_bank_v6
+-- Loading entity asymmetric_dp_bank_v6
+-- Loading entity symmetric_dp_bank_v6
+-- Loading entity dp_bank_sdp_v6
+-- Compiling entity arg_mem_bank_v6
+-- Compiling architecture rtl of arg_mem_bank_v6
+-- Loading entity arg_mem_bank_v6
+-- Compiling entity arg_mem_bank
+-- Compiling architecture rtl of arg_mem_bank
+-- Compiling entity srl_fifo_32_wt
+-- Compiling architecture rtl of srl_fifo_32_wt
+-- Loading entity arg_mem_bank
+-- Compiling entity oarg_columnized_mem_bank
+-- Compiling architecture rtl of oarg_columnized_mem_bank
+-- Compiling entity iarg_columnized_mem_bank
+-- Compiling architecture rtl of iarg_columnized_mem_bank
+-- Loading entity iarg_columnized_mem_bank
+-- Compiling entity xd_s2m_memory_dc
+-- Compiling architecture rtl of xd_s2m_memory_dc
+-- Loading entity clk_x_pntrs
+-- Compiling entity xd_s2m_converter
+-- Compiling architecture rtl of xd_s2m_converter
+-- Loading entity oarg_columnized_mem_bank
+-- Loading entity srl_fifo_32_wt
+-- Compiling entity xd_m2s_memory_dc
+-- Compiling architecture rtl of xd_m2s_memory_dc
+-- Compiling entity xd_m2s_converter
+-- Compiling architecture rtl of xd_m2s_converter
+-- Compiling entity s2s_async_fifo_wt
+-- Compiling architecture rtl of s2s_async_fifo_wt
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8619): (vcom-1191) Type conversion on actual associated with formal "prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8620): (vcom-1191) Type conversion on actual associated with formal "prog_empty_thresh_assert" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8621): (vcom-1191) Type conversion on actual associated with formal "prog_empty_thresh_negate" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8622): (vcom-1191) Type conversion on actual associated with formal "prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8623): (vcom-1191) Type conversion on actual associated with formal "prog_full_thresh_assert" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8624): (vcom-1191) Type conversion on actual associated with formal "prog_full_thresh_negate" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8678): (vcom-1191) Type conversion on actual associated with formal "s_axi_awid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8679): (vcom-1191) Type conversion on actual associated with formal "s_axi_awaddr" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8680): (vcom-1191) Type conversion on actual associated with formal "s_axi_awlen" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8683): (vcom-1191) Type conversion on actual associated with formal "s_axi_awlock" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8688): (vcom-1191) Type conversion on actual associated with formal "s_axi_awuser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8691): (vcom-1191) Type conversion on actual associated with formal "s_axi_wid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8692): (vcom-1191) Type conversion on actual associated with formal "s_axi_wdata" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8693): (vcom-1191) Type conversion on actual associated with formal "s_axi_wstrb" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8695): (vcom-1191) Type conversion on actual associated with formal "s_axi_wuser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8673): (vcom-1191) Type conversion on actual associated with formal "m_axi_bid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8675): (vcom-1191) Type conversion on actual associated with formal "m_axi_buser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8725): (vcom-1191) Type conversion on actual associated with formal "s_axi_arid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8726): (vcom-1191) Type conversion on actual associated with formal "s_axi_araddr" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8727): (vcom-1191) Type conversion on actual associated with formal "s_axi_arlen" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8730): (vcom-1191) Type conversion on actual associated with formal "s_axi_arlock" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8735): (vcom-1191) Type conversion on actual associated with formal "s_axi_aruser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8717): (vcom-1191) Type conversion on actual associated with formal "m_axi_rid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8718): (vcom-1191) Type conversion on actual associated with formal "m_axi_rdata" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8721): (vcom-1191) Type conversion on actual associated with formal "m_axi_ruser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8755): (vcom-1191) Type conversion on actual associated with formal "s_axis_tdata" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8756): (vcom-1191) Type conversion on actual associated with formal "s_axis_tstrb" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8757): (vcom-1191) Type conversion on actual associated with formal "s_axis_tkeep" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8759): (vcom-1191) Type conversion on actual associated with formal "s_axis_tid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8760): (vcom-1191) Type conversion on actual associated with formal "s_axis_tdest" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8761): (vcom-1191) Type conversion on actual associated with formal "s_axis_tuser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8764): (vcom-1191) Type conversion on actual associated with formal "axi_aw_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8765): (vcom-1191) Type conversion on actual associated with formal "axi_aw_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8777): (vcom-1191) Type conversion on actual associated with formal "axi_w_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8778): (vcom-1191) Type conversion on actual associated with formal "axi_w_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8791): (vcom-1191) Type conversion on actual associated with formal "axi_b_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8792): (vcom-1191) Type conversion on actual associated with formal "axi_b_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8804): (vcom-1191) Type conversion on actual associated with formal "axi_ar_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8805): (vcom-1191) Type conversion on actual associated with formal "axi_ar_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8817): (vcom-1191) Type conversion on actual associated with formal "axi_r_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8818): (vcom-1191) Type conversion on actual associated with formal "axi_r_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8830): (vcom-1191) Type conversion on actual associated with formal "axis_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(8831): (vcom-1191) Type conversion on actual associated with formal "axis_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9063): (vcom-1191) Type conversion on actual associated with formal "prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9064): (vcom-1191) Type conversion on actual associated with formal "prog_empty_thresh_assert" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9065): (vcom-1191) Type conversion on actual associated with formal "prog_empty_thresh_negate" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9066): (vcom-1191) Type conversion on actual associated with formal "prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9067): (vcom-1191) Type conversion on actual associated with formal "prog_full_thresh_assert" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9068): (vcom-1191) Type conversion on actual associated with formal "prog_full_thresh_negate" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9122): (vcom-1191) Type conversion on actual associated with formal "s_axi_awid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9123): (vcom-1191) Type conversion on actual associated with formal "s_axi_awaddr" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9124): (vcom-1191) Type conversion on actual associated with formal "s_axi_awlen" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9127): (vcom-1191) Type conversion on actual associated with formal "s_axi_awlock" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9132): (vcom-1191) Type conversion on actual associated with formal "s_axi_awuser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9135): (vcom-1191) Type conversion on actual associated with formal "s_axi_wid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9136): (vcom-1191) Type conversion on actual associated with formal "s_axi_wdata" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9137): (vcom-1191) Type conversion on actual associated with formal "s_axi_wstrb" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9139): (vcom-1191) Type conversion on actual associated with formal "s_axi_wuser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9117): (vcom-1191) Type conversion on actual associated with formal "m_axi_bid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9119): (vcom-1191) Type conversion on actual associated with formal "m_axi_buser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9169): (vcom-1191) Type conversion on actual associated with formal "s_axi_arid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9170): (vcom-1191) Type conversion on actual associated with formal "s_axi_araddr" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9171): (vcom-1191) Type conversion on actual associated with formal "s_axi_arlen" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9174): (vcom-1191) Type conversion on actual associated with formal "s_axi_arlock" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9179): (vcom-1191) Type conversion on actual associated with formal "s_axi_aruser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9161): (vcom-1191) Type conversion on actual associated with formal "m_axi_rid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9162): (vcom-1191) Type conversion on actual associated with formal "m_axi_rdata" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9165): (vcom-1191) Type conversion on actual associated with formal "m_axi_ruser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9199): (vcom-1191) Type conversion on actual associated with formal "s_axis_tdata" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9200): (vcom-1191) Type conversion on actual associated with formal "s_axis_tstrb" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9201): (vcom-1191) Type conversion on actual associated with formal "s_axis_tkeep" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9203): (vcom-1191) Type conversion on actual associated with formal "s_axis_tid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9204): (vcom-1191) Type conversion on actual associated with formal "s_axis_tdest" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9205): (vcom-1191) Type conversion on actual associated with formal "s_axis_tuser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9208): (vcom-1191) Type conversion on actual associated with formal "axi_aw_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9209): (vcom-1191) Type conversion on actual associated with formal "axi_aw_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9221): (vcom-1191) Type conversion on actual associated with formal "axi_w_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9222): (vcom-1191) Type conversion on actual associated with formal "axi_w_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9235): (vcom-1191) Type conversion on actual associated with formal "axi_b_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9236): (vcom-1191) Type conversion on actual associated with formal "axi_b_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9248): (vcom-1191) Type conversion on actual associated with formal "axi_ar_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9249): (vcom-1191) Type conversion on actual associated with formal "axi_ar_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9261): (vcom-1191) Type conversion on actual associated with formal "axi_r_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9262): (vcom-1191) Type conversion on actual associated with formal "axi_r_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9274): (vcom-1191) Type conversion on actual associated with formal "axis_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(9275): (vcom-1191) Type conversion on actual associated with formal "axis_prog_empty_thresh" must be a constrained array subtype.
+-- Loading entity xd_s2m_converter
+-- Loading entity xd_s2m_memory_dc
+-- Compiling entity xd_s2m_adapter
+-- Compiling architecture rtl of xd_s2m_adapter
+-- Compiling entity xd_output_scalars_fifo
+-- Compiling architecture rtl of xd_output_scalars_fifo
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11020): (vcom-1191) Type conversion on actual associated with formal "prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11021): (vcom-1191) Type conversion on actual associated with formal "prog_empty_thresh_assert" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11022): (vcom-1191) Type conversion on actual associated with formal "prog_empty_thresh_negate" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11023): (vcom-1191) Type conversion on actual associated with formal "prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11024): (vcom-1191) Type conversion on actual associated with formal "prog_full_thresh_assert" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11025): (vcom-1191) Type conversion on actual associated with formal "prog_full_thresh_negate" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11079): (vcom-1191) Type conversion on actual associated with formal "s_axi_awid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11080): (vcom-1191) Type conversion on actual associated with formal "s_axi_awaddr" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11081): (vcom-1191) Type conversion on actual associated with formal "s_axi_awlen" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11084): (vcom-1191) Type conversion on actual associated with formal "s_axi_awlock" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11089): (vcom-1191) Type conversion on actual associated with formal "s_axi_awuser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11092): (vcom-1191) Type conversion on actual associated with formal "s_axi_wid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11093): (vcom-1191) Type conversion on actual associated with formal "s_axi_wdata" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11094): (vcom-1191) Type conversion on actual associated with formal "s_axi_wstrb" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11096): (vcom-1191) Type conversion on actual associated with formal "s_axi_wuser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11074): (vcom-1191) Type conversion on actual associated with formal "m_axi_bid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11076): (vcom-1191) Type conversion on actual associated with formal "m_axi_buser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11126): (vcom-1191) Type conversion on actual associated with formal "s_axi_arid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11127): (vcom-1191) Type conversion on actual associated with formal "s_axi_araddr" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11128): (vcom-1191) Type conversion on actual associated with formal "s_axi_arlen" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11131): (vcom-1191) Type conversion on actual associated with formal "s_axi_arlock" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11136): (vcom-1191) Type conversion on actual associated with formal "s_axi_aruser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11118): (vcom-1191) Type conversion on actual associated with formal "m_axi_rid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11119): (vcom-1191) Type conversion on actual associated with formal "m_axi_rdata" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11122): (vcom-1191) Type conversion on actual associated with formal "m_axi_ruser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11156): (vcom-1191) Type conversion on actual associated with formal "s_axis_tdata" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11157): (vcom-1191) Type conversion on actual associated with formal "s_axis_tstrb" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11158): (vcom-1191) Type conversion on actual associated with formal "s_axis_tkeep" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11160): (vcom-1191) Type conversion on actual associated with formal "s_axis_tid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11161): (vcom-1191) Type conversion on actual associated with formal "s_axis_tdest" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11162): (vcom-1191) Type conversion on actual associated with formal "s_axis_tuser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11165): (vcom-1191) Type conversion on actual associated with formal "axi_aw_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11166): (vcom-1191) Type conversion on actual associated with formal "axi_aw_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11178): (vcom-1191) Type conversion on actual associated with formal "axi_w_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11179): (vcom-1191) Type conversion on actual associated with formal "axi_w_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11192): (vcom-1191) Type conversion on actual associated with formal "axi_b_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11193): (vcom-1191) Type conversion on actual associated with formal "axi_b_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11205): (vcom-1191) Type conversion on actual associated with formal "axi_ar_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11206): (vcom-1191) Type conversion on actual associated with formal "axi_ar_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11218): (vcom-1191) Type conversion on actual associated with formal "axi_r_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11219): (vcom-1191) Type conversion on actual associated with formal "axi_r_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11231): (vcom-1191) Type conversion on actual associated with formal "axis_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(11232): (vcom-1191) Type conversion on actual associated with formal "axis_prog_empty_thresh" must be a constrained array subtype.
+-- Loading entity s2s_async_fifo_wt
+-- Compiling entity xd_oarg_s2s_adapter
+-- Compiling architecture rtl of xd_oarg_s2s_adapter
+-- Loading entity xd_m2s_converter
+-- Loading entity xd_m2s_memory_dc
+-- Compiling entity xd_m2s_adapter
+-- Compiling architecture rtl of xd_m2s_adapter
+-- Compiling entity xd_input_scalars_fifo
+-- Compiling architecture rtl of xd_input_scalars_fifo
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14487): (vcom-1191) Type conversion on actual associated with formal "prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14488): (vcom-1191) Type conversion on actual associated with formal "prog_empty_thresh_assert" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14489): (vcom-1191) Type conversion on actual associated with formal "prog_empty_thresh_negate" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14490): (vcom-1191) Type conversion on actual associated with formal "prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14491): (vcom-1191) Type conversion on actual associated with formal "prog_full_thresh_assert" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14492): (vcom-1191) Type conversion on actual associated with formal "prog_full_thresh_negate" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14546): (vcom-1191) Type conversion on actual associated with formal "s_axi_awid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14547): (vcom-1191) Type conversion on actual associated with formal "s_axi_awaddr" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14548): (vcom-1191) Type conversion on actual associated with formal "s_axi_awlen" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14551): (vcom-1191) Type conversion on actual associated with formal "s_axi_awlock" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14556): (vcom-1191) Type conversion on actual associated with formal "s_axi_awuser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14559): (vcom-1191) Type conversion on actual associated with formal "s_axi_wid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14560): (vcom-1191) Type conversion on actual associated with formal "s_axi_wdata" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14561): (vcom-1191) Type conversion on actual associated with formal "s_axi_wstrb" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14563): (vcom-1191) Type conversion on actual associated with formal "s_axi_wuser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14541): (vcom-1191) Type conversion on actual associated with formal "m_axi_bid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14543): (vcom-1191) Type conversion on actual associated with formal "m_axi_buser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14593): (vcom-1191) Type conversion on actual associated with formal "s_axi_arid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14594): (vcom-1191) Type conversion on actual associated with formal "s_axi_araddr" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14595): (vcom-1191) Type conversion on actual associated with formal "s_axi_arlen" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14598): (vcom-1191) Type conversion on actual associated with formal "s_axi_arlock" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14603): (vcom-1191) Type conversion on actual associated with formal "s_axi_aruser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14585): (vcom-1191) Type conversion on actual associated with formal "m_axi_rid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14586): (vcom-1191) Type conversion on actual associated with formal "m_axi_rdata" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14589): (vcom-1191) Type conversion on actual associated with formal "m_axi_ruser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14623): (vcom-1191) Type conversion on actual associated with formal "s_axis_tdata" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14624): (vcom-1191) Type conversion on actual associated with formal "s_axis_tstrb" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14625): (vcom-1191) Type conversion on actual associated with formal "s_axis_tkeep" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14627): (vcom-1191) Type conversion on actual associated with formal "s_axis_tid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14628): (vcom-1191) Type conversion on actual associated with formal "s_axis_tdest" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14629): (vcom-1191) Type conversion on actual associated with formal "s_axis_tuser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14632): (vcom-1191) Type conversion on actual associated with formal "axi_aw_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14633): (vcom-1191) Type conversion on actual associated with formal "axi_aw_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14645): (vcom-1191) Type conversion on actual associated with formal "axi_w_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14646): (vcom-1191) Type conversion on actual associated with formal "axi_w_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14659): (vcom-1191) Type conversion on actual associated with formal "axi_b_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14660): (vcom-1191) Type conversion on actual associated with formal "axi_b_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14672): (vcom-1191) Type conversion on actual associated with formal "axi_ar_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14673): (vcom-1191) Type conversion on actual associated with formal "axi_ar_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14685): (vcom-1191) Type conversion on actual associated with formal "axi_r_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14686): (vcom-1191) Type conversion on actual associated with formal "axi_r_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14698): (vcom-1191) Type conversion on actual associated with formal "axis_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(14699): (vcom-1191) Type conversion on actual associated with formal "axis_prog_empty_thresh" must be a constrained array subtype.
+-- Compiling entity xd_iarg_s2s_adapter
+-- Compiling architecture rtl of xd_iarg_s2s_adapter
+-- Compiling entity sync_ap_status
+-- Compiling architecture rtl of sync_ap_status
+-- Compiling entity async_fifo_dist_wt
+-- Compiling architecture rtl of async_fifo_dist_wt
+-- Compiling entity async_fifo_dist_inst
+-- Compiling architecture rtl of async_fifo_dist_inst
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16419): (vcom-1191) Type conversion on actual associated with formal "prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16420): (vcom-1191) Type conversion on actual associated with formal "prog_empty_thresh_assert" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16421): (vcom-1191) Type conversion on actual associated with formal "prog_empty_thresh_negate" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16422): (vcom-1191) Type conversion on actual associated with formal "prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16423): (vcom-1191) Type conversion on actual associated with formal "prog_full_thresh_assert" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16424): (vcom-1191) Type conversion on actual associated with formal "prog_full_thresh_negate" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16478): (vcom-1191) Type conversion on actual associated with formal "s_axi_awid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16479): (vcom-1191) Type conversion on actual associated with formal "s_axi_awaddr" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16480): (vcom-1191) Type conversion on actual associated with formal "s_axi_awlen" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16483): (vcom-1191) Type conversion on actual associated with formal "s_axi_awlock" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16488): (vcom-1191) Type conversion on actual associated with formal "s_axi_awuser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16491): (vcom-1191) Type conversion on actual associated with formal "s_axi_wid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16492): (vcom-1191) Type conversion on actual associated with formal "s_axi_wdata" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16493): (vcom-1191) Type conversion on actual associated with formal "s_axi_wstrb" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16495): (vcom-1191) Type conversion on actual associated with formal "s_axi_wuser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16473): (vcom-1191) Type conversion on actual associated with formal "m_axi_bid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16475): (vcom-1191) Type conversion on actual associated with formal "m_axi_buser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16525): (vcom-1191) Type conversion on actual associated with formal "s_axi_arid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16526): (vcom-1191) Type conversion on actual associated with formal "s_axi_araddr" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16527): (vcom-1191) Type conversion on actual associated with formal "s_axi_arlen" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16530): (vcom-1191) Type conversion on actual associated with formal "s_axi_arlock" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16535): (vcom-1191) Type conversion on actual associated with formal "s_axi_aruser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16517): (vcom-1191) Type conversion on actual associated with formal "m_axi_rid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16518): (vcom-1191) Type conversion on actual associated with formal "m_axi_rdata" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16521): (vcom-1191) Type conversion on actual associated with formal "m_axi_ruser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16555): (vcom-1191) Type conversion on actual associated with formal "s_axis_tdata" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16556): (vcom-1191) Type conversion on actual associated with formal "s_axis_tstrb" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16557): (vcom-1191) Type conversion on actual associated with formal "s_axis_tkeep" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16559): (vcom-1191) Type conversion on actual associated with formal "s_axis_tid" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16560): (vcom-1191) Type conversion on actual associated with formal "s_axis_tdest" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16561): (vcom-1191) Type conversion on actual associated with formal "s_axis_tuser" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16564): (vcom-1191) Type conversion on actual associated with formal "axi_aw_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16565): (vcom-1191) Type conversion on actual associated with formal "axi_aw_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16577): (vcom-1191) Type conversion on actual associated with formal "axi_w_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16578): (vcom-1191) Type conversion on actual associated with formal "axi_w_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16591): (vcom-1191) Type conversion on actual associated with formal "axi_b_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16592): (vcom-1191) Type conversion on actual associated with formal "axi_b_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16604): (vcom-1191) Type conversion on actual associated with formal "axi_ar_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16605): (vcom-1191) Type conversion on actual associated with formal "axi_ar_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16617): (vcom-1191) Type conversion on actual associated with formal "axi_r_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16618): (vcom-1191) Type conversion on actual associated with formal "axi_r_prog_empty_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16630): (vcom-1191) Type conversion on actual associated with formal "axis_prog_full_thresh" must be a constrained array subtype.
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_accelerator_adapter_v2_1/hdl/axis_accelerator_adapter_v2_1_rfs.vhd(16631): (vcom-1191) Type conversion on actual associated with formal "axis_prog_empty_thresh" must be a constrained array subtype.
+-- Loading entity async_fifo_dist_wt
+-- Loading entity sync_ap_status
+-- Loading entity axis_acc_adapter_cdc_sync
+-- Compiling entity xd_sync_module
+-- Compiling architecture rtl of xd_sync_module
+-- Loading entity async_fifo_dist_inst
+-- Loading entity xd_output_scalars_fifo
+-- Compiling entity xd_output_scalars_module
+-- Compiling architecture rtl of xd_output_scalars_module
+-- Loading entity xd_m2s_adapter
+-- Loading entity xd_oarg_s2s_adapter
+-- Compiling entity xd_output_args_module
+-- Compiling architecture rtl of xd_output_args_module
+-- Loading entity xd_input_scalars_fifo
+-- Compiling entity xd_input_scalars_module
+-- Compiling architecture rtl of xd_input_scalars_module
+-- Loading entity xd_s2m_adapter
+-- Loading entity xd_iarg_s2s_adapter
+-- Compiling entity xd_input_args_module
+-- Compiling architecture rtl of xd_input_args_module
+-- Compiling entity axi_lite_adapter
+-- Compiling architecture rtl of axi_lite_adapter
+-- Loading entity axi_lite_adapter
+-- Loading entity xd_input_args_module
+-- Loading entity xd_output_args_module
+-- Loading entity xd_sync_module
+-- Loading entity xd_input_scalars_module
+-- Loading entity xd_output_scalars_module
+-- Compiling entity axis_accelerator_adapter_core
+-- Compiling architecture rtl of axis_accelerator_adapter_core
+-- Loading entity axis_accelerator_adapter_core
+-- Compiling entity axis_accelerator_adapter
+-- Compiling architecture rtl of axis_accelerator_adapter
+End time: 13:05:49 on May 03,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 215

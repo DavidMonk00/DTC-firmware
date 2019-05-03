@@ -1,0 +1,38 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap high_speed_selectio_wiz_v3_4_1 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/high_speed_selectio_wiz_v3_4_1 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:02:42 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work high_speed_selectio_wiz_v3_4_1 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/high_speed_selectio_wiz_v3_4_1/.cxl.verilog.high_speed_selectio_wiz_v3_4_1.high_speed_selectio_wiz_v3_4_1.lin64.cmf 
+-- Compiling module high_speed_selectio_wiz_v3_4_1_sync_cell
+-- Compiling module PRBS_ANY
+-- Compiling module high_speed_selectio_wiz_v3_4_1_rst_scheme
+-- Compiling module high_speed_selectio_wiz_v3_4_1_clk_scheme
+-- Compiling module high_speed_selectio_wiz_v3_4_1_clk_rst_top
+-- Compiling module high_speed_selectio_wiz_v3_4_1_bs_ctrl_top
+-- Compiling module high_speed_selectio_wiz_v3_4_1_iobuf_top
+-- Compiling module high_speed_selectio_wiz_v3_4_1_C2BCEtc
+-- Compiling module high_speed_selectio_wiz_v3_4_1_C2BCEtc_dwnld
+-- Compiling module high_speed_selectio_wiz_v3_4_1_C3BCEtc
+-- Compiling module high_speed_selectio_wiz_v3_4_1_C3BCEtc_dwnld
+-- Compiling module high_speed_selectio_wiz_v3_4_1_Fdcr
+-- Compiling module high_speed_selectio_wiz_v3_4_1_GenPulse
+-- Compiling module high_speed_selectio_wiz_v3_4_1_BitSlipInLogic_4b
+-- Compiling module high_speed_selectio_wiz_v3_4_1_BitSlipInLogic_8b
+-- Compiling module high_speed_selectio_wiz_v3_4_1_BitSlipInLogic_FstCmp_4b
+-- Compiling module high_speed_selectio_wiz_v3_4_1_BitSlipInLogic_FstCmp_8b
+-- Compiling module high_speed_selectio_wiz_v3_4_1_BitSlipInLogic_Toplevel
+-- Compiling module high_speed_selectio_wiz_v3_4_1_rxtx_bs
+-- Compiling module high_speed_selectio_wiz_v3_4_1_tx_bs_tri
+-- Compiling module high_speed_selectio_wiz_v3_4_1_rx_bs
+-- Compiling module high_speed_selectio_wiz_v3_4_1_tx_bs
+-- Compiling module high_speed_selectio_wiz_v3_4_1_bs_top
+
+Top level modules:
+	PRBS_ANY
+	high_speed_selectio_wiz_v3_4_1_clk_rst_top
+	high_speed_selectio_wiz_v3_4_1_bs_ctrl_top
+	high_speed_selectio_wiz_v3_4_1_iobuf_top
+	high_speed_selectio_wiz_v3_4_1_bs_top
+End time: 13:02:42 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axis_accelerator_adapter_v2_1_14
+/opt/MentorGraphics/modeltech/bin/vmap axis_accelerator_adapter_v2_1_14 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axis_accelerator_adapter_v2_1_14
+/opt/MentorGraphics/modeltech/bin/vcom  -64 -93 -work axis_accelerator_adapter_v2_1_14 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axis_accelerator_adapter_v2_1_14/.cxl.vhdl.axis_accelerator_adapter_v2_1_14.axis_accelerator_adapter_v2_1_14.lin64.cmf

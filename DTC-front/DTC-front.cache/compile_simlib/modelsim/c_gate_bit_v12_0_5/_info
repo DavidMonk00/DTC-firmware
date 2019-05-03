@@ -1,0 +1,316 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+Eog7F38fLRlV4tT7rOVKPxA==
+Z1 w1544171253
+Z2 DPx18 c_gate_bit_v12_0_5 18 pkg_gate_bit_v12_0 0 22 1A9SG<bG84WEQRHl2GO<U0
+Z3 DPx17 xbip_utils_v3_0_9 21 xbip_utils_v3_0_9_pkg 0 22 jE:;Q?8;4:RkzCAz_?dYo0
+Z4 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z5 DPx6 unisim 11 vcomponents 0 22 4NzhH_H[BVKN`b71^hVL<3
+Z6 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z7 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z10 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd
+Z11 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd
+l0
+L2073
+V<B:beCa>OCfPGoG?6fJb40
+!s100 8I?F78Lgmf_oJIk^NlHXm1
+Z12 OL;C;10.6b;65
+!i8a 629729824
+31
+Z13 !s110 1556885089
+!i10b 1
+Z14 !s108 1556885088.000000
+Z15 !s90 -64|-93|-work|c_gate_bit_v12_0_5|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/c_gate_bit_v12_0_5/.cxl.vhdl.c_gate_bit_v12_0_5.c_gate_bit_v12_0_5.lin64.cmf|
+Z16 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/c_gate_bit_v12_0/hdl/c_gate_bit_v12_0_vh_rfs.vhd|
+!i113 0
+Z17 o-93 -work c_gate_bit_v12_0_5
+Z18 tExplicit 1 CvgOpt 0
+nd2c7322
+AY1Itltyye17V9QbOjsv2gw==
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 15 c_gate_bit_tier 0 22 <B:beCa>OCfPGoG?6fJb40
+l2098
+L2087
+V6NMAH3zfN9Ch4QP<^A84L3
+!s100 P8RU?U6BFIU@NO5oI4Mf<0
+R12
+!i8a 1701668384
+31
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+Z19 n7b05a8
+E3IqWewcf5E1vVnqUJUxteA==
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R0
+R10
+R11
+l0
+L1759
+V1]>5Z93>kJC5GMa]bS`Z11
+!s100 SG1_61K9FcG>7j0OBbg_21
+R12
+!i8a 1493438720
+31
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+nd2c74c5
+Adaq8CukK5kT8G6D48V3XsQ==
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 15 c_gate_bit_tile 0 22 1]>5Z93>kJC5GMa]bS`Z11
+l1841
+L1772
+VJFAHki]fAG3Yl=OiSQ?7S3
+!s100 ?e94AZ0d@J:HeO5eA]F;>1
+R12
+!i8a 801089088
+31
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+R19
+Eycc5H1Qfop8LZD0u4t+CUEMZveBarsNmoLSchBPb9qk=
+R1
+Z20 DPx18 c_gate_bit_v12_0_5 27 c_gate_bit_v12_0_5_viv_comp 0 22 gSQT8mJnJ?O@L>J^>KHB61
+R8
+R9
+R3
+R0
+R10
+R11
+l0
+L2737
+VfY6S_Mj<4X2Fnj?0CP^EV0
+!s100 YnVBZh51`0_i<S>S]=lZI1
+R12
+!i8a 1660388448
+31
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+n48af8e5
+A64noYea3tCNW41f7Dhcq4Q==
+R20
+R8
+R9
+R3
+DEx4 work 18 c_gate_bit_v12_0_5 0 22 fY6S_Mj<4X2Fnj?0CP^EV0
+l2782
+L2777
+V;3zSXD2FeDI7dYlmABKVC2
+!s100 ]J=Y:5dRX:3>0ffCdoa8<2
+R12
+!i8a 1277708608
+31
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+n7f03058
+PfZ1srHj6rjZbGO1T1gkwF5ZNnP3wT4d3Qt46/QEc7iQ=
+R8
+R9
+R1
+R0
+R10
+R11
+l0
+L124
+VaEHImFch5oTH>?@Fz^IlU3
+!s100 JzIO]J@GcFh@=l9z[;M762
+R12
+!i8a 1020800368
+31
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+nefd4bc0
+ERYYof1L2TYAp1N624GIfjSN5OzRcS2oPQMrHNePI8Jo=
+R1
+R2
+Z21 DPx16 c_reg_fd_v12_0_5 25 c_reg_fd_v12_0_5_viv_comp 0 22 IIR:?O:^X4FZMDfUVIhcA2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R0
+R10
+R11
+l0
+L2228
+VoM279kozOY5XVZHh8X6JH0
+!s100 M;XgEGcb:e>XJI;M<AlW82
+R12
+!i8a 2035275856
+31
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+n8efe7f6
+AUHmQWjecV13HhhwLY3PGmQ==
+R2
+R21
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 22 c_gate_bit_v12_0_5_viv 0 22 oM279kozOY5XVZHh8X6JH0
+l2385
+L2268
+VT0<7]TVVT@K:BCCX2LfHk2
+!s100 c9`OCkSS2<7MdS8Fa><AM2
+R12
+!i8a 2082366688
+31
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+R19
+PnKmWTidoX7xlqdv1e6F4781gEAuqyuixRfiVzCMBQQc=
+R8
+R9
+R1
+R0
+R10
+R11
+l0
+L227
+VgSQT8mJnJ?O@L>J^>KHB61
+!s100 U0bI]2;DD@f1Zo:WL3C=j2
+R12
+!i8a 1520147008
+31
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+nf4b7c30
+P/6hm2g/kp52+El/EOsoCqgTYHln8FDnHyEYCDN/CONU=
+R3
+R8
+R9
+R1
+R0
+R10
+R11
+l0
+L337
+V1A9SG<bG84WEQRHl2GO<U0
+!s100 WR_9kQog9POTZCa2@gPMZ3
+R12
+!i8a 1723051552
+31
+b1
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+n7b5caf0
+B2s0aVNdHWXIawDbj8B87BQ==
+DPx4 work 18 pkg_gate_bit_v12_0 0 22 1A9SG<bG84WEQRHl2GO<U0
+R3
+R8
+R9
+l0
+L474
+VdP]L@0BVFni1N0J8Vace[0
+!s100 F=H3B0]C4]8[1lVm@bjCj2
+R12
+!i8a 485489312
+31
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
+nbody

@@ -1,0 +1,9 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap fifo_generator_v13_2_3 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/fifo_generator_v13_2_3 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:15 on May 03,2019
+vcom -64 -93 -work fifo_generator_v13_2_3 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/fifo_generator_v13_2_3/.cxl.vhdl.fifo_generator_v13_2_3.fifo_generator_v13_2_3.lin64.cmf 
+-- Loading package STANDARD
+End time: 13:04:15 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

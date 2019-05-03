@@ -1,0 +1,142 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap system_cache_v4_0_5 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/system_cache_v4_0_5 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:02:48 on May 03,2019
+vcom -64 -93 -work system_cache_v4_0_5 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/system_cache_v4_0_5/.cxl.vhdl.system_cache_v4_0_5.system_cache_v4_0_5.lin64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package system_cache_pkg
+-- Compiling package body system_cache_pkg
+-- Loading package system_cache_pkg
+-- Loading package system_cache_pkg
+-- Compiling package system_cache_queue_pkg
+-- Compiling package body system_cache_queue_pkg
+-- Loading package system_cache_queue_pkg
+-- Compiling entity carry_and_di
+-- Compiling architecture IMP of carry_and_di
+-- Compiling entity carry_and
+-- Compiling architecture IMP of carry_and
+-- Compiling entity carry_and_n
+-- Compiling architecture IMP of carry_and_n
+-- Compiling entity carry_or
+-- Compiling architecture IMP of carry_or
+-- Compiling entity carry_or_n
+-- Compiling architecture IMP of carry_or_n
+-- Compiling entity carry_vec_or
+-- Compiling architecture IMP of carry_vec_or
+-- Compiling entity carry_vec_and_n
+-- Compiling architecture IMP of carry_vec_and_n
+-- Compiling entity carry_latch_and
+-- Compiling architecture IMP of carry_latch_and
+-- Compiling entity carry_latch_and_n
+-- Compiling architecture IMP of carry_latch_and_n
+-- Compiling entity carry_latch_or
+-- Compiling architecture IMP of carry_latch_or
+-- Compiling entity carry_latch_or_n
+-- Compiling architecture IMP of carry_latch_or_n
+-- Compiling entity carry_piperun_step
+-- Compiling architecture IMP of carry_piperun_step
+-- Compiling entity carry_compare
+-- Compiling architecture IMP of carry_compare
+-- Compiling entity carry_prio_mux
+-- Compiling architecture IMP of carry_prio_mux
+-- Compiling entity carry_prio_mux_enable
+-- Compiling architecture IMP of carry_prio_mux_enable
+-- Compiling entity carry_select_and
+-- Compiling architecture IMP of carry_select_and
+-- Compiling entity carry_select_and_n
+-- Compiling architecture IMP of carry_select_and_n
+-- Compiling entity carry_select_or
+-- Compiling architecture IMP of carry_select_or
+-- Compiling entity carry_select_or_n
+-- Compiling architecture IMP of carry_select_or_n
+-- Compiling entity carry_compare_const
+-- Compiling architecture IMP of carry_compare_const
+-- Compiling entity carry_compare_mask
+-- Compiling architecture IMP of carry_compare_mask
+-- Compiling entity carry_compare_mask_const
+-- Compiling architecture IMP of carry_compare_mask_const
+-- Compiling entity comparator
+-- Compiling architecture IMP of comparator
+-- Compiling entity reg_ce
+-- Compiling architecture IMP of reg_ce
+-- Compiling entity reg_ce_kill
+-- Compiling architecture IMP of reg_ce_kill
+-- Compiling entity bit_reg_ce
+-- Compiling architecture IMP of bit_reg_ce
+-- Compiling entity bit_reg_ce_kill
+-- Compiling architecture IMP of bit_reg_ce_kill
+-- Compiling entity sc_statistics_counters
+-- Compiling architecture IMP of sc_statistics_counters
+-- Compiling entity sc_stat_latency
+-- Loading package system_cache_queue_pkg
+-- Compiling architecture IMP of sc_stat_latency
+-- Compiling entity sc_srl_fifo_counter
+-- Compiling architecture IMP of sc_srl_fifo_counter
+-- Compiling entity sc_stat_counter
+-- Compiling architecture IMP of sc_stat_counter
+-- Compiling entity sc_stat_event
+-- Compiling architecture IMP of sc_stat_event
+-- Compiling entity sc_m_axi_interface
+-- Compiling architecture IMP of sc_m_axi_interface
+-- Compiling entity sc_m_ace_interface
+-- Compiling architecture IMP of sc_m_ace_interface
+-- Compiling entity sc_transaction_ordering
+-- Compiling architecture IMP of sc_transaction_ordering
+-- Compiling entity sc_crossbar
+-- Compiling architecture IMP of sc_crossbar
+-- Compiling entity sc_back_end
+-- Compiling architecture IMP of sc_back_end
+-- Compiling entity sc_ram_module
+-- Compiling architecture IMP of sc_ram_module
+-- Compiling entity sc_lru_calculate
+-- Compiling architecture RTL of sc_lru_calculate
+-- Compiling entity sc_lru_module
+-- Compiling architecture IMP of sc_lru_module
+-- Compiling entity sc_update
+-- Compiling architecture IMP of sc_update
+-- Compiling entity sc_lookup
+-- Compiling architecture IMP of sc_lookup
+-- Compiling entity sc_cache_core
+-- Compiling architecture IMP of sc_cache_core
+-- Compiling entity sc_s_axi_length_generation
+-- Compiling architecture IMP of sc_s_axi_length_generation
+-- Compiling entity sc_s_axi_a_channel
+-- Compiling architecture IMP of sc_s_axi_a_channel
+-- Compiling entity sc_s_axi_w_channel
+-- Compiling architecture IMP of sc_s_axi_w_channel
+-- Compiling entity sc_s_axi_b_channel
+-- Compiling architecture IMP of sc_s_axi_b_channel
+-- Compiling entity sc_s_axi_r_channel
+-- Compiling architecture IMP of sc_s_axi_r_channel
+-- Compiling entity sc_s_axi_opt_interface
+-- Compiling architecture IMP of sc_s_axi_opt_interface
+-- Compiling entity sc_s_axi_gen_interface
+-- Compiling architecture IMP of sc_s_axi_gen_interface
+-- Compiling entity sc_s_axi_ctrl_interface
+-- Compiling architecture IMP of sc_s_axi_ctrl_interface
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/system_cache_v4_0/hdl/system_cache_v4_0_vh_rfs.vhd(50708): Nonresolved signal 'wr_word_idx' may have multiple sources.
+  Drivers:
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/system_cache_v4_0/hdl/system_cache_v4_0_vh_rfs.vhd(52076):Conditional signal assignment line__52076
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/system_cache_v4_0/hdl/system_cache_v4_0_vh_rfs.vhd(51563):Conditional signal assignment line__51563
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/system_cache_v4_0/hdl/system_cache_v4_0_vh_rfs.vhd(50709): Nonresolved signal 'wr_cfg_idx' may have multiple sources.
+  Drivers:
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/system_cache_v4_0/hdl/system_cache_v4_0_vh_rfs.vhd(52077):Conditional signal assignment line__52077
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/system_cache_v4_0/hdl/system_cache_v4_0_vh_rfs.vhd(51564):Conditional signal assignment line__51564
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/system_cache_v4_0/hdl/system_cache_v4_0_vh_rfs.vhd(50713): Nonresolved signal 'wr_cat_idx' may have multiple sources.
+  Drivers:
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/system_cache_v4_0/hdl/system_cache_v4_0_vh_rfs.vhd(52075):Conditional signal assignment line__52075
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/system_cache_v4_0/hdl/system_cache_v4_0_vh_rfs.vhd(51568):Conditional signal assignment line__51568
+-- Compiling entity sc_access
+-- Compiling architecture IMP of sc_access
+-- Compiling entity sc_arbiter
+-- Compiling architecture IMP of sc_arbiter
+-- Compiling entity sc_front_end
+-- Compiling architecture IMP of sc_front_end
+-- Compiling entity system_cache
+-- Compiling architecture IMP of system_cache
+End time: 13:02:50 on May 03,2019, Elapsed time: 0:00:02
+Errors: 0, Warnings: 3

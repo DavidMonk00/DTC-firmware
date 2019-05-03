@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/zynq_ultra_ps_e_vip_v1_0_4
+/opt/MentorGraphics/modeltech/bin/vmap zynq_ultra_ps_e_vip_v1_0_4 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/zynq_ultra_ps_e_vip_v1_0_4
+/opt/MentorGraphics/modeltech/bin/vlog  -64 -L axi_vip_v1_1_4 -L zynq_ultra_ps_e_vip_v1_0_4 -L xilinx_vip +incdir+/home/dmonk/.cxl.ip/incl -sv -work zynq_ultra_ps_e_vip_v1_0_4 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/zynq_ultra_ps_e_vip_v1_0_4/.cxl.systemverilog.zynq_ultra_ps_e_vip_v1_0_4.zynq_ultra_ps_e_vip_v1_0_4.lin64.cmf

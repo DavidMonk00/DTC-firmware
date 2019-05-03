@@ -1,0 +1,25 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap blk_mem_gen_v8_3_6 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/blk_mem_gen_v8_3_6 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:02:44 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work blk_mem_gen_v8_3_6 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/blk_mem_gen_v8_3_6/.cxl.verilog.blk_mem_gen_v8_3_6.blk_mem_gen_v8_3_6.lin64.cmf 
+-- Compiling module STATE_LOGIC_v8_3
+-- Compiling module beh_vlog_muxf7_v8_3
+-- Compiling module beh_vlog_ff_clr_v8_3
+-- Compiling module beh_vlog_ff_pre_v8_3
+-- Compiling module beh_vlog_ff_ce_clr_v8_3
+-- Compiling module write_netlist_v8_3
+-- Compiling module read_netlist_v8_3
+-- Compiling module blk_mem_axi_write_wrapper_beh_v8_3
+-- Compiling module blk_mem_axi_read_wrapper_beh_v8_3
+-- Compiling module blk_mem_axi_regs_fwd_v8_3
+-- Compiling module blk_mem_gen_v8_3_6_output_stage
+-- Compiling module blk_mem_gen_v8_3_6_softecc_output_reg_stage
+-- Compiling module blk_mem_gen_v8_3_6_mem_module
+-- Compiling module blk_mem_gen_v8_3_6
+
+Top level modules:
+	blk_mem_gen_v8_3_6
+End time: 13:02:44 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

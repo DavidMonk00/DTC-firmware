@@ -1,0 +1,329 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+Eapb_mif
+Z1 w1544171250
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_apb_bridge_v3_0/hdl/axi_apb_bridge_v3_0_vh_rfs.vhd
+Z7 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_apb_bridge_v3_0/hdl/axi_apb_bridge_v3_0_vh_rfs.vhd
+l0
+L6624
+V^RLbO_jFJE`^dOP7LEe`?0
+!s100 Y_mXa=TbTjiHb]0co5UQd3
+Z8 OL;C;10.6b;65
+31
+Z9 !s110 1556885194
+!i10b 1
+Z10 !s108 1556885194.000000
+Z11 !s90 -64|-93|-work|axi_apb_bridge_v3_0_14|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_apb_bridge_v3_0_14/.cxl.vhdl.axi_apb_bridge_v3_0_14.axi_apb_bridge_v3_0_14.lin64.cmf|
+Z12 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_apb_bridge_v3_0/hdl/axi_apb_bridge_v3_0_vh_rfs.vhd|
+!i113 0
+Z13 o-93 -work axi_apb_bridge_v3_0_14
+Z14 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+R4
+R5
+DEx4 work 7 apb_mif 0 22 ^RLbO_jFJE`^dOP7LEe`?0
+l6704
+L6674
+VMIzEU`zNOE>=:kLf=C9AI2
+!s100 AO6S3]i0Cg;FBz^WkZMHm0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Eaxi_apb_bridge
+R1
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L7175
+VcDI6DoV@6CMbAC@NVGXHJ2
+!s100 KFVgQSg7UPD0]mWOH610d1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Artl
+DEx22 axi_apb_bridge_v3_0_14 7 apb_mif 0 22 ^RLbO_jFJE`^dOP7LEe`?0
+Z15 DPx14 lib_pkg_v1_0_2 7 lib_pkg 0 22 [AUAFNJW:`2SG<Ko:5ggg3
+DEx22 axi_apb_bridge_v3_0_14 11 axilite_sif 0 22 H`lenkaB@AO1>W=A_QDR=1
+DEx22 axi_apb_bridge_v3_0_14 11 multiplexor 0 22 Ig[h]=XDm8QZX5a1egkfH2
+Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z17 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
+Z18 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
+DEx22 axi_apb_bridge_v3_0_14 12 psel_decoder 0 22 2>>4W5HCEl`;AVjnIzQ:^1
+R2
+R3
+R4
+R5
+DEx4 work 14 axi_apb_bridge 0 22 cDI6DoV@6CMbAC@NVGXHJ2
+l7312
+L7284
+VR8_GHF4QdAfiP:zlTmz9]2
+!s100 ?:g9Wdb8HZ^]0<BLID>SM1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Eaxilite_sif
+R1
+Z19 DEx22 axi_apb_bridge_v3_0_14 9 counter_f 0 22 Szi4c23`KB`IPHSN4MNZ>1
+R15
+R16
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L6049
+VH`lenkaB@AO1>W=A_QDR=1
+!s100 Wl5[2bO6LKXM`LcPo2hlc3
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Artl
+R19
+R15
+R16
+R2
+R3
+R4
+R5
+DEx4 work 11 axilite_sif 0 22 H`lenkaB@AO1>W=A_QDR=1
+l6156
+L6098
+V^fPo0e]i_]7<E_[1][M[J2
+!s100 EN>zRUBeP;<R9>5@lAdkJ0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Ecounter_f
+R1
+R16
+R4
+R5
+R0
+R6
+R7
+l0
+L321
+VSzi4c23`KB`IPHSN4MNZ>1
+!s100 iXW>amVNdCXaY1L9d2Z5I1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Aimp
+R16
+R4
+R5
+DEx4 work 9 counter_f 0 22 Szi4c23`KB`IPHSN4MNZ>1
+l382
+L343
+VdU3fV34G5A@FT0<cmUU]C2
+!s100 >?NUZ@4c9]9R;GjahleZC1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Emultiplexor
+R1
+R16
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L4106
+VIg[h]=XDm8QZX5a1egkfH2
+!s100 f:i>R3Gj;9UWi8^[ET:?C3
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Artl
+R16
+R2
+R3
+R4
+R5
+DEx4 work 11 multiplexor 0 22 Ig[h]=XDm8QZX5a1egkfH2
+l4163
+L4148
+VDDne=EUR9?4JiolL47ZGa1
+!s100 a8YU0NC4Ql17_23nMmWNd0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Epsel_decoder
+R1
+Z20 DEx22 axi_apb_bridge_v3_0_14 9 pselect_f 0 22 @cfl]bRz6?^K_e`ZE8ITj2
+R16
+R17
+R18
+R2
+R3
+R4
+R5
+R0
+R6
+R7
+l0
+L496
+V2>>4W5HCEl`;AVjnIzQ:^1
+!s100 9c_>`>F3]R9dHoMM^WN@K0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Artl
+R20
+R16
+R17
+R18
+R2
+R3
+R4
+R5
+DEx4 work 12 psel_decoder 0 22 2>>4W5HCEl`;AVjnIzQ:^1
+l600
+L564
+VM5=a0dU;`6>7VR6knHBNH3
+!s100 7W]l2IU1G^1eC:XBJF3^K1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Epselect_f
+R1
+R4
+R5
+R0
+R6
+R7
+l0
+L131
+V@cfl]bRz6?^K_e`ZE8ITj2
+!s100 L1M5_3l3TmTJCnI2oUibN0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Aimp
+R4
+R5
+DEx4 work 9 pselect_f 0 22 @cfl]bRz6?^K_e`ZE8ITj2
+l177
+L151
+V=X[:=6;[hQ0H=PR^];1GJ2
+!s100 l1j`aP^JBLoB3Eng6ZzFd0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14

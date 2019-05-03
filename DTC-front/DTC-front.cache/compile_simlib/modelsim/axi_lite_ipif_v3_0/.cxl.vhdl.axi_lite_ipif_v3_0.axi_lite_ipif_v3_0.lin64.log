@@ -1,0 +1,31 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axi_lite_ipif_v3_0 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_lite_ipif_v3_0 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:05:03 on May 03,2019
+vcom -64 -93 -work axi_lite_ipif_v3_0 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_lite_ipif_v3_0/.cxl.vhdl.axi_lite_ipif_v3_0.axi_lite_ipif_v3_0.lin64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling package ipif_pkg
+-- Compiling package body ipif_pkg
+-- Loading package ipif_pkg
+-- Compiling entity pselect_f
+-- Compiling architecture imp of pselect_f
+-- Loading package NUMERIC_STD
+-- Loading package ipif_pkg
+-- Compiling entity address_decoder
+-- Compiling architecture IMP of address_decoder
+-- Loading entity pselect_f
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Compiling entity slave_attachment
+-- Compiling architecture imp of slave_attachment
+-- Loading entity address_decoder
+-- Compiling entity axi_lite_ipif
+-- Compiling architecture imp of axi_lite_ipif
+-- Loading entity slave_attachment
+End time: 13:05:03 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

@@ -1,0 +1,362 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vv_sdi_rx_vid_bridge_v2_0_0
+Z1 !s110 1556884970
+!i10b 1
+!s100 gR^1_`dgTBTJ9X>49L@]O1
+Io315`R2I3_4fUnH=o2;Nc0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171283
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0.v
+L0 57
+Z4 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z5 !s108 1556884970.000000
+Z6 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_trs_decode.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_sync_extract.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_formatter.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_fifo.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_converter.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_ce_gen.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g_trs_decode.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g_formatter.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g_fifo.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g_converter.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g_ce_gen.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_lib.v|
+Z7 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|v_sdi_rx_vid_bridge_v2_0_0|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/v_sdi_rx_vid_bridge_v2_0_0/.cxl.verilog.v_sdi_rx_vid_bridge_v2_0_0.v_sdi_rx_vid_bridge_v2_0_0.lin64.cmf|
+!i113 0
+Z8 o-work v_sdi_rx_vid_bridge_v2_0_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work v_sdi_rx_vid_bridge_v2_0_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+vv_sdi_rx_vid_bridge_v2_0_0_12g
+R1
+!i10b 1
+!s100 2Hm7fd=WNCn<3k8S=4j7F0
+IkRkC>h?<^P?Ln0JL`QI<22
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g.v
+L0 64
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vv_sdi_rx_vid_bridge_v2_0_0_12g_ce_gen
+R1
+!i10b 1
+!s100 P`19zBhh8mS3dJNJ0^h7T0
+Ii_F;jVb5O24RE]@;fJk<32
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g_ce_gen.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g_ce_gen.v
+Z11 L0 53
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vv_sdi_rx_vid_bridge_v2_0_0_12g_converter
+R1
+!i10b 1
+!s100 HNS9UbMK0^>n1Y^X]Od^?2
+IoLi9KX4;Q_V0kfeE_7Ld53
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g_converter.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g_converter.v
+R11
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vv_sdi_rx_vid_bridge_v2_0_0_12g_fifo
+R1
+!i10b 1
+!s100 o7S4j2mbb93zWXehoThOR0
+IJghQfkH0]f^E;W]H=6^EC1
+R2
+R0
+Z12 w1544171282
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g_fifo.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g_fifo.v
+R11
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vv_sdi_rx_vid_bridge_v2_0_0_12g_formatter
+R1
+!i10b 1
+!s100 WhP5aaAOY4I3=`@38B[GP0
+Iam;hlFaB[anB9DF0SeU:T3
+R2
+R0
+R12
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g_formatter.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g_formatter.v
+R11
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vv_sdi_rx_vid_bridge_v2_0_0_12g_trs_decode
+R1
+!i10b 1
+!s100 <z1F5<`E?<`g7cCgEFCaC2
+IiMGJ57W62L36z]^Tj;O<20
+R2
+R0
+R12
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g_trs_decode.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_12g_trs_decode.v
+R11
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vv_sdi_rx_vid_bridge_v2_0_0_3g
+R1
+!i10b 1
+!s100 KKghl9bTM>fH5c5BGF;Cd3
+IS]>5S0^QbAEnJHAR>]dUZ1
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g.v
+Z13 L0 60
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vv_sdi_rx_vid_bridge_v2_0_0_3g_ce_gen
+R1
+!i10b 1
+!s100 eFZjQBiQ^51;><8^A_7g[2
+IIDQd3[d`[81zaNhVzKM5:1
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_ce_gen.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_ce_gen.v
+L0 69
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vv_sdi_rx_vid_bridge_v2_0_0_3g_converter
+R1
+!i10b 1
+!s100 B0a9TbZ3IAU@Rf4NXoUNV2
+In;TJc]2g?J6K233;X4Ai70
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_converter.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_converter.v
+L0 59
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vv_sdi_rx_vid_bridge_v2_0_0_3g_fifo
+R1
+!i10b 1
+!s100 9C5GYWV^DF^G:gYRaFgkA0
+IeYC8Q1ZbZ727FVkQzV>XU2
+R2
+R0
+R12
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_fifo.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_fifo.v
+L0 63
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vv_sdi_rx_vid_bridge_v2_0_0_3g_formatter
+R1
+!i10b 1
+!s100 L[`Ja;=AVm9CG2mWoomOA3
+IGSo9W2_U2j>:BkNF=LQdo2
+R2
+R0
+R12
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_formatter.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_formatter.v
+Z14 L0 61
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vv_sdi_rx_vid_bridge_v2_0_0_3g_sync_extract
+R1
+!i10b 1
+!s100 MLD::1L28za27CFzlFRg52
+Io<7dMi9T9b;j?^_VP8If50
+R2
+R0
+R12
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_sync_extract.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_sync_extract.v
+R14
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vv_sdi_rx_vid_bridge_v2_0_0_3g_trs_decode
+R1
+!i10b 1
+!s100 BXS7Pf8@oO]IMLlhicOkK0
+I1ROTOXNbnoR:@7;l@ciER3
+R2
+R0
+R12
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_trs_decode.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_3g_trs_decode.v
+R13
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vv_sdi_rx_vid_bridge_v2_0_0_lib_sync_bus
+R1
+!i10b 1
+!s100 oidE:4a8K8O7MkYMFgLjh0
+Io9nfTzG9S:V3kS[g`;Z042
+R2
+R0
+R12
+Z15 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_lib.v
+Z16 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_sdi_rx_vid_bridge_v2_0/hdl/verilog/v_sdi_rx_vid_bridge_v2_0_lib.v
+L0 130
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vv_sdi_rx_vid_bridge_v2_0_0_lib_sync_fifo
+R1
+!i10b 1
+!s100 >KM@7k8W_MeVD_Q?e=Q<W1
+I:Z<Ed>oo1HCIRBXE;Q6JD1
+R2
+R0
+R12
+R15
+R16
+R11
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10

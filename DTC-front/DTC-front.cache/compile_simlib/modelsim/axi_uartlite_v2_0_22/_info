@@ -1,0 +1,320 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+Eaxi_uartlite
+Z1 w1544171251
+Z2 DPx14 lib_pkg_v1_0_2 7 lib_pkg 0 22 [AUAFNJW:`2SG<Ko:5ggg3
+Z3 DPx6 unisim 11 vcomponents 0 22 4NzhH_H[BVKN`b71^hVL<3
+Z4 DEx20 axi_uartlite_v2_0_22 13 uartlite_core 0 22 N3J;iHc]TAF1cDFiH?kOo3
+Z5 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
+Z6 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
+Z7 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z8 DEx20 axi_lite_ipif_v3_0_4 13 axi_lite_ipif 0 22 J1b7VKb;?`UXnaGg<5z0d3
+Z9 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z10 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z11 DPx20 axi_lite_ipif_v3_0_4 8 ipif_pkg 0 22 zJ]@GWZl6YPP]W9DYEE:f3
+Z12 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z13 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z14 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd
+Z15 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd
+l0
+L2128
+VTlN9aR08gBb9;N6_0<=L>0
+!s100 3zFhPnnP7?HQMN?l6?]j[2
+Z16 OL;C;10.6b;65
+31
+Z17 !s110 1556885216
+!i10b 1
+Z18 !s108 1556885215.000000
+Z19 !s90 -64|-93|-work|axi_uartlite_v2_0_22|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_uartlite_v2_0_22/.cxl.vhdl.axi_uartlite_v2_0_22.axi_uartlite_v2_0_22.lin64.cmf|
+Z20 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_uartlite_v2_0/hdl/axi_uartlite_v2_0_vh_rfs.vhd|
+!i113 0
+Z21 o-93 -work axi_uartlite_v2_0_22
+Z22 tExplicit 1 CvgOpt 0
+Artl
+R8
+R4
+R2
+R3
+R5
+R6
+R7
+R9
+R10
+R11
+R12
+R13
+DEx4 work 12 axi_uartlite 0 22 TlN9aR08gBb9;N6_0<=L>0
+l2242
+L2190
+VkBZaiJi2A]9bf3GX:znEC0
+!s100 UjAhi;<8U]>3`5CFeT51H0
+R16
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Ebaudrate
+R1
+R12
+R13
+R0
+R14
+R15
+l0
+L1436
+VVS=bLIRh5hmG4_a:oo?P[3
+!s100 Bm9NQTRcTbn0VFB=j4e4?0
+R16
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Artl
+R12
+R13
+DEx4 work 8 baudrate 0 22 VS=bLIRh5hmG4_a:oo?P[3
+l1463
+L1453
+V[7LUnciWHlSnoZkYUz;8o1
+!s100 WU@z^Tl`a7@6T`>E>S2UM1
+R16
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Edynshreg_i_f
+R1
+R9
+R10
+R2
+R7
+R12
+R13
+R0
+R14
+R15
+l0
+L151
+Vc2a[mJ`Xkd6zC33g55B6V1
+!s100 g9L37Uz:`FkgdS[2Pn63;2
+R16
+31
+Z23 !s110 1556885215
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Abehavioral
+R9
+R10
+R2
+R7
+R12
+R13
+DEx4 work 12 dynshreg_i_f 0 22 c2a[mJ`Xkd6zC33g55B6V1
+l218
+L168
+V`]81=cWo:zFKSnK3DR2zm0
+!s100 Ze7i5CGFZg<?`gM4ao@5D3
+R16
+31
+R23
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Euartlite_core
+R1
+Z24 DEx20 axi_uartlite_v2_0_22 11 uartlite_tx 0 22 PaZzchY@Yk?iKLf5VO`[m1
+R9
+R10
+R2
+R3
+R5
+R6
+R7
+Z25 DEx20 axi_uartlite_v2_0_22 11 uartlite_rx 0 22 ZfKoEjzFM6e0f_jFlNM^>1
+Z26 DEx20 axi_uartlite_v2_0_22 8 baudrate 0 22 VS=bLIRh5hmG4_a:oo?P[3
+R12
+R13
+R0
+R14
+R15
+l0
+L1617
+VN3J;iHc]TAF1cDFiH?kOo3
+!s100 f_T>8zO89BJOIQ:5C^i=^1
+R16
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Artl
+R24
+R25
+R26
+R9
+R10
+R2
+R3
+R5
+R6
+R7
+R12
+R13
+DEx4 work 13 uartlite_core 0 22 N3J;iHc]TAF1cDFiH?kOo3
+l1723
+L1650
+VhLhZUWPXSMP4RN8jSmJVC1
+!s100 C`kdN1[cmLm;hm8>69SS12
+R16
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Euartlite_rx
+R1
+R9
+R10
+R2
+Z27 DEx19 lib_srl_fifo_v1_0_2 10 srl_fifo_f 0 22 lm>9BLJQPbzjiO3UNnVGN0
+R3
+R5
+R6
+R7
+Z28 DEx14 lib_cdc_v1_0_2 8 cdc_sync 0 22 h>076gh;]YN`]BXOh6TMQ3
+R12
+R13
+R0
+R14
+R15
+l0
+L899
+VZfKoEjzFM6e0f_jFlNM^>1
+!s100 ^6Me8NEU3cP=4SEldHR1O2
+R16
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Artl
+R27
+R28
+R9
+R10
+R2
+R3
+R5
+R6
+R7
+R12
+R13
+DEx4 work 11 uartlite_rx 0 22 ZfKoEjzFM6e0f_jFlNM^>1
+l982
+L927
+V@FM5[=g1IFcMk82>kVU350
+!s100 V94HF[z@fTTg5RWI?HmmS1
+R16
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Euartlite_tx
+R1
+R9
+R10
+R2
+R27
+R7
+R12
+R13
+R0
+R14
+R15
+l0
+L383
+VPaZzchY@Yk?iKLf5VO`[m1
+!s100 PnZo9`aQf[FSC<j0_P5hH3
+R16
+31
+R23
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22
+Artl
+R27
+R9
+R10
+R2
+R7
+R12
+R13
+DEx4 work 11 uartlite_tx 0 22 PaZzchY@Yk?iKLf5VO`[m1
+l454
+L408
+VG78MP:Em_^B8ak@00ZHg10
+!s100 PPYl3Xc_kLAGNlG3G^;AI1
+R16
+31
+R23
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R21
+R22

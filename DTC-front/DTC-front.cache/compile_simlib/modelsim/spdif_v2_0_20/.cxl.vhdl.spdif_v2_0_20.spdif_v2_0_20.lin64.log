@@ -1,0 +1,9 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap spdif_v2_0_20 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/spdif_v2_0_20 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:33 on May 03,2019
+vcom -64 -93 -work spdif_v2_0_20 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/spdif_v2_0_20/.cxl.vhdl.spdif_v2_0_20.spdif_v2_0_20.lin64.cmf 
+-- Loading package STANDARD
+End time: 13:04:33 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

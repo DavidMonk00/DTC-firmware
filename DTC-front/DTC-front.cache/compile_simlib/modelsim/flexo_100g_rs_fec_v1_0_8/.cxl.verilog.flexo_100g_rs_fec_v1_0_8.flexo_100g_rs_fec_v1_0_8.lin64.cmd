@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/flexo_100g_rs_fec_v1_0_8
+/opt/MentorGraphics/modeltech/bin/vmap flexo_100g_rs_fec_v1_0_8 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/flexo_100g_rs_fec_v1_0_8
+/opt/MentorGraphics/modeltech/bin/vlog  -64 +incdir+/home/dmonk/.cxl.ip/incl -work flexo_100g_rs_fec_v1_0_8 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/flexo_100g_rs_fec_v1_0_8/.cxl.verilog.flexo_100g_rs_fec_v1_0_8.flexo_100g_rs_fec_v1_0_8.lin64.cmf

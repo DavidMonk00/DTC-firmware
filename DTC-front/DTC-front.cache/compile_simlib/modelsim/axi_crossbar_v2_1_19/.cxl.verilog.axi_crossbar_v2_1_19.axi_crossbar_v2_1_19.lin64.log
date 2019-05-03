@@ -1,0 +1,23 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axi_crossbar_v2_1_19 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_crossbar_v2_1_19 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:06:31 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work axi_crossbar_v2_1_19 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_crossbar_v2_1_19/.cxl.verilog.axi_crossbar_v2_1_19.axi_crossbar_v2_1_19.lin64.cmf 
+-- Compiling module axi_crossbar_v2_1_19_addr_arbiter_sasd
+-- Compiling module axi_crossbar_v2_1_19_addr_arbiter
+-- Compiling module axi_crossbar_v2_1_19_addr_decoder
+-- Compiling module axi_crossbar_v2_1_19_arbiter_resp
+-- Compiling module axi_crossbar_v2_1_19_crossbar_sasd
+-- Compiling module axi_crossbar_v2_1_19_crossbar
+-- Compiling module axi_crossbar_v2_1_19_decerr_slave
+-- Compiling module axi_crossbar_v2_1_19_si_transactor
+-- Compiling module axi_crossbar_v2_1_19_splitter
+-- Compiling module axi_crossbar_v2_1_19_wdata_mux
+-- Compiling module axi_crossbar_v2_1_19_wdata_router
+-- Compiling module axi_crossbar_v2_1_19_axi_crossbar
+
+Top level modules:
+	axi_crossbar_v2_1_19_axi_crossbar
+End time: 13:06:31 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

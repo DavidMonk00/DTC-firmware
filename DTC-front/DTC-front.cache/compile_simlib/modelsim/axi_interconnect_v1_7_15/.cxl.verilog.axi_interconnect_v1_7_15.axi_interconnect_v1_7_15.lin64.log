@@ -1,0 +1,77 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axi_interconnect_v1_7_15 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_interconnect_v1_7_15 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:44 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work axi_interconnect_v1_7_15 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_interconnect_v1_7_15/.cxl.verilog.axi_interconnect_v1_7_15.axi_interconnect_v1_7_15.lin64.cmf 
+-- Compiling module axi_interconnect_v1_7_15_a_axi3_conv
+-- Compiling module axi_interconnect_v1_7_15_addr_arbiter_sasd
+-- Compiling module axi_interconnect_v1_7_15_addr_arbiter
+-- Compiling module axi_interconnect_v1_7_15_addr_decoder
+-- Compiling module axi_interconnect_v1_7_15_a_downsizer
+-- Compiling module axi_interconnect_v1_7_15_arbiter_resp
+-- Compiling module axi_interconnect_v1_7_15_a_upsizer
+-- Compiling module axi_interconnect_v1_7_15_axi3_conv
+-- Compiling module axi_interconnect_v1_7_15_axic_fifo
+-- Compiling module axi_interconnect_v1_7_15_axi_clock_converter
+-- Compiling module axi_interconnect_v1_7_15_axic_register_slice
+-- Compiling module axi_interconnect_v1_7_15_axic_reg_srl_fifo
+-- Compiling module axi_interconnect_v1_7_15_axi_crossbar
+-- Compiling module axi_interconnect_v1_7_15_axic_srl_fifo
+-- Compiling module axi_interconnect_v1_7_15_axi_data_fifo
+-- Compiling module axi_interconnect_v1_7_15_axi_downsizer
+-- Compiling module axi_interconnect_v1_7_15_axilite_conv
+-- Compiling module axi_interconnect_v1_7_15_axi_protocol_converter
+-- Compiling module axi_interconnect_v1_7_15_axi_register_slice
+-- Compiling module axi_interconnect_v1_7_15_axi_upsizer
+-- Compiling module axi_interconnect_v1_7_15_b_downsizer
+-- Compiling module axi_interconnect_v1_7_15_carry_and
+-- Compiling module axi_interconnect_v1_7_15_carry_latch_and
+-- Compiling module axi_interconnect_v1_7_15_carry_latch_or
+-- Compiling module axi_interconnect_v1_7_15_carry_or
+-- Compiling module axi_interconnect_v1_7_15_carry
+-- Compiling module axi_interconnect_v1_7_15_command_fifo
+-- Compiling module axi_interconnect_v1_7_15_comparator_mask_static
+-- Compiling module axi_interconnect_v1_7_15_comparator_mask
+-- Compiling module axi_interconnect_v1_7_15_comparator_sel_mask_static
+-- Compiling module axi_interconnect_v1_7_15_comparator_sel_mask
+-- Compiling module axi_interconnect_v1_7_15_comparator_sel_static
+-- Compiling module axi_interconnect_v1_7_15_comparator_sel
+-- Compiling module axi_interconnect_v1_7_15_comparator_static
+-- Compiling module axi_interconnect_v1_7_15_comparator
+-- Compiling module axi_interconnect_v1_7_15_converter_bank
+-- Compiling module axi_interconnect_v1_7_15_crossbar_sasd
+-- Compiling module axi_interconnect_v1_7_15_crossbar
+-- Compiling module axi_interconnect_v1_7_15_data_fifo_bank
+-- Compiling module axi_interconnect_v1_7_15_decerr_slave
+-- Compiling module axi_interconnect_v1_7_15_fifo_gen
+-- Compiling module axi_interconnect_v1_7_15_mux_enc
+-- Compiling module axi_interconnect_v1_7_15_mux
+-- Compiling module axi_interconnect_v1_7_15_ndeep_srl
+-- Compiling module axi_interconnect_v1_7_15_nto1_mux
+-- Compiling module axi_interconnect_v1_7_15_protocol_conv_bank
+-- Compiling module axi_interconnect_v1_7_15_r_axi3_conv
+-- Compiling module axi_interconnect_v1_7_15_r_downsizer
+-- Compiling module axi_interconnect_v1_7_15_register_slice_bank
+-- Compiling module axi_interconnect_v1_7_15_r_upsizer
+-- Compiling module axi_interconnect_v1_7_15_si_transactor
+-- Compiling module axi_interconnect_v1_7_15_splitter
+-- Compiling module axi_interconnect_v1_7_15_w_axi3_conv
+-- Compiling module axi_interconnect_v1_7_15_wdata_mux
+-- Compiling module axi_interconnect_v1_7_15_wdata_router
+-- Compiling module axi_interconnect_v1_7_15_w_downsizer
+-- Compiling module axi_interconnect_v1_7_15_w_upsizer
+-- Compiling module axi_interconnect_v1_7_15_axic_sample_cycle_ratio
+-- Compiling module axi_interconnect_v1_7_15_axic_sync_clock_converter
+-- Compiling module axi_interconnect_v1_7_15_axi_interconnect
+-- Compiling module axi_interconnect_v1_7_15_top
+
+Top level modules:
+	axi_interconnect_v1_7_15_carry
+	axi_interconnect_v1_7_15_comparator_mask_static
+	axi_interconnect_v1_7_15_comparator_mask
+	axi_interconnect_v1_7_15_comparator_sel_mask_static
+	axi_interconnect_v1_7_15_comparator_sel_mask
+	axi_interconnect_v1_7_15_top
+End time: 13:04:45 on May 03,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

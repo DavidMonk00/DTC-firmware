@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vaxis_dwidth_converter_v1_1_17_axis_dwidth_converter
+Z1 !s110 1556885187
+!i10b 1
+!s100 HaeS78k>kJ@QUiz8onQI@0
+ICPWCEKE8K<h36bW:J>G>31
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171252
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_dwidth_converter_v1_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_dwidth_converter_v1_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v
+Z6 F/home/dmonk/.cxl.ip/incl/axis_infrastructure_v1_1_0.vh
+L0 810
+Z7 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z8 !s108 1556885187.000000
+Z9 !s107 /home/dmonk/.cxl.ip/incl/axis_infrastructure_v1_1_0.vh|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_dwidth_converter_v1_1/hdl/axis_dwidth_converter_v1_1_vl_rfs.v|
+Z10 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|axis_dwidth_converter_v1_1_17|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axis_dwidth_converter_v1_1_17/.cxl.verilog.axis_dwidth_converter_v1_1_17.axis_dwidth_converter_v1_1_17.lin64.cmf|
+!i113 0
+Z11 o-work axis_dwidth_converter_v1_1_17 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work axis_dwidth_converter_v1_1_17 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 tCvgOpt 0
+vaxis_dwidth_converter_v1_1_17_axisc_downsizer
+R1
+!i10b 1
+!s100 PSRW`dYQDIG=k@^6cf7Sz1
+IT[8`UAAMQ]?F;9Obi4BaE2
+R2
+R0
+R3
+R4
+R5
+R6
+L0 62
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+vaxis_dwidth_converter_v1_1_17_axisc_upsizer
+R1
+!i10b 1
+!s100 1iiU3g1NeMh<L_Odj6_<P3
+IKdcbY^dTf;:K98GiLi6bU0
+R2
+R0
+R3
+R4
+R5
+R6
+L0 437
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13

@@ -1,0 +1,344 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vaxis_switch_v1_1_18_arb_rr
+Z1 !s110 1556885101
+!i10b 1
+!s100 Yd?JYi^o8@IS=V:NK[UZR3
+IcEjKW5LSEeobgfS[E<^TJ3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171253
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v
+L0 61
+Z6 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z7 !s108 1556885101.000000
+Z8 !s107 /home/dmonk/.cxl.ip/incl/axis_infrastructure_v1_1_0.vh|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_switch_v1_1/hdl/axis_switch_v1_1_vl_rfs.v|
+Z9 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|axis_switch_v1_1_18|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axis_switch_v1_1_18/.cxl.verilog.axis_switch_v1_1_18.axis_switch_v1_1_18.lin64.cmf|
+!i113 0
+Z10 o-work axis_switch_v1_1_18 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work axis_switch_v1_1_18 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vaxis_switch_v1_1_18_arb_trr
+R1
+!i10b 1
+!s100 R`I9NBnIkQO5QHP9I;3Zd3
+Ilj;3CdUUT<LfYzBL^]V>[3
+R2
+R0
+R3
+R4
+R5
+L0 285
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxis_switch_v1_1_18_axi_ctrl_read
+R1
+!i10b 1
+!s100 YcG2CYnJCV]FOjJ<2SQkF3
+I88dUH@dCla`I:AQe[D3Gz1
+R2
+R0
+R3
+R4
+R5
+L0 1745
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxis_switch_v1_1_18_axi_ctrl_top
+R1
+!i10b 1
+!s100 j@UeA;DMVjYgMWNUeLfk<1
+IQWbWHSTfJOJBBK3_;<ieZ3
+R2
+R0
+R3
+R4
+R5
+L0 2077
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxis_switch_v1_1_18_axi_ctrl_write
+R1
+!i10b 1
+!s100 ?eLKhOkKfADhUfPV<OKWn2
+IeA69cgo33lB;eKN2hXmSd3
+R2
+R0
+R3
+R4
+R5
+L0 1920
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxis_switch_v1_1_18_axis_switch
+R1
+!i10b 1
+!s100 0oNBCHY3UTAk=ONNRObSd3
+Iag_@kQoiQ4MjQc2j0]a<b2
+R2
+R0
+R3
+R4
+R5
+Z13 F/home/dmonk/.cxl.ip/incl/axis_infrastructure_v1_1_0.vh
+L0 3090
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxis_switch_v1_1_18_axis_switch_arbiter
+R1
+!i10b 1
+!s100 `GMONhon@P1PY3i7bGB320
+IFOTf]M3mCWgEeRBF;j?g53
+R2
+R0
+R3
+R4
+R5
+L0 1359
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxis_switch_v1_1_18_axisc_arb_responder
+R1
+!i10b 1
+!s100 9oKa;LMzJL4VLOCNZoU=42
+IEDP^caeg]WA?@P6?E>W>D1
+R2
+R0
+R3
+R4
+R5
+R13
+L0 1123
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxis_switch_v1_1_18_axisc_decoder
+R1
+!i10b 1
+!s100 ejah:o4ed8k^kF<ZZl?Pj0
+IIma5l`EfddB=@gVYN`Fc11
+R2
+R0
+R3
+R4
+R5
+R13
+L0 479
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxis_switch_v1_1_18_axisc_transfer_mux
+R1
+!i10b 1
+!s100 9;o8gX?JB0]HPU^Kzk6KW0
+I]WnY6^^zLno64eKNIJWO@1
+R2
+R0
+R3
+R4
+R5
+R13
+L0 819
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxis_switch_v1_1_18_dynamic_priority_encoder
+R1
+!i10b 1
+!s100 ZC`0280GQ1c4V=mT>leDC1
+Iz5QJ9KONhM9>W7b@R@K?m3
+R2
+R0
+R3
+R4
+R5
+L0 1536
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxis_switch_v1_1_18_reg_bank_16x32
+R1
+!i10b 1
+!s100 EgLnGJA[m6c7GV<Z;[5gA3
+Iak8Yzji`RWo3FF^B`@:?W2
+R2
+R0
+R3
+R4
+R5
+L0 2971
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxis_switch_v1_1_18_static_router
+R1
+!i10b 1
+!s100 5m<?jd;4e<8g3Ti[oAaKb0
+IIgUOAl0]BO4EU@@24QJl[3
+R2
+R0
+R3
+R4
+R5
+L0 2786
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxis_switch_v1_1_18_static_router_config
+R1
+!i10b 1
+!s100 Yj`AYX=HGHXQgff`FXlBD3
+I3`0KBOg7GiGbN<NIMB=^40
+R2
+R0
+R3
+R4
+R5
+L0 2578
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxis_switch_v1_1_18_static_router_config_dp
+R1
+!i10b 1
+!s100 <<>TBh16Z9UV`LUAlRUIH3
+IE9dHmfh`3NjeEe1`Vb4?k3
+R2
+R0
+R3
+R4
+R5
+L0 2346
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12

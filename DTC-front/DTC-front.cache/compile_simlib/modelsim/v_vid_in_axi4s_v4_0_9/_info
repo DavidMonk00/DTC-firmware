@@ -1,0 +1,186 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vv_vid_in_axi4s_v4_0_9
+Z1 !s110 1556884984
+!i10b 1
+!s100 GEj7K7=>L<e5XOGIN0V>;0
+I?lGA;iLZKKb=^D9iQ68GV3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171284
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_vid_in_axi4s_v4_0/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_vid_in_axi4s_v4_0/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v
+L0 1714
+Z6 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z7 !s108 1556884984.000000
+Z8 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_vid_in_axi4s_v4_0/hdl/v_vid_in_axi4s_v4_0_vl_rfs.v|
+Z9 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|v_vid_in_axi4s_v4_0_9|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/v_vid_in_axi4s_v4_0_9/.cxl.verilog.v_vid_in_axi4s_v4_0_9.v_vid_in_axi4s_v4_0_9.lin64.cmf|
+!i113 0
+Z10 o-work v_vid_in_axi4s_v4_0_9 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work v_vid_in_axi4s_v4_0_9 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vv_vid_in_axi4s_v4_0_9_cdc_single
+R1
+!i10b 1
+!s100 @KK=eALiB9C^aAb1A0^WD0
+IR:glNKJ3S@_2EkBTak6L90
+R2
+R0
+R3
+R4
+R5
+L0 207
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_vid_in_axi4s_v4_0_9_coupler
+R1
+!i10b 1
+!s100 9C9WCoL=W@lWGCf]^glco3
+IAnml41TCQS3eE=M?HHfjj0
+R2
+R0
+R3
+R4
+R5
+L0 293
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_vid_in_axi4s_v4_0_9_drop
+R1
+!i10b 1
+!s100 DQYScdGV6Eac1OkE:T>C]0
+ICDObcc7DgNh>9V9k7F[eo2
+R2
+R0
+R3
+R4
+R5
+L0 719
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_vid_in_axi4s_v4_0_9_fifo_async
+R1
+!i10b 1
+!s100 mn4YbCH_MLId_jzNC:JRT1
+I_gUhjJX?@XijF6nO^1LGX3
+R2
+R0
+R3
+R4
+R5
+L0 59
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_vid_in_axi4s_v4_0_9_fifo_sync
+R1
+!i10b 1
+!s100 OE>MdY2ng5`53delAR`dT0
+In1SSOCLLic2FX8fPX_f[;0
+R2
+R0
+R3
+R4
+R5
+L0 135
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_vid_in_axi4s_v4_0_9_formatter
+R1
+!i10b 1
+!s100 zLa=8l?L<jUhaA4H:9CA40
+I5GfeU0W4_OSU^8]l3=;1_2
+R2
+R0
+R3
+R4
+R5
+L0 520
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_vid_in_axi4s_v4_0_9_remap
+R1
+!i10b 1
+!s100 Un;821YkWz;P9>Ao7HSV03
+IP9PD_>bJ`:?K073<^?UkN1
+R2
+R0
+R3
+R4
+R5
+L0 1029
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12

@@ -1,0 +1,12 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axi_pcie3_v3_0_8 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_pcie3_v3_0_8 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:17 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work axi_pcie3_v3_0_8 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_pcie3_v3_0_8/.cxl.verilog.axi_pcie3_v3_0_8.axi_pcie3_v3_0_8.lin64.cmf 
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_pcie3_v3_0/hdl/axi_pcie3_v3_0_vl_rfs.v(64): (vlog-2600) <protected>
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_pcie3_v3_0/hdl/axi_pcie3_v3_0_vl_rfs.v(64): (vlog-2600) <protected>
+
+Top level modules:
+End time: 13:04:18 on May 03,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 4

@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vaxis_protocol_checker_v2_0_2_asr_inline
+Z1 !s110 1556884985
+!i10b 1
+!s100 lZRQPdmkZf;lGgiZXB_>F1
+IcW_lWD;zT?Z0Vf=X6?6D@2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171252
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_protocol_checker_v2_0/hdl/axis_protocol_checker_v2_0_vl_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_protocol_checker_v2_0/hdl/axis_protocol_checker_v2_0_vl_rfs.v
+L0 55
+Z6 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z7 !s108 1556884985.000000
+Z8 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_protocol_checker_v2_0/hdl/axis_protocol_checker_v2_0_vl_rfs.v|
+Z9 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|axis_protocol_checker_v2_0_2|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axis_protocol_checker_v2_0_2/.cxl.verilog.axis_protocol_checker_v2_0_2.axis_protocol_checker_v2_0_2.lin64.cmf|
+!i113 0
+Z10 o-work axis_protocol_checker_v2_0_2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work axis_protocol_checker_v2_0_2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vaxis_protocol_checker_v2_0_2_reporter
+R1
+!i10b 1
+!s100 J9LNzM9nLd3=SU4oA_GmZ2
+IkPAHKzZczgo1K8cOf0cR:3
+R2
+R0
+R3
+R4
+R5
+L0 537
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxis_protocol_checker_v2_0_2_top
+R1
+!i10b 1
+!s100 oNMFY:CE`fCYdj^JA5CQ93
+IQd4_UXXU:o8:E7PA^;BC01
+R2
+R0
+R3
+R4
+R5
+L0 661
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12

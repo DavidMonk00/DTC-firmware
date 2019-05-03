@@ -1,0 +1,189 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+Elpf
+Z1 w1544171270
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/proc_sys_reset_v5_0/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+Z6 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/proc_sys_reset_v5_0/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+l0
+L797
+VzjnbQnZHT7_nmTT2H`8MV3
+!s100 MgT??;YP<G1>13:koJDgb2
+Z7 OL;C;10.6b;65
+31
+Z8 !s110 1556885211
+!i10b 1
+Z9 !s108 1556885210.000000
+Z10 !s90 -64|-93|-work|proc_sys_reset_v5_0_13|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/proc_sys_reset_v5_0_13/.cxl.vhdl.proc_sys_reset_v5_0_13.proc_sys_reset_v5_0_13.lin64.cmf|
+Z11 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/proc_sys_reset_v5_0/hdl/proc_sys_reset_v5_0_vh_rfs.vhd|
+!i113 0
+Z12 o-93 -work proc_sys_reset_v5_0_13
+Z13 tExplicit 1 CvgOpt 0
+Aimp
+Z14 DPx6 unisim 11 vcomponents 0 22 4NzhH_H[BVKN`b71^hVL<3
+DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
+DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
+Z15 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+DEx14 lib_cdc_v1_0_2 8 cdc_sync 0 22 h>076gh;]YN`]BXOh6TMQ3
+R2
+R3
+R4
+DEx4 work 3 lpf 0 22 zjnbQnZHT7_nmTT2H`8MV3
+l859
+L816
+V[LX;HJTzZzfhZdY01C9`=1
+!s100 P1XI2_VfBM:O3T;X]84hR0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Eproc_sys_reset
+R1
+R15
+R14
+R3
+R4
+R0
+R5
+R6
+l0
+L1264
+Vfo5h3cZIfTezglc:zQBgS0
+!s100 jihZ]z78R=P:1B:[`[7e92
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Aimp
+DEx22 proc_sys_reset_v5_0_13 12 sequence_psr 0 22 ESgWXA6T:l3QLgFYWfj`30
+R2
+DEx22 proc_sys_reset_v5_0_13 3 lpf 0 22 zjnbQnZHT7_nmTT2H`8MV3
+R15
+R14
+R3
+R4
+DEx4 work 14 proc_sys_reset 0 22 fo5h3cZIfTezglc:zQBgS0
+l1375
+L1323
+VkR9dg>Y:@O40^KMTC4alA0
+!s100 ^FhER_m?=iI[QK``n_ORj0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Esequence_psr
+R1
+R15
+R14
+R2
+R3
+R4
+R0
+R5
+R6
+l0
+L286
+VESgWXA6T:l3QLgFYWfj`30
+!s100 N_7@ZB2Xk=^XE`TlPzNHZ3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Aimp
+DEx22 proc_sys_reset_v5_0_13 7 upcnt_n 0 22 5GI>Vod`TfgmZ>_<5gn`G2
+R15
+R14
+R2
+R3
+R4
+DEx4 work 12 sequence_psr 0 22 ESgWXA6T:l3QLgFYWfj`30
+l343
+L301
+V;313NWYm7A<_N29YX^CD`2
+!s100 nD0bA8z50WTk7`8zin4hH0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Eupcnt_n
+R1
+R2
+R3
+R4
+R0
+R5
+R6
+l0
+L109
+V5GI>Vod`TfgmZ>_<5gn`G2
+!s100 i:4`@idn74;HN=oQ[3c5A3
+R7
+31
+Z16 !s110 1556885210
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Aimp
+R2
+R3
+R4
+DEx4 work 7 upcnt_n 0 22 5GI>Vod`TfgmZ>_<5gn`G2
+l131
+L125
+V02>?=GMYh1ZR1TVkdejdD3
+!s100 OE=Ia8j19YO:32=1gzGYd0
+R7
+31
+R16
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13

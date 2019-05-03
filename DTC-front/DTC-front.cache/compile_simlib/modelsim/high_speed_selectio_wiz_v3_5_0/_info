@@ -1,0 +1,528 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vhigh_speed_selectio_wiz_v3_5_0_BitSlipInLogic_4b
+Z1 !s110 1556885036
+!i10b 1
+!s100 ?ILDB6^cT:YQLj[OnI_0M0
+IF>TWn4:mhWL[V]RD5^CgK0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171261
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/high_speed_selectio_wiz_v3_5/hdl/high_speed_selectio_wiz_v3_5_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/high_speed_selectio_wiz_v3_5/hdl/high_speed_selectio_wiz_v3_5_rfs.v
+L0 3959
+Z6 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z7 !s108 1556885035.000000
+Z8 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/high_speed_selectio_wiz_v3_5/hdl/high_speed_selectio_wiz_v3_5_rfs.v|
+Z9 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|high_speed_selectio_wiz_v3_5_0|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/high_speed_selectio_wiz_v3_5_0/.cxl.verilog.high_speed_selectio_wiz_v3_5_0.high_speed_selectio_wiz_v3_5_0.lin64.cmf|
+!i113 0
+Z10 o-work high_speed_selectio_wiz_v3_5_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work high_speed_selectio_wiz_v3_5_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+nhigh_speed_selectio_wiz_v3_5_0_@bit@slip@in@logic_4b
+vhigh_speed_selectio_wiz_v3_5_0_BitSlipInLogic_8b
+R1
+!i10b 1
+!s100 PX4BKoEQ:<`?5J0SKRY933
+IL:CBh014oa3`0HaRHe42z3
+R2
+R0
+R3
+R4
+R5
+L0 4289
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+nhigh_speed_selectio_wiz_v3_5_0_@bit@slip@in@logic_8b
+vhigh_speed_selectio_wiz_v3_5_0_BitSlipInLogic_FstCmp_4b
+R1
+!i10b 1
+!s100 Q6d`a@e9PV9@nc^OfV_6T3
+IDBn3<a9P04QcROGY0Z8G51
+R2
+R0
+R3
+R4
+R5
+L0 4613
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+nhigh_speed_selectio_wiz_v3_5_0_@bit@slip@in@logic_@fst@cmp_4b
+vhigh_speed_selectio_wiz_v3_5_0_BitSlipInLogic_FstCmp_8b
+R1
+!i10b 1
+!s100 3^53Yl5QI;V1jY_mQHdcH3
+IEI;nB3z3>fI2[:eGWD>4z1
+R2
+R0
+R3
+R4
+R5
+L0 4837
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+nhigh_speed_selectio_wiz_v3_5_0_@bit@slip@in@logic_@fst@cmp_8b
+vhigh_speed_selectio_wiz_v3_5_0_BitSlipInLogic_Toplevel
+R1
+!i10b 1
+!s100 Pc>CM8gDoi6YcmZRgm8UO3
+IaVzhZ0DD4Ae7Bh5=`QC1>0
+R2
+R0
+R3
+R4
+R5
+L0 5106
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+nhigh_speed_selectio_wiz_v3_5_0_@bit@slip@in@logic_@toplevel
+vhigh_speed_selectio_wiz_v3_5_0_bs_ctrl_top
+R1
+!i10b 1
+!s100 bF4Oo>YKL;El]mYGJLn@?3
+I=`nl3b;RgjOleO3G`1P3_3
+R2
+R0
+R3
+R4
+R5
+L0 1624
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhigh_speed_selectio_wiz_v3_5_0_bs_top
+R1
+!i10b 1
+!s100 ^CVRkb=A;V1;c1RERWV6Q3
+IHZ@69IEQklU^^2cE6DbT;1
+R2
+R0
+R3
+R4
+R5
+L0 16891
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhigh_speed_selectio_wiz_v3_5_0_C2BCEtc
+R1
+!i10b 1
+!s100 [L[:I@N@ae?AcgOW:@E3c0
+ImHMjS:9KFEDFaH69@kB[42
+R2
+R0
+R3
+R4
+R5
+L0 2975
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+nhigh_speed_selectio_wiz_v3_5_0_@c2@b@c@etc
+vhigh_speed_selectio_wiz_v3_5_0_C2BCEtc_dwnld
+R1
+!i10b 1
+!s100 RS:71kbCCF`IR@HoD82:13
+IaAjPc[TYAK];7k4jBJzJZ3
+R2
+R0
+R3
+R4
+R5
+L0 3085
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+nhigh_speed_selectio_wiz_v3_5_0_@c2@b@c@etc_dwnld
+vhigh_speed_selectio_wiz_v3_5_0_C3BCEtc
+R1
+!i10b 1
+!s100 mRnW^Yd65CAH=LnM1?6z92
+Ik2`OJc7:LA91d9=@1HU>41
+R2
+R0
+R3
+R4
+R5
+L0 3343
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+nhigh_speed_selectio_wiz_v3_5_0_@c3@b@c@etc
+vhigh_speed_selectio_wiz_v3_5_0_C3BCEtc_dwnld
+R1
+!i10b 1
+!s100 D:8[@Y=Vz^E<S7l@hAKz_3
+I43TQa1YReRJ=6ddL4:GLj3
+R2
+R0
+R3
+R4
+R5
+L0 3456
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+nhigh_speed_selectio_wiz_v3_5_0_@c3@b@c@etc_dwnld
+vhigh_speed_selectio_wiz_v3_5_0_clk_rst_top
+Z13 !s110 1556885035
+!i10b 1
+!s100 ba6IMRJ6Rg7U0:IRSV[Am0
+I4oQN9<]V?>n>oA>hmio_l0
+R2
+R0
+R3
+R4
+R5
+L0 1409
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhigh_speed_selectio_wiz_v3_5_0_clk_scheme
+R13
+!i10b 1
+!s100 6fbYEfje3cPf0ZOl8h05F0
+IQZJ2YfU49=McLacH3Bz]]1
+R2
+R0
+R3
+R4
+R5
+L0 975
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhigh_speed_selectio_wiz_v3_5_0_Fdcr
+R1
+!i10b 1
+!s100 6I9OY1LehVV?H4j0=S<5Q1
+Io`9<]PXCKl?>2]`81T^:62
+R2
+R0
+R3
+R4
+R5
+L0 3792
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+nhigh_speed_selectio_wiz_v3_5_0_@fdcr
+vhigh_speed_selectio_wiz_v3_5_0_GenPulse
+R1
+!i10b 1
+!s100 W5hUNMkDSbz0dPjYFQZ1i3
+IhcP[Tb`>HkM;d`8_0Q6j82
+R2
+R0
+R3
+R4
+R5
+L0 3881
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+nhigh_speed_selectio_wiz_v3_5_0_@gen@pulse
+vhigh_speed_selectio_wiz_v3_5_0_iobuf_top
+R1
+!i10b 1
+!s100 8:OQ:bUg[a^<;76zm[7__3
+IYKL`CTg=Jf9jOPIl=TEA=1
+R2
+R0
+R3
+R4
+R5
+L0 2777
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhigh_speed_selectio_wiz_v3_5_0_rst_scheme
+R13
+!i10b 1
+!s100 S8OF4ADZZ9IBXZHh?G0=Z1
+IHW@OZc22lD4432W]lJhQU3
+R2
+R0
+R3
+R4
+R5
+L0 332
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhigh_speed_selectio_wiz_v3_5_0_rx_bs
+R1
+!i10b 1
+!s100 Gz7eI<_jo@UiD_74Dm@n>2
+If95Hek6bNZ];Zc<F;1gLn3
+R2
+R0
+R3
+R4
+R5
+L0 10280
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhigh_speed_selectio_wiz_v3_5_0_rxtx_bs
+R1
+!i10b 1
+!s100 lBkD:;ej8gX=Z8d@oIQ5[0
+Io=[nj2?9<mQJ<RgChXZcU3
+R2
+R0
+R3
+R4
+R5
+L0 5308
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhigh_speed_selectio_wiz_v3_5_0_sync_cell
+R13
+!i10b 1
+!s100 O9f3g=z;EiXB4UMknT1>40
+IT>FQWB[CNWnCAVTJHldT41
+R2
+R0
+R3
+R4
+R5
+L0 50
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhigh_speed_selectio_wiz_v3_5_0_tx_bs
+R1
+!i10b 1
+!s100 S@U0@II@O6k;:?Rlh_]lO3
+I`zPfnoLQR7>n4XfeCQc9Q0
+R2
+R0
+R3
+R4
+R5
+L0 14295
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhigh_speed_selectio_wiz_v3_5_0_tx_bs_tri
+R1
+!i10b 1
+!s100 Z30eL6<U9b=4kZo126JFk3
+IfFUYR_=@^`PRh[MCaj<KE1
+R2
+R0
+R3
+R4
+R5
+L0 9877
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vPRBS_ANY
+R13
+!i10b 1
+!s100 BALjW_^4JJAazh7gX@Il91
+I;Pl]d65?z^Yhze7g^ANOj1
+R2
+R0
+R3
+R4
+R5
+L0 220
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+n@p@r@b@s_@a@n@y

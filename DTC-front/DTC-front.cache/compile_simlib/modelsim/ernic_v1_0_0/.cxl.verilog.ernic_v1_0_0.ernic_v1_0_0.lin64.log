@@ -1,0 +1,11 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap ernic_v1_0_0 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/ernic_v1_0_0 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:05:23 on May 03,2019
+vlog -64 -L ernic_v1_0_0 "+incdir+/home/dmonk/.cxl.ip/incl" -sv -work ernic_v1_0_0 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/ernic_v1_0_0/.cxl.systemverilog.ernic_v1_0_0.ernic_v1_0_0.lin64.cmf 
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/ernic_v1_0/hdl/ernic_v1_0_rfs.sv(64): (vlog-2600) <protected>
+
+Top level modules:
+End time: 13:05:24 on May 03,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 2

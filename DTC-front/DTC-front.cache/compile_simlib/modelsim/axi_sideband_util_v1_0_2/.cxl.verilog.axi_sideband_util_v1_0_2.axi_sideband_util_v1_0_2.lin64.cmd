@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_sideband_util_v1_0_2
+/opt/MentorGraphics/modeltech/bin/vmap axi_sideband_util_v1_0_2 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_sideband_util_v1_0_2
+/opt/MentorGraphics/modeltech/bin/vlog  -64 -L smartconnect_v1_0 -L axi_sideband_util_v1_0_2 +incdir+/home/dmonk/.cxl.ip/incl -sv -work axi_sideband_util_v1_0_2 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_sideband_util_v1_0_2/.cxl.systemverilog.axi_sideband_util_v1_0_2.axi_sideband_util_v1_0_2.lin64.cmf

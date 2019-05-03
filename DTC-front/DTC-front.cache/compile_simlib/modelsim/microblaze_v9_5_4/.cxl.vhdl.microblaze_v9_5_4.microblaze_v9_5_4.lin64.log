@@ -1,0 +1,9 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap microblaze_v9_5_4 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/microblaze_v9_5_4 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:04 on May 03,2019
+vcom -64 -93 -work microblaze_v9_5_4 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/microblaze_v9_5_4/.cxl.vhdl.microblaze_v9_5_4.microblaze_v9_5_4.lin64.cmf 
+-- Loading package STANDARD
+End time: 13:04:06 on May 03,2019, Elapsed time: 0:00:02
+Errors: 0, Warnings: 0

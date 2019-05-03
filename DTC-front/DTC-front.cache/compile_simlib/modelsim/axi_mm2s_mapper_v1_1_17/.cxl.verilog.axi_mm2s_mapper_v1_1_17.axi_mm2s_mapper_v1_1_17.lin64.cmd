@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_mm2s_mapper_v1_1_17
+/opt/MentorGraphics/modeltech/bin/vmap axi_mm2s_mapper_v1_1_17 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_mm2s_mapper_v1_1_17
+/opt/MentorGraphics/modeltech/bin/vlog  -64 +incdir+/home/dmonk/.cxl.ip/incl -work axi_mm2s_mapper_v1_1_17 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_mm2s_mapper_v1_1_17/.cxl.verilog.axi_mm2s_mapper_v1_1_17.axi_mm2s_mapper_v1_1_17.lin64.cmf

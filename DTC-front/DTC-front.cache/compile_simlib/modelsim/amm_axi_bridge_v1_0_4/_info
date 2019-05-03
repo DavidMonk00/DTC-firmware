@@ -1,0 +1,208 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vamm_axi_bridge_v1_0_4_arbitration
+Z1 !s110 1556885129
+!i10b 1
+!s100 a^?N:96mE:F7hak1CW>ja0
+Ig=iMLoJzJTCT[=KnF]DeA1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171246
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/amm_axi_bridge_v1_0/hdl/amm_axi_bridge_v1_0_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/amm_axi_bridge_v1_0/hdl/amm_axi_bridge_v1_0_rfs.v
+L0 1991
+Z6 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z7 !s108 1556885129.000000
+Z8 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/amm_axi_bridge_v1_0/hdl/amm_axi_bridge_v1_0_rfs.v|
+Z9 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|amm_axi_bridge_v1_0_4|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/amm_axi_bridge_v1_0_4/.cxl.verilog.amm_axi_bridge_v1_0_4.amm_axi_bridge_v1_0_4.lin64.cmf|
+!i113 0
+Z10 o-work amm_axi_bridge_v1_0_4 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work amm_axi_bridge_v1_0_4 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vamm_axi_bridge_v1_0_4_fifo
+R1
+!i10b 1
+!s100 A[3EH_TJjS1KW>VRlQm@02
+Il?4O?_;aE;aEm_>>5>lc43
+R2
+R0
+R3
+R4
+R5
+L0 1870
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vamm_axi_bridge_v1_0_4_read_demux
+R1
+!i10b 1
+!s100 CGd6QbBRI2B:_O2;X?f0m0
+IRkcDn7dc3A@?B3zMDNEde1
+R2
+R0
+R3
+R4
+R5
+L0 435
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vamm_axi_bridge_v1_0_4_read_multi
+R1
+!i10b 1
+!s100 ?A6``OV3_NJQ^fQB_SVgM1
+IOXNajfFn:EVj9;CjZhY=P0
+R2
+R0
+R3
+R4
+R5
+L0 157
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vamm_axi_bridge_v1_0_4_read_top
+R1
+!i10b 1
+!s100 5MjRzbVB5QgZjJF?[B5:>2
+IOMzRF_P60zW9?foGV9Q[C1
+R2
+R0
+R3
+R4
+R5
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vamm_axi_bridge_v1_0_4_top
+R1
+!i10b 1
+!s100 6igC;@^BhjEcESeHU@b0S0
+I>B68<_BciLh6VZMXP29@00
+R2
+R0
+R3
+R4
+R5
+L0 1253
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vamm_axi_bridge_v1_0_4_write_multi
+R1
+!i10b 1
+!s100 =cmoER=9^<NhZ67cD0m132
+I=22cLfRUTTZWBzYkN@XOJ3
+R2
+R0
+R3
+R4
+R5
+L0 834
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vamm_axi_bridge_v1_0_4_write_mux
+R1
+!i10b 1
+!s100 KY`KQN2;aSBN7TKAY47KU1
+IIjf:Wz2n0NnN<zb`5hWZ22
+R2
+R0
+R3
+R4
+R5
+L0 1101
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vamm_axi_bridge_v1_0_4_write_top
+R1
+!i10b 1
+!s100 <k4mTc:k4@Z;o6lW9WOoW2
+I?ZE<Y59ZHNYeT0nO3]42K3
+R2
+R0
+R3
+R4
+R5
+L0 569
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12

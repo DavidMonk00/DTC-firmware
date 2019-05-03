@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vfkLhy6OzTL6LheoaR6NmtLQu9dPEGbg2S3Ahdd5RCL0=
+Z1 !s110 1556885032
+!i10b 0
+!s100 HK0dfQg;6`8N1YXYc?j[T3
+Ia9Y;7YX5VPSD[;ZdTmkA`1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!i8a 2126867936
+R0
+Z3 w1556885032
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_jtag_v1_0/hdl/axi_jtag_v1_0_vl_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_jtag_v1_0/hdl/axi_jtag_v1_0_vl_rfs.v
+Z6 L0 64
+Z7 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z8 !s108 1556885032.000000
+Z9 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_jtag_v1_0/hdl/axi_jtag_v1_0_vl_rfs.v|
+Z10 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|axi_jtag_v1_0_0|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_jtag_v1_0_0/.cxl.verilog.axi_jtag_v1_0_0.axi_jtag_v1_0_0.lin64.cmf|
+!i113 0
+Z11 o-work axi_jtag_v1_0_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work axi_jtag_v1_0_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 tCvgOpt 0
+nd0aab86
+vTuD0+M8prHymSGOU/0utFHSOBfLH0YOz/TJJaZzJLdg=
+R1
+!i10b 0
+!s100 2eDKJFLoX`?8O`GJ7W;]T2
+I7G0WRnHU[<;fbAm87i8zR2
+R2
+!i8a 1381565584
+R0
+R3
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+n65c077
+v29ef2Tcpwj8NoDrqLh/DNsQlxK2eQT79hHY06AJ1q/g=
+R1
+!i10b 0
+!s100 mzc[<T:?@WS8]6Uh;fha]2
+Iz_=78i@kmPNZDTjn=bL^>3
+R2
+!i8a 1246866064
+R0
+R3
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+n4cfa4c3

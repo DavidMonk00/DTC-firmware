@@ -1,0 +1,49 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+Elmb_v10
+Z1 w1544171263
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lmb_v10_v3_0/hdl/lmb_v10_v3_0_vh_rfs.vhd
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lmb_v10_v3_0/hdl/lmb_v10_v3_0_vh_rfs.vhd
+l0
+L92
+VYKzb7D:0o3?VJkIKbRJ001
+!s100 CTTfdQ`RE0Nj4W1A]CJo01
+Z6 OL;C;10.6b;65
+31
+Z7 !s110 1556885056
+!i10b 1
+Z8 !s108 1556885056.000000
+Z9 !s90 -64|-93|-work|lmb_v10_v3_0_9|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/lmb_v10_v3_0_9/.cxl.vhdl.lmb_v10_v3_0_9.lmb_v10_v3_0_9.lin64.cmf|
+Z10 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/lmb_v10_v3_0/hdl/lmb_v10_v3_0_vh_rfs.vhd|
+!i113 0
+Z11 o-93 -work lmb_v10_v3_0_9
+Z12 tExplicit 1 CvgOpt 0
+Aimp
+R2
+R3
+DEx4 work 7 lmb_v10 0 22 YKzb7D:0o3?VJkIKbRJ001
+l152
+L140
+VS<B^;mS@R8SP<>9U>004G0
+!s100 `CYhZ@0V?=WR^?JD>GfMS3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 0
+R11
+R12

@@ -1,0 +1,518 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap simprims_ver /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/simprims_ver 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:02:00 on May 03,2019
+vlog -source "+define+XIL_TIMING" -64 -work simprims_ver -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/simprims_ver/.cxl.verilog.simprim.simprims_ver.lin64.cmf -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/simprims_ver/.cxl.verilog.simprim_diablo.simprims_ver.lin64.cmf 
+-- Compiling module IBUFDS_DIFF_OUT_INTERMDISABLE
+-- Compiling module ZHOLD_DELAY
+-- Compiling module HPIO_VREF
+-- Compiling module IBUFDS_GTM
+-- Compiling module PCIE_3_0
+-- Compiling module IBUFDS
+-- Compiling module FDRE
+-- Compiling module INBUF
+-- Compiling module DCM_ADV
+-- Compiling module dcm_adv_clock_divide_by_2
+-- Compiling module dcm_adv_maximum_period_check
+-- Compiling module dcm_adv_clock_lost
+-- Compiling module TX_BITSLICE
+-- Compiling module OBUFT
+-- Compiling module SRLC16E
+-- Compiling module MMCME2_ADV
+-- Compiling module RAM32X1D
+-- Compiling module ISERDES
+-- Compiling module PS8
+-- Compiling module IOBUFDS_DIFF_OUT_DCIEN
+-- Compiling module LUT2
+-- Compiling UDP x_lut2_mux4
+-- Compiling module LUT4
+-- Compiling module IDDR
+-- Compiling module IBUFDS_IBUFDISABLE_INT
+-- Compiling module IOBUF_ANALOG
+-- Compiling module IBUFDS_GTE3
+-- Compiling module PHY_CONTROL
+-- Compiling module CFGLUT5
+-- Compiling module IDELAYCTRL
+-- Compiling module PLLE2_ADV
+-- Compiling module CARRY8
+-- Compiling module RAM256X1S
+-- Compiling module HSADC
+-- Compiling module OBUFDS_GTE4_ADV
+-- Compiling module FIFO36E1
+-- Compiling module FF36_INTERNAL_VLOG
+-- Compiling module BUFIO
+-- Compiling module DSP_M_DATA
+-- Compiling module OR2L
+-- Compiling module PCIE40E4
+-- Compiling module MMCME4_BASE
+-- Compiling module RXTX_BITSLICE
+-- Compiling module RAMB36E1
+-- Compiling module RB36_INTERNAL_VLOG
+-- Compiling module PHASER_IN_PHY
+-- Compiling module IOBUF_DCIEN
+-- Compiling module HBM_ONE_STACK_INTF
+-- Compiling module LUT1
+-- Compiling UDP x_lut1_mux2
+-- Compiling module AUTOBUF
+-- Compiling module BUFGCTRL
+-- Compiling module RAM128X1S
+-- Compiling module OSERDESE2
+-- Compiling module IBUFDS_INTERMDISABLE_INT
+-- Compiling module OBUFDS_GTE3
+-- Compiling module DSP48E2
+-- Compiling module IBUFE3
+-- Compiling module IOBUFDS_INTERMDISABLE
+-- Compiling module OSERDESE3
+-- Compiling module OSERDES
+-- Compiling module DSP_OUTPUT
+-- Compiling module FRAME_ECCE2
+-- Compiling module PLLE2_BASE
+-- Compiling module DSP_A_B_DATA
+-- Compiling module PHASER_REF
+-- Compiling module ILKNE4
+-- Compiling module KEEPER
+-- Compiling module LUT5
+-- Compiling module PCIE_3_1
+-- Compiling module BITSLICE_CONTROL
+-- Compiling module ODELAYE2_FINEDELAY
+-- Compiling module IOBUFDS_DIFF_OUT_INTERMDISABLE
+-- Compiling module BUFGCE_DIV
+-- Compiling module IBUFDS_DPHY
+-- Compiling module PHASER_OUT_PHY
+-- Compiling module OBUFTDS
+-- Compiling module DCIRESET
+-- Compiling module RAM64X8SW
+-- Compiling module ISERDES_NODELAY
+-- Compiling module PLLE3_ADV
+-- Compiling module RAM32M
+-- Compiling module RAMB36E2
+-- Compiling module LUT6
+-- Compiling module BUFCE_ROW
+-- Compiling module IBUFDSE3
+-- Compiling module RAMD32
+-- Compiling module ISERDESE3
+-- Compiling module PULLDOWN
+-- Compiling module BUFMRCE
+-- Compiling module HSDAC
+-- Compiling module DSP_MULTIPLIER
+-- Compiling module OBUFDS_GTM
+-- Compiling module IBUF_ANALOG
+-- Compiling module SYSMONE1
+-- Compiling module FDCE
+-- Compiling module BUFH
+-- Compiling module GTYE3_CHANNEL
+-- Compiling module VCC
+-- Compiling module RAM64X1S
+-- Compiling module RAM32M16
+-- Compiling module BUFR
+-- Compiling module DSP_C_DATA
+-- Compiling module BUFGP
+-- Compiling module RAMS64E1
+-- Compiling module STARTUPE2
+-- Compiling module RIU_OR
+-- Compiling module GTHE2_COMMON
+-- Compiling module FIFO36E2
+-- Compiling module IDELAYE3
+-- Compiling module IDDRE1
+-- Compiling module PS7
+-- Compiling module TX_BITSLICE_TRI
+-- Compiling module IDELAYE2_FINEDELAY
+-- Compiling module RAM64M
+-- Compiling module BUFG
+-- Compiling module URAM288
+-- Compiling module ICAPE3
+-- Compiling module SYSMONE4
+-- Compiling module XORCY
+-- Compiling module RAMB18E2
+-- Compiling module CMAC
+-- Compiling module FIFO18E1
+-- Compiling module FF18_INTERNAL_VLOG
+-- Compiling module BIBUF
+-- Compiling module JTAG_SIME2
+-- Compiling module BUFG_PS
+-- Compiling module HBM_SNGLBLI_INTF_APB
+-- Compiling module BUFG_GT_SYNC
+-- Compiling module CARRY4
+-- Compiling module ODDR
+-- Compiling module RAM64X1D
+-- Compiling module DIFFINBUF
+-- Compiling module IOBUFDSE3
+-- Compiling module MMCME2_BASE
+-- Compiling module OUT_FIFO
+-- Compiling module HBM_TWO_STACK_INTF
+-- Compiling module DSP_ALU
+-- Compiling module BUFCE_LEAF
+-- Compiling module IBUFCTRL
+-- Compiling module DCM_SP
+-- Compiling module dcm_sp_clock_divide_by_2
+-- Compiling module dcm_sp_maximum_period_check
+-- Compiling module dcm_sp_clock_lost
+-- Compiling module LDCE
+-- Compiling UDP latchsre_ldce
+-- Compiling module GTHE3_CHANNEL
+-- Compiling module MMCME3_ADV
+-- Compiling module IOBUFDS_DIFF_OUT
+-- Compiling module FRAME_ECCE3
+-- Compiling module GTHE2_CHANNEL
+-- Compiling module GTPE2_CHANNEL
+-- Compiling module AND2B1L
+-- Compiling module OBUFDS_GTM_ADV
+-- Compiling module ISERDESE2
+-- Compiling module DPHY_DIFFINBUF
+-- Compiling module FRAME_ECCE4
+-- Compiling module RAM256X1D
+-- Compiling module GTYE4_COMMON
+-- Compiling module HBM_REF_CLK
+-- Compiling module STARTUPE3
+-- Compiling module IBUFDS_GTE4
+-- Compiling module EFUSE_USR
+-- Compiling module ODELAYE2
+-- Compiling module DSP_PREADD_DATA
+-- Compiling module HBM_SNGLBLI_INTF_AXI
+-- Compiling module SIM_CONFIGE3
+-- Compiling module BUFG_GT
+-- Compiling module IBUFDS_IBUFDISABLE
+-- Compiling module PCIE4CE4
+-- Compiling module PLLE4_BASE
+-- Compiling module MMCME3_BASE
+-- Compiling module OBUFDS
+-- Compiling module IOBUF
+-- Compiling module SRLC32E
+-- Compiling module USR_ACCESSE2
+-- Compiling module BSCANE2
+-- Compiling module RAM64M8
+-- Compiling module OSERDESE1
+-- Compiling module selfheal_oserdese1_vlog
+-- Compiling module plg_oserdese1_vlog
+-- Compiling module rank12d_oserdese1_vlog
+-- Compiling module trif_oserdese1_vlog
+-- Compiling module txbuffer_oserdese1_vlog
+-- Compiling module fifo_tdpipe_oserdese1_vlog
+-- Compiling module fifo_reset_oserdese1_vlog
+-- Compiling module fifo_addr_oserdese1_vlog
+-- Compiling module iodlyctrl_npre_oserdese1_vlog
+-- Compiling module dout_oserdese1_vlog
+-- Compiling module tout_oserdese1_vlog
+-- Compiling module OBUFDS_GTE4
+-- Compiling module IBUFDS_INTERMDISABLE
+-- Compiling module LDPE
+-- Compiling UDP latchsre_ldpe
+-- Compiling module MUXCY
+-- Compiling module RAMS64E
+-- Compiling module LUT6_2
+-- Compiling module IBUFDS_GTE2
+-- Compiling module LUT3
+-- Compiling UDP x_lut3_mux8
+-- Compiling module OBUFTDS_DCIEN
+-- Compiling module ODDRE1
+-- Compiling module OBUFT_DCIEN
+-- Compiling module DSP48E1
+-- Compiling module IBUFDS_DIFF_OUT_IBUFDISABLE
+-- Compiling module SRL16E
+-- Compiling module PLLE4_ADV
+-- Compiling module GTXE2_CHANNEL
+-- Compiling module SIM_CONFIGE2
+-- Compiling module RAMB18E1
+-- Compiling module RB18_INTERNAL_VLOG
+-- Compiling module CMACE4
+-- Compiling module RAMD64E
+-- Compiling module IBUFDS_DIFF_OUT
+-- Compiling module FIFO18E2
+-- Compiling module IDDR_2CLK
+-- Compiling module FDPE
+-- Compiling module OBUFDS_DPHY
+-- Compiling module HARD_SYNC
+-- Compiling module BUFMR
+-- Compiling module XADC
+-- Compiling module ODELAYE3
+-- Compiling module CAPTUREE2
+-- Compiling module BUF
+-- Compiling module IOBUFDS_DCIEN
+-- Compiling module IBUF_INTERMDISABLE
+-- Compiling module GTHE3_COMMON
+-- Compiling module PHASER_IN
+-- Compiling module PHASER_OUT
+-- Compiling module RAM512X1S
+-- Compiling module MUXF9
+-- Compiling module DNA_PORT
+-- Compiling module BUFHCE
+-- Compiling module DSP_PREADD
+-- Compiling module DNA_PORTE2
+-- Compiling module BUFGCE
+-- Compiling module GND
+-- Compiling module RX_BITSLICE
+-- Compiling module MMCME4_ADV
+-- Compiling module FDSE
+-- Compiling module PCIE_2_1
+-- Compiling module MUXF8
+-- Compiling module MASTER_JTAG
+-- Compiling module IBUF_IBUFDISABLE
+-- Compiling module RAM32X1S
+-- Compiling module ISERDESE1
+-- Compiling module bscntrl_iserdese1_vlog
+-- Compiling module ice_iserdese1_vlog
+-- Compiling module INV
+-- Compiling module IOBUFDS
+-- Compiling module ILKN
+-- Compiling module IOBUFE3
+-- Compiling module PULLUP
+-- Compiling module GTYE3_COMMON
+-- Compiling module OBUFDS_GTE3_ADV
+-- Compiling module OBUF
+-- Compiling module VCU
+-- Compiling module GTYE4_CHANNEL
+-- Compiling module IN_FIFO
+-- Compiling module IOBUF_INTERMDISABLE
+-- Compiling module RAM128X1D
+-- Compiling module IDELAYE2
+-- Compiling module GTXE2_COMMON
+-- Compiling module PLLE3_BASE
+-- Compiling module MUXF7
+-- Compiling module GTHE4_COMMON
+-- Compiling module GTHE4_CHANNEL
+-- Compiling module ICAPE2
+-- Compiling module FE
+-- Compiling module RAMS32
+-- Compiling module GTPE2_COMMON
+-- Compiling module IBUF
+-- Compiling module URAM288_BASE
+
+Top level modules:
+	IBUFDS_DIFF_OUT_INTERMDISABLE
+	ZHOLD_DELAY
+	HPIO_VREF
+	IBUFDS_GTM
+	PCIE_3_0
+	IBUFDS
+	FDRE
+	INBUF
+	DCM_ADV
+	TX_BITSLICE
+	OBUFT
+	SRLC16E
+	RAM32X1D
+	ISERDES
+	PS8
+	IOBUFDS_DIFF_OUT_DCIEN
+	LUT2
+	LUT4
+	IDDR
+	IBUFDS_IBUFDISABLE_INT
+	IOBUF_ANALOG
+	IBUFDS_GTE3
+	PHY_CONTROL
+	CFGLUT5
+	IDELAYCTRL
+	CARRY8
+	RAM256X1S
+	HSADC
+	OBUFDS_GTE4_ADV
+	FIFO36E1
+	BUFIO
+	DSP_M_DATA
+	OR2L
+	PCIE40E4
+	MMCME4_BASE
+	RXTX_BITSLICE
+	RAMB36E1
+	PHASER_IN_PHY
+	IOBUF_DCIEN
+	HBM_ONE_STACK_INTF
+	LUT1
+	AUTOBUF
+	RAM128X1S
+	OSERDESE2
+	IBUFDS_INTERMDISABLE_INT
+	OBUFDS_GTE3
+	DSP48E2
+	IBUFE3
+	IOBUFDS_INTERMDISABLE
+	OSERDESE3
+	OSERDES
+	DSP_OUTPUT
+	FRAME_ECCE2
+	PLLE2_BASE
+	DSP_A_B_DATA
+	PHASER_REF
+	ILKNE4
+	KEEPER
+	LUT5
+	PCIE_3_1
+	BITSLICE_CONTROL
+	ODELAYE2_FINEDELAY
+	IOBUFDS_DIFF_OUT_INTERMDISABLE
+	BUFGCE_DIV
+	IBUFDS_DPHY
+	PHASER_OUT_PHY
+	OBUFTDS
+	DCIRESET
+	RAM64X8SW
+	ISERDES_NODELAY
+	RAM32M
+	RAMB36E2
+	LUT6
+	BUFCE_ROW
+	IBUFDSE3
+	RAMD32
+	ISERDESE3
+	PULLDOWN
+	BUFMRCE
+	HSDAC
+	DSP_MULTIPLIER
+	OBUFDS_GTM
+	IBUF_ANALOG
+	SYSMONE1
+	FDCE
+	BUFH
+	GTYE3_CHANNEL
+	VCC
+	RAM64X1S
+	RAM32M16
+	BUFR
+	DSP_C_DATA
+	BUFGP
+	RAMS64E1
+	STARTUPE2
+	RIU_OR
+	GTHE2_COMMON
+	FIFO36E2
+	IDELAYE3
+	IDDRE1
+	PS7
+	TX_BITSLICE_TRI
+	IDELAYE2_FINEDELAY
+	RAM64M
+	BUFG
+	URAM288
+	ICAPE3
+	SYSMONE4
+	XORCY
+	RAMB18E2
+	CMAC
+	FIFO18E1
+	BIBUF
+	JTAG_SIME2
+	BUFG_PS
+	HBM_SNGLBLI_INTF_APB
+	BUFG_GT_SYNC
+	CARRY4
+	ODDR
+	RAM64X1D
+	DIFFINBUF
+	IOBUFDSE3
+	MMCME2_BASE
+	OUT_FIFO
+	HBM_TWO_STACK_INTF
+	DSP_ALU
+	BUFCE_LEAF
+	IBUFCTRL
+	DCM_SP
+	LDCE
+	GTHE3_CHANNEL
+	IOBUFDS_DIFF_OUT
+	FRAME_ECCE3
+	GTHE2_CHANNEL
+	GTPE2_CHANNEL
+	AND2B1L
+	OBUFDS_GTM_ADV
+	ISERDESE2
+	DPHY_DIFFINBUF
+	FRAME_ECCE4
+	RAM256X1D
+	GTYE4_COMMON
+	HBM_REF_CLK
+	STARTUPE3
+	IBUFDS_GTE4
+	EFUSE_USR
+	ODELAYE2
+	DSP_PREADD_DATA
+	HBM_SNGLBLI_INTF_AXI
+	BUFG_GT
+	IBUFDS_IBUFDISABLE
+	PCIE4CE4
+	PLLE4_BASE
+	MMCME3_BASE
+	OBUFDS
+	IOBUF
+	SRLC32E
+	USR_ACCESSE2
+	BSCANE2
+	RAM64M8
+	OSERDESE1
+	OBUFDS_GTE4
+	IBUFDS_INTERMDISABLE
+	LDPE
+	MUXCY
+	RAMS64E
+	LUT6_2
+	IBUFDS_GTE2
+	LUT3
+	OBUFTDS_DCIEN
+	ODDRE1
+	OBUFT_DCIEN
+	DSP48E1
+	IBUFDS_DIFF_OUT_IBUFDISABLE
+	SRL16E
+	GTXE2_CHANNEL
+	RAMB18E1
+	CMACE4
+	RAMD64E
+	IBUFDS_DIFF_OUT
+	FIFO18E2
+	IDDR_2CLK
+	FDPE
+	OBUFDS_DPHY
+	HARD_SYNC
+	BUFMR
+	XADC
+	ODELAYE3
+	CAPTUREE2
+	BUF
+	IOBUFDS_DCIEN
+	IBUF_INTERMDISABLE
+	GTHE3_COMMON
+	PHASER_IN
+	PHASER_OUT
+	RAM512X1S
+	MUXF9
+	DNA_PORT
+	BUFHCE
+	DSP_PREADD
+	DNA_PORTE2
+	BUFGCE
+	GND
+	RX_BITSLICE
+	FDSE
+	PCIE_2_1
+	MUXF8
+	MASTER_JTAG
+	IBUF_IBUFDISABLE
+	RAM32X1S
+	ISERDESE1
+	IOBUFDS
+	ILKN
+	IOBUFE3
+	PULLUP
+	GTYE3_COMMON
+	OBUFDS_GTE3_ADV
+	OBUF
+	VCU
+	GTYE4_CHANNEL
+	IN_FIFO
+	IOBUF_INTERMDISABLE
+	RAM128X1D
+	IDELAYE2
+	GTXE2_COMMON
+	PLLE3_BASE
+	MUXF7
+	GTHE4_COMMON
+	GTHE4_CHANNEL
+	ICAPE2
+	FE
+	RAMS32
+	GTPE2_COMMON
+	IBUF
+	URAM288_BASE
+End time: 13:02:38 on May 03,2019, Elapsed time: 0:00:38
+Errors: 0, Warnings: 0

@@ -1,0 +1,9 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap dft_v4_0_15 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/dft_v4_0_15 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:05:44 on May 03,2019
+vcom -64 -93 -work dft_v4_0_15 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/dft_v4_0_15/.cxl.vhdl.dft_v4_0_15.dft_v4_0_15.lin64.cmf 
+-- Loading package STANDARD
+End time: 13:05:45 on May 03,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

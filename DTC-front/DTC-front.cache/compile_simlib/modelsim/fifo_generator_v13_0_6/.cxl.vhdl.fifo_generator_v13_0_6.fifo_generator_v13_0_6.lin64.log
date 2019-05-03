@@ -1,0 +1,30 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap fifo_generator_v13_0_6 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/fifo_generator_v13_0_6 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:03 on May 03,2019
+vcom -64 -93 -work fifo_generator_v13_0_6 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/fifo_generator_v13_0_6/.cxl.vhdl.fifo_generator_v13_0_6.fifo_generator_v13_0_6.lin64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity fifo_generator_v13_0_6_bhv_as
+-- Compiling architecture behavioral of fifo_generator_v13_0_6_bhv_as
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Compiling entity fifo_generator_v13_0_6_bhv_ss
+-- Compiling architecture behavioral of fifo_generator_v13_0_6_bhv_ss
+-- Compiling entity fifo_generator_v13_0_6_bhv_preload0
+-- Compiling architecture behavioral of fifo_generator_v13_0_6_bhv_preload0
+-- Loading entity fifo_generator_v13_0_6_bhv_as
+-- Loading entity fifo_generator_v13_0_6_bhv_ss
+-- Compiling entity fifo_generator_v13_0_6_conv
+-- Compiling architecture behavioral of fifo_generator_v13_0_6_conv
+-- Compiling entity fifo_generator_v13_0_6_axic_reg_slice
+-- Compiling architecture xilinx of fifo_generator_v13_0_6_axic_reg_slice
+-- Loading entity fifo_generator_v13_0_6_conv
+-- Compiling entity fifo_generator_vhdl_beh
+-- Compiling architecture behavioral of fifo_generator_vhdl_beh
+End time: 13:04:04 on May 03,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

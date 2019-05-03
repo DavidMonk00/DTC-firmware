@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/generic_baseblocks_v2_1_0
+/opt/MentorGraphics/modeltech/bin/vmap generic_baseblocks_v2_1_0 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/generic_baseblocks_v2_1_0
+/opt/MentorGraphics/modeltech/bin/vlog  -64 +incdir+/home/dmonk/.cxl.ip/incl -work generic_baseblocks_v2_1_0 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/generic_baseblocks_v2_1_0/.cxl.verilog.generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0.lin64.cmf

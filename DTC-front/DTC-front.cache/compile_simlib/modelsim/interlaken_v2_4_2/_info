@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vWaBEXGdUv4leLeRcLrqXKSuxrnULNEMJtCgt5JOfHGo=
+Z1 !s110 1556885022
+!i10b 0
+!s100 ?=Q=QOTJRWIf@a<lm6QJz2
+I_=JeYYL?X6_OgLB2:[2HO0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!i8a 2000616112
+R0
+Z3 w1556885022
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/interlaken_v2_4/hdl/interlaken_v2_4_vl_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/interlaken_v2_4/hdl/interlaken_v2_4_vl_rfs.v
+Z6 L0 64
+Z7 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z8 !s108 1556885022.000000
+Z9 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/interlaken_v2_4/hdl/interlaken_v2_4_vl_rfs.v|
+Z10 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|interlaken_v2_4_2|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/interlaken_v2_4_2/.cxl.verilog.interlaken_v2_4_2.interlaken_v2_4_2.lin64.cmf|
+!i113 0
+Z11 o-work interlaken_v2_4_2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work interlaken_v2_4_2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 tCvgOpt 0
+nb29bb00
+v8EmYSTEBEotHKptbXvToaAFZEDmYyfrRqt1uWhjC/9c=
+R1
+!i10b 0
+!s100 hMnnZlJ1<>8@lMT;j<IQE2
+IlDVW_X>30zOZzc`C;[hh61
+R2
+!i8a 1396016400
+R0
+R3
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+n29bb084

@@ -1,0 +1,26 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap proc_sys_reset_v5_0_13 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/proc_sys_reset_v5_0_13 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:06:50 on May 03,2019
+vcom -64 -93 -work proc_sys_reset_v5_0_13 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/proc_sys_reset_v5_0_13/.cxl.vhdl.proc_sys_reset_v5_0_13.proc_sys_reset_v5_0_13.lin64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity upcnt_n
+-- Compiling architecture imp of upcnt_n
+-- Compiling entity sequence_psr
+-- Compiling architecture imp of sequence_psr
+-- Loading entity upcnt_n
+-- Compiling entity lpf
+-- Compiling architecture imp of lpf
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading entity cdc_sync
+-- Compiling entity proc_sys_reset
+-- Compiling architecture imp of proc_sys_reset
+-- Loading entity lpf
+-- Loading entity sequence_psr
+End time: 13:06:51 on May 03,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

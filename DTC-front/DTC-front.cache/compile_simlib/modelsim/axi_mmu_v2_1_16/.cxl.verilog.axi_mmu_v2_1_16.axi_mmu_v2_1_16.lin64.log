@@ -1,0 +1,14 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axi_mmu_v2_1_16 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_mmu_v2_1_16 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:31 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work axi_mmu_v2_1_16 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_mmu_v2_1_16/.cxl.verilog.axi_mmu_v2_1_16.axi_mmu_v2_1_16.lin64.cmf 
+-- Compiling module axi_mmu_v2_1_16_addr_decoder
+-- Compiling module axi_mmu_v2_1_16_decerr_slave
+-- Compiling module axi_mmu_v2_1_16_top
+
+Top level modules:
+	axi_mmu_v2_1_16_top
+End time: 13:04:31 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

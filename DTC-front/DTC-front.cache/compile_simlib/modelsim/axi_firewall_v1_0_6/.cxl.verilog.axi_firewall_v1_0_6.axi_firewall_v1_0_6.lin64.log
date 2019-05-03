@@ -1,0 +1,15 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axi_firewall_v1_0_6 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_firewall_v1_0_6 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:07:03 on May 03,2019
+vlog -64 -L smartconnect_v1_0 -L axi_firewall_v1_0_6 "+incdir+/home/dmonk/.cxl.ip/incl" -sv -work axi_firewall_v1_0_6 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_firewall_v1_0_6/.cxl.systemverilog.axi_firewall_v1_0_6.axi_firewall_v1_0_6.lin64.cmf 
+-- Compiling module axi_firewall_v1_0_6_checks
+-- Compiling package axi_firewall_v1_0_vl_rfs_sv_unit
+-- Compiling module axi_firewall_v1_0_6_threadcam
+-- Compiling module axi_firewall_v1_0_6_top
+
+Top level modules:
+	axi_firewall_v1_0_6_top
+End time: 13:07:03 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

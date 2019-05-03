@@ -1,0 +1,540 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+Eaccess_mux
+Z1 w1544171251
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx20 axi_lite_ipif_v3_0_4 8 ipif_pkg 0 22 zJ]@GWZl6YPP]W9DYEE:f3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_epc_v2_0/hdl/axi_epc_v2_0_vh_rfs.vhd
+Z8 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_epc_v2_0/hdl/axi_epc_v2_0_vh_rfs.vhd
+l0
+L7849
+V^nW;?2XeIY4X?Od@Z04[N2
+!s100 Ok=ffH>`P>_mo6nhOk9jz1
+Z9 OL;C;10.6b;65
+31
+Z10 !s110 1556885193
+!i10b 1
+Z11 !s108 1556885193.000000
+Z12 !s90 -64|-93|-work|axi_epc_v2_0_21|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_epc_v2_0_21/.cxl.vhdl.axi_epc_v2_0_21.axi_epc_v2_0_21.lin64.cmf|
+Z13 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_epc_v2_0/hdl/axi_epc_v2_0_vh_rfs.vhd|
+!i113 0
+Z14 o-93 -work axi_epc_v2_0_21
+Z15 tExplicit 1 CvgOpt 0
+Aimp
+R2
+R3
+R4
+R5
+R6
+DEx4 work 10 access_mux 0 22 ^nW;?2XeIY4X?Od@Z04[N2
+l7986
+L7922
+Vc7JG3mzkl=HY<7LJjkGLV0
+!s100 a8n3edUO7]Nh77LAhS]3B3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eaddress_gen
+R1
+Z16 DEx15 axi_epc_v2_0_21 12 ld_arith_reg 0 22 3FoD<`aI:eJVB6RT=7Q6P1
+R3
+R5
+R6
+R0
+R7
+R8
+l0
+L7377
+V3H`Mj02D<faQlEP;BHLU_1
+!s100 `7T4GE4SXGVzd4e]LR^920
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Aimp
+R16
+R3
+R5
+R6
+DEx4 work 11 address_gen 0 22 3H`Mj02D<faQlEP;BHLU_1
+l7446
+L7415
+V^J;oFlDZnCj^DTVQ=``Z<1
+!s100 mWUYn>o^;Bbn2^3Z=gBAS2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Easync_cntl
+R1
+Z17 DEx15 axi_epc_v2_0_21 14 async_counters 0 22 `1HC5WiOY][m`X`1cNWOK3
+Z18 DEx15 axi_epc_v2_0_21 18 async_statemachine 0 22 FG]8b:?Q`?:CTzZoaEF]P0
+Z19 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z20 DPx6 unisim 11 vcomponents 0 22 4NzhH_H[BVKN`b71^hVL<3
+Z21 DPx14 lib_pkg_v1_0_2 7 lib_pkg 0 22 [AUAFNJW:`2SG<Ko:5ggg3
+R2
+R4
+Z22 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
+Z23 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
+R3
+R5
+R6
+R0
+R7
+R8
+l0
+L5834
+VoH0cTJ27J@bio5KL0nDoK0
+!s100 zE2KjDZZB^Uc7NeRe[bY@3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Aimp
+R17
+R18
+R19
+R20
+R21
+R2
+R4
+R22
+R23
+R3
+R5
+R6
+DEx4 work 10 async_cntl 0 22 oH0cTJ27J@bio5KL0nDoK0
+l6848
+L5949
+VbK5H_3?F[Ekk9Nih>;W390
+!s100 VhWLMBAz2l9IDjYAzZaJ`1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Easync_counters
+R1
+R16
+R3
+R5
+R6
+R0
+R7
+R8
+l0
+L1481
+V`1HC5WiOY][m`X`1cNWOK3
+!s100 ILAWGDi=76YLfQ>zQiPGh1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Aimp
+R16
+R3
+R5
+R6
+DEx4 work 14 async_counters 0 22 `1HC5WiOY][m`X`1cNWOK3
+l1607
+L1558
+V5iHk5GoeJh<4mSR6[jC@b1
+!s100 I?XlHJ:jOIf1n`=@eZ0Vg0
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Easync_statemachine
+R1
+R2
+R21
+R3
+R5
+R6
+R0
+R7
+R8
+l0
+L498
+VFG]8b:?Q`?:CTzZoaEF]P0
+!s100 :F^nSFC@5KV=fCAcEf@0o3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Aimp
+R2
+R21
+R3
+R5
+R6
+DEx4 work 18 async_statemachine 0 22 FG]8b:?Q`?:CTzZoaEF]P0
+l701
+L587
+VbTQQlDOoZS;DHfk;B54N52
+!s100 1P1<Rc3T9I:SG`X4=@_[W2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eaxi_epc
+R1
+R2
+R4
+R3
+R5
+R6
+R0
+R7
+R8
+l0
+L9515
+VRfFDH^d]8X=3>MSQUCZD23
+!s100 oL`lm:Qk`FdU>kF6coB9n3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Aimp
+DEx15 axi_epc_v2_0_21 8 epc_core 0 22 N=6lKgocE^V3>`mkk1L7Z2
+R22
+R23
+R19
+DEx20 axi_lite_ipif_v3_0_4 13 axi_lite_ipif 0 22 J1b7VKb;?`UXnaGg<5z0d3
+R2
+R4
+R3
+R5
+R6
+DEx4 work 7 axi_epc 0 22 RfFDH^d]8X=3>MSQUCZD23
+l9926
+L9738
+V6G<T6WGH;0bB@D9`5=`]90
+!s100 6`ESi_E<<F:DJk9<AOkPC1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Edata_steer
+R1
+R19
+R20
+R3
+R5
+R6
+R0
+R7
+R8
+l0
+L4372
+V:dQfO<S@14D`Af1S[NJ4g0
+!s100 R668hD51]IS36nD><LE:E2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Aimp
+R19
+R20
+R3
+R5
+R6
+DEx4 work 10 data_steer 0 22 :dQfO<S@14D`Af1S[NJ4g0
+l4487
+L4423
+VOUBZo[Kc??kT[Ke8SjB4[3
+!s100 e>mhIJ_CC2E9:@3^S_3kD1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eepc_core
+R1
+R2
+R4
+R3
+R5
+R6
+R0
+R7
+R8
+l0
+L8482
+VN=6lKgocE^V3>`mkk1L7Z2
+!s100 hYU4S0ER3Gf?W8C?ez^K70
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Aimp
+DEx15 axi_epc_v2_0_21 10 access_mux 0 22 ^nW;?2XeIY4X?Od@Z04[N2
+DEx15 axi_epc_v2_0_21 10 data_steer 0 22 :dQfO<S@14D`Af1S[NJ4g0
+DEx15 axi_epc_v2_0_21 11 address_gen 0 22 3H`Mj02D<faQlEP;BHLU_1
+DEx15 axi_epc_v2_0_21 10 async_cntl 0 22 oH0cTJ27J@bio5KL0nDoK0
+R21
+DEx15 axi_epc_v2_0_21 9 sync_cntl 0 22 UjD_@?IJef?Wl;<08?S7>0
+R19
+R20
+R22
+R23
+DEx15 axi_epc_v2_0_21 14 ipic_if_decode 0 22 n[9@hKUjY3b3`S=R75SHK3
+R2
+R4
+R3
+R5
+R6
+DEx4 work 8 epc_core 0 22 N=6lKgocE^V3>`mkk1L7Z2
+l8840
+L8639
+VITaFPl7oTaEUI2VJ^S<PH2
+!s100 K8D^5jX3QB3VR^8FQV0Im1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eipic_if_decode
+R1
+R19
+R20
+R22
+R23
+R5
+R6
+R0
+R7
+R8
+l0
+L3411
+Vn[9@hKUjY3b3`S=R75SHK3
+!s100 L?Vfb3^<kYeM6mfMoLcYg1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Aimp
+R19
+R20
+R22
+R23
+R5
+R6
+DEx4 work 14 ipic_if_decode 0 22 n[9@hKUjY3b3`S=R75SHK3
+l3611
+L3491
+V2SOJYOJVdbBToW:EBHZb_2
+!s100 K=mzZjPLnlZ6=g^UMhk7;3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eld_arith_reg
+R1
+R5
+R6
+R0
+R7
+R8
+l0
+L101
+V3FoD<`aI:eJVB6RT=7Q6P1
+!s100 NDG63XCKYP^m43f^i<T1P3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Aimp
+DEx4 work 12 ld_arith_reg 0 22 3FoD<`aI:eJVB6RT=7Q6P1
+R6
+R5
+R19
+l199
+L149
+V[]I5SlG?o0DaHDP?aDAHZ2
+!s100 1K8R5Cee1YfHT5OCEj`_63
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Esync_cntl
+R1
+R19
+R20
+R21
+R16
+R4
+R22
+R23
+R2
+R3
+R5
+R6
+R0
+R7
+R8
+l0
+L2101
+VUjD_@?IJef?Wl;<08?S7>0
+!s100 WMT@>Hz32:?ZcIj41QIa32
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Aimp
+R16
+R19
+R20
+R21
+R4
+R22
+R23
+R2
+R3
+R5
+R6
+DEx4 work 9 sync_cntl 0 22 UjD_@?IJef?Wl;<08?S7>0
+l2473
+L2186
+VHEz;5:3TnMbCbjO23]]301
+!s100 4EVU1hJ=_2X=j?80lGP9D2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15

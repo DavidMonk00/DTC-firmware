@@ -1,0 +1,41 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap generic_baseblocks_v2_1_0 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/generic_baseblocks_v2_1_0 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:03:16 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work generic_baseblocks_v2_1_0 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/generic_baseblocks_v2_1_0/.cxl.verilog.generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0.lin64.cmf 
+-- Compiling module generic_baseblocks_v2_1_0_carry_and
+-- Compiling module generic_baseblocks_v2_1_0_carry_latch_and
+-- Compiling module generic_baseblocks_v2_1_0_carry_latch_or
+-- Compiling module generic_baseblocks_v2_1_0_carry_or
+-- Compiling module generic_baseblocks_v2_1_0_carry
+-- Compiling module generic_baseblocks_v2_1_0_command_fifo
+-- Compiling module generic_baseblocks_v2_1_0_comparator_mask_static
+-- Compiling module generic_baseblocks_v2_1_0_comparator_mask
+-- Compiling module generic_baseblocks_v2_1_0_comparator_sel_mask_static
+-- Compiling module generic_baseblocks_v2_1_0_comparator_sel_mask
+-- Compiling module generic_baseblocks_v2_1_0_comparator_sel_static
+-- Compiling module generic_baseblocks_v2_1_0_comparator_sel
+-- Compiling module generic_baseblocks_v2_1_0_comparator_static
+-- Compiling module generic_baseblocks_v2_1_0_comparator
+-- Compiling module generic_baseblocks_v2_1_0_mux_enc
+-- Compiling module generic_baseblocks_v2_1_0_mux
+-- Compiling module generic_baseblocks_v2_1_0_nto1_mux
+
+Top level modules:
+	generic_baseblocks_v2_1_0_carry_latch_and
+	generic_baseblocks_v2_1_0_carry_or
+	generic_baseblocks_v2_1_0_carry
+	generic_baseblocks_v2_1_0_command_fifo
+	generic_baseblocks_v2_1_0_comparator_mask_static
+	generic_baseblocks_v2_1_0_comparator_mask
+	generic_baseblocks_v2_1_0_comparator_sel_mask_static
+	generic_baseblocks_v2_1_0_comparator_sel_mask
+	generic_baseblocks_v2_1_0_comparator_sel_static
+	generic_baseblocks_v2_1_0_comparator_sel
+	generic_baseblocks_v2_1_0_comparator_static
+	generic_baseblocks_v2_1_0_comparator
+	generic_baseblocks_v2_1_0_mux_enc
+	generic_baseblocks_v2_1_0_nto1_mux
+End time: 13:03:16 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

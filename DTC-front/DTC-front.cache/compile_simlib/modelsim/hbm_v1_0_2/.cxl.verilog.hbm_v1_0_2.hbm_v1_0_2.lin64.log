@@ -1,0 +1,21 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap hbm_v1_0_2 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/hbm_v1_0_2 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:18 on May 03,2019
+vlog -64 -L hbm_v1_0_2 "+incdir+/home/dmonk/.cxl.ip/incl" -sv -work hbm_v1_0_2 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/hbm_v1_0_2/.cxl.systemverilog.hbm_v1_0_2.hbm_v1_0_2.lin64.cmf 
+-- Compiling module hbm_top
+-- Compiling module hbm_apb_mst
+-- Compiling module hbm_temp_rd
+-- Compiling module hbm_apb_arbiter
+-- Compiling module hbm_data_fetch
+-- Compiling module xsdb_top
+-- Compiling module xsdb2apb
+-- Compiling module hbm_v1_0_2_chipscope_xsdb_slave
+-- Compiling module HBM
+
+Top level modules:
+	hbm_top
+	HBM
+End time: 13:04:18 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

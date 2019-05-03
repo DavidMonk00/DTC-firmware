@@ -1,0 +1,322 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vwrTeLj4YRftNkz9eoyZbbtBNQDX1eueNHuTvLSTs7fFnf7PzxxQ5JyKZiIHpRq9p
+Z1 !s110 1556884962
+!i10b 0
+!s100 ]jn_GFfnHEZBCjj3>f[R63
+I>PPOlLcGFPV1n9]8WPjLB3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!i8a 935584944
+R0
+Z3 w1556884962
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/mipi_dsi_tx_ctrl_v1_0/hdl/mipi_dsi_tx_ctrl_v1_0_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/mipi_dsi_tx_ctrl_v1_0/hdl/mipi_dsi_tx_ctrl_v1_0_rfs.v
+Z6 L0 64
+Z7 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z8 !s108 1556884961.000000
+Z9 !s107 /home/dmonk/.cxl.ip/incl/mipi_dsi_tx_ctrl_v1_0_7_defines.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/mipi_dsi_tx_ctrl_v1_0/hdl/mipi_dsi_tx_ctrl_v1_0_rfs.v|
+Z10 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|mipi_dsi_tx_ctrl_v1_0_7|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/mipi_dsi_tx_ctrl_v1_0_7/.cxl.verilog.mipi_dsi_tx_ctrl_v1_0_7.mipi_dsi_tx_ctrl_v1_0_7.lin64.cmf|
+!i113 0
+Z11 o-work mipi_dsi_tx_ctrl_v1_0_7 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work mipi_dsi_tx_ctrl_v1_0_7 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 tCvgOpt 0
+n5e2180e
+vrB8dSU/XfcatYEXIjeDUsB5YhVRY4+8NfliHg4IpuaU=
+R1
+!i10b 0
+!s100 4>KWQGA?hPJYfe1fh[ZRh1
+IcV:5QSNfE0K2BM[mFanX33
+R2
+!i8a 778972064
+R0
+R3
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+nc48fd0c
+veZaS/cip4LRxOYkRwZZo3ngMaWz2dHIxV+EZERHiKdU=
+Z14 !s110 1556884961
+!i10b 0
+!s100 BLSUkUMTQX9DAm49=;Zke0
+IQ>;fAhSK9dY:ND4K4:iF01
+R2
+!i8a 1511493184
+R0
+Z15 w1556884961
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+nd4458e3
+vy2EisdYH1imo33FNSVuRQVHxs8C4PdVmFZk93oWojnw=
+R14
+!i10b 0
+!s100 KU3a3jX1Th]P@h`aoKW@Q1
+Id:09Mn46OgRTCBFlMnP8K3
+R2
+!i8a 630010640
+R0
+R15
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+n4458eb0
+v+LjEacvlpDxoHlL8zxUIC+8GM+T7eNN8pUlK3mHvPCc=
+R14
+!i10b 0
+!s100 mAbAe8hS>[m4XQZoP5]ZE2
+Il^dK]b9RZmQVX87zOgzA20
+R2
+!i8a 1594477424
+R0
+R15
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+n8e662d2
+vs389Poth+HFR1YaIOCuYLExFov0k0gWXJLbqvtpT6OA=
+R14
+!i10b 0
+!s100 Fzd3FmPcHG4l>X39R58CZ3
+Io9Z9V35dk[31mf>ldSA^M1
+R2
+!i8a 40014240
+R0
+R15
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+n58e66a2
+vdkT59pvlhN1tYlNaoBEhmk6ROksve8a/WMPBJvkvopA=
+R14
+!i10b 0
+!s100 i:hGiF:lAMAf;kWBiki;b2
+ITg<zPFU:gh>5PW158GF753
+R2
+!i8a 2027245760
+R0
+R15
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+nd4459f3
+vFmevViAwnNGYQEXEvaFPnYbFLlIexDO+J+3seCA/0uM=
+R1
+!i10b 0
+!s100 YRUb;zX_706W8`^7N[B]<3
+IXzbh3:30eI2`cPIik[]Vg2
+R2
+!i8a 148440560
+R0
+R3
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+n5e922a2
+vEwVyV/c5L3raiplL6Q34znfDFmFMLwzyJfXeYEnZtJs=
+R1
+!i10b 0
+!s100 9@418IUjj;m35Blj?BP6e2
+IAA@HPV^ocjE7cJMAiiHmT0
+R2
+!i8a 1674406752
+R0
+R3
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+n445e0e0
+vIC0xpglVgrFSJVP8J4/jmig7V9K+1HS5ThehohOl6pXIv+FfLbMyQmczwPApVMTy
+R1
+!i10b 0
+!s100 E<d57>U;dB_;2n?^lA50?0
+IRC;hakhgKXEg;hH?7VGjS3
+R2
+!i8a 1049893136
+R0
+R3
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+n370045e
+vAMyAJxzSSIzYAbDhZL5kdEd0wiq5qgAxmwCqYjf8/pk=
+R14
+!i10b 0
+!s100 QPaXbgC9gh]kl3jYV:VYb0
+I96hXHdSZ=5`<:YWfdPeZ23
+R2
+!i8a 1359902128
+R0
+R15
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+nad21c26
+v0uT++O9k6Z9+XpQsptJmyCzDh/v+GLN7m21aUt18QqbbntWcPc0s48KpEq7tYZ6r
+R1
+!i10b 0
+!s100 EDBc;k8@kR6`^^8BL76`Y0
+I<:T>JCV1mUUMRM1O?lYSD1
+R2
+!i8a 784097776
+R0
+R3
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+nc6e364e
+vZWc4CY9k66tgSwKGUv/NmSA9Czpb55RMfuY2AKzgBu8=
+R1
+!i10b 0
+!s100 IOZ2N7XP>eBk5j?3oh@ze3
+I@SCfh_XN6Cn_jR=Jj?4H;3
+R2
+!i8a 17080880
+R0
+R3
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+nd446900

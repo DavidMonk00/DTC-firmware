@@ -1,0 +1,13 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap switch_core_top_v1_0_6 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/switch_core_top_v1_0_6 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:05:06 on May 03,2019
+vlog -64 -L switch_core_top_v1_0_6 "+incdir+/home/dmonk/.cxl.ip/incl" -sv -work switch_core_top_v1_0_6 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/switch_core_top_v1_0_6/.cxl.systemverilog.switch_core_top_v1_0_6.switch_core_top_v1_0_6.lin64.cmf 
+** Warning: /home/dmonk/.cxl.ip/incl/switch_core_top_v1_0_6_regs_include.vh(103): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/dmonk/.cxl.ip/incl/switch_core_top_v1_0_6_regs_include.vh(103): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: /home/dmonk/.cxl.ip/incl/switch_core_top_v1_0_6_regs_include.vh(103): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+Top level modules:
+End time: 13:05:06 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 3

@@ -1,0 +1,15 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axis_clock_converter_v1_1_19 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axis_clock_converter_v1_1_19 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:06:33 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work axis_clock_converter_v1_1_19 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axis_clock_converter_v1_1_19/.cxl.verilog.axis_clock_converter_v1_1_19.axis_clock_converter_v1_1_19.lin64.cmf 
+-- Compiling module axis_clock_converter_v1_1_19_axisc_sync_clock_converter
+-- Compiling module axis_clock_converter_v1_1_19_axisc_async_clock_converter
+-- Compiling module axis_clock_converter_v1_1_19_axisc_sample_cycle_ratio
+-- Compiling module axis_clock_converter_v1_1_19_axis_clock_converter
+
+Top level modules:
+	axis_clock_converter_v1_1_19_axis_clock_converter
+End time: 13:06:33 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

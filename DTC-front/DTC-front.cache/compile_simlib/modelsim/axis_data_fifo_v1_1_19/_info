@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vaxis_data_fifo_v1_1_19_axis_data_fifo
+!s110 1556885124
+!i10b 1
+!s100 iCAESC5Y79DKEgOO`gQMZ3
+IzE>PWWGYf>6PajThg:RDS3
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1544171252
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_data_fifo_v1_1/hdl/axis_data_fifo_v1_1_vl_rfs.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_data_fifo_v1_1/hdl/axis_data_fifo_v1_1_vl_rfs.v
+F/home/dmonk/.cxl.ip/incl/axis_infrastructure_v1_1_0.vh
+L0 62
+OL;L;10.6b;65
+r1
+!s85 0
+31
+!s108 1556885124.000000
+!s107 /home/dmonk/.cxl.ip/incl/axis_infrastructure_v1_1_0.vh|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axis_data_fifo_v1_1/hdl/axis_data_fifo_v1_1_vl_rfs.v|
+!s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|axis_data_fifo_v1_1_19|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axis_data_fifo_v1_1_19/.cxl.verilog.axis_data_fifo_v1_1_19.axis_data_fifo_v1_1_19.lin64.cmf|
+!i113 0
+o-work axis_data_fifo_v1_1_19 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 +incdir+/home/dmonk/.cxl.ip/incl -work axis_data_fifo_v1_1_19 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0

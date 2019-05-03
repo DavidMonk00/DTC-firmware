@@ -1,0 +1,29 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap gtwizard_ultrascale_v1_5_4 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/gtwizard_ultrascale_v1_5_4 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:02:59 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work gtwizard_ultrascale_v1_5_4 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/gtwizard_ultrascale_v1_5_4/.cxl.verilog.gtwizard_ultrascale_v1_5_4.gtwizard_ultrascale_v1_5_4.lin64.cmf 
+-- Compiling module gtwizard_ultrascale_v1_5_4_bit_synchronizer
+-- Compiling module gtwizard_ultrascale_v1_5_4_gthe3_cpll_cal
+-- Compiling module gtwizard_ultrascale_v1_5_4_gthe3_cpll_cal_freq_counter
+-- Compiling module gtwizard_ultrascale_v1_5_4_gtwiz_buffbypass_rx
+-- Compiling module gtwizard_ultrascale_v1_5_4_gtwiz_buffbypass_tx
+-- Compiling module gtwizard_ultrascale_v1_5_4_gtwiz_reset
+-- Compiling module gtwizard_ultrascale_v1_5_4_gtwiz_userclk_rx
+-- Compiling module gtwizard_ultrascale_v1_5_4_gtwiz_userclk_tx
+-- Compiling module gtwizard_ultrascale_v1_5_4_gtwiz_userdata_rx
+-- Compiling module gtwizard_ultrascale_v1_5_4_gtwiz_userdata_tx
+-- Compiling module gtwizard_ultrascale_v1_5_4_reset_synchronizer
+
+Top level modules:
+	gtwizard_ultrascale_v1_5_4_gthe3_cpll_cal
+	gtwizard_ultrascale_v1_5_4_gtwiz_buffbypass_rx
+	gtwizard_ultrascale_v1_5_4_gtwiz_buffbypass_tx
+	gtwizard_ultrascale_v1_5_4_gtwiz_reset
+	gtwizard_ultrascale_v1_5_4_gtwiz_userclk_rx
+	gtwizard_ultrascale_v1_5_4_gtwiz_userclk_tx
+	gtwizard_ultrascale_v1_5_4_gtwiz_userdata_rx
+	gtwizard_ultrascale_v1_5_4_gtwiz_userdata_tx
+End time: 13:03:00 on May 03,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

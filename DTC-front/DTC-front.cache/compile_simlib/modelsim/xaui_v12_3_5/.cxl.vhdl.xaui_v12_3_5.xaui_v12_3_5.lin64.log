@@ -1,0 +1,9 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap xaui_v12_3_5 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/xaui_v12_3_5 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:02:44 on May 03,2019
+vcom -64 -93 -work xaui_v12_3_5 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/xaui_v12_3_5/.cxl.vhdl.xaui_v12_3_5.xaui_v12_3_5.lin64.cmf 
+-- Loading package STANDARD
+End time: 13:02:44 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

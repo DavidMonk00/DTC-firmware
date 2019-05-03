@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_protocol_checker_v2_0_4
+/opt/MentorGraphics/modeltech/bin/vmap axi_protocol_checker_v2_0_4 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_protocol_checker_v2_0_4
+/opt/MentorGraphics/modeltech/bin/vlog  -64 -L smartconnect_v1_0 -L axi_protocol_checker_v2_0_4 +incdir+/home/dmonk/.cxl.ip/incl -sv -work axi_protocol_checker_v2_0_4 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_protocol_checker_v2_0_4/.cxl.systemverilog.axi_protocol_checker_v2_0_4.axi_protocol_checker_v2_0_4.lin64.cmf

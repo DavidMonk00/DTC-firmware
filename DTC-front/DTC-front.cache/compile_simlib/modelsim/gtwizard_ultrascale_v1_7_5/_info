@@ -1,0 +1,516 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vgtwizard_ultrascale_v1_7_5_bit_synchronizer
+Z1 !s110 1556884984
+!i10b 1
+!s100 Qh2WYTOVaPG64NdCR2E=F1
+IQ@9n<<nfboTEMVImJ8nCW1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171263
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_bit_sync.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_bit_sync.v
+Z4 L0 55
+Z5 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z6 !s108 1556884984.000000
+Z7 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_reset_inv_sync.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_reset_sync.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_userclk_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_userclk_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_reset.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_buffbypass_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_buffbypass_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_cal_freqcnt.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_cal_freqcnt.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe3_cal_freqcnt.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe3_cpll_cal.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_delay_powergood.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_delay_powergood.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gte4_drp_arb.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_bit_sync.v|
+Z8 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|gtwizard_ultrascale_v1_7_5|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/gtwizard_ultrascale_v1_7_5/.cxl.verilog.gtwizard_ultrascale_v1_7_5.gtwizard_ultrascale_v1_7_5.lin64.cmf|
+!i113 0
+Z9 o-work gtwizard_ultrascale_v1_7_5 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work gtwizard_ultrascale_v1_7_5 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+vgtwizard_ultrascale_v1_7_5_gte4_drp_arb
+R1
+!i10b 1
+!s100 f2Q2L569RmcI8:fL4OI5C1
+I^=`?>cY@RO_3]B3HF`RBM0
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gte4_drp_arb.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gte4_drp_arb.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gthe3_cpll_cal
+R1
+!i10b 1
+!s100 W0b:E0Y<9<;JL:K1SD7>@0
+IDjImY]:W`Q_]:JICgd@C91
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe3_cpll_cal.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe3_cpll_cal.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gthe3_cpll_cal_freq_counter
+R1
+!i10b 1
+!s100 [X::e=ON^k7KOVO]^ZX<N1
+IAAlBZDl@>2JP`JRDKi@eX2
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe3_cal_freqcnt.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe3_cal_freqcnt.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gthe4_cpll_cal
+R1
+!i10b 1
+!s100 kX=7gJGcR8Th2QTDXZ1zn1
+I7eTJfJ4NRUnz@@=k8S=9L0
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gthe4_cpll_cal_freq_counter
+R1
+!i10b 1
+!s100 ijjB`Wk2lWcD;iIi1McQY2
+Ih0UFZVFjmoj6BabW>b@<V1
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_cal_freqcnt.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_cal_freqcnt.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gthe4_cpll_cal_rx
+R1
+!i10b 1
+!s100 ;DM[ikbB=]QR6EzYPO?2e1
+InY>SKRZ]3_76gbNgc>d4M0
+R2
+R0
+Z12 w1544171262
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_rx.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_rx.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gthe4_cpll_cal_tx
+R1
+!i10b 1
+!s100 <6R5@>3gcMh;S7MNbXEE:0
+I`5g]FHE_ZhZ2567NA0K1f2
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_tx.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_tx.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gthe4_delay_powergood
+R1
+!i10b 1
+!s100 dZmGl4XYKKMbZS8FY9>Qd1
+In@WHo<ASC5zfaRmRiT^a83
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_delay_powergood.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_delay_powergood.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gtwiz_buffbypass_rx
+R1
+!i10b 1
+!s100 ^Kd_1IUciKNTS9EL>bnmd0
+IA;P8_>0T@zBH]KhZ5gGon2
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_buffbypass_rx.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_buffbypass_rx.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gtwiz_buffbypass_tx
+R1
+!i10b 1
+!s100 Qzd4^KYGcM<[?mB2V2NMY2
+I9V_`o>WACTEkLZi9eo@UP0
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_buffbypass_tx.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_buffbypass_tx.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gtwiz_reset
+R1
+!i10b 1
+!s100 P7fZa1mXgzkek@j3@ah6T1
+I?TMzfTdjIYN;jlAEcZ^IF0
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_reset.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_reset.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gtwiz_userclk_rx
+R1
+!i10b 1
+!s100 EO]3fXTfPm3=@98nWOfWe1
+IZV`IeF[fz@0jcQ[Y4X^le1
+R2
+R0
+R12
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_userclk_rx.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_userclk_rx.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gtwiz_userclk_tx
+R1
+!i10b 1
+!s100 a]]8m_77_cAZ<Gc7LzYHn1
+IKF`XMT:ldZ[URMO?JRYR;1
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_userclk_tx.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_userclk_tx.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gtwiz_userdata_rx
+R1
+!i10b 1
+!s100 ^Vlc3`Az_@N<hTegBg3JO2
+I2_bN9Fc_VL]R8CEo1Rne^3
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_rx.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_rx.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gtwiz_userdata_tx
+R1
+!i10b 1
+!s100 eoBMfEP;OZkLVSNbXSGJ`1
+Inhb7ZiC46RnBmmS_Zm>O82
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_tx.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_tx.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gtye4_cpll_cal
+R1
+!i10b 1
+!s100 ;fd8o;QYbK`^ccm4T5U]E2
+I4jWPAKAia?H<Io[=gjHfM3
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gtye4_cpll_cal_freq_counter
+R1
+!i10b 1
+!s100 S72Qz[_R873^<L_J^_0VZ2
+IS`6H@BlVBJ`VM`51O=;HD0
+R2
+R0
+R12
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_cal_freqcnt.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_cal_freqcnt.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gtye4_cpll_cal_rx
+R1
+!i10b 1
+!s100 kXJ<`;e>WDaP3bO^`hNQd3
+I9G:VkZ2iTVnUN=oHLIdf61
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal_rx.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal_rx.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gtye4_cpll_cal_tx
+R1
+!i10b 1
+!s100 T?Se^iUWj_[d0lW=:1Rjl0
+INYOFWl[hSaGNI8HK:]OgE2
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal_tx.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal_tx.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_gtye4_delay_powergood
+R1
+!i10b 1
+!s100 6n03Vzg`GQBanB9GXM7aN2
+Ia8Q^1Ud1APn<j_ngzc>F`3
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_delay_powergood.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_delay_powergood.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_reset_inv_synchronizer
+R1
+!i10b 1
+!s100 6HWB[ncAh;57Q;mzf;8g42
+ICPh3]_D<LWo:KZORQUfY73
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_reset_inv_sync.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_reset_inv_sync.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11
+vgtwizard_ultrascale_v1_7_5_reset_synchronizer
+R1
+!i10b 1
+!s100 ie6kOA^;1EKPzViXYkZi^0
+I:PYE9RCNYbAPLFzJEeJ7c2
+R2
+R0
+R3
+8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_reset_sync.v
+F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_reset_sync.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R11

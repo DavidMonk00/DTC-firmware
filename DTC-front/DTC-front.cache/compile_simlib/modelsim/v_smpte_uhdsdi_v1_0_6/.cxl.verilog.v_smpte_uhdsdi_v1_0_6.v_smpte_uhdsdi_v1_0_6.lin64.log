@@ -1,0 +1,53 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap v_smpte_uhdsdi_v1_0_6 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/v_smpte_uhdsdi_v1_0_6 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:03:29 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work v_smpte_uhdsdi_v1_0_6 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/v_smpte_uhdsdi_v1_0_6/.cxl.verilog.v_smpte_uhdsdi_v1_0_6.v_smpte_uhdsdi_v1_0_6.lin64.cmf 
+-- Compiling module v_smpte_uhdsdi_v1_0_6_crc2
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_anc_rx
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_autodetect
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_crc16
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_crc
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_errcnt
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_flags
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_fly_field
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_fly_fsm
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_fly_horz
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_fly_vert
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_flywheel
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_loc
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_processor
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_rx
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_trs_detect
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_tx
+-- Compiling module v_smpte_uhdsdi_v1_0_6_edh_video_decode
+-- Compiling module v_smpte_uhdsdi_v1_0_6_rx_autorate
+-- Compiling module v_smpte_uhdsdi_v1_0_6_rx_crc
+-- Compiling module v_smpte_uhdsdi_v1_0_6_rx_decoder
+-- Compiling module v_smpte_uhdsdi_v1_0_6_rx_demux_4
+-- Compiling module v_smpte_uhdsdi_v1_0_6_rx_framer
+-- Compiling module v_smpte_uhdsdi_v1_0_6_rx_st352_pid_capture
+-- Compiling module v_smpte_uhdsdi_v1_0_6_rx_to_demux
+** Warning: (vlog-2083) /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_smpte_uhdsdi_v1_0/hdl/v_smpte_uhdsdi_v1_0_vl_rfs.v(8299): Carriage return (0x0D) is not followed by a newline (0x0A).
+-- Compiling module v_smpte_uhdsdi_v1_0_6_rx_transport_detect
+-- Compiling module v_smpte_uhdsdi_v1_0_6_rx_trs_restore
+-- Compiling module v_smpte_uhdsdi_v1_0_6_rx
+-- Compiling module v_smpte_uhdsdi_v1_0_6_tx_bitrep_20b
+-- Compiling module v_smpte_uhdsdi_v1_0_6_tx_channel
+-- Compiling module v_smpte_uhdsdi_v1_0_6_tx_encoder
+-- Compiling module v_smpte_uhdsdi_v1_0_6_tx_insert_crc
+-- Compiling module v_smpte_uhdsdi_v1_0_6_tx_insert_ln
+-- Compiling module v_smpte_uhdsdi_v1_0_6_tx_mux
+-- Compiling module v_smpte_uhdsdi_v1_0_6_tx_output
+-- Compiling module v_smpte_uhdsdi_v1_0_6_tx_scrambler
+-- Compiling module v_smpte_uhdsdi_v1_0_6_tx_st352_pid_insert
+-- Compiling module v_smpte_uhdsdi_v1_0_6_tx_syncbit_insert
+-- Compiling module v_smpte_uhdsdi_v1_0_6_tx_trsgen
+-- Compiling module v_smpte_uhdsdi_v1_0_6_tx
+-- Compiling module v_smpte_uhdsdi_v1_0_6
+
+Top level modules:
+	v_smpte_uhdsdi_v1_0_6
+End time: 13:03:29 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 1

@@ -1,0 +1,9 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap c_reg_fd_v12_0_5 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/c_reg_fd_v12_0_5 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:39 on May 03,2019
+vcom -64 -93 -work c_reg_fd_v12_0_5 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/c_reg_fd_v12_0_5/.cxl.vhdl.c_reg_fd_v12_0_5.c_reg_fd_v12_0_5.lin64.cmf 
+-- Loading package STANDARD
+End time: 13:04:39 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

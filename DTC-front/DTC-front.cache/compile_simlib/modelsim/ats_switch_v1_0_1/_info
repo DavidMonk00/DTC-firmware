@@ -1,0 +1,318 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vats_switch_v1_0_1_axilite
+Z1 !s110 1556885212
+!i10b 1
+!s100 U_Aag8>5<AAHlCCmQK;S71
+I:CUg:[_?^ME7149e7PZQ41
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171246
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/ats_switch_v1_0/hdl/ats_switch_v1_0_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/ats_switch_v1_0/hdl/ats_switch_v1_0_rfs.v
+L0 64
+Z6 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z7 !s108 1556885212.000000
+Z8 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/ats_switch_v1_0/hdl/ats_switch_v1_0_rfs.v|
+Z9 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|ats_switch_v1_0_1|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/ats_switch_v1_0_1/.cxl.verilog.ats_switch_v1_0_1.ats_switch_v1_0_1.lin64.cmf|
+!i113 0
+Z10 o-work ats_switch_v1_0_1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work ats_switch_v1_0_1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vats_switch_v1_0_1_cc
+R1
+!i10b 1
+!s100 OFLOSXHMinom<3gKjKco81
+I3^3U4:aDl4M`RNhC_kcmh2
+R2
+R0
+R3
+R4
+R5
+L0 401
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vats_switch_v1_0_1_cq
+R1
+!i10b 1
+!s100 2DWm4[2hf^X1LzkEdZNgK0
+Id>e2K1jB[no_7VFn0XiIT0
+R2
+R0
+R3
+R4
+R5
+L0 1494
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vats_switch_v1_0_1_header_extract
+R1
+!i10b 1
+!s100 4c68Dlz[2ag@oZS_VibQZ3
+IAPWiVPdRna25_a4ePUf:]2
+R2
+R0
+R3
+R4
+R5
+L0 2456
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vats_switch_v1_0_1_rc
+R1
+!i10b 1
+!s100 BdFkL1;aFNLFbSoRMFHW73
+IY0gNJEM3fm`B1FebJfe?>2
+R2
+R0
+R3
+R4
+R5
+L0 3023
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vats_switch_v1_0_1_reg
+R1
+!i10b 1
+!s100 5n?6^nIKc6?hh>goeg3Z93
+I1>jJX7I1VHV<Y@QKieQzY2
+R2
+R0
+R3
+R4
+R5
+L0 3985
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vats_switch_v1_0_1_rq
+R1
+!i10b 1
+!s100 ;m1;57zjf[m;GLYzXmoFT2
+IZhBeIbSQDnT8Q9i]hbHdL2
+R2
+R0
+R3
+R4
+R5
+L0 4355
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vats_switch_v1_0_1_straddle_header_extract
+R1
+!i10b 1
+!s100 zCP<?ISdT1jLkmTHQQZeU0
+IO:ai@R4>:2Q;PGCHaG3B23
+R2
+R0
+R3
+R4
+R5
+L0 2692
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vats_switch_v1_0_1_straddle_header_extract_512
+R1
+!i10b 1
+!s100 E7a:cFa0PN:0>4z`G>9>01
+I@d0WK`@Ke3l1^M5gmHPJc0
+R2
+R0
+R3
+R4
+R5
+L0 7179
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vats_switch_v1_0_1_tdest_cq
+R1
+!i10b 1
+!s100 D05gFgQ>;>J>^c_G]ONhR1
+IUNlK6llAJTZLViCCM:X;V1
+R2
+R0
+R3
+R4
+R5
+L0 5382
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vats_switch_v1_0_1_tdest_rc
+R1
+!i10b 1
+!s100 1A@E<0LQ2Lo>fCS8oF3J<0
+IlLn=<FijUFZ5V4Z0;`K?f0
+R2
+R0
+R3
+R4
+R5
+L0 5898
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vats_switch_v1_0_1_tdest_rc_straddle
+R1
+!i10b 1
+!s100 `?3DfCBQg=OG];cdM:5Fj3
+Ina:T2K?amo2nLZJkK@?ak0
+R2
+R0
+R3
+R4
+R5
+L0 6394
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vats_switch_v1_0_1_tdest_rc_straddle_512
+R1
+!i10b 1
+!s100 72i^Vn8]6SXnH0SD3Y?LE0
+IG7WKf4I31N7KU^4NiObY50
+R2
+R0
+R3
+R4
+R5
+L0 7577
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vats_switch_v1_0_1_top
+R1
+!i10b 1
+!s100 20]Obf=PJ_UH9@9MzBmOa3
+IRWQJkHzR7=zAehEHnfO>g0
+R2
+R0
+R3
+R4
+R5
+L0 8257
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12

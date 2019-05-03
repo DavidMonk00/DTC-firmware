@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_interconnect_v1_7_15
+/opt/MentorGraphics/modeltech/bin/vmap axi_interconnect_v1_7_15 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_interconnect_v1_7_15
+/opt/MentorGraphics/modeltech/bin/vlog  -64 +incdir+/home/dmonk/.cxl.ip/incl -work axi_interconnect_v1_7_15 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_interconnect_v1_7_15/.cxl.verilog.axi_interconnect_v1_7_15.axi_interconnect_v1_7_15.lin64.cmf

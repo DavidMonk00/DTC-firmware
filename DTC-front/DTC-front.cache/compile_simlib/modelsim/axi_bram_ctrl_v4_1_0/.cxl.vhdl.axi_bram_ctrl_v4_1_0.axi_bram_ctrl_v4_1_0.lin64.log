@@ -1,0 +1,173 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axi_bram_ctrl_v4_1_0 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_bram_ctrl_v4_1_0 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:06:36 on May 03,2019
+vcom -64 -93 -work axi_bram_ctrl_v4_1_0 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_bram_ctrl_v4_1_0/.cxl.vhdl.axi_bram_ctrl_v4_1_0.axi_bram_ctrl_v4_1_0.lin64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SRL_FIFO
+-- Compiling architecture IMP of SRL_FIFO
+-- Compiling package axi_bram_ctrl_funcs
+-- Loading package NUMERIC_STD
+-- Compiling package body axi_bram_ctrl_funcs
+-- Loading package axi_bram_ctrl_funcs
+-- Compiling package coregen_comp_defs
+-- Compiling entity axi_lite_if
+-- Compiling architecture IMP of axi_lite_if
+-- Compiling entity checkbit_handler_64
+-- Compiling architecture IMP of checkbit_handler_64
+-- Compiling entity checkbit_handler
+-- Compiling architecture IMP of checkbit_handler
+-- Compiling entity Correct_One_Bit_64
+-- Compiling architecture IMP of Correct_One_Bit_64
+-- Compiling entity Correct_One_Bit
+-- Compiling architecture IMP of Correct_One_Bit
+-- Compiling entity XOR18
+-- Compiling architecture IMP of XOR18
+-- Compiling entity Parity
+-- Compiling architecture IMP of Parity
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ecc_gen
+-- Compiling architecture trans of ecc_gen
+-- Loading entity axi_lite_if
+-- Loading package axi_bram_ctrl_funcs
+-- Compiling entity lite_ecc_reg
+-- Compiling architecture implementation of lite_ecc_reg
+-- Loading entity lite_ecc_reg
+-- Loading entity Parity
+-- Loading entity checkbit_handler
+-- Loading entity Correct_One_Bit
+-- Loading entity ecc_gen
+-- Compiling entity axi_lite
+-- Compiling architecture implementation of axi_lite
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(7179): Nonresolved signal 'lite_sm_cs' may have multiple sources.
+  Drivers:
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(10836):Process LITE_SM_REG_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(10842)
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(8684):Process LITE_SM_REG_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(8690)
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(7179): Nonresolved signal 'lite_sm_ns' may have multiple sources.
+  Drivers:
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(10602):Process LITE_SM_CMB_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(10616)
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(10312):Process LITE_SM_CMB_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(10328)
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(8450):Process LITE_SM_CMB_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(8462)
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(8192):Process LITE_SM_CMB_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(8206)
+-- Compiling entity sng_port_arb
+-- Compiling architecture implementation of sng_port_arb
+-- Compiling entity ua_narrow
+-- Compiling architecture implementation of ua_narrow
+-- Compiling entity wrap_brst
+-- Compiling architecture implementation of wrap_brst
+-- Compiling entity wrap_brst_rd
+-- Compiling architecture implementation of wrap_brst_rd
+-- Loading entity wrap_brst
+-- Loading entity ua_narrow
+-- Loading entity checkbit_handler_64
+-- Loading entity Correct_One_Bit_64
+-- Compiling entity rd_chnl
+-- Compiling architecture implementation of rd_chnl
+-- Loading entity wrap_brst_rd
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(15090): Nonresolved signal 'rd_addr_sm_cs' may have multiple sources.
+  Drivers:
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(22547):Process RD_ADDR_SM_REG_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(22551)
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(17116):Process RD_ADDR_SM_REG_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(17127)
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(15090): Nonresolved signal 'rd_addr_sm_ns' may have multiple sources.
+  Drivers:
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(22476):Process RD_ADDR_SM_CMB_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(22485)
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(22402):Process RD_ADDR_SM_CMB_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(22411)
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(16942):Process RD_ADDR_SM_CMB_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(16954)
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(16779):Process RD_ADDR_SM_CMB_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(16792)
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(15251): Nonresolved signal 'rd_data_sm_cs' may have multiple sources.
+  Drivers:
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(22776):Process RD_DATA_SM_REG_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(22780)
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(20097):Process RD_DATA_SM_REG_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(20103)
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(15251): Nonresolved signal 'rd_data_sm_ns' may have multiple sources.
+  Drivers:
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(22704):Process RD_DATA_SM_CMB_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(22713)
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(22620):Process RD_DATA_SM_CMB_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(22630)
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(18942):Process RD_DATA_SM_CMB_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(18975)
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(17627):Process RD_DATA_SM_CMB_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(17662)
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(15370): Nonresolved signal 'rlast_sm_ns' may have multiple sources.
+  Drivers:
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(21632):Process RLAST_SM_CMB_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(21646)
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(21495):Process RLAST_SM_CMB_PROCESS_RL
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(21512)
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(15425): Nonresolved signal 'rl_count' may have multiple sources.
+  Drivers:
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(22602):Process line__22602
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(22606)
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(20521):Process line__20521
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(20525)
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(20264):Process line__20264
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(20268)
+-- Loading entity SRL_FIFO
+-- Compiling entity wr_chnl
+-- Compiling architecture implementation of wr_chnl
+** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(23567): Nonresolved signal 'wr_data_ecc_sm_ns' may have multiple sources.
+  Drivers:
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(25732):Process WR_DATA_ECC_SM_CMB_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(25745)
+    /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(25484):Process WR_DATA_ECC_SM_CMB_PROCESS
+       Driven at:
+          /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_bram_ctrl_v4_1/hdl/axi_bram_ctrl_v4_1_rfs.vhd(25498)
+-- Loading entity sng_port_arb
+-- Loading entity wr_chnl
+-- Loading entity rd_chnl
+-- Compiling entity full_axi
+-- Compiling architecture implementation of full_axi
+-- Loading entity axi_lite
+-- Loading entity full_axi
+-- Compiling entity axi_bram_ctrl_top
+-- Compiling architecture implementation of axi_bram_ctrl_top
+-- Loading package VCOMPONENTS
+-- Loading entity axi_bram_ctrl_top
+-- Compiling entity axi_bram_ctrl
+-- Compiling architecture implementation of axi_bram_ctrl
+-- Loading package vl_types
+-- Loading entity blk_mem_gen_v8_3_6
+End time: 13:06:37 on May 03,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 9

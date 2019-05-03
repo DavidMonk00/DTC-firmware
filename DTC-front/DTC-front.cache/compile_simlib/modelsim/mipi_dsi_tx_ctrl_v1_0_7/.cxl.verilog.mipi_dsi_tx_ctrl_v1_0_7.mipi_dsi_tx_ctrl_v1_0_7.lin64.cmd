@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/mipi_dsi_tx_ctrl_v1_0_7
+/opt/MentorGraphics/modeltech/bin/vmap mipi_dsi_tx_ctrl_v1_0_7 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/mipi_dsi_tx_ctrl_v1_0_7
+/opt/MentorGraphics/modeltech/bin/vlog  -64 +incdir+/home/dmonk/.cxl.ip/incl -work mipi_dsi_tx_ctrl_v1_0_7 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/mipi_dsi_tx_ctrl_v1_0_7/.cxl.verilog.mipi_dsi_tx_ctrl_v1_0_7.mipi_dsi_tx_ctrl_v1_0_7.lin64.cmf

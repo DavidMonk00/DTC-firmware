@@ -1,0 +1,91 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axi_pcie_v2_9_0 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_pcie_v2_9_0 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:34 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work axi_pcie_v2_9_0 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_pcie_v2_9_0/.cxl.verilog.axi_pcie_v2_9_0.axi_pcie_v2_9_0.lin64.cmf 
+-- Compiling module axi_pcie_v2_9_0_a_upsizer
+-- Compiling module axi_pcie_v2_9_0_address_decoder
+-- Compiling module axi_pcie_v2_9_0_axi_enhanced_cfg
+-- Compiling module axi_pcie_v2_9_0_axi_enhanced_cfg_block_bridge
+-- Compiling module axi_pcie_v2_9_0_axi_enhanced_cfg_event_handler
+-- Compiling module axi_pcie_v2_9_0_axi_enhanced_cfg_gen_sink
+-- Compiling module axi_pcie_v2_9_0_axi_enhanced_cfg_slave
+-- Compiling module axi_pcie_v2_9_0_axi_enhanced_rx
+-- Compiling module axi_pcie_v2_9_0_axi_enhanced_rx_demux
+-- Compiling module axi_pcie_v2_9_0_axi_enhanced_rx_destraddler
+-- Compiling module axi_pcie_v2_9_0_axi_enhanced_rx_null_gen
+-- Compiling module axi_pcie_v2_9_0_axi_enhanced_rx_pipeline
+-- Compiling module axi_pcie_v2_9_0_axi_enhanced_top
+-- Compiling module axi_pcie_v2_9_0_axi_enhanced_tx
+-- Compiling module axi_pcie_v2_9_0_axi_enhanced_tx_arbiter
+-- Compiling module axi_pcie_v2_9_0_axi_enhanced_tx_pipeline
+-- Compiling module axi_pcie_v2_9_0_axi_enhanced_tx_port_mux
+-- Compiling module axi_pcie_v2_9_0_axi_lite_ipif
+-- Compiling module axi_pcie_v2_9_0_axi_pcie_enhanced_core_top
+-- Compiling module axi_pcie_v2_9_0_axi_register_slice
+-- Compiling module axi_pcie_v2_9_0_axi_upsizer
+-- Compiling module axi_pcie_v2_9_0_axic_register_slice
+-- Compiling module axi_pcie_v2_9_0_carry_and
+-- Compiling module axi_pcie_v2_9_0_carry_latch_and
+-- Compiling module axi_pcie_v2_9_0_carry_latch_or
+-- Compiling module axi_pcie_v2_9_0_carry_or
+-- Compiling module axi_pcie_v2_9_0_command_fifo
+-- Compiling module axi_pcie_v2_9_0_comparator
+-- Compiling module axi_pcie_v2_9_0_comparator_sel
+-- Compiling module axi_pcie_v2_9_0_comparator_sel_static
+-- Compiling module axi_pcie_v2_9_0_enhanced_core_top_wrap
+-- Compiling module axi_pcie_v2_9_0_fifo
+-- Compiling module axi_pcie_v2_9_0_GTPA1_DUAL_WRAPPER
+-- Compiling module axi_pcie_v2_9_0_GTPA1_DUAL_WRAPPER_TILE
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_gt_rx_valid_filter_7x
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_gt_top
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v1_6_gt_top_ies
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_gt_wrapper
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_gtx_cpllpd_ovrd
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v1_6_gt_wrapper_ies
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_gtp_pipe_rate
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_gtp_pipe_drp
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_gtp_pipe_reset
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_pcie_7x
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_pcie_bram_7x
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_pcie_bram_top_7x
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_pcie_brams_7x
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_pcie_pipe_lane
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_pcie_pipe_misc
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_pcie_pipe_pipeline
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_pcie_top
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v1_6_pipe_clock_ies
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_pipe_drp
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_pipe_eq
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v1_6_pipe_eq_ies
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_pipe_rate
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v1_6_pipe_rate_ies
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_pipe_reset
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_pipe_sync
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v1_6_pipe_sync_ies
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_pipe_user
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v1_6_pipe_user_ies
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_pipe_wrapper
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v1_6_pipe_wrapper_ies
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v1_6_qpll_drp_ies
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_qpll_reset
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v1_6_qpll_wrapper_ies
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_rxeq_scan
+-- Compiling module axi_pcie_v2_9_0_pselect_f
+-- Compiling module axi_pcie_v2_9_0_r_upsizer
+-- Compiling module axi_pcie_v2_9_0_slave_attachment
+-- Compiling module axi_pcie_v2_9_0_w_upsizer
+-- Compiling module axi_pcie_v2_9_0_pcie_7x_v2_0_2_sys_clk_gen_ps
+
+Top level modules:
+	axi_pcie_v2_9_0_axi_upsizer
+	axi_pcie_v2_9_0_enhanced_core_top_wrap
+	axi_pcie_v2_9_0_fifo
+	axi_pcie_v2_9_0_GTPA1_DUAL_WRAPPER
+	axi_pcie_v2_9_0_pcie_7x_v2_0_2_gt_top
+	axi_pcie_v2_9_0_pcie_7x_v1_6_gt_top_ies
+	axi_pcie_v2_9_0_pcie_7x_v2_0_2_pcie_top
+	axi_pcie_v2_9_0_pcie_7x_v2_0_2_sys_clk_gen_ps
+End time: 13:04:34 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

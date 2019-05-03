@@ -1,0 +1,274 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vaxi_crossbar_v2_1_19_addr_arbiter
+Z1 !s110 1556885191
+!i10b 1
+!s100 mZJ?FXIVI_R[oMco?Z7=R1
+IH2X1j6[PSjeWQnTTTO^H_2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171250
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v
+L0 423
+Z6 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z7 !s108 1556885191.000000
+Z8 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_crossbar_v2_1/hdl/axi_crossbar_v2_1_vl_rfs.v|
+Z9 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|axi_crossbar_v2_1_19|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_crossbar_v2_1_19/.cxl.verilog.axi_crossbar_v2_1_19.axi_crossbar_v2_1_19.lin64.cmf|
+!i113 0
+Z10 o-work axi_crossbar_v2_1_19 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work axi_crossbar_v2_1_19 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vaxi_crossbar_v2_1_19_addr_arbiter_sasd
+R1
+!i10b 1
+!s100 ]GI2]gzHg]M_?NQ5KXl?E3
+I6i:5@Ja3z59Z2SdgQWfKI1
+R2
+R0
+R3
+R4
+R5
+L0 65
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_crossbar_v2_1_19_addr_decoder
+R1
+!i10b 1
+!s100 ^>7Fnl1aCnIj6:>iUj3fF2
+I0UBlSn0lTT^4?5lVFYWkc1
+R2
+R0
+R3
+R4
+R5
+L0 794
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_crossbar_v2_1_19_arbiter_resp
+R1
+!i10b 1
+!s100 aD64VfN:MM3l01TPlTn:h2
+II@XahW1heHom3I;dG3KbT2
+R2
+R0
+R3
+R4
+R5
+L0 1025
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_crossbar_v2_1_19_axi_crossbar
+R1
+!i10b 1
+!s100 PZh0M4e9:?h;dOFa>;ob01
+ID;X7^kBRb1HzO;nITa7c@3
+R2
+R0
+R3
+R4
+R5
+L0 4884
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_crossbar_v2_1_19_crossbar
+R1
+!i10b 1
+!s100 G0R8Ua0DKfYC[[;En8@Hl2
+I;:b>>>82i?S2zXR;V3eNN2
+R2
+R0
+R3
+R4
+R5
+L0 2239
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_crossbar_v2_1_19_crossbar_sasd
+R1
+!i10b 1
+!s100 Z`30[ljZ;FXHhboA9o<kN2
+Ie?OafF5j9Mb4T[mmaUEiC2
+R2
+R0
+R3
+R4
+R5
+L0 1240
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_crossbar_v2_1_19_decerr_slave
+R1
+!i10b 1
+!s100 :=F4Y2=jV`>c`GkED2Q7E1
+Ig9_k9K6gf6VBU9@ULk^HY2
+R2
+R0
+R3
+R4
+R5
+L0 3501
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_crossbar_v2_1_19_si_transactor
+R1
+!i10b 1
+!s100 mZ>1K]mFi?bgcOWBS?>7P0
+If_cM9gFmX@EQ]:5SI8aN10
+R2
+R0
+R3
+R4
+R5
+L0 3800
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_crossbar_v2_1_19_splitter
+R1
+!i10b 1
+!s100 XITNC01<4k^jLPkgCWH]d3
+I<I;Ud:=OMjibmMQPIcDcG2
+R2
+R0
+R3
+R4
+R5
+L0 4461
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_crossbar_v2_1_19_wdata_mux
+R1
+!i10b 1
+!s100 8Q;@gH5DTWhKQWHGNSF]<0
+Ie=P5SOUF<8i8z1Bd7AYj61
+R2
+R0
+R3
+R4
+R5
+L0 4561
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_crossbar_v2_1_19_wdata_router
+R1
+!i10b 1
+!s100 i`Ti9i]hP<kME?LR8UP>?1
+IPfkeJD;@Q5Khfk0]Yf6Q_2
+R2
+R0
+R3
+R4
+R5
+L0 4736
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12

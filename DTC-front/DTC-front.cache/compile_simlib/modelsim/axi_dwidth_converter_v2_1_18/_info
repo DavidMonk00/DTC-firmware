@@ -1,0 +1,318 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vaxi_dwidth_converter_v2_1_18_a_downsizer
+Z1 !s110 1556885192
+!i10b 1
+!s100 E=CFz5Wkb?QK@dU5]HgkK3
+I5h5LDASMBeE=?blDeJf_j3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171250
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v
+L0 64
+Z6 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z7 !s108 1556885192.000000
+Z8 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_dwidth_converter_v2_1/hdl/axi_dwidth_converter_v2_1_vl_rfs.v|
+Z9 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|axi_dwidth_converter_v2_1_18|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_dwidth_converter_v2_1_18/.cxl.verilog.axi_dwidth_converter_v2_1_18.axi_dwidth_converter_v2_1_18.lin64.cmf|
+!i113 0
+Z10 o-work axi_dwidth_converter_v2_1_18 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work axi_dwidth_converter_v2_1_18 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vaxi_dwidth_converter_v2_1_18_a_upsizer
+R1
+!i10b 1
+!s100 GLEjlCAIo`?9MD^mVOnEz0
+IV<6]mQBnTU>W]76NbXCG30
+R2
+R0
+R3
+R4
+R5
+L0 3603
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_dwidth_converter_v2_1_18_axi4lite_downsizer
+R1
+!i10b 1
+!s100 Q0GhEANF`;;Vz88^eNE0[2
+IMLnXo23AVTkE7W5iHKHic0
+R2
+R0
+R3
+R4
+R5
+L0 3003
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_dwidth_converter_v2_1_18_axi4lite_upsizer
+R1
+!i10b 1
+!s100 SVFQMDkK7a>f`aSY9b3;K2
+ICi5zNf5iA>SfW[0R^8ICR0
+R2
+R0
+R3
+R4
+R5
+L0 3334
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_dwidth_converter_v2_1_18_axi_downsizer
+R1
+!i10b 1
+!s100 TR344<AcL>Kk:VUJ3:i:R3
+IWKGQECLoI^jzaEeH=8C8P2
+R2
+R0
+R3
+R4
+R5
+L0 2380
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_dwidth_converter_v2_1_18_axi_upsizer
+R1
+!i10b 1
+!s100 b3e?A34KR:cAg=k7b^cX_0
+I1Ul321mN1gVi@0a7QkB2Q2
+R2
+R0
+R3
+R4
+R5
+L0 12808
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_dwidth_converter_v2_1_18_b_downsizer
+R1
+!i10b 1
+!s100 ZR]Ki>mKT0_iGd]h7c9CL3
+Ia60NmE:]VF4zhY==Nl:dT3
+R2
+R0
+R3
+R4
+R5
+L0 1251
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_dwidth_converter_v2_1_18_r_downsizer
+R1
+!i10b 1
+!s100 ?lRRRFebad>_O;G<jT]ai1
+IBiBMH76dl0Y8ceTb>^h4@3
+R2
+R0
+R3
+R4
+R5
+L0 1533
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_dwidth_converter_v2_1_18_r_upsizer
+R1
+!i10b 1
+!s100 B:h:A?:^dozi@kXbWnoz40
+IcX`HfQJG`=Yc6haOgaP;<3
+R2
+R0
+R3
+R4
+R5
+L0 4653
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_dwidth_converter_v2_1_18_r_upsizer_pktfifo
+R1
+!i10b 1
+!s100 3m;iIi>KKZlfFl_B[2imA1
+IIX9>0B[;A0X]Q0:F^Q0gY1
+R2
+R0
+R3
+R4
+R5
+L0 9601
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_dwidth_converter_v2_1_18_top
+R1
+!i10b 1
+!s100 9]`T9[FNL`O_zE7zJKb4O0
+IPjd5T1kN5SD?b]zQY_Gj62
+R2
+R0
+R3
+R4
+R5
+L0 14462
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_dwidth_converter_v2_1_18_w_downsizer
+R1
+!i10b 1
+!s100 GWS`hk<iAnkY5Q`cjgK0J1
+I^HcRRZi^nmFcnClS;AF;b1
+R2
+R0
+R3
+R4
+R5
+L0 2016
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_dwidth_converter_v2_1_18_w_upsizer
+R1
+!i10b 1
+!s100 [Rm=n5JC8[ejC`4__GBYD0
+IFM?l63>l2h`C8MN=WS<Nk1
+R2
+R0
+R3
+R4
+R5
+L0 5563
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_dwidth_converter_v2_1_18_w_upsizer_pktfifo
+R1
+!i10b 1
+!s100 2O7fYM9dFT_0KzjCD0DM61
+IgD=X:nXfmWdPgAcaeM?2<1
+R2
+R0
+R3
+R4
+R5
+L0 7020
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12

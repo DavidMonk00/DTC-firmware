@@ -1,0 +1,51 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap vid_phy_controller_v2_1_4 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/vid_phy_controller_v2_1_4 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:03:44 on May 03,2019
+vlog -64 -L vid_phy_controller_v2_1_4 "+incdir+/home/dmonk/.cxl.ip/incl" -work vid_phy_controller_v2_1_4 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/vid_phy_controller_v2_1_4/.cxl.verilog.vid_phy_controller_v2_1_4.vid_phy_controller_v2_1_4.lin64.cmf 
+-- Compiling module vid_phy_controller_v2_1_4_sync_block
+-- Compiling module vid_phy_controller_v2_1_4_sync_pulse
+-- Compiling module vid_phy_controller_v2_1_4_cpll_railing
+-- Compiling module vid_phy_controller_v2_1_4_axi4lite
+-- Compiling module vid_phy_controller_v2_1_4_drp_control
+-- Compiling module vid_phy_controller_v2_1_4_drp_control_8series
+-- Compiling module vid_phy_controller_v2_1_4_drp_control_hdmi
+-- Compiling module vid_phy_controller_v2_1_4_interrupts
+-- Compiling module vid_phy_controller_v2_1_4_gtp_common
+
+Top level modules:
+	vid_phy_controller_v2_1_4_sync_block
+	vid_phy_controller_v2_1_4_sync_pulse
+	vid_phy_controller_v2_1_4_cpll_railing
+	vid_phy_controller_v2_1_4_axi4lite
+	vid_phy_controller_v2_1_4_drp_control
+	vid_phy_controller_v2_1_4_drp_control_8series
+	vid_phy_controller_v2_1_4_drp_control_hdmi
+	vid_phy_controller_v2_1_4_gtp_common
+End time: 13:03:44 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:03:44 on May 03,2019
+vlog -64 -L vid_phy_controller_v2_1_4 "+incdir+/home/dmonk/.cxl.ip/incl" -sv -work vid_phy_controller_v2_1_4 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/vid_phy_controller_v2_1_4/.cxl.systemverilog.vid_phy_controller_v2_1_4.vid_phy_controller_v2_1_4.lin64.cmf 
+-- Compiling module vid_phy_controller_v2_1_4_lib_rst_v1_0
+-- Compiling module vid_phy_controller_v2_1_4_lib_sync_v1_0
+-- Compiling module vid_phy_controller_v2_1_4_lib_cap_v1_0
+-- Compiling module vid_phy_controller_v2_1_4_lib_edge_v1_0
+-- Compiling module vid_phy_controller_v2_1_4_lib_cda_gray_v1_0
+-- Compiling module vid_phy_controller_v2_1_4_lib_fifo_sc_v1_0
+-- Compiling module vid_phy_controller_v2_1_4_lib_fifo_dc_v1_0
+-- Compiling module vid_phy_controller_v2_1_4_lib_div_v1_0
+-- Compiling module vid_phy_controller_v2_1_4_datawidth_conv
+-- Compiling module vid_phy_controller_v2_1_4_dru
+
+Top level modules:
+	vid_phy_controller_v2_1_4_lib_sync_v1_0
+	vid_phy_controller_v2_1_4_lib_cap_v1_0
+	vid_phy_controller_v2_1_4_lib_edge_v1_0
+	vid_phy_controller_v2_1_4_lib_fifo_sc_v1_0
+	vid_phy_controller_v2_1_4_lib_div_v1_0
+	vid_phy_controller_v2_1_4_datawidth_conv
+	vid_phy_controller_v2_1_4_dru
+End time: 13:03:44 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

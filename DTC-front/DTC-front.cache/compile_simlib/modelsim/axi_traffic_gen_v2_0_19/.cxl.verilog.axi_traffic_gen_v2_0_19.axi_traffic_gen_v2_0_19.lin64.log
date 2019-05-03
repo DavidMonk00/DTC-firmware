@@ -1,0 +1,42 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axi_traffic_gen_v2_0_19 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_traffic_gen_v2_0_19 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:34 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work axi_traffic_gen_v2_0_19 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_traffic_gen_v2_0_19/.cxl.verilog.axi_traffic_gen_v2_0_19.axi_traffic_gen_v2_0_19.lin64.cmf 
+-- Compiling module axi_traffic_gen_v2_0_19_asynch_rst_ff
+-- Compiling module axi_traffic_gen_v2_0_19_slvram_v7
+-- Compiling module axi_traffic_gen_v2_0_19_regslice
+-- Compiling module axi_traffic_gen_v2_0_19_inferram
+-- Compiling module axi_traffic_gen_v2_0_19_randgen
+-- Compiling module axi_traffic_gen_v2_0_19_id_track
+-- Compiling module axi_traffic_gen_v2_0_19_ex_fifo
+-- Compiling module axi_traffic_gen_v2_0_19_cmdram
+-- Compiling module axi_traffic_gen_v2_0_19_addrgen
+-- Compiling module axi_traffic_gen_v2_0_19_s_w_channel
+-- Compiling module axi_traffic_gen_v2_0_19_s_r_channel
+-- Compiling module axi_traffic_gen_v2_0_19_sharedram_wrap
+-- Compiling module axi_traffic_gen_v2_0_19_registers
+-- Compiling module axi_traffic_gen_v2_0_19_paramram_wrap
+-- Compiling module axi_traffic_gen_v2_0_19_paramram_64_wrap
+-- Compiling module axi_traffic_gen_v2_0_19_addrram_wrap
+-- Compiling module axi_traffic_gen_v2_0_19_m_w_channel
+-- Compiling module axi_traffic_gen_v2_0_19_m_r_channel
+-- Compiling module axi_traffic_gen_v2_0_19_cmdram_wrap
+-- Compiling module axi_traffic_gen_v2_0_19_static_regblk
+-- Compiling module axi_traffic_gen_v2_0_19_static_cmdgen
+-- Compiling module axi_traffic_gen_v2_0_19_static_mrdwr
+-- Compiling module axi_traffic_gen_v2_0_19_static_top
+-- Compiling module axi_traffic_gen_v2_0_19_slave_only_top
+-- Compiling module axi_traffic_gen_v2_0_19_basic_n_full_top
+-- Compiling module axi_traffic_gen_v2_0_19_axis_fifo
+-- Compiling module axi_traffic_gen_v2_0_19_streaming_top
+-- Compiling module axi_traffic_gen_v2_0_19_systeminit_dmg
+-- Compiling module axi_traffic_gen_v2_0_19_systeminit_mrdwr
+-- Compiling module axi_traffic_gen_v2_0_19_systeminit_top
+-- Compiling module axi_traffic_gen_v2_0_19_top
+
+Top level modules:
+	axi_traffic_gen_v2_0_19_top
+End time: 13:04:34 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

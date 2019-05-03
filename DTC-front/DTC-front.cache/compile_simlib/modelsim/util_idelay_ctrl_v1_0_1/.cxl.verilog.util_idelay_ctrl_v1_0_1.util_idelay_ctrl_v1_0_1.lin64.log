@@ -1,0 +1,12 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap util_idelay_ctrl_v1_0_1 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/util_idelay_ctrl_v1_0_1 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:21 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work util_idelay_ctrl_v1_0_1 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/util_idelay_ctrl_v1_0_1/.cxl.verilog.util_idelay_ctrl_v1_0_1.util_idelay_ctrl_v1_0_1.lin64.cmf 
+-- Compiling module util_idelay_ctrl_v1_0_1_util_idelay_ctrl
+
+Top level modules:
+	util_idelay_ctrl_v1_0_1_util_idelay_ctrl
+End time: 13:04:21 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

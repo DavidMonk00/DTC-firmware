@@ -1,0 +1,142 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vaxi_data_fifo_v2_1_17_axi_data_fifo
+Z1 !s110 1556885180
+!i10b 1
+!s100 ]1;ba9LYhk^`@CFXQll2Y2
+INc@V_LGSPHG<cIDGN:Qm90
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171250
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v
+L0 1283
+Z6 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z7 !s108 1556885180.000000
+Z8 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_data_fifo_v2_1/hdl/axi_data_fifo_v2_1_vl_rfs.v|
+Z9 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|axi_data_fifo_v2_1_17|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_data_fifo_v2_1_17/.cxl.verilog.axi_data_fifo_v2_1_17.axi_data_fifo_v2_1_17.lin64.cmf|
+!i113 0
+Z10 o-work axi_data_fifo_v2_1_17 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work axi_data_fifo_v2_1_17 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vaxi_data_fifo_v2_1_17_axic_fifo
+R1
+!i10b 1
+!s100 >YgP=^kD1_McUi[[;N1e02
+ISEUJA3@5iTSMod;Bk_8k]1
+R2
+R0
+R3
+R4
+R5
+L0 64
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_data_fifo_v2_1_17_axic_reg_srl_fifo
+R1
+!i10b 1
+!s100 JeKT8oiTEe:4Dk`mSS5Z]3
+I3W>@EC_9[Aj?Ce:Uz>YC[1
+R2
+R0
+R3
+R4
+R5
+L0 889
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_data_fifo_v2_1_17_axic_srl_fifo
+R1
+!i10b 1
+!s100 FObQ2z[9MJWkT@F[82V`T2
+IOD9dVTIeDQTL07iW2JACP3
+R2
+R0
+R3
+R4
+R5
+L0 698
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_data_fifo_v2_1_17_fifo_gen
+R1
+!i10b 1
+!s100 1fhmd@KI_:kh>bzZ_]84`0
+IFJY2>V`Ud[TdfnYZQ_BQI1
+R2
+R0
+R3
+R4
+R5
+L0 168
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vaxi_data_fifo_v2_1_17_ndeep_srl
+R1
+!i10b 1
+!s100 1RSPOXB08JIf6F3IOTzYJ0
+IMB1`[50[:EnGiAcHdU]bL1
+R2
+R0
+R3
+R4
+R5
+L0 1135
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12

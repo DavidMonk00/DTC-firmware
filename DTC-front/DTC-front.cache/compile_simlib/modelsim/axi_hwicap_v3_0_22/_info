@@ -1,0 +1,348 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+Eaxi_hwicap
+Z1 w1544171251
+Z2 DPx6 unisim 11 vcomponents 0 22 4NzhH_H[BVKN`b71^hVL<3
+Z3 DEx18 axi_hwicap_v3_0_22 6 hwicap 0 22 ?nSXmfK1D_6TVSlfzTFKV3
+Z4 DEx24 interrupt_control_v3_1_4 17 interrupt_control 0 22 Lm;>86iNEjDEYHmU0WBeI3
+Z5 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
+Z6 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
+Z7 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z8 DEx20 axi_lite_ipif_v3_0_4 13 axi_lite_ipif 0 22 J1b7VKb;?`UXnaGg<5z0d3
+Z9 DPx20 axi_lite_ipif_v3_0_4 8 ipif_pkg 0 22 zJ]@GWZl6YPP]W9DYEE:f3
+Z10 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z11 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z12 DPx14 lib_pkg_v1_0_2 7 lib_pkg 0 22 [AUAFNJW:`2SG<Ko:5ggg3
+Z13 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z14 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z15 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd
+Z16 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd
+l0
+L4008
+VMbioMdmnWa?N6e5o>[dT82
+!s100 ;_60;SilSm4VnOO]2E_8Q2
+Z17 OL;C;10.6b;65
+31
+Z18 !s110 1556885199
+!i10b 1
+Z19 !s108 1556885199.000000
+Z20 !s90 -64|-93|-work|axi_hwicap_v3_0_22|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_hwicap_v3_0_22/.cxl.vhdl.axi_hwicap_v3_0_22.axi_hwicap_v3_0_22.lin64.cmf|
+Z21 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_hwicap_v3_0/hdl/axi_hwicap_v3_0_vh_rfs.vhd|
+!i113 0
+Z22 o-93 -work axi_hwicap_v3_0_22
+Z23 tExplicit 1 CvgOpt 0
+Aimplementation
+R4
+DEx18 axi_hwicap_v3_0_22 13 hwicap_shared 0 22 ;3k>O@4S?ZiE7IC9O=G4>3
+R3
+R8
+R2
+R5
+R6
+R7
+R9
+R10
+R11
+R12
+R13
+R14
+DEx4 work 10 axi_hwicap 0 22 MbioMdmnWa?N6e5o>[dT82
+l4203
+L4078
+V`jXhREB2z[Ae`IVTKIjm81
+!s100 aSicR26:zeHiz3AbQW^o[1
+R17
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Ehwicap
+R1
+R2
+R5
+R6
+Z24 DEx14 lib_cdc_v1_0_2 8 cdc_sync 0 22 h>076gh;]YN`]BXOh6TMQ3
+R9
+R10
+R11
+R12
+R7
+R13
+R14
+R0
+R15
+R16
+l0
+L2772
+V?nSXmfK1D_6TVSlfzTFKV3
+!s100 ;Da763E[PNFEjHVIBIdz90
+R17
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Aimp
+R24
+DEx18 axi_hwicap_v3_0_22 17 icap_statemachine 0 22 Oc7omWK[1Bhg@NH1lkdB70
+Z25 DPx3 xpm 11 vcomponents 0 22 C<]@]U4OV64JleZR`Uj2f2
+Z26 DEx18 axi_hwicap_v3_0_22 7 ipic_if 0 22 l`>dGJ@3ZG1TO98[3]lg]0
+R2
+R5
+R6
+R9
+R10
+R11
+R12
+R7
+R13
+R14
+DEx4 work 6 hwicap 0 22 ?nSXmfK1D_6TVSlfzTFKV3
+l2895
+L2825
+Vz]][`L9B4PA<TnPSBh>:Z1
+!s100 :Mjh>[87jA0m@WBB_maZo0
+R17
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Ehwicap_shared
+R1
+R2
+R5
+R6
+R24
+R9
+R10
+R11
+R12
+R7
+R13
+R14
+R0
+R15
+R16
+l0
+L3376
+V;3k>O@4S?ZiE7IC9O=G4>3
+!s100 Q>6;@Zi44YzbC4oLO;G?d0
+R17
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Aimp
+R24
+DEx18 axi_hwicap_v3_0_22 24 icap_statemachine_shared 0 22 5M4z38ZOb_C4dn_UfF4<`0
+R25
+R26
+R2
+R5
+R6
+R9
+R10
+R11
+R12
+R7
+R13
+R14
+DEx4 work 13 hwicap_shared 0 22 ;3k>O@4S?ZiE7IC9O=G4>3
+l3508
+L3438
+V_J0T2bHMd0NHlNmWFgC[n3
+!s100 GLLN4H[=Y68][`RX8VJS?3
+R17
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Eicap_statemachine
+R1
+R9
+R12
+R11
+R10
+R7
+R13
+R14
+R0
+R15
+R16
+l0
+L1507
+VOc7omWK[1Bhg@NH1lkdB70
+!s100 hZeRm4<Z6@5Sd4glTocag3
+R17
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Aimp
+R9
+R12
+R11
+R10
+R7
+R13
+R14
+DEx4 work 17 icap_statemachine 0 22 Oc7omWK[1Bhg@NH1lkdB70
+l1578
+L1549
+Vl<0nRCb4Z57Bhd`@E_Ihe2
+!s100 =5ETN<kkGCLAhWhdF^L[Y2
+R17
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Eicap_statemachine_shared
+R1
+R9
+R12
+R11
+R10
+R7
+R13
+R14
+R0
+R15
+R16
+l0
+L2111
+V5M4z38ZOb_C4dn_UfF4<`0
+!s100 Y7z]FAB?C3JGnU1K;OFXG2
+R17
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Aimp
+R9
+R12
+R11
+R10
+R7
+R13
+R14
+DEx4 work 24 icap_statemachine_shared 0 22 5M4z38ZOb_C4dn_UfF4<`0
+l2192
+L2161
+VQz]6zYa`<=_BI`J<<MozI3
+!s100 E9mPBgTG`IHPgjOzA2c`K3
+R17
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Eipic_if
+R1
+R12
+R25
+R5
+R6
+Z27 DEx16 lib_fifo_v1_0_12 13 async_fifo_fg 0 22 ^JZTPG7CUdl5M2fzjN;3^1
+R2
+R10
+R11
+R7
+R13
+R14
+R0
+R15
+R16
+l0
+L143
+Vl`>dGJ@3ZG1TO98[3]lg]0
+!s100 l5E;Sg1Mi4I:5WD>[>C>;1
+R17
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23
+Aimp
+R27
+R24
+R12
+R25
+R5
+R6
+R2
+R10
+R11
+R7
+R13
+R14
+DEx4 work 7 ipic_if 0 22 l`>dGJ@3ZG1TO98[3]lg]0
+l377
+L216
+VV`k`S[4Rff=WDQ<G6B:BJ3
+!s100 _oG5G:Ejjia[`TZQR?kl43
+R17
+31
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 0
+R22
+R23

@@ -1,0 +1,26 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axis_switch_v1_1_18 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axis_switch_v1_1_18 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:05:01 on May 03,2019
+vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work axis_switch_v1_1_18 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axis_switch_v1_1_18/.cxl.verilog.axis_switch_v1_1_18.axis_switch_v1_1_18.lin64.cmf 
+-- Compiling module axis_switch_v1_1_18_arb_rr
+-- Compiling module axis_switch_v1_1_18_arb_trr
+-- Compiling module axis_switch_v1_1_18_axisc_decoder
+-- Compiling module axis_switch_v1_1_18_axisc_transfer_mux
+-- Compiling module axis_switch_v1_1_18_axisc_arb_responder
+-- Compiling module axis_switch_v1_1_18_axis_switch_arbiter
+-- Compiling module axis_switch_v1_1_18_dynamic_priority_encoder
+-- Compiling module axis_switch_v1_1_18_axi_ctrl_read
+-- Compiling module axis_switch_v1_1_18_axi_ctrl_write
+-- Compiling module axis_switch_v1_1_18_axi_ctrl_top
+-- Compiling module axis_switch_v1_1_18_static_router_config_dp
+-- Compiling module axis_switch_v1_1_18_static_router_config
+-- Compiling module axis_switch_v1_1_18_static_router
+-- Compiling module axis_switch_v1_1_18_reg_bank_16x32
+-- Compiling module axis_switch_v1_1_18_axis_switch
+
+Top level modules:
+	axis_switch_v1_1_18_axis_switch
+End time: 13:05:01 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

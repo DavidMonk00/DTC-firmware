@@ -1,0 +1,199 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vJMbeqjBY6UToYJofWD2zR64uglSCTN0lC+igc3sYPes=
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1556884997
+!i10b 0
+!s100 Y9]AL`F@S`cjU<Ufk90nG2
+IHIOP=:11>78P?7Q4PEA[i2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!i8a 1287397824
+Z4 !s105 i2s_receiver_v1_0_rfs_sv_unit
+S1
+R0
+Z5 w1556884997
+Z6 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/i2s_receiver_v1_0/hdl/i2s_receiver_v1_0_rfs.sv
+Z7 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/i2s_receiver_v1_0/hdl/i2s_receiver_v1_0_rfs.sv
+Z8 L0 64
+Z9 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z10 !s108 1556884996.000000
+Z11 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/i2s_receiver_v1_0/hdl/i2s_receiver_v1_0_rfs.sv|
+Z12 !s90 -64|-L|i2s_receiver_v1_0_2|+incdir+/home/dmonk/.cxl.ip/incl|-sv|-work|i2s_receiver_v1_0_2|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/i2s_receiver_v1_0_2/.cxl.systemverilog.i2s_receiver_v1_0_2.i2s_receiver_v1_0_2.lin64.cmf|
+!i113 0
+Z13 o-L i2s_receiver_v1_0_2 -sv -work i2s_receiver_v1_0_2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 !s92 -L i2s_receiver_v1_0_2 +incdir+/home/dmonk/.cxl.ip/incl -sv -work i2s_receiver_v1_0_2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z15 tCvgOpt 0
+n3b08292
+v7YVY+PqaYa5THj2uulq64L6qIuU1vA+X44CI90vOYLA=
+R1
+R2
+!i10b 0
+!s100 4g2f7jY3PP`:L6g[jddj21
+IF4`_fJO`Ai@0Gc8T^m6ae2
+R3
+!i8a 191630800
+R4
+S1
+R0
+R5
+R6
+R7
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+n74bcfa3
+vpXh8n3bawvNmKkwkheb3PCZFYAK+owa6Ve3Pr8FF4kk=
+R1
+R2
+!i10b 0
+!s100 @W41DncbLU69@03o?W<CU0
+If>bOaDeSzi??lVXIeh[1b3
+R3
+!i8a 1056171296
+R4
+S1
+R0
+R5
+R6
+R7
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+ndeb4d2f
+vQxrPgIAqplT+jH2C9w9NcqROGK3/q1S9JZozkZ84+Jg=
+R1
+R2
+!i10b 0
+!s100 e^nFj@79>i6`I[TR>l][K1
+I4N8Q1jC`6c10Zi3[ViGkh1
+R3
+!i8a 1743007664
+R4
+S1
+R0
+R5
+R6
+R7
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+n295e869
+vicbkmSPUpaFTq1WJ6IABCogvOekxKj8DKEIMOXEuA9s=
+R1
+R2
+!i10b 0
+!s100 C=hV<4lW7<K74DZb@n>F62
+IzcQM?8PU@ETB==[eENQNQ2
+R3
+!i8a 2136289600
+R4
+S1
+R0
+R5
+R6
+R7
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+n295d942
+vr1pYISPDLcW23+KVLbKJ7md2NWP4NfzEtLYHvscfhQg=
+R1
+R2
+!i10b 0
+!s100 `GlUbbjmY^fl_n6k>L25R1
+I3DDRa^db5T?XkS;o7:LaN3
+R3
+!i8a 1483547536
+R4
+S1
+R0
+R5
+R6
+R7
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+n295db83
+vfB3EHqIhQi6QcHSnE1VThAUOTMHFiyNfu6G/sG3aJXk=
+R1
+R2
+!i10b 0
+!s100 S69I[?<US]8XbAAW8mmfI2
+IH<WFQZ>Vza3=Da[BbzC8h2
+R3
+!i8a 1409741280
+R4
+S1
+R0
+R5
+R6
+R7
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R15
+nda814ee

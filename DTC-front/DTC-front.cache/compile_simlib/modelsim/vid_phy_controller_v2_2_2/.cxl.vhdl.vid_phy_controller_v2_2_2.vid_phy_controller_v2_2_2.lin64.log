@@ -1,0 +1,17 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap vid_phy_controller_v2_2_2 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/vid_phy_controller_v2_2_2 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:02 on May 03,2019
+vcom -64 -93 -work vid_phy_controller_v2_2_2 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/vid_phy_controller_v2_2_2/.cxl.vhdl.vid_phy_controller_v2_2_2.vid_phy_controller_v2_2_2.lin64.cmf 
+-- Loading package STANDARD
+-- Compiling entity bs_flex
+-- Compiling architecture behavior of bs_flex
+-- Compiling entity control
+-- Compiling architecture behavior of control
+-- Compiling entity rotwdt
+-- Compiling architecture behavior of rotwdt
+-- Compiling entity nidru_20_wrapper
+-- Compiling architecture Behavioral of nidru_20_wrapper
+End time: 13:04:03 on May 03,2019, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

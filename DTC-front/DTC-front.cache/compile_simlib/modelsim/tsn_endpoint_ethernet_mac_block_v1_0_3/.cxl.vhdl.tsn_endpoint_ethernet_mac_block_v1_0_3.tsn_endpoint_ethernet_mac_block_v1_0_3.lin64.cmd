@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/tsn_endpoint_ethernet_mac_block_v1_0_3
+/opt/MentorGraphics/modeltech/bin/vmap tsn_endpoint_ethernet_mac_block_v1_0_3 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/tsn_endpoint_ethernet_mac_block_v1_0_3
+/opt/MentorGraphics/modeltech/bin/vcom  -64 -93 -work tsn_endpoint_ethernet_mac_block_v1_0_3 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/tsn_endpoint_ethernet_mac_block_v1_0_3/.cxl.vhdl.tsn_endpoint_ethernet_mac_block_v1_0_3.tsn_endpoint_ethernet_mac_block_v1_0_3.lin64.cmf

@@ -1,0 +1,50 @@
+Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+vmap axi_uart16550_v2_0_20 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_uart16550_v2_0_20 
+Modifying modelsim.ini
+Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+Start time: 13:04:35 on May 03,2019
+vcom -64 -93 -work axi_uart16550_v2_0_20 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_uart16550_v2_0_20/.cxl.vhdl.axi_uart16550_v2_0_20.axi_uart16550_v2_0_20.lin64.cmf 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity rx_fifo_control
+-- Compiling architecture implementation of rx_fifo_control
+-- Compiling entity xuart_tx_load_sm
+-- Compiling architecture implementation of xuart_tx_load_sm
+-- Loading package NUMERIC_STD
+-- Loading package lib_pkg
+-- Loading entity srl_fifo_rbu_f
+-- Compiling entity tx_fifo_block
+-- Compiling architecture implementation of tx_fifo_block
+-- Compiling entity tx16550
+-- Compiling architecture implementation of tx16550
+-- Compiling entity rx_fifo_block
+-- Compiling architecture implementation of rx_fifo_block
+-- Loading entity rx_fifo_control
+-- Compiling entity rx16550
+-- Compiling architecture implementation of rx16550
+-- Loading entity xuart_tx_load_sm
+-- Loading entity rx16550
+-- Loading entity tx16550
+-- Loading entity tx_fifo_block
+-- Loading entity rx_fifo_block
+-- Compiling entity uart16550
+-- Compiling architecture implementation of uart16550
+-- Compiling entity ipic_if
+-- Compiling architecture imp of ipic_if
+-- Loading entity uart16550
+-- Loading entity ipic_if
+-- Compiling entity xuart
+-- Compiling architecture imp of xuart
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+-- Loading entity cdc_sync
+-- Loading entity xuart
+-- Loading package ipif_pkg
+-- Loading entity axi_lite_ipif
+-- Compiling entity axi_uart16550
+-- Compiling architecture rtl of axi_uart16550
+End time: 13:04:35 on May 03,2019, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

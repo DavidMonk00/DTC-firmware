@@ -1,0 +1,1110 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/dmonk
+vv_uhdsdi_audio_v1_1_0_demux_axilite_slave
+Z1 !s110 1556884982
+!i10b 1
+!s100 90[i18FnJKj9@LTzmUmnW1
+IVDdI8WVJDo:X=XNJf64<M2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1544171284
+Z4 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v
+Z5 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v
+L0 15616
+Z6 OL;L;10.6b;65
+r1
+!s85 0
+31
+Z7 !s108 1556884982.000000
+Z8 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/v_uhdsdi_audio_v1_1/hdl/v_uhdsdi_audio_v1_1_rfs.v|
+Z9 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|v_uhdsdi_audio_v1_1_0|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/v_uhdsdi_audio_v1_1_0/.cxl.verilog.v_uhdsdi_audio_v1_1_0.v_uhdsdi_audio_v1_1_0.lin64.cmf|
+!i113 0
+Z10 o-work v_uhdsdi_audio_v1_1_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work v_uhdsdi_audio_v1_1_0 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+vv_uhdsdi_audio_v1_1_0_demux_axis_master
+R1
+!i10b 1
+!s100 dUER1g1NIG1V[1oJ0klZ73
+I4hZNRK4^BK_>TIGN6gOcK3
+R2
+R0
+R3
+R4
+R5
+L0 16910
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_demux_chan_status
+R1
+!i10b 1
+!s100 Oan99`YWdQM5Y7MecEb>G0
+I`iknE;47MPae][H@53F1U0
+R2
+R0
+R3
+R4
+R5
+L0 17612
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_demux_rx_smpl_fifo
+R1
+!i10b 1
+!s100 4hfj0]3V40NgT1CSXP6Po1
+IkiNG<I7KaYTZa7oVUJA4b1
+R2
+R0
+R3
+R4
+R5
+L0 17734
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_demux_top
+R1
+!i10b 1
+!s100 [Ck@b=1C9dli_MJ?D2G;C1
+ITLEk>Y2D^3_`=ZPXClf5Z3
+R2
+R0
+R3
+R4
+R5
+L0 17891
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_fifo_28x16_fwft
+R1
+!i10b 1
+!s100 >mC[g`_:8O^:>zzW2IfYj0
+Ih_3gEKU2hKgRiIUkYF<eQ0
+R2
+R0
+R3
+R4
+R5
+L0 173
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_fifo_28x16_nofwft
+R1
+!i10b 1
+!s100 fmZgGBJ]?>N_U05>KKbm_2
+I^:Va@=9GX9C0bHk?gN[D41
+R2
+R0
+R3
+R4
+R5
+L0 299
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_fifo_28x32_fwft
+R1
+!i10b 1
+!s100 O<YdN1B4Bc_mi2MPJllV90
+Ihol:;V2WP5:Rmic0a2F6K3
+R2
+R0
+R3
+R4
+R5
+L0 51
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_demux_audio_det
+R1
+!i10b 1
+!s100 mZRR2mCImIO@mZj_:nELc3
+IGQQ][6Ko8[[[P^9C]hhdJ1
+R2
+R0
+R3
+R4
+R5
+L0 10931
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_demux_ctrl
+R1
+!i10b 1
+!s100 :Agoe`ba3c3L13[VeoX:a0
+ImY2cQK8m<jLjd2oCBgM1n3
+R2
+R0
+R3
+R4
+R5
+L0 11303
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_demux_data
+R1
+!i10b 1
+!s100 M8O;GmMB4i5CS3]kYcgm`2
+I0Dc9ajJd9B:ji_MRGGfzV3
+R2
+R0
+R3
+R4
+R5
+L0 11644
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_demux_data_extr
+R1
+!i10b 1
+!s100 `4oYYbUId734jMk7?7OF62
+IQNGnKPA32dBCF;hQ8c78A0
+R2
+R0
+R3
+R4
+R5
+L0 11466
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_demux_fifos
+R1
+!i10b 1
+!s100 og;M`UT0977:]X6ULgO`O0
+IUCSGO4Z0D=11b>3Wz?1gS1
+R2
+R0
+R3
+R4
+R5
+L0 11973
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_demux_tim
+R1
+!i10b 1
+!s100 ZNJJXHB:]W0aDBKGaSRn;0
+IHlbZ`0XBa9gEQcU<e5In]0
+R2
+R0
+R3
+R4
+R5
+L0 12171
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_demux_top
+R1
+!i10b 1
+!s100 [DLjTVJdKbz^hbk8DY;;N2
+IDJA12Ohz5GoUzI@14j_dh3
+R2
+R0
+R3
+R4
+R5
+L0 12400
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_mux_anc_det
+R1
+!i10b 1
+!s100 N[g]J`mgUDo5z?JO=UUlI0
+I]z[UJc@>BcZgEJg6f4dJQ0
+R2
+R0
+R3
+R4
+R5
+L0 1246
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_mux_clock_phase
+R1
+!i10b 1
+!s100 7BU@9@Q`ePe8zY`g<JL5A2
+I5Ro;COll;KlnlfRnSiS_80
+R2
+R0
+R3
+R4
+R5
+L0 1732
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_mux_ctrl
+R1
+!i10b 1
+!s100 IK:P8`e8_;>KQ3=@a73mb3
+IMZhDJkXOMjlF4hHEa1POz2
+R2
+R0
+R3
+R4
+R5
+L0 2131
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_mux_ctrl_constr
+R1
+!i10b 1
+!s100 K5<3N`9AfZ=WfnLmZZgkS0
+IRGEVWK:RgS7fL;;fSSW_A1
+R2
+R0
+R3
+R4
+R5
+L0 1851
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_mux_data
+R1
+!i10b 1
+!s100 n;gL:9WU7OJz@G_WT?1_91
+Ih468V1kT7DdLJBzMT=@jl3
+R2
+R0
+R3
+R4
+R5
+L0 3092
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_mux_data_constr
+R1
+!i10b 1
+!s100 f<8>i8^YXg??XF;S[_]5=0
+IjbbHKVY3Rc^PIKF=ZJfBI1
+R2
+R0
+R3
+R4
+R5
+L0 2310
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_mux_ecc_encode
+R1
+!i10b 1
+!s100 LQ8;PB5TmVCaS_E6aAC8h2
+I546`l^_FO35G9DM6A:z>o2
+R2
+R0
+R3
+R4
+R5
+L0 3381
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_mux_fifos
+R1
+!i10b 1
+!s100 W?df^;W`077_d:P=9;7PX3
+Ie5S0`mUXXCO8fAQb_K2jG0
+R2
+R0
+R3
+R4
+R5
+L0 3525
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_mux_pkt_mux
+R1
+!i10b 1
+!s100 c>Y7MKUD8bG6[PQgC8jKX3
+I1l@b1am<oWl_15m_1Vl8l1
+R2
+R0
+R3
+R4
+R5
+L0 3803
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_hd_mux_top
+R1
+!i10b 1
+!s100 UbCDNnU_1VM9G0G@hHmE12
+IzOlV4MP]?4niYED]HdFlX1
+R2
+R0
+R3
+R4
+R5
+L0 3986
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_input_audio_status
+R1
+!i10b 1
+!s100 =eiYP^GZ97::PVY:SB^6k2
+IiQ9gGHPIn0NbzLYGCO1[_3
+R2
+R0
+R3
+R4
+R5
+L0 427
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_mux_axilite_slave
+R1
+!i10b 1
+!s100 ^XPBnz7lP]WKma@VIT4gl3
+IHUGL1Ozb?BA<9ee27EkVE0
+R2
+R0
+R3
+R4
+R5
+L0 7583
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_mux_axis_slave
+R1
+!i10b 1
+!s100 _QGGa>a86>AcL8l;jOXAF0
+ILT3_1nj0=;=Qjdc2TiZET1
+R2
+R0
+R3
+R4
+R5
+L0 8775
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_mux_delay_dwx32
+R1
+!i10b 1
+!s100 863oo;m@D6_ADS7hbGz3z0
+IGK;UzT^HF2Ke56<nIl2693
+R2
+R0
+R3
+R4
+R5
+L0 9130
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_mux_top
+R1
+!i10b 1
+!s100 NMGb?G48O4@YzozG[5RNW2
+Ie_HK:DUPOzfiaF3[LJa>X2
+R2
+R0
+R3
+R4
+R5
+L0 9229
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_demux_aes
+R1
+!i10b 1
+!s100 lefMT88>;^4JcBFfGF[N>1
+Ia3aCgflzd?4QKAO98a09^0
+R2
+R0
+R3
+R4
+R5
+L0 14761
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_demux_aes_top
+R1
+!i10b 1
+!s100 6fXcnUP_bCn`Kh:SlP>j70
+IPo[b_9000KdMhCBo^ibSe1
+R2
+R0
+R3
+R4
+R5
+L0 15366
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_demux_buffer_512
+R1
+!i10b 1
+!s100 <g2c<gk5P;cdDS85k8[5G3
+IINfMKlK2DOV4jfgDe_>o53
+R2
+R0
+R3
+R4
+R5
+L0 12569
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_demux_fifo
+R1
+!i10b 1
+!s100 ABAK5`3;TY[>aaP8B`IBE0
+Ii0DWb_[gQU6S3X^@KgnGe3
+R2
+R0
+R3
+R4
+R5
+L0 12693
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_demux_infsm
+R1
+!i10b 1
+!s100 h90mQlRjo^M>[l?Tgo6QK2
+Ij:T:0[G_DQaR42V;RJZKi2
+R2
+R0
+R3
+R4
+R5
+L0 13277
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_demux_outfsm
+R1
+!i10b 1
+!s100 kIgYZkb<g=2bc5EWgU0Y`1
+Ib1@8m[I;G27PBmXM=CXeT0
+R2
+R0
+R3
+R4
+R5
+L0 14214
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_demux_pkt_del
+R1
+!i10b 1
+!s100 GaAMSLCLFfWYDnEHaW0DT1
+I5@f58daNFWa^TGIA9XMY71
+R2
+R0
+R3
+R4
+R5
+L0 14421
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_demux_present_flags
+R1
+!i10b 1
+!s100 hfR7Qnl:`RMnzc6W;_7FM2
+Iz3:cK1M3dg<D6SG<Y;dkA1
+R2
+R0
+R3
+R4
+R5
+L0 14541
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_demux_trs_adf_xyz_detect
+R1
+!i10b 1
+!s100 4A=k:SlSRG]nH34@Tl>9Z2
+IE3?0eHBJ6I;Q45H33eh0n3
+R2
+R0
+R3
+R4
+R5
+L0 14630
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_mux_anc_det
+R1
+!i10b 1
+!s100 A8R54fLL=_g9aRUcD<HeJ0
+I<NjlU1BZoOoPlbQH1];Qg0
+R2
+R0
+R3
+R4
+R5
+L0 4191
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_mux_anc_store
+R1
+!i10b 1
+!s100 2Db06gUSGTg@`<KGNek]_2
+I=T3e<nZe9kR4WSh:f_LTQ2
+R2
+R0
+R3
+R4
+R5
+L0 5246
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_mux_fifos
+R1
+!i10b 1
+!s100 ia3P<aR[LoEbDo@i5^Slm2
+Ill;kdICZiI5M5;fbDbV`@1
+R2
+R0
+R3
+R4
+R5
+L0 5345
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_mux_pkt_gen
+R1
+!i10b 1
+!s100 hSo`KLBaFh[h1eEA>L=4T3
+IYz`KM[YZYVRK5]`=A`[MG0
+R2
+R0
+R3
+R4
+R5
+L0 5543
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_mux_pkt_mux
+R1
+!i10b 1
+!s100 9K0?1NMY^c9>8@_zVPMd^2
+IB2dm99X:YiMKeP]l]8b^]0
+R2
+R0
+R3
+R4
+R5
+L0 6525
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_mux_ram_300x10
+R1
+!i10b 1
+!s100 [k5><>CI4_hYRUkO[LUI@0
+IcIne;In^dYYmJh?73Ro]e1
+R2
+R0
+R3
+R4
+R5
+L0 6655
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_mux_ram_64x9
+R1
+!i10b 1
+!s100 :EWY[W<9[JSAM1l6T`dBz1
+IcWlNCQ;T;DnF9TZzY:69c2
+R2
+R0
+R3
+R4
+R5
+L0 6747
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_mux_samp_calc_alu
+R1
+!i10b 1
+!s100 NfXnPPhMLIgT<VilfC2@I2
+IWiMHT[Q0egHSLh>1<:jR02
+R2
+R0
+R3
+R4
+R5
+L0 6825
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_mux_top
+R1
+!i10b 1
+!s100 nVePZ61:Wb^k?[_[KziWG3
+IhM7FFCcNEOo>F=_Q[4mB`3
+R2
+R0
+R3
+R4
+R5
+L0 7069
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sd_mux_vid_delay
+R1
+!i10b 1
+!s100 ZdJS[z_@a`A[O6RdURB7M3
+Ib_R?2=RdA`N]:SI:GRVbe0
+R2
+R0
+R3
+R4
+R5
+L0 6945
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vv_uhdsdi_audio_v1_1_0_sync_one_shot
+R1
+!i10b 1
+!s100 BWia<]ALL]aSd8>f6OeFi0
+IS`02IHK51g45cGh@<X3LL0
+R2
+R0
+R3
+R4
+R5
+L0 1122
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12

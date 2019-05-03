@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_firewall_v1_0_6
+/opt/MentorGraphics/modeltech/bin/vmap axi_firewall_v1_0_6 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_firewall_v1_0_6
+/opt/MentorGraphics/modeltech/bin/vlog  -64 -L smartconnect_v1_0 -L axi_firewall_v1_0_6 +incdir+/home/dmonk/.cxl.ip/incl -sv -work axi_firewall_v1_0_6 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_firewall_v1_0_6/.cxl.systemverilog.axi_firewall_v1_0_6.axi_firewall_v1_0_6.lin64.cmf

@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/gtwizard_ultrascale_v1_6_10
+/opt/MentorGraphics/modeltech/bin/vmap gtwizard_ultrascale_v1_6_10 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/gtwizard_ultrascale_v1_6_10
+/opt/MentorGraphics/modeltech/bin/vlog  -64 +incdir+/home/dmonk/.cxl.ip/incl -work gtwizard_ultrascale_v1_6_10 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/gtwizard_ultrascale_v1_6_10/.cxl.verilog.gtwizard_ultrascale_v1_6_10.gtwizard_ultrascale_v1_6_10.lin64.cmf

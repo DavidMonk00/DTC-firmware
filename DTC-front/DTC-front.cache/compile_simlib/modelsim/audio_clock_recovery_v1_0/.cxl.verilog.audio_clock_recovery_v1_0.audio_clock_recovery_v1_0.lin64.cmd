@@ -1,0 +1,3 @@
+/opt/MentorGraphics/modeltech/bin/vlib /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/audio_clock_recovery_v1_0
+/opt/MentorGraphics/modeltech/bin/vmap audio_clock_recovery_v1_0 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/audio_clock_recovery_v1_0
+/opt/MentorGraphics/modeltech/bin/vlog  -64 -L audio_clock_recovery_v1_0 +incdir+/home/dmonk/.cxl.ip/incl -sv -work audio_clock_recovery_v1_0 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/audio_clock_recovery_v1_0/.cxl.systemverilog.audio_clock_recovery_v1_0.audio_clock_recovery_v1_0.lin64.cmf
