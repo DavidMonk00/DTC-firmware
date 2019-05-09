@@ -21,8 +21,9 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.NUMERIC_STD;
+use IEEE.NUMERIC_STD.ALL;
 use STD.TEXTIO.ALL;
+use work.data_types.all;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -41,7 +42,10 @@ end top;
 
 architecture Behavioral of top is
     signal counter : integer := 0;
-    signal links_out : std_logic_vector(63 downto 0);
+    signal links_in : std_logic_vector(63 downto 0);
+    signal header : tDTCInHeader;
+    signal DTCIn_stubs : tDTCInStubArray;
+    signal stubs : tStubArray;
 
 begin
 process(clk)
@@ -52,9 +56,27 @@ begin
 end process;
 
 LinkGeneratorInstance : entity work.LinkGenerator
-  port map(
-    clk => clk,
-    links_out => links_out
-  );
+   port map(
+       clk => clk,
+       links_out => links_in
+   );
+
+LinkFormatterInstance : entity work.LinkFormatter
+    port map(
+        clk => clk,
+        links_in => links_in,
+        header => header,
+        stubs => DTCIn_stubs
+    );
+
+gStubFormatter : for i in 0 to stubs_per_word - 1 generate
+    StubFormatterInstance : entity work.StubFormatter
+    port map(
+        clk => clk,
+        header => header,
+        stub_in => DTCIn_stubs(i),
+        stub_out => stubs(i)
+    );
+end generate;
 
 end Behavioral;

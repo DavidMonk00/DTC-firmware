@@ -54,7 +54,7 @@ begin
             wait until clk = '1' and clk'event;
             readline(read_file, line_v);
             hread(line_v, slv_v);
-            links_out <= slv_v;3
+            links_out <= slv_v;
             -- report "slv_v: " & to_hstring(slv_v);
             hwrite(line_v, slv_v);
             writeline(write_file, line_v);
