@@ -49,6 +49,7 @@ architecture Behavioral of top is
     signal header : tDTCInHeader;
     signal DTCIn_stubs : tDTCInStubArray;
     signal stubs : tStubArray;
+    signal lut_check : std_logic_vector(7 downto 0);
 
 begin
 process(clk)
@@ -58,13 +59,13 @@ begin
     end if;
 end process;
 
---LinkGeneratorInstance : entity work.LinkGenerator
---   port map(
---       clk => clk,
---       links_out => links_in
---   );
+LinkGeneratorInstance : entity work.LinkGenerator
+  port map(
+      clk => clk,
+      links_out => links_in
+  );
 
-links_in <= data_in;
+-- links_in <= data_in;
 header_out <= header;
 data_out <= stubs;
 
@@ -85,5 +86,13 @@ gStubFormatter : for i in 0 to stubs_per_word - 1 generate
         stub_out => stubs(i)
     );
 end generate;
+
+LUTTestInstance : entity work.blk_mem_gen_0
+    port map(
+        clka => clk,
+        addra => std_logic_vector(to_unsigned((counter mod 16), 4)),
+        ena => '1',
+        douta => lut_check
+    );
 
 end Behavioral;

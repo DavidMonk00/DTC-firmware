@@ -22,6 +22,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
+use IEEE.std_logic_unsigned.all;
 
 use work.data_types.all;
 
@@ -49,7 +50,7 @@ begin
     header.boxcar_number <= unsigned(links_in(63 downto 52));
     header.stub_count <= unsigned(links_in(51 downto 46));
     gstubs : for i in 0 to stubs_per_word - 1 generate
-        stubs(i).valid <= links_in(45 - i * stub_width);
+        stubs(i).valid <= ??(links_in(45 - i * stub_width));
         stubs(i).offset <= unsigned(links_in(45 - (i * stub_width + 1) downto 45 - (i * stub_width + 3)));
         stubs(i).id     <= unsigned(links_in(45 - (i * stub_width + 4) downto 45 - (i * stub_width + 6)));
         stubs(i).strip  <= unsigned(links_in(45 - (i * stub_width + 7) downto 45 - (i * stub_width + 14)));

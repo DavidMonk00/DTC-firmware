@@ -23,6 +23,8 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 use work.data_types.all;
+USE work.FunkyMiniBus.ALL;
+USE WORK.utilities_pkg.ALL;
 
 -- Uncomment the following library declaration if instantiating
 -- any Xilinx leaf cells in this code.
@@ -40,13 +42,17 @@ end StubFormatter;
 
 architecture Behavioral of StubFormatter is
     signal word_number : unsigned(3 downto 0) := (others => '0');
+    SIGNAL BusIn , BusOut : tFMBus( 0 TO 71 );
+    SIGNAL BusClk         : STD_LOGIC     := '0';
+    
 
 begin
+
 pFormat : process(clk)
 variable bx_tmp : unsigned(11 downto 0) := (others =>'0');
 begin
     if rising_edge(clk) then
-        if (stub_in.valid = '1') then
+        if (stub_in.valid) then
             stub_out.valid <= stub_in.valid;
             stub_out.bx <= (header.boxcar_number(4 downto 0) + stub_in.offset) mod 18;
             stub_out.r(7 downto 0) <= stub_in.id + stub_in.strip;

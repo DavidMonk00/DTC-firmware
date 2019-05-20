@@ -28,14 +28,14 @@ package data_types is
 
 
     type tDTCInStub is record
-        valid   : std_logic;
+        valid   : boolean;
         offset  : unsigned(2 downto 0);
         id      : unsigned(2 downto 0);
         strip   : unsigned(7 downto 0);
         bend    : unsigned(3 downto 0);
     end record;
 
-    constant NullDTCInStub : tDTCInStub := ('0', (others => '0'), (others => '0'), (others => '0'), (others => '0'));
+    constant NullDTCInStub : tDTCInStub := (false, (others => '0'), (others => '0'), (others => '0'), (others => '0'));
 
     type tUnconstrainedDTCInStubArray is array(integer range <>) of tDTCInStub;
     subtype tDTCInStubArray is tUnconstrainedDTCInStubArray(0 to stubs_per_word - 1);
@@ -43,7 +43,7 @@ package data_types is
 
 
     type tStub is record
-        valid   : std_logic;
+        valid   : boolean;
         bx      : unsigned(4 downto 0);
         r       : unsigned(11 downto 0);
         z       : unsigned(13 downto 0);
@@ -51,7 +51,7 @@ package data_types is
         bend    : unsigned(3 downto 0);
     end record;
 
-    constant NullStub : tStub := ('0', (others => '0'), (others => '0'), (others => '0'), (others => '0'), (others => '0'));
+    constant NullStub : tStub := (false, (others => '0'), (others => '0'), (others => '0'), (others => '0'), (others => '0'));
 
     type tUnconstrainedStubArray is array(integer range <>) of tStub;
     subtype tStubArray is tUnconstrainedStubArray(0 to stubs_per_word - 1);

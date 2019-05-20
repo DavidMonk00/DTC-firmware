@@ -28,7 +28,6 @@ use work.data_types.all;
 entity CoordinateCorrector is
     PORT(
         clk : in std_logic;
-        header : in tDTCInHeader;
         stub_in : in tDTCInStub;
         stub_out : out tStub := NullStub
     );
