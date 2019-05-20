@@ -59,13 +59,13 @@ begin
     end if;
 end process;
 
-LinkGeneratorInstance : entity work.LinkGenerator
-  port map(
-      clk => clk,
-      links_out => links_in
-  );
+--LinkGeneratorInstance : entity work.LinkGenerator
+--  port map(
+--      clk => clk,
+--      links_out => links_in
+--  );
 
--- links_in <= data_in;
+links_in <= data_in;
 header_out <= header;
 data_out <= stubs;
 
@@ -90,7 +90,7 @@ end generate;
 LUTTestInstance : entity work.blk_mem_gen_0
     port map(
         clka => clk,
-        addra => std_logic_vector(to_unsigned((counter mod 16), 4)),
+        addra => b"0001",
         ena => '1',
         douta => lut_check
     );

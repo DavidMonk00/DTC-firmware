@@ -52,7 +52,7 @@ pFormat : process(clk)
 variable bx_tmp : unsigned(11 downto 0) := (others =>'0');
 begin
     if rising_edge(clk) then
-        if (stub_in.valid) then
+        if (stub_in.valid = '1') then
             stub_out.valid <= stub_in.valid;
             stub_out.bx <= (header.boxcar_number(4 downto 0) + stub_in.offset) mod 18;
             stub_out.r(7 downto 0) <= stub_in.id + stub_in.strip;
