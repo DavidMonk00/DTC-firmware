@@ -16,7 +16,7 @@ def main():
         for loop in range(loops):
             for boxcar in range(boxcar_count):
                 for word in range(word_count):
-                    header = format(boxcar, '012b') + \
+                    header = format(boxcar*8, '012b') + \
                              format(stub_count, '06b')
                     payload = "1" + ("").join([str(
                         np.random.randint(low=0, high=2)) for i in range(22)

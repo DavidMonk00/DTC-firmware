@@ -17,6 +17,10 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param power.enableLutRouteBelPower 1
+set_param power.enableCarry8RouteBelPower 1
+set_param power.enableUnconnectedCarry8PinPower 1
+set_param power.BramSDPPropagationFix 1
 create_project -in_memory -part xcku15p-ffva1760-2-e
 
 set_param project.singleFileAddWarning.threshold 0
@@ -42,6 +46,9 @@ read_vhdl -library xil_defaultlib {
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
+read_xdc /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/constrs_1/new/constr.xdc
+set_property used_in_implementation false [get_files /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/constrs_1/new/constr.xdc]
+
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 

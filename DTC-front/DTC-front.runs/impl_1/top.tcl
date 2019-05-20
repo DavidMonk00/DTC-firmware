@@ -60,20 +60,24 @@ proc step_failed { step } {
   close $ch
 }
 
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 
 start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  create_project -in_memory -part xcku15p-ffva1760-2-e
-  set_property design_mode GateLvl [current_fileset]
-  set_param project.singleFileAddWarning.threshold 0
+  set_param power.enableLutRouteBelPower 1
+  set_param power.enableCarry8RouteBelPower 1
+  set_param power.enableUnconnectedCarry8PinPower 1
+  set_param synth.incrementalSynthesisCache ./.Xil/Vivado-3692-daedalus/incrSyn
+  set_param power.BramSDPPropagationFix 1
+  reset_param project.defaultXPMLibraries 
+  open_checkpoint /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.runs/impl_1/top.dcp
   set_property webtalk.parent_dir /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/wt [current_project]
   set_property parent.project_path /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.xpr [current_project]
   set_property ip_output_repo /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
-  add_files -quiet /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.runs/synth_1/top.dcp
-  link_design -top top -part xcku15p-ffva1760-2-e
   close_msg_db -file init_design.pb
 } RESULT]
 if {$rc} {

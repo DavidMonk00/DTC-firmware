@@ -36,7 +36,10 @@ use work.data_types.all;
 
 entity top is
     PORT(
-        clk : IN std_logic
+        clk : IN std_logic;
+        data_in : IN std_logic_vector(63 downto 0);
+        header_out : OUT tDTCInHeader;
+        data_out : OUT tStubArray
     );
 end top;
 
@@ -55,11 +58,15 @@ begin
     end if;
 end process;
 
-LinkGeneratorInstance : entity work.LinkGenerator
-   port map(
-       clk => clk,
-       links_out => links_in
-   );
+--LinkGeneratorInstance : entity work.LinkGenerator
+--   port map(
+--       clk => clk,
+--       links_out => links_in
+--   );
+
+links_in <= data_in;
+header_out <= header;
+data_out <= stubs;
 
 LinkFormatterInstance : entity work.LinkFormatter
     port map(

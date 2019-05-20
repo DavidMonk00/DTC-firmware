@@ -15,18 +15,17 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xcku15p'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku15p'
 INFO: [Common 17-1540] The version limit for your license is '2018.12' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 14208 
+INFO: Helper process launched with PID 8199 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1422.344 ; gain = 27.000 ; free physical = 42865 ; free virtual = 59340
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1422.344 ; gain = 27.000 ; free physical = 21136 ; free virtual = 56846
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'top' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'top' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:46]
 INFO: [Synth 8-638] synthesizing module 'LinkFormatter' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/LinkFormatter.vhd:46]
 INFO: [Synth 8-256] done synthesizing module 'LinkFormatter' (1#1) [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/LinkFormatter.vhd:46]
 INFO: [Synth 8-638] synthesizing module 'StubFormatter' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:41]
 INFO: [Synth 8-256] done synthesizing module 'StubFormatter' (2#1) [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:41]
-WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:54]
-WARNING: [Synth 8-3848] Net links_in in module/entity top does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:45]
-INFO: [Synth 8-256] done synthesizing module 'top' (3#1) [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:57]
+INFO: [Synth 8-256] done synthesizing module 'top' (3#1) [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:46]
 WARNING: [Synth 8-3331] design StubFormatter has unconnected port header[boxcar_number][11]
 WARNING: [Synth 8-3331] design StubFormatter has unconnected port header[boxcar_number][10]
 WARNING: [Synth 8-3331] design StubFormatter has unconnected port header[boxcar_number][9]
@@ -50,10 +49,41 @@ WARNING: [Synth 8-3331] design LinkFormatter has unconnected port links_in[2]
 WARNING: [Synth 8-3331] design LinkFormatter has unconnected port links_in[1]
 WARNING: [Synth 8-3331] design LinkFormatter has unconnected port links_in[0]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1468.094 ; gain = 72.750 ; free physical = 42877 ; free virtual = 59353
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1468.094 ; gain = 72.750 ; free physical = 21148 ; free virtual = 56858
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1468.094 ; gain = 72.750 ; free physical = 42876 ; free virtual = 59352
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1468.094 ; gain = 72.750 ; free physical = 21148 ; free virtual = 56858
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1468.094 ; gain = 72.750 ; free physical = 21148 ; free virtual = 56858
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xcku15p-ffva1760-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/constrs_1/new/constr.xdc]
+Finished Parsing XDC File [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/constrs_1/new/constr.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2598.695 ; gain = 0.000 ; free physical = 20229 ; free virtual = 55935
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2598.695 ; gain = 0.000 ; free physical = 20229 ; free virtual = 55935
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2598.695 ; gain = 0.000 ; free physical = 20229 ; free virtual = 55935
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 2598.695 ; gain = 1203.352 ; free physical = 20294 ; free virtual = 56001
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -61,11 +91,16 @@ Start Loading Part and Timing Information
 Loading part: xcku15p-ffva1760-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1476.098 ; gain = 80.754 ; free physical = 42876 ; free virtual = 59352
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 2598.695 ; gain = 1203.352 ; free physical = 20294 ; free virtual = 56001
 ---------------------------------------------------------------------------------
-INFO: [Device 21-403] Loading part xcku15p-ffva1760-2-e
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1484.105 ; gain = 88.762 ; free physical = 42896 ; free virtual = 59375
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 2598.695 ; gain = 1203.352 ; free physical = 20293 ; free virtual = 56000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 2598.695 ; gain = 1203.352 ; free physical = 20286 ; free virtual = 55993
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -73,7 +108,6 @@ Report RTL Partitions:
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-No constraint files found.
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -125,14 +159,48 @@ BRAMs: 1968 (col length: RAMB18 264 RAMB36 132)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-No constraint files found.
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-WARNING: [Synth 8-3331] design top has unconnected port clk
+WARNING: [Synth 8-3331] design top has unconnected port data_in[26]
+WARNING: [Synth 8-3331] design top has unconnected port data_in[25]
+WARNING: [Synth 8-3331] design top has unconnected port data_in[24]
+WARNING: [Synth 8-3331] design top has unconnected port data_in[23]
+WARNING: [Synth 8-3331] design top has unconnected port data_in[3]
+WARNING: [Synth 8-3331] design top has unconnected port data_in[2]
+WARNING: [Synth 8-3331] design top has unconnected port data_in[1]
+WARNING: [Synth 8-3331] design top has unconnected port data_in[0]
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[phi][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[phi][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[phi][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[phi][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[z][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[z][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[z][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[z][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[z][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[z][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[r][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[r][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[r][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[r][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[0].StubFormatterInstance/stub_out_reg[phi][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[0].StubFormatterInstance/stub_out_reg[phi][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[0].StubFormatterInstance/stub_out_reg[phi][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[0].StubFormatterInstance/stub_out_reg[phi][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[0].StubFormatterInstance/stub_out_reg[z][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[0].StubFormatterInstance/stub_out_reg[z][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[0].StubFormatterInstance/stub_out_reg[z][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[0].StubFormatterInstance/stub_out_reg[z][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[0].StubFormatterInstance/stub_out_reg[z][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[0].StubFormatterInstance/stub_out_reg[z][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[0].StubFormatterInstance/stub_out_reg[r][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[0].StubFormatterInstance/stub_out_reg[r][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[0].StubFormatterInstance/stub_out_reg[r][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[0].StubFormatterInstance/stub_out_reg[r][11] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 2495.527 ; gain = 1100.184 ; free physical = 41953 ; free virtual = 58549
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 2598.695 ; gain = 1203.352 ; free physical = 20271 ; free virtual = 55980
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -140,12 +208,17 @@ Report RTL Partitions:
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-No constraint files found.
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:56 . Memory (MB): peak = 2820.078 ; gain = 1424.734 ; free physical = 20169 ; free virtual = 55879
+---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 2495.527 ; gain = 1100.184 ; free physical = 41953 ; free virtual = 58549
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:56 . Memory (MB): peak = 2820.078 ; gain = 1424.734 ; free physical = 20169 ; free virtual = 55879
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -156,8 +229,10 @@ Report RTL Partitions:
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'gStubFormatter[1].StubFormatterInstance/stub_out_reg[z][0]' (FDR) to 'gStubFormatter[1].StubFormatterInstance/stub_out_reg[r][0]'
+INFO: [Synth 8-3886] merging instance 'gStubFormatter[0].StubFormatterInstance/stub_out_reg[z][0]' (FDR) to 'gStubFormatter[0].StubFormatterInstance/stub_out_reg[r][0]'
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 2495.527 ; gain = 1100.184 ; free physical = 41952 ; free virtual = 58548
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:56 . Memory (MB): peak = 2832.109 ; gain = 1436.766 ; free physical = 20166 ; free virtual = 55877
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -181,7 +256,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 2495.527 ; gain = 1100.184 ; free physical = 41952 ; free virtual = 58548
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:56 . Memory (MB): peak = 2832.109 ; gain = 1436.766 ; free physical = 20167 ; free virtual = 55876
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -194,7 +269,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 2495.527 ; gain = 1100.184 ; free physical = 41952 ; free virtual = 58548
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:56 . Memory (MB): peak = 2832.109 ; gain = 1436.766 ; free physical = 20167 ; free virtual = 55876
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -206,25 +281,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 2495.527 ; gain = 1100.184 ; free physical = 41952 ; free virtual = 58548
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:56 . Memory (MB): peak = 2832.109 ; gain = 1436.766 ; free physical = 20167 ; free virtual = 55876
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 2495.527 ; gain = 1100.184 ; free physical = 41952 ; free virtual = 58548
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:56 . Memory (MB): peak = 2832.109 ; gain = 1436.766 ; free physical = 20167 ; free virtual = 55876
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 2495.527 ; gain = 1100.184 ; free physical = 41952 ; free virtual = 58548
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:56 . Memory (MB): peak = 2832.109 ; gain = 1436.766 ; free physical = 20167 ; free virtual = 55876
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 2495.527 ; gain = 1100.184 ; free physical = 41952 ; free virtual = 58548
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:56 . Memory (MB): peak = 2832.109 ; gain = 1436.766 ; free physical = 20167 ; free virtual = 55876
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -237,37 +312,54 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+-+-----+------+
-| |Cell |Count |
-+-+-----+------+
-+-+-----+------+
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY8 |     4|
+|3     |LUT1   |     2|
+|4     |LUT2   |    20|
+|5     |LUT3   |     4|
+|6     |LUT4   |    20|
+|7     |LUT5   |     6|
+|8     |LUT6   |    46|
+|9     |FDRE   |    72|
+|10    |IBUF   |    57|
+|11    |OBUF   |   120|
++------+-------+------+
 
 Report Instance Areas: 
-+------+---------+-------+------+
-|      |Instance |Module |Cells |
-+------+---------+-------+------+
-|1     |top      |       |     0|
-+------+---------+-------+------+
++------+--------------------------------------------+----------------+------+
+|      |Instance                                    |Module          |Cells |
++------+--------------------------------------------+----------------+------+
+|1     |top                                         |                |   352|
+|2     |  \gStubFormatter[0].StubFormatterInstance  |StubFormatter   |    87|
+|3     |  \gStubFormatter[1].StubFormatterInstance  |StubFormatter_0 |    87|
++------+--------------------------------------------+----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 2495.527 ; gain = 1100.184 ; free physical = 41952 ; free virtual = 58548
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:56 . Memory (MB): peak = 2832.109 ; gain = 1436.766 ; free physical = 20167 ; free virtual = 55876
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 25 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 2495.527 ; gain = 1100.184 ; free physical = 41952 ; free virtual = 58548
-Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 2495.535 ; gain = 1100.184 ; free physical = 41952 ; free virtual = 58548
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:38 . Memory (MB): peak = 2832.109 ; gain = 306.164 ; free physical = 20205 ; free virtual = 55914
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:56 . Memory (MB): peak = 2832.117 ; gain = 1436.766 ; free physical = 20205 ; free virtual = 55914
 INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 62 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2495.535 ; gain = 0.000 ; free physical = 41846 ; free virtual = 58455
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2901.758 ; gain = 0.000 ; free physical = 20131 ; free virtual = 55840
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 58 instances were transformed.
+  BUFG => BUFGCE: 1 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 57 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-15 Infos, 25 Warnings, 0 Critical Warnings and 0 Errors encountered.
+49 Infos, 31 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 2495.535 ; gain = 1114.340 ; free physical = 41904 ; free virtual = 58513
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2495.535 ; gain = 0.000 ; free physical = 41904 ; free virtual = 58513
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:58 . Memory (MB): peak = 2901.758 ; gain = 1520.562 ; free physical = 20188 ; free virtual = 55897
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2901.758 ; gain = 0.000 ; free physical = 20188 ; free virtual = 55897
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint '/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.runs/synth_1/top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue May  7 16:06:00 2019...
+INFO: [Common 17-206] Exiting Vivado at Fri May 17 15:22:35 2019...

@@ -43,6 +43,7 @@ architecture Behavioral of StubFormatter is
 
 begin
 pFormat : process(clk)
+variable bx_tmp : unsigned(11 downto 0) := (others =>'0');
 begin
     if rising_edge(clk) then
         if (stub_in.valid = '1') then
@@ -56,7 +57,6 @@ begin
             stub_out <= NullStub;
         end if;
     end if;
-
 end process;
 
 word_number <= shift_right(header.stub_count, 1)(3 downto 0);
