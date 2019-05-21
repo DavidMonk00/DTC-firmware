@@ -56,5 +56,9 @@ package data_types is
     type tUnconstrainedStubArray is array(integer range <>) of tStub;
     subtype tStubArray is tUnconstrainedStubArray(0 to stubs_per_word - 1);
     constant NullStubArray : tStubArray := (others => NullStub);
+    
+    type tUnsconstrainedLUTArray is array(integer range <>) of std_logic_vector(17 downto 0);
+    subtype tLUTArray is tUnsconstrainedLUTArray(0 to stubs_per_word -1);
+    constant NullLUTArray : tLUTArray := (others => (others => '0'));
 
 end package data_types;

@@ -15,42 +15,240 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xcku15p'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku15p'
 INFO: [Common 17-1540] The version limit for your license is '2018.12' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 25181 
+INFO: Helper process launched with PID 2987 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1457.340 ; gain = 62.000 ; free physical = 15249 ; free virtual = 52158
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1422.336 ; gain = 27.000 ; free physical = 48845 ; free virtual = 57297
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'top' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'top' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:40]
 INFO: [Synth 8-638] synthesizing module 'LinkFormatter' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/LinkFormatter.vhd:47]
 INFO: [Synth 8-256] done synthesizing module 'LinkFormatter' (1#1) [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/LinkFormatter.vhd:47]
-INFO: [Synth 8-638] synthesizing module 'StubFormatter' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:43]
-INFO: [Synth 8-256] done synthesizing module 'StubFormatter' (2#1) [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:43]
-INFO: [Synth 8-638] synthesizing module 'blk_mem_gen_0' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.runs/synth_1/.Xil/Vivado-25130-daedalus/realtime/blk_mem_gen_0_stub.vhdl:15]
-WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:58]
-INFO: [Synth 8-256] done synthesizing module 'top' (3#1) [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:46]
-WARNING: [Synth 8-3331] design StubFormatter has unconnected port header[boxcar_number][11]
-WARNING: [Synth 8-3331] design StubFormatter has unconnected port header[boxcar_number][10]
-WARNING: [Synth 8-3331] design StubFormatter has unconnected port header[boxcar_number][9]
-WARNING: [Synth 8-3331] design StubFormatter has unconnected port header[boxcar_number][8]
-WARNING: [Synth 8-3331] design StubFormatter has unconnected port header[boxcar_number][7]
-WARNING: [Synth 8-3331] design StubFormatter has unconnected port header[boxcar_number][6]
-WARNING: [Synth 8-3331] design StubFormatter has unconnected port header[boxcar_number][5]
-WARNING: [Synth 8-3331] design StubFormatter has unconnected port header[stub_count][5]
-WARNING: [Synth 8-3331] design StubFormatter has unconnected port header[stub_count][4]
-WARNING: [Synth 8-3331] design StubFormatter has unconnected port header[stub_count][3]
-WARNING: [Synth 8-3331] design StubFormatter has unconnected port header[stub_count][2]
-WARNING: [Synth 8-3331] design StubFormatter has unconnected port header[stub_count][1]
-WARNING: [Synth 8-3331] design StubFormatter has unconnected port header[stub_count][0]
-WARNING: [Synth 8-3331] design LinkFormatter has unconnected port clk
-WARNING: [Synth 8-3331] design LinkFormatter has unconnected port links_in[26]
-WARNING: [Synth 8-3331] design LinkFormatter has unconnected port links_in[25]
-WARNING: [Synth 8-3331] design LinkFormatter has unconnected port links_in[24]
-WARNING: [Synth 8-3331] design LinkFormatter has unconnected port links_in[23]
-WARNING: [Synth 8-3331] design LinkFormatter has unconnected port links_in[3]
-WARNING: [Synth 8-3331] design LinkFormatter has unconnected port links_in[2]
-WARNING: [Synth 8-3331] design LinkFormatter has unconnected port links_in[1]
-WARNING: [Synth 8-3331] design LinkFormatter has unconnected port links_in[0]
+INFO: [Synth 8-638] synthesizing module 'StubFormatter' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:49]
+	Parameter index bound to: 0 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'GenPromClocked' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/GenPromClocked.vhd:37]
+	Parameter FileName bound to: A_PosLutLow_11to18.mif - type: string 
+	Parameter BusName bound to: A/PosLutA0 - type: string 
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "block" *) [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/GenPromClocked.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'FMBusRamDecoder' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd:174]
+	Parameter BusName bound to: A/PosLutA0 - type: string 
+INFO: [Synth 8-256] done synthesizing module 'FMBusRamDecoder' (2#1) [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd:174]
+INFO: [Synth 8-256] done synthesizing module 'GenPromClocked' (3#1) [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/GenPromClocked.vhd:37]
+WARNING: [Synth 8-3848] Net BusOut[1][Data] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[1][Instruction] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[1][Info][Name][1] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[1][Info][Name][2] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[1][Info][Name][3] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[1][Info][Name][4] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[1][Info][Name][5] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[1][Info][Name][6] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[1][Info][Name][7] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[1][Info][Name][8] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[1][Info][Name][9] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[1][Info][Name][10] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[1][Info][Name][11] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[1][Info][Name][12] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[1][Info][Size] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[1][Info][Width] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[1][Info][ChainPosition] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Data] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Instruction] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Info][Name][1] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Info][Name][2] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Info][Name][3] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Info][Name][4] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Info][Name][5] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Info][Name][6] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Info][Name][7] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Info][Name][8] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Info][Name][9] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Info][Name][10] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Info][Name][11] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Info][Name][12] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Info][Size] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Info][Width] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[2][Info][ChainPosition] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Data] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Instruction] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Info][Name][1] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Info][Name][2] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Info][Name][3] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Info][Name][4] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Info][Name][5] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Info][Name][6] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Info][Name][7] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Info][Name][8] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Info][Name][9] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Info][Name][10] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Info][Name][11] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Info][Name][12] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Info][Size] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Info][Width] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[3][Info][ChainPosition] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Data] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Instruction] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Info][Name][1] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Info][Name][2] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Info][Name][3] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Info][Name][4] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Info][Name][5] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Info][Name][6] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Info][Name][7] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Info][Name][8] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Info][Name][9] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Info][Name][10] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Info][Name][11] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Info][Name][12] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Info][Size] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Info][Width] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[4][Info][ChainPosition] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Data] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Instruction] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Info][Name][1] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Info][Name][2] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Info][Name][3] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Info][Name][4] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Info][Name][5] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Info][Name][6] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Info][Name][7] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Info][Name][8] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Info][Name][9] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Info][Name][10] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Info][Name][11] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Info][Name][12] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Info][Size] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Info][Width] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[5][Info][ChainPosition] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[6][Data] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[6][Instruction] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[6][Info][Name][1] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[6][Info][Name][2] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[6][Info][Name][3] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[6][Info][Name][4] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[6][Info][Name][5] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[6][Info][Name][6] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[6][Info][Name][7] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[6][Info][Name][8] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[6][Info][Name][9] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[6][Info][Name][10] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[6][Info][Name][11] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[6][Info][Name][12] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+WARNING: [Synth 8-3848] Net BusOut[6][Info][Size] in module/entity StubFormatter does not have driver. [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:45]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'StubFormatter' (4#1) [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'StubFormatter__parameterized0' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:49]
+	Parameter index bound to: 1 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'GenPromClocked__parameterized0' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/GenPromClocked.vhd:37]
+	Parameter FileName bound to: A_PosLutLow_11to18.mif - type: string 
+	Parameter BusName bound to: A/PosLutA1 - type: string 
+INFO: [Synth 8-638] synthesizing module 'FMBusRamDecoder__parameterized0' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd:174]
+	Parameter BusName bound to: A/PosLutA1 - type: string 
+INFO: [Synth 8-256] done synthesizing module 'FMBusRamDecoder__parameterized0' (4#1) [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd:174]
+INFO: [Synth 8-256] done synthesizing module 'GenPromClocked__parameterized0' (4#1) [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/GenPromClocked.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'StubFormatter__parameterized0' (4#1) [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'top' (5#1) [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:40]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][1][7]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][1][6]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][1][5]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][1][4]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][1][3]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][1][2]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][1][1]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][1][0]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][2][7]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][2][6]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][2][5]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][2][4]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][2][3]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][2][2]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][2][1]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][2][0]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][3][7]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][3][6]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][3][5]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][3][4]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][3][3]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][3][2]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][3][1]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][3][0]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][4][7]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][4][6]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][4][5]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][4][4]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][4][3]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][4][2]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][4][1]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][4][0]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][5][7]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][5][6]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][5][5]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][5][4]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][5][3]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][5][2]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][5][1]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][5][0]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][6][7]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][6][6]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][6][5]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][6][4]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][6][3]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][6][2]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][6][1]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][6][0]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][7][7]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][7][6]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][7][5]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][7][4]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][7][3]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][7][2]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][7][1]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][7][0]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][8][7]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][8][6]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][8][5]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][8][4]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][8][3]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][8][2]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][8][1]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][8][0]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][9][7]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][9][6]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][9][5]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][9][4]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][9][3]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][9][2]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][9][1]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][9][0]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][10][7]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][10][6]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][10][5]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][10][4]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][10][3]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][10][2]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][10][1]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][10][0]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][11][7]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][11][6]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][11][5]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][11][4]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][11][3]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][11][2]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][11][1]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][11][0]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][12][7]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][12][6]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][12][5]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][12][4]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][12][3]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][12][2]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][12][1]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Name][12][0]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Size][31]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Size][30]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Size][29]
+WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized0 has unconnected port BusIn[2][Info][Size][28]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1503.090 ; gain = 107.750 ; free physical = 15254 ; free virtual = 52171
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1485.430 ; gain = 90.094 ; free physical = 48809 ; free virtual = 57267
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -59,35 +257,133 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Data] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Instruction][2] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Instruction][1] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Instruction][0] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][1][7] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][1][6] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][1][5] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][1][4] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][1][3] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][1][2] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][1][1] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][1][0] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][2][7] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][2][6] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][2][5] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][2][4] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][2][3] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][2][2] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][2][1] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][2][0] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][3][7] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][3][6] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][3][5] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][3][4] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][3][3] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][3][2] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][3][1] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][3][0] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][4][7] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][4][6] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][4][5] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][4][4] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][4][3] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][4][2] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][4][1] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][4][0] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][5][7] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][5][6] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][5][5] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][5][4] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][5][3] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][5][2] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][5][1] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][5][0] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][6][7] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][6][6] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][6][5] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][6][4] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][6][3] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][6][2] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][6][1] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][6][0] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][7][7] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][7][6] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][7][5] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][7][4] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][7][3] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][7][2] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][7][1] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][7][0] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][8][7] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][8][6] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][8][5] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][8][4] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][8][3] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][8][2] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][8][1] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][8][0] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][9][7] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][9][6] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][9][5] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][9][4] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][9][3] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][9][2] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][9][1] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][9][0] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][10][7] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][10][6] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][10][5] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][10][4] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][10][3] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][10][2] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][10][1] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][10][0] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][11][7] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][11][6] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][11][5] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][11][4] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][11][3] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][11][2] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][11][1] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][11][0] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][12][7] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][12][6] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][12][5] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][12][4] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][12][3] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][12][2] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][12][1] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:BusIn[0][Info][Name][12][0] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:76]
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1503.090 ; gain = 107.750 ; free physical = 15264 ; free virtual = 52181
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1485.430 ; gain = 90.094 ; free physical = 48809 ; free virtual = 57269
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1503.090 ; gain = 107.750 ; free physical = 15264 ; free virtual = 52181
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1485.430 ; gain = 90.094 ; free physical = 48809 ; free virtual = 57269
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xcku15p-ffva1760-2-e
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.runs/synth_1/.Xil/Vivado-25130-daedalus/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'LUTTestInstance'
-Finished Parsing XDC File [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.runs/synth_1/.Xil/Vivado-25130-daedalus/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'LUTTestInstance'
 Parsing XDC File [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/constrs_1/new/constr.xdc]
 Finished Parsing XDC File [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/constrs_1/new/constr.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2631.332 ; gain = 0.000 ; free physical = 14342 ; free virtual = 51245
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2623.016 ; gain = 0.000 ; free physical = 47652 ; free virtual = 56249
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2631.332 ; gain = 0.000 ; free physical = 14342 ; free virtual = 51245
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2631.332 ; gain = 0.000 ; free physical = 14342 ; free virtual = 51245
-WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'LUTTestInstance' at clock pin 'clka' is different from the actual clock period '3.125', this can lead to different synthesis results.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2623.016 ; gain = 0.000 ; free physical = 47652 ; free virtual = 56249
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2623.016 ; gain = 0.000 ; free physical = 47652 ; free virtual = 56249
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 2631.332 ; gain = 1235.992 ; free physical = 14407 ; free virtual = 51310
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:29 . Memory (MB): peak = 2623.016 ; gain = 1227.680 ; free physical = 47737 ; free virtual = 56334
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -95,17 +391,32 @@ Start Loading Part and Timing Information
 Loading part: xcku15p-ffva1760-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 2631.332 ; gain = 1235.992 ; free physical = 14407 ; free virtual = 51310
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:29 . Memory (MB): peak = 2623.016 ; gain = 1227.680 ; free physical = 47737 ; free virtual = 56334
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true for LUTTestInstance. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 2631.332 ; gain = 1235.992 ; free physical = 14406 ; free virtual = 51310
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:29 . Memory (MB): peak = 2623.016 ; gain = 1227.680 ; free physical = 47739 ; free virtual = 56337
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "DataValid" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "WordCounter" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "WordCounter" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "BitCounter" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "State" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "State" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "State" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "State" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "DataValid" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "WordCounter" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "WordCounter" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "BitCounter" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "State" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "State" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "State" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "State" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 2631.332 ; gain = 1235.992 ; free physical = 14400 ; free virtual = 51303
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:30 . Memory (MB): peak = 2623.016 ; gain = 1227.680 ; free physical = 47899 ; free virtual = 56497
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -118,18 +429,39 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
+	   2 Input     12 Bit       Adders := 2     
 	   2 Input      8 Bit       Adders := 2     
 	   3 Input      8 Bit       Adders := 2     
-	   2 Input      5 Bit       Adders := 2     
+	   2 Input      5 Bit       Adders := 4     
 +---Registers : 
+	               18 Bit    Registers := 6     
 	               15 Bit    Registers := 2     
 	               14 Bit    Registers := 2     
-	               12 Bit    Registers := 2     
-	                5 Bit    Registers := 2     
+	               12 Bit    Registers := 4     
+	               11 Bit    Registers := 2     
+	                5 Bit    Registers := 4     
 	                4 Bit    Registers := 2     
-	                1 Bit    Registers := 2     
+	                3 Bit    Registers := 4     
+	                1 Bit    Registers := 6     
++---RAMs : 
+	              36K Bit         RAMs := 2     
 +---Muxes : 
+	   2 Input     18 Bit        Muxes := 2     
+	   5 Input     18 Bit        Muxes := 2     
+	   7 Input     12 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 2     
+	   7 Input      5 Bit        Muxes := 2     
 	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 6     
+	   3 Input      3 Bit        Muxes := 4     
+	   6 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 12    
+	   3 Input      1 Bit        Muxes := 8     
+	   9 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 8     
+	   6 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 4     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -137,7 +469,90 @@ Finished RTL Component Statistics
 Start RTL Hierarchical Component Statistics 
 ---------------------------------------------------------------------------------
 Hierarchical RTL Component report 
+Module FMBusRamDecoder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   5 Input     18 Bit        Muxes := 1     
+	   7 Input     12 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   7 Input      5 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 3     
+	   3 Input      3 Bit        Muxes := 2     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 4     
+	   9 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 2     
+Module GenPromClocked 
+Detailed RTL Component Info : 
++---Registers : 
+	               18 Bit    Registers := 2     
++---RAMs : 
+	              36K Bit         RAMs := 1     
 Module StubFormatter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               15 Bit    Registers := 1     
+	               14 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+Module FMBusRamDecoder__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	               18 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     18 Bit        Muxes := 1     
+	   5 Input     18 Bit        Muxes := 1     
+	   7 Input     12 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   7 Input      5 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 3     
+	   3 Input      3 Bit        Muxes := 2     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 4     
+	   9 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   6 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 2     
+Module GenPromClocked__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               18 Bit    Registers := 2     
++---RAMs : 
+	              36K Bit         RAMs := 1     
+Module StubFormatter__parameterized0 
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input      8 Bit       Adders := 1     
@@ -168,14 +583,6 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-WARNING: [Synth 8-3331] design top has unconnected port data_in[26]
-WARNING: [Synth 8-3331] design top has unconnected port data_in[25]
-WARNING: [Synth 8-3331] design top has unconnected port data_in[24]
-WARNING: [Synth 8-3331] design top has unconnected port data_in[23]
-WARNING: [Synth 8-3331] design top has unconnected port data_in[3]
-WARNING: [Synth 8-3331] design top has unconnected port data_in[2]
-WARNING: [Synth 8-3331] design top has unconnected port data_in[1]
-WARNING: [Synth 8-3331] design top has unconnected port data_in[0]
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[phi][11] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[phi][12] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[1].StubFormatterInstance/stub_out_reg[phi][13] )
@@ -205,7 +612,7 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFor
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[0].StubFormatterInstance/stub_out_reg[r][10] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gStubFormatter[0].StubFormatterInstance/stub_out_reg[r][11] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:26 . Memory (MB): peak = 2631.332 ; gain = 1235.992 ; free physical = 14387 ; free virtual = 51292
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:31 . Memory (MB): peak = 2623.016 ; gain = 1227.680 ; free physical = 47885 ; free virtual = 56489
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -217,13 +624,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:59 . Memory (MB): peak = 2852.715 ; gain = 1457.375 ; free physical = 13888 ; free virtual = 50787
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:01:06 . Memory (MB): peak = 2824.633 ; gain = 1429.297 ; free physical = 47258 ; free virtual = 55894
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:59 . Memory (MB): peak = 2852.715 ; gain = 1457.375 ; free physical = 13888 ; free virtual = 50787
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:01:06 . Memory (MB): peak = 2824.633 ; gain = 1429.297 ; free physical = 47257 ; free virtual = 55893
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -237,7 +644,7 @@ Start Technology Mapping
 INFO: [Synth 8-3886] merging instance 'gStubFormatter[1].StubFormatterInstance/stub_out_reg[z][0]' (FDR) to 'gStubFormatter[1].StubFormatterInstance/stub_out_reg[r][0]'
 INFO: [Synth 8-3886] merging instance 'gStubFormatter[0].StubFormatterInstance/stub_out_reg[z][0]' (FDR) to 'gStubFormatter[0].StubFormatterInstance/stub_out_reg[r][0]'
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:59 . Memory (MB): peak = 2864.746 ; gain = 1469.406 ; free physical = 13885 ; free virtual = 50784
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:01:06 . Memory (MB): peak = 2836.664 ; gain = 1441.328 ; free physical = 47256 ; free virtual = 55893
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -261,7 +668,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:01:00 . Memory (MB): peak = 2864.746 ; gain = 1469.406 ; free physical = 13885 ; free virtual = 50784
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:01:06 . Memory (MB): peak = 2836.664 ; gain = 1441.328 ; free physical = 47256 ; free virtual = 55891
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -274,7 +681,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:01:00 . Memory (MB): peak = 2864.746 ; gain = 1469.406 ; free physical = 13885 ; free virtual = 50784
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:01:06 . Memory (MB): peak = 2836.664 ; gain = 1441.328 ; free physical = 47256 ; free virtual = 55891
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -286,87 +693,85 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:01:00 . Memory (MB): peak = 2864.746 ; gain = 1469.406 ; free physical = 13885 ; free virtual = 50784
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:01:06 . Memory (MB): peak = 2836.664 ; gain = 1441.328 ; free physical = 47256 ; free virtual = 55891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:01:00 . Memory (MB): peak = 2864.746 ; gain = 1469.406 ; free physical = 13885 ; free virtual = 50784
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:01:06 . Memory (MB): peak = 2836.664 ; gain = 1441.328 ; free physical = 47256 ; free virtual = 55891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:01:00 . Memory (MB): peak = 2864.746 ; gain = 1469.406 ; free physical = 13885 ; free virtual = 50784
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:01:06 . Memory (MB): peak = 2836.664 ; gain = 1441.328 ; free physical = 47256 ; free virtual = 55891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:01:00 . Memory (MB): peak = 2864.746 ; gain = 1469.406 ; free physical = 13885 ; free virtual = 50784
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:01:06 . Memory (MB): peak = 2836.664 ; gain = 1441.328 ; free physical = 47256 ; free virtual = 55891
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
 ---------------------------------------------------------------------------------
 
 Report BlackBoxes: 
-+------+--------------+----------+
-|      |BlackBox name |Instances |
-+------+--------------+----------+
-|1     |blk_mem_gen_0 |         1|
-+------+--------------+----------+
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
 
 Report Cell Usage: 
-+------+--------------+------+
-|      |Cell          |Count |
-+------+--------------+------+
-|1     |blk_mem_gen_0 |     1|
-|2     |BUFG          |     1|
-|3     |CARRY8        |     4|
-|4     |LUT1          |     2|
-|5     |LUT2          |    20|
-|6     |LUT3          |     4|
-|7     |LUT4          |    20|
-|8     |LUT5          |     6|
-|9     |LUT6          |    46|
-|10    |FDRE          |    72|
-|11    |IBUF          |    57|
-|12    |OBUF          |   120|
-+------+--------------+------+
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY8 |     4|
+|3     |LUT1   |     2|
+|4     |LUT2   |    20|
+|5     |LUT3   |     4|
+|6     |LUT4   |    20|
+|7     |LUT5   |     6|
+|8     |LUT6   |    46|
+|9     |FDRE   |    72|
+|10    |IBUF   |    57|
+|11    |OBUF   |   120|
++------+-------+------+
 
 Report Instance Areas: 
-+------+--------------------------------------------+----------------+------+
-|      |Instance                                    |Module          |Cells |
-+------+--------------------------------------------+----------------+------+
-|1     |top                                         |                |   360|
-|2     |  \gStubFormatter[0].StubFormatterInstance  |StubFormatter   |    87|
-|3     |  \gStubFormatter[1].StubFormatterInstance  |StubFormatter_0 |    87|
-+------+--------------------------------------------+----------------+------+
++------+--------------------------------------------+------------------------------+------+
+|      |Instance                                    |Module                        |Cells |
++------+--------------------------------------------+------------------------------+------+
+|1     |top                                         |                              |   352|
+|2     |  \gStubFormatter[0].StubFormatterInstance  |StubFormatter                 |    87|
+|3     |  \gStubFormatter[1].StubFormatterInstance  |StubFormatter__parameterized0 |    87|
++------+--------------------------------------------+------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:01:00 . Memory (MB): peak = 2864.746 ; gain = 1469.406 ; free physical = 13885 ; free virtual = 50784
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:01:06 . Memory (MB): peak = 2836.664 ; gain = 1441.328 ; free physical = 47256 ; free virtual = 55891
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:40 . Memory (MB): peak = 2864.746 ; gain = 341.164 ; free physical = 13922 ; free virtual = 50821
-Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:01:00 . Memory (MB): peak = 2864.754 ; gain = 1469.406 ; free physical = 13922 ; free virtual = 50821
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:45 . Memory (MB): peak = 2836.664 ; gain = 303.742 ; free physical = 47293 ; free virtual = 55928
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:01:06 . Memory (MB): peak = 2836.672 ; gain = 1441.328 ; free physical = 47293 ; free virtual = 55928
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 62 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2934.395 ; gain = 0.000 ; free physical = 13849 ; free virtual = 50748
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2906.312 ; gain = 0.000 ; free physical = 47218 ; free virtual = 55854
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 58 instances were transformed.
   BUFG => BUFGCE: 1 instances
   IBUF => IBUF (IBUFCTRL, INBUF): 57 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-50 Infos, 32 Warnings, 0 Critical Warnings and 0 Errors encountered.
+79 Infos, 301 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:01:01 . Memory (MB): peak = 2934.395 ; gain = 1553.203 ; free physical = 13904 ; free virtual = 50803
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2934.395 ; gain = 0.000 ; free physical = 13904 ; free virtual = 50803
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:01:08 . Memory (MB): peak = 2906.312 ; gain = 1525.125 ; free physical = 47274 ; free virtual = 55910
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2906.312 ; gain = 0.000 ; free physical = 47274 ; free virtual = 55910
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint '/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.runs/synth_1/top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon May 20 16:30:08 2019...
+INFO: [Common 17-206] Exiting Vivado at Tue May 21 15:22:03 2019...

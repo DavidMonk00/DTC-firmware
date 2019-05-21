@@ -32,21 +32,45 @@ USE WORK.utilities_pkg.ALL;
 --use UNISIM.VComponents.all;
 
 entity StubFormatter is
+    GENERIC (
+        index : integer
+    );
     PORT(
         clk : in std_logic;
         header : in tDTCInHeader;
         stub_in : in tDTCInStub;
-        stub_out : out tStub := NullStub
+        BusIn : in tFMBus(0 to 71);
+
+        stub_out : out tStub := NullStub;
+        BusOut : out tFMBus(0 to 71)
     );
 end StubFormatter;
 
 architecture Behavioral of StubFormatter is
     signal word_number : unsigned(3 downto 0) := (others => '0');
-    SIGNAL BusIn , BusOut : tFMBus( 0 TO 71 );
+    SIGNAL StripNumber , PosLutOut : STD_LOGIC_VECTOR( 17 DOWNTO 0 ) := (OTHERS=>'0');
     SIGNAL BusClk         : STD_LOGIC     := '0';
-    
+
+    CONSTANT x : INTEGER := BusOut'LOW + index;
+    SUBTYPE A IS NATURAL RANGE x + index TO x + index;
 
 begin
+
+StripNumber(10 downto 0) <= std_logic_vector(stub_in.id) & std_logic_vector(stub_in.strip);
+
+PosLutInstance : ENTITY work.GenPromClocked
+    GENERIC MAP(
+      FileName => "A_PosLutLow_11to18.mif" ,
+      BusName  => "A/PosLutA" & INTEGER'IMAGE( index )
+    )
+    PORT MAP(
+      clk       => clk ,
+      AddressIn => StripNumber( 10 DOWNTO 0 ) ,
+      DataOut   => PosLutOut( 17 DOWNTO 0 ) ,
+      BusIn     => BusIn( A ) ,
+      BusOut    => BusOut( A ) ,
+      BusClk    => BusClk
+    );
 
 pFormat : process(clk)
 variable bx_tmp : unsigned(11 downto 0) := (others =>'0');

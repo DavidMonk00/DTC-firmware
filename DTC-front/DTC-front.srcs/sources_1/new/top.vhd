@@ -24,15 +24,9 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 use STD.TEXTIO.ALL;
 use work.data_types.all;
+USE work.FunkyMiniBus.ALL;
+USE WORK.utilities_pkg.ALL;
 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity top is
     PORT(
@@ -49,7 +43,7 @@ architecture Behavioral of top is
     signal header : tDTCInHeader;
     signal DTCIn_stubs : tDTCInStubArray;
     signal stubs : tStubArray;
-    signal lut_check : std_logic_vector(7 downto 0);
+    signal BusIn, BusOut : tFMBus(0 to 71);
 
 begin
 process(clk)
@@ -59,13 +53,13 @@ begin
     end if;
 end process;
 
---LinkGeneratorInstance : entity work.LinkGenerator
---  port map(
---      clk => clk,
---      links_out => links_in
---  );
+LinkGeneratorInstance : entity work.LinkGenerator
+ port map(
+     clk => clk,
+     links_out => links_in
+ );
 
-links_in <= data_in;
+--links_in <= data_in;
 header_out <= header;
 data_out <= stubs;
 
@@ -73,26 +67,39 @@ LinkFormatterInstance : entity work.LinkFormatter
     port map(
         clk => clk,
         links_in => links_in,
+
         header => header,
         stubs => DTCIn_stubs
     );
 
 gStubFormatter : for i in 0 to stubs_per_word - 1 generate
     StubFormatterInstance : entity work.StubFormatter
+    generic map(
+        index => i
+    )
     port map(
         clk => clk,
         header => header,
         stub_in => DTCIn_stubs(i),
+        BusIn => BusIn,
+
         stub_out => stubs(i)
+        -- BusOut => BusOut
     );
 end generate;
 
-LUTTestInstance : entity work.blk_mem_gen_0
-    port map(
-        clka => clk,
-        addra => b"0001",
-        ena => '1',
-        douta => lut_check
-    );
+--LUTTestInstance : entity work.blk_mem_gen_0
+--    port map(
+--        clka => clk,
+--        addra => b"0001",
+--        ena => '1',
+--        douta => lut_check
+--    );tance : entity work.blk_mem_gen_0
+--    port map(
+--        clka => clk,
+--        addra => b"0001",
+--        ena => '1',
+--        douta => lut_check
+--    );
 
 end Behavioral;
