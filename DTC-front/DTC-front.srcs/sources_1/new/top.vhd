@@ -19,13 +19,13 @@
 --
 ----------------------------------------------------------------------------------
 
--- Standard Library imports
+-- Standard library imports
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 use std.textio.all;
 
--- Project Specific Imports
+-- Project specific imports
 use work.data_types.all;
 use work.FunkyMiniBus.all;
 use work.utilities_pkg.all;
@@ -49,7 +49,7 @@ architecture Behavioral of top is
     signal header : tDTCInHeader; -- Header of CIC word
     signal DTCIn_stubs : tDTCInStubArray; -- Array of CIC stubs formed from CIC word
     signal stubs : tStubArray; -- Array of converted stubs
-    signal BusIn, BusOut : tFMBus(0 to 71); -- FunkyMiniBus buses for loading LUTs
+    signal bus_in, BusOut : tFMBus(0 to 71); -- FunkyMiniBus buses for loading LUTs
 
 begin
 
@@ -100,7 +100,7 @@ gStubFormatter : for i in 0 to stubs_per_word - 1 generate
         clk => clk,
         header => header,
         stub_in => DTCIn_stubs(i),
-        BusIn => BusIn,
+        bus_in => bus_in,
 
         -- Output Ports --
         stub_out => stubs(i)
