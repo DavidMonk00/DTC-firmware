@@ -49,8 +49,10 @@ end StubFormatter;
 
 architecture Behavioral of StubFormatter is
     signal word_number : unsigned(3 downto 0) := (others => '0');
-    signal strip_number , pos_lut_out : std_logic_vector(17 downto 0) := (others => '0');
+    signal strip_number : std_logic_vector(17 downto 0) := (others => '0');
+    signal pos_lut_out : std_logic_vector(17 downto 0) := (others => '0');
     signal clk_bus : std_logic := '0';
+    signal tmp_buff : tNonLUTBuf := NullNonLUTBuff;
 
     -- Constants required for FunkyMiniBus
     constant x : integer := bus_out'low + index;
@@ -85,20 +87,28 @@ PosLutInstance : ENTITY work.GenPromClocked
 -- the LUT. Output should be timed such that the stub is assosciated with the
 -- correct lookup.
 pFormat : process(clk)
-variable bx_tmp : unsigned(11 downto 0) := (others =>'0');
 begin
     if rising_edge(clk) then
         if (stub_in.valid = '1') then
+            -- Buffer data not needed for LUTs
+            tmp_buff.valid <= stub_in.valid;
+            tmp_buff.bx <= (header.boxcar_number(4 downto 0) + stub_in.offset) mod 18;
+            tmp_buff.bend <= stub_in.bend;
+
+
             -- Current calculations are a placeholder for LUTs, which are not
             -- fully implemented yet.
-            stub_out.valid <= stub_in.valid;
-            stub_out.bx <= (header.boxcar_number(4 downto 0) + stub_in.offset) mod 18;
-            stub_out.bend <= stub_in.bend;
+            stub_out.valid <= tmp_buff.valid;
+            stub_out.bx <= tmp_buff.bx;
+            stub_out.bend <= tmp_buff.bend;
 
             -- Require LUT
-            stub_out.r(7 downto 0) <= stub_in.id + stub_in.strip;
-            stub_out.z(7 downto 0) <= stub_in.id - stub_in.strip;
-            stub_out.phi(10 downto 0) <= (stub_in.id * stub_in.strip);
+            stub_out.r <= unsigned(pos_lut_out(11 downto 0));
+            stub_out.z <= unsigned(pos_lut_out(11 downto 0));
+            stub_out.phi <= unsigned(pos_lut_out(16 downto 0));
+            stub_out.alpha <= unsigned(pos_lut_out(3 downto 0));
+            stub_out.layer <= unsigned(pos_lut_out(1 downto 0));
+            stub_out.nonant <= unsigned(pos_lut_out(1 downto 0));
         else
             stub_out <= NullStub;
         end if;

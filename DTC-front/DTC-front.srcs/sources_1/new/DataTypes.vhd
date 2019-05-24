@@ -57,7 +57,6 @@ package data_types is
     constant NullDTCInStubArray : tDTCInStubArray := (others => NullDTCInStub);
 
 
-
     -- Stub format as described in most recent DTC Interface Document
     type tStub is record
         valid   : std_logic;
@@ -84,5 +83,14 @@ package data_types is
     type tUnsconstrainedLUTArray is array(integer range <>) of std_logic_vector(17 downto 0);
     subtype tLUTArray is tUnsconstrainedLUTArray(0 to stubs_per_word -1);
     constant NullLUTArray : tLUTArray := (others => (others => '0'));
+
+
+    type tNonLUTBuf is record
+        valid   : std_logic;
+        bx      : unsigned(4 downto 0);
+        bend    : unsigned(3 downto 0);
+    end record;
+
+    constant NullNonLUTBuff : tNonLUTBuf := ('0', (others => '0'), (others => '0'));
 
 end package data_types;

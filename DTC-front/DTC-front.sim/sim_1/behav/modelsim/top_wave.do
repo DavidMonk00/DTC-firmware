@@ -7,3 +7,11 @@
 #
 ######################################################################
 if { [catch {[add wave *]}] } {}
+
+### Stub Formatter Debugging ###
+#add wave -position insertpoint sim:/top/clk
+#add wave -position insertpoint sim:/top/gStubFormatter(0)/StubFormatterInstance/strip_number
+#add wave -position insertpoint sim:/top/gStubFormatter(0)/StubFormatterInstance/pos_lut_out
+#add wave -position insertpoint sim:/top/gStubFormatter(0)/StubFormatterInstance/stub_out.alpha
+#add wave -position insertpoint sim:/top/DTCIn_stubs(0).bend
+#add wave -position insertpoint sim:/top/stubs(0).bend
