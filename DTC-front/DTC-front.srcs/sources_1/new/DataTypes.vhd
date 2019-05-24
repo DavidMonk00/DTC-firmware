@@ -7,13 +7,14 @@ USE IEEE.NUMERIC_STD.ALL;
 
 
 package data_types is
+    -- Constants relating to CIC input word
     constant stubs_per_word : integer := 2;
     constant stub_width : integer := 23;
 
     type tDTCInWord is record
         header : std_logic_vector(17 downto 0);
-        word_1 : std_logic_vector(22 downto 0);
-        word_2 : std_logic_vector(22 downto 0);
+        word_1 : std_logic_vector(stub_width - 1 downto 0);
+        word_2 : std_logic_vector(stub_width - 1 downto 0);
     end record;
 
     constant NullDTCInWord : tDTCInWord := ((others => '0'), (others => '0'), (others => '0'));
@@ -35,7 +36,9 @@ package data_types is
         bend    : unsigned(3 downto 0);
     end record;
 
-    constant NullDTCInStub : tDTCInStub := ('0', (others => '0'), (others => '0'), (others => '0'), (others => '0'));
+    constant NullDTCInStub : tDTCInStub := ('0',
+                                            (others => '0'), (others => '0'),
+                                            (others => '0'), (others => '0'));
 
     type tUnconstrainedDTCInStubArray is array(integer range <>) of tDTCInStub;
     subtype tDTCInStubArray is tUnconstrainedDTCInStubArray(0 to stubs_per_word - 1);
@@ -46,17 +49,24 @@ package data_types is
         valid   : std_logic;
         bx      : unsigned(4 downto 0);
         r       : unsigned(11 downto 0);
-        z       : unsigned(13 downto 0);
-        phi     : unsigned(14 downto 0);
+        z       : unsigned(11 downto 0);
+        phi     : unsigned(16 downto 0);
+        alpha   : unsigned(3 downto 0);
         bend    : unsigned(3 downto 0);
+        layer   : unsigned(1 downto 0);
+        nonant  : unsigned(1 downto 0);
     end record;
 
-    constant NullStub : tStub := ('0', (others => '0'), (others => '0'), (others => '0'), (others => '0'), (others => '0'));
+    constant NullStub : tStub := ('0',
+                                  (others => '0'), (others => '0'),
+                                  (others => '0'), (others => '0'),
+                                  (others => '0'), (others => '0'),
+                                  (others => '0'), (others => '0'));
 
     type tUnconstrainedStubArray is array(integer range <>) of tStub;
     subtype tStubArray is tUnconstrainedStubArray(0 to stubs_per_word - 1);
     constant NullStubArray : tStubArray := (others => NullStub);
-    
+
     type tUnsconstrainedLUTArray is array(integer range <>) of std_logic_vector(17 downto 0);
     subtype tLUTArray is tUnsconstrainedLUTArray(0 to stubs_per_word -1);
     constant NullLUTArray : tLUTArray := (others => (others => '0'));

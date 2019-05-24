@@ -105,8 +105,8 @@ begin
     end if;
 end process;
 
--- Not entirely sure what this is for... I guess it is descibing how many word
--- frames are in the boxcar.
+-- Not entirely sure what this is for... I guess it is calculating how many
+-- word frames are in the boxcar.
 word_number <= shift_right(header.stub_count, 1)(3 downto 0);
 
 end Behavioral;
