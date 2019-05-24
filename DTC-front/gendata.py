@@ -11,6 +11,10 @@ bram_width = 18
 
 
 class LogicVector:
+    """
+    Class that simulates a VHDL std_logic_vector with a few extra useful
+    functions, such as the ability to randomise the bits.
+    """
     def __init__(self, width, data=0):
         self.width = width
         self.data = data
@@ -20,17 +24,35 @@ class LogicVector:
         return "0x{0:0{1}X}".format(self.data, int(np.ceil(self.width/4)))
 
     def __getitem__(self, index):
+        """
+        Returns the bit at the given index, with 0th index reuslting in least
+        significant bit.
+        """
         return int(format(self.data, '0%db' % self.width)[::-1][index][::-1])
 
     def randomise(self):
+        """
+        Randomises all of the bits in the vector. Returns null.
+        """
         self.data = np.random.randint(low=0, high=2**self.width)
 
     def bits(self):
+        """
+        Return the bit array of the vector, with 0th index being the most
+        significant bit.
+        """
         return format(self.data, '0%db' % self.width)
 
 
 class Stub:
+    """
+    Class for describing the stub data required to construct MIF files. Does
+    not contain all of the data fields in a real stub.
+    """
     def __init__(self):
+        """
+        Initialises stub with null vectors for each data field.
+        """
         self.r = LogicVector(12)
         self.z = LogicVector(12)
         self.phi = LogicVector(17)
@@ -41,6 +63,10 @@ class Stub:
         self.width = 54
 
     def randomiseValues(self):
+        """
+        Randomises each data field in accordance with the randomise function of
+        the logic vector.
+        """
         self.r.randomise()
         self.z.randomise()
         self.phi.randomise()
@@ -50,11 +76,18 @@ class Stub:
         self.nonant.randomise()
 
     def __generateBitStream(self):
+        """
+        Returns a concatenation of all the data fields as bit arrays.
+        """
         return self.nonant.bits() + self.layer.bits() + self.bend.bits() + \
-               self.alpha.bits() + self.phi.bits() + self.z.bits() + \
-               self.r.bits()
+            self.alpha.bits() + self.phi.bits() + self.z.bits() + self.r.bits()
 
     def generateMifWords(self):
+        """
+        Generate the words required for the Memory Initialisation Files to be
+        loaded into Vivado. These must then be saved into the correct file by a
+        different function.
+        """
         bits = self.__generateBitStream()
         words = [
             "0x{0:0{1}X}".format(
@@ -65,6 +98,9 @@ class Stub:
         return words
 
     def __repr__(self):
+        """
+        Returns a formatted summary of the stub.
+        """
         s = "--- Stub Values ---\n"
         s += "r      : width = %02d | value = %s\n" % (self.r.width, self.r)
         s += "z      : width = %02d | value = %s\n" % (self.z.width, self.z)
@@ -82,7 +118,7 @@ class Stub:
         return s
 
 
-def genRandomStubs():
+def genRandomDTCInStubs():
     word_count = 8
     boxcar_count = 3655
     stub_count = 16
@@ -107,18 +143,9 @@ def genRandomStubs():
 
 
 def genMif():
-    width = 52
-    depth = 11
-
-    with open(mif_path + "random.mif", 'w') as f:
-        for i in range(int(2**depth)):
-            word = "0x{0:0{1}X}".format(
-                np.random.randint(low=0, high=2**width),
-                int(np.ceil(width/4.0)))
-            f.write(word + "\n")
-
-
-def main():
+    """
+    Generate a series of MIF files using random stubs as the content.
+    """
     mifs = ["" for i in range(int(np.ceil(54/18)))]
     stubs = [Stub() for i in range(2048)]
     for stub in stubs:
@@ -128,8 +155,12 @@ def main():
         for i in range(len(mifs)):
             mifs[i] += (words[i] + "\n")
     for i in range(len(mifs)):
-        with open("mifs/random_%d.mif" % i, "w") as f:
+        with open(mif_path + "random_%d.mif" % i, "w") as f:
             f.write(mifs[i])
+
+
+def main():
+    genMif()
 
 
 if __name__ == '__main__':
