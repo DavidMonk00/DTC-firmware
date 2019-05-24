@@ -1,12 +1,12 @@
 ----------------------------------------------------------------------------------
--- Company:
--- Engineer:
+-- Company: Imperial College London
+-- Engineer: David Monk
 --
 -- Create Date: 05/01/2019 03:16:15 PM
 -- Design Name:
 -- Module Name: top - Behavioral
 -- Project Name:
--- Target Devices:
+-- Target Devices: KU15P
 -- Tool Versions:
 -- Description:
 --
@@ -14,38 +14,46 @@
 --
 -- Revision:
 -- Revision 0.01 - File Created
+-- Revision 0.1 - Documentation added
 -- Additional Comments:
 --
 ----------------------------------------------------------------------------------
 
-
+-- Standard Library imports
 library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.NUMERIC_STD.ALL;
-use STD.TEXTIO.ALL;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+use std.textio.all;
+
+-- Project Specific Imports
 use work.data_types.all;
-USE work.FunkyMiniBus.ALL;
-USE WORK.utilities_pkg.ALL;
+use work.FunkyMiniBus.all;
+use work.utilities_pkg.all;
 
 
 entity top is
     PORT(
-        clk : IN std_logic;
-        data_in : IN std_logic_vector(63 downto 0);
-        header_out : OUT tDTCInHeader;
-        data_out : OUT tStubArray
+        -- Input Ports --
+        clk : in std_logic;
+        data_in : in std_logic_vector(63 downto 0);
+
+        -- Output Ports --
+        header_out : out tDTCInHeader;
+        data_out : out tStubArray
     );
 end top;
 
 architecture Behavioral of top is
-    signal counter : integer := 0;
-    signal links_in : std_logic_vector(63 downto 0);
-    signal header : tDTCInHeader;
-    signal DTCIn_stubs : tDTCInStubArray;
-    signal stubs : tStubArray;
-    signal BusIn, BusOut : tFMBus(0 to 71);
+    signal counter : integer := 0; -- Counter to more easily calculate latency
+    signal links_in : std_logic_vector(63 downto 0); -- Input word for CIC
+    signal header : tDTCInHeader; -- Header of CIC word
+    signal DTCIn_stubs : tDTCInStubArray; -- Array of CIC stubs formed from CIC word
+    signal stubs : tStubArray; -- Array of converted stubs
+    signal BusIn, BusOut : tFMBus(0 to 71); -- FunkyMiniBus buses for loading LUTs
 
 begin
+
+-- Process for increasing counter by one each clock cycle
 process(clk)
 begin
     if rising_edge(clk) then
@@ -53,41 +61,54 @@ begin
     end if;
 end process;
 
+
+-- Dummy instance to generate CIC words from file
 LinkGeneratorInstance : entity work.LinkGenerator
  port map(
-     clk => clk,
-     links_out => links_in
+    -- Input Ports --
+    clk => clk,
+
+    -- Output Ports --
+    links_out => links_in
  );
 
+-- Connections required for test synthesis
 --links_in <= data_in;
 header_out <= header;
 data_out <= stubs;
 
+-- Input links are formatted into a more readable format, separates out header
 LinkFormatterInstance : entity work.LinkFormatter
     port map(
+        -- Input Ports --
         clk => clk,
         links_in => links_in,
 
+        -- Output Ports --
         header => header,
         stubs => DTCIn_stubs
     );
 
+-- Each CIC stub is then converted into psuedo-global coordinates
 gStubFormatter : for i in 0 to stubs_per_word - 1 generate
     StubFormatterInstance : entity work.StubFormatter
     generic map(
         index => i
     )
     port map(
+        -- Input Ports --
         clk => clk,
         header => header,
         stub_in => DTCIn_stubs(i),
         BusIn => BusIn,
 
+        -- Output Ports --
         stub_out => stubs(i)
         -- BusOut => BusOut
     );
 end generate;
 
+-- Test entity for checking if IP core creation would work
 --LUTTestInstance : entity work.blk_mem_gen_0
 --    port map(
 --        clka => clk,

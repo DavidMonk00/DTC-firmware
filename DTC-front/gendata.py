@@ -127,7 +127,9 @@ def main():
         words = stub.generateMifWords()
         for i in range(len(mifs)):
             mifs[i] += (words[i] + "\n")
-    print(mifs)
+    for i in range(len(mifs)):
+        with open("mifs/random_%d.mif" % i, "w") as f:
+            f.write(mifs[i])
 
 
 if __name__ == '__main__':
