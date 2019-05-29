@@ -37,7 +37,7 @@ entity LinkFormatter is
 
         -- Output Ports --
         header : out tDTCInHeader := NullDTCInHeader;
-        stubs : out tDTCInStubArray := NullDTCInStubArray
+        stubs : out tDTCInWordStubArray := NullDTCInWordStubArray
     );
 end LinkFormatter;
 

@@ -29,11 +29,14 @@ set_property target_language VHDL [current_project]
 set_property ip_output_repo /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 add_files /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/ip/test.coe
-read_mem /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/A_PosLutLow_11to18.mif
+read_mem {
+  /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/A_PosLutLow_11to18.mif
+  /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/20190521_random.mif
+}
 read_vhdl -library xil_defaultlib {
-  /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/DataTypes.vhd
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/utilities.vhd
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd
+  /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/DataTypes.vhd
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/GenPromClocked.vhd
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/LinkFormatter.vhd
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd

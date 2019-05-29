@@ -39,48 +39,84 @@ entity StubFormatter is
         clk : in std_logic;
         header : in tDTCInHeader;
         stub_in : in tDTCInStub;
-        bus_in : in tFMBus(0 to 71);
+        bus_in : in tFMBusArray;
+        link_index : in unsigned(4 downto 0);
 
         -- Output Ports --
         stub_out : out tStub := NullStub;
-        bus_out : out tFMBus(0 to 71)
+        bus_out : out tFMBusArray
     );
 end StubFormatter;
 
 architecture Behavioral of StubFormatter is
     signal word_number : unsigned(3 downto 0) := (others => '0');
-    signal strip_number : std_logic_vector(17 downto 0) := (others => '0');
-    signal pos_lut_out : std_logic_vector(17 downto 0) := (others => '0');
+    signal address : std_logic_vector(17 downto 0) := (others => '0');
+    signal pos_lut_out : std_logic_vector(53 downto 0) := (others => '0');
     signal clk_bus : std_logic := '0';
     signal tmp_buff : tNonLUTBuf := NullNonLUTBuff;
 
     -- Constants required for FunkyMiniBus
-    constant x : integer := bus_out'low + index;
-    subtype A is natural range x + index to x + index;
+    constant x : integer := bus_out(0)'low + index;
+    subtype A is natural range x + 0 to x + 0;
 
 begin
 
 -- Concatenate stub ID and stub strip to form 11 bit address4
-strip_number(10 downto 0) <= std_logic_vector(stub_in.id) & std_logic_vector(stub_in.strip);
+address(7 downto 0) <= std_logic_vector(link_index) & std_logic_vector(stub_in.id);
 
 
--- Entity to call LUT and read address generated from strip_number
-PosLutInstance : ENTITY work.GenPromClocked
+-- Entity to call LUT and read address generated from address
+PosLutInstance0 : ENTITY work.GenPromClocked
     GENERIC MAP(
-      FileName => "A_PosLutLow_11to18.mif" ,
+      FileName => "random_0.mif" ,
       BusName  => "A/PosLutA" & INTEGER'IMAGE( index )
     )
     PORT MAP(
         -- Input Ports --
         clk => clk ,
-        AddressIn => strip_number(10 downto 0),
-        BusIn => bus_in(A),
+        AddressIn => address(10 downto 0),
+        BusIn => bus_in(0)(A),
         BusClk => clk_bus,
 
         -- Output Ports --
         DataOut => pos_lut_out(17 downto 0),
-        BusOut => bus_out(A)
+        BusOut => bus_out(0)(A)
     );
+
+PosLutInstance1 : ENTITY work.GenPromClocked
+    GENERIC MAP(
+      FileName => "random_1.mif" ,
+      BusName  => "A/PosLutA" & INTEGER'IMAGE( index )
+    )
+    PORT MAP(
+        -- Input Ports --
+        clk => clk ,
+        AddressIn => address(10 downto 0),
+        BusIn => bus_in(1)(A),
+        BusClk => clk_bus,
+
+        -- Output Ports --
+        DataOut => pos_lut_out(35 downto 18),
+        BusOut => bus_out(1)(A)
+    );
+
+PosLutInstance2 : ENTITY work.GenPromClocked
+    GENERIC MAP(
+      FileName => "random_2.mif" ,
+      BusName  => "A/PosLutA" & INTEGER'IMAGE( index )
+    )
+    PORT MAP(
+        -- Input Ports --
+        clk => clk ,
+        AddressIn => address(10 downto 0),
+        BusIn => bus_in(2)(A),
+        BusClk => clk_bus,
+
+        -- Output Ports --
+        DataOut => pos_lut_out(53 downto 36),
+        BusOut => bus_out(2)(A)
+    );
+
 
 -- Process to use LUT data to produce r, phi, z coordinates to the stubs. This
 -- process should be a zero clock process as it is simply routing the output of
@@ -104,11 +140,11 @@ begin
 
             -- Require LUT
             stub_out.r <= unsigned(pos_lut_out(11 downto 0));
-            stub_out.z <= unsigned(pos_lut_out(11 downto 0));
-            stub_out.phi <= unsigned(pos_lut_out(16 downto 0));
-            stub_out.alpha <= unsigned(pos_lut_out(3 downto 0));
-            stub_out.layer <= unsigned(pos_lut_out(1 downto 0));
-            stub_out.nonant <= unsigned(pos_lut_out(1 downto 0));
+            stub_out.z <= unsigned(pos_lut_out(23 downto 12));
+            stub_out.phi <= unsigned(pos_lut_out(40 downto 24));
+            stub_out.alpha <= unsigned(pos_lut_out(43 downto 40));
+            stub_out.layer <= unsigned(pos_lut_out(45 downto 44));
+            stub_out.nonant <= unsigned(pos_lut_out(47 downto 46));
         else
             stub_out <= NullStub;
         end if;
