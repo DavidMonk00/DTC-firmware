@@ -42,7 +42,7 @@ entity LinkFormatter is
 end LinkFormatter;
 
 architecture Behavioral of LinkFormatter is
-    signal counter : integer range 0 to 63 := 0;
+    signal counter : integer range 0 to 63 := 63;
 
 begin
     process(clk)

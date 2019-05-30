@@ -19,4 +19,4 @@ view signals
 
 do {top.udo}
 
-run 100ns
+run 1000ns
