@@ -54,8 +54,8 @@ package data_types is
         valid   : std_logic;
         offset  : unsigned(2 downto 0);
         id      : unsigned(2 downto 0);
-        strip   : unsigned(7 downto 0);
-        bend    : unsigned(3 downto 0);
+        strip   : signed(7 downto 0);
+        bend    : signed(3 downto 0);
     end record;
 
     constant NullDTCInStub : tDTCInStub := ('0',
@@ -74,10 +74,10 @@ package data_types is
         valid   : std_logic;
         bx      : unsigned(4 downto 0);
         r       : unsigned(11 downto 0);
-        z       : unsigned(11 downto 0);
-        phi     : unsigned(16 downto 0);
-        alpha   : unsigned(3 downto 0);
-        bend    : unsigned(3 downto 0);
+        z       : signed(11 downto 0);
+        phi     : signed(16 downto 0);
+        alpha   : signed(3 downto 0);
+        bend    : signed(3 downto 0);
         layer   : unsigned(1 downto 0);
         nonant  : unsigned(1 downto 0);
     end record;
@@ -102,7 +102,7 @@ package data_types is
     type tNonLUTBuf is record
         valid   : std_logic;
         bx      : unsigned(4 downto 0);
-        bend    : unsigned(3 downto 0);
+        bend    : signed(3 downto 0);
     end record;
 
     constant NullNonLUTBuff : tNonLUTBuf := ('0', (others => '0'), (others => '0'));
@@ -123,7 +123,10 @@ package data_types is
     type tUnconstrainedFMBusArray is array(integer range <>) of tFMBus(0 to stubs_per_word*link_count - 1);
     subtype tFMBusArray is tUnconstrainedFMBusArray(0 to 2);
 
-    type tCorrectionMatrix is array(integer range 0 to 5) of unsigned(7 downto 0);
-    constant NullCorrectionMatrix : tCorrectionMatrix := (others => (others => '0'));
+    type tCorrectionMatrix is array(integer range 0 to 5) of integer range -16 to 15;
+    constant NullCorrectionMatrix : tCorrectionMatrix := (others => 0);
+    constant testCorrectionMatrix : tCorrectionMatrix := (
+        0, 1, 2, 3, 4, 5
+    );
 
 end package data_types;

@@ -52,8 +52,8 @@ begin
         stubs(i).valid <= links_in(45 - i * stub_width);
         stubs(i).offset <= unsigned(links_in(45 - (i * stub_width + 1) downto 45 - (i * stub_width + 3)));
         stubs(i).id     <= unsigned(links_in(45 - (i * stub_width + 4) downto 45 - (i * stub_width + 6)));
-        stubs(i).strip  <= unsigned(links_in(45 - (i * stub_width + 7) downto 45 - (i * stub_width + 14)));
-        stubs(i).bend   <= unsigned(links_in(45 - (i * stub_width + 15) downto 45 - (i * stub_width + 18)));
+        stubs(i).strip  <= signed(links_in(45 - (i * stub_width + 7) downto 45 - (i * stub_width + 14)));
+        stubs(i).bend   <= signed(links_in(45 - (i * stub_width + 15) downto 45 - (i * stub_width + 18)));
     end generate;
 
 end Behavioral;

@@ -140,9 +140,9 @@ begin
 
             -- Require LUT
             stub_out.r <= unsigned(pos_lut_out(11 downto 0));
-            stub_out.z <= unsigned(pos_lut_out(23 downto 12));
-            stub_out.phi <= unsigned(pos_lut_out(40 downto 24));
-            stub_out.alpha <= unsigned(pos_lut_out(43 downto 40));
+            stub_out.z <= signed(pos_lut_out(23 downto 12));
+            stub_out.phi <= signed(pos_lut_out(40 downto 24));
+            stub_out.alpha <= signed(pos_lut_out(43 downto 40));
             stub_out.layer <= unsigned(pos_lut_out(45 downto 44));
             stub_out.nonant <= unsigned(pos_lut_out(47 downto 46));
         else

@@ -97,7 +97,10 @@ end generate;
 
 -- Each CIC stub is then converted into psuedo-global coordinates
 gStubFormatter : for i in 0 to stubs_per_word*link_count - 1 generate
+    signal link_index : unsigned(4 downto 0) := (others => '0');
 begin
+    link_index <= to_unsigned(link_number(0 + i), 5);
+
     StubFormatterInstance : entity work.StubFormatter
     generic map(
         index => i
@@ -108,7 +111,7 @@ begin
         header => header(0),
         stub_in => DTCIn_stubs(i),
         bus_in => bus_in,
-        link_index => to_unsigned(link_number(0 + i), 5),
+        link_index => link_index,
 
         -- Output Ports --
         stub_out => stubs(i)
