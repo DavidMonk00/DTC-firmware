@@ -33,7 +33,7 @@ entity LinkFormatter is
     port (
         --Input Ports --
         clk : in std_logic;
-        links_in : in std_logic_vector(63 downto 0);
+        link_in : in std_logic_vector(63 downto 0);
 
         -- Output Ports --
         header : out tDTCInHeader := NullDTCInHeader;
@@ -42,18 +42,38 @@ entity LinkFormatter is
 end LinkFormatter;
 
 architecture Behavioral of LinkFormatter is
+    signal counter : integer range 0 to 63 := 0;
 
 begin
-    -- Header separation
-    header.boxcar_number <= unsigned(links_in(63 downto 52));
-    header.stub_count <= unsigned(links_in(51 downto 46));
-    -- CIC stubs separation from data section
-    gstubs : for i in 0 to stubs_per_word - 1 generate
-        stubs(i).valid <= links_in(45 - i * stub_width);
-        stubs(i).offset <= unsigned(links_in(45 - (i * stub_width + 1) downto 45 - (i * stub_width + 3)));
-        stubs(i).id     <= unsigned(links_in(45 - (i * stub_width + 4) downto 45 - (i * stub_width + 6)));
-        stubs(i).strip  <= signed(links_in(45 - (i * stub_width + 7) downto 45 - (i * stub_width + 14)));
-        stubs(i).bend   <= signed(links_in(45 - (i * stub_width + 15) downto 45 - (i * stub_width + 18)));
-    end generate;
+    process(clk)
+    begin
+        if rising_edge(clk) then
+            if counter = 63 then
+                counter <= 0;
+            else
+                counter <= counter + 1;
+            end if;
+        end if;
+    end process;
+
+    pHeaderSeparation : process(clk)
+    begin
+        if rising_edge(clk) then
+            if counter < 6 then
+                header.boxcar_number <= unsigned(link_in(63 downto 52));
+                header.stub_count <= unsigned(link_in(51 downto 46));
+                stubs(0).valid <= '0';
+                stubs(1).valid <= '0';
+            else
+                fStubAssignment : for i in 0 to stubs_per_word - 1 loop
+                    stubs(i).valid  <= link_in(63 - i * stub_width);
+                    stubs(i).bx     <= unsigned(link_in(63 - (i * stub_width + 1) downto 63 - (i * stub_width + 7)));
+                    stubs(i).row    <= signed(link_in(63 - (i * stub_width + 8) downto 63 - (i * stub_width + 18)));
+                    stubs(i).column <= signed(link_in(63 - (i * stub_width + 19) downto 63 - (i * stub_width + 23)));
+                    stubs(i).bend   <= signed(link_in(63 - (i * stub_width + 24) downto 63 - (i * stub_width + 27)));
+                end loop;
+            end if;
+        end if;
+    end process;
 
 end Behavioral;

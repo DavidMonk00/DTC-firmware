@@ -37,7 +37,7 @@ package data_types is
 
     -- Constants relating to CIC input word
     constant stubs_per_word : integer := 2;
-    constant stub_width : integer := 23;
+    constant stub_width : integer := 28;
 
     -- Input CIC header format as described in most recent DTC Interface Document
     type tDTCInHeader is record
@@ -52,9 +52,9 @@ package data_types is
     -- Input CIC stub format as described in most recent DTC Interface Document
     type tDTCInStub is record
         valid   : std_logic;
-        offset  : unsigned(2 downto 0);
-        id      : unsigned(2 downto 0);
-        strip   : signed(7 downto 0);
+        bx      : unsigned(6 downto 0);
+        row     : signed(10 downto 0);
+        column  : signed(4 downto 0);
         bend    : signed(3 downto 0);
     end record;
 
@@ -69,24 +69,34 @@ package data_types is
     constant NullDTCInStubArray : tDTCInStubArray := (others => NullDTCInStub);
 
 
-    -- Stub format as described in most recent DTC Interface Document
-    type tStub is record
-        valid   : std_logic;
+    type tStubHeader is record
         bx      : unsigned(4 downto 0);
+        nonant  : std_logic_vector(1 downto 0);
+    end record;
+
+    constant NullStubHeader : tStubHeader := ((others => '0'), (others => '0'));
+
+    type tStubPayload is record
+        valid   : std_logic;
         r       : unsigned(11 downto 0);
         z       : signed(11 downto 0);
         phi     : signed(16 downto 0);
         alpha   : signed(3 downto 0);
         bend    : signed(3 downto 0);
-        layer   : unsigned(1 downto 0);
-        nonant  : unsigned(1 downto 0);
     end record;
 
-    constant NullStub : tStub := ('0',
-                                  (others => '0'), (others => '0'),
-                                  (others => '0'), (others => '0'),
-                                  (others => '0'), (others => '0'),
-                                  (others => '0'), (others => '0'));
+    constant NullStubPayload : tStubPayload :=  ('0',
+                                                (others => '0'), (others => '0'),
+                                                (others => '0'), (others => '0'),
+                                                (others => '0'));
+
+    -- Stub format as described in most recent DTC Interface Document
+    type tStub is record
+        header  : tStubHeader;
+        payload : tStubPayload;
+    end record;
+
+    constant NullStub : tStub := (NullStubHeader, NullStubPayload);
 
     type tUnconstrainedStubArray is array(integer range <>) of tStub;
     subtype tStubWordArray is tUnconstrainedStubArray(0 to stubs_per_word - 1);
