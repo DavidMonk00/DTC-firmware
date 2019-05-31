@@ -53,6 +53,8 @@ architecture Behavioral of top is
     signal DTCIn_stubs : tDTCInStubArray; -- Array of CIC stubs formed from CIC word
     signal stubs : tStubArray; -- Array of converted stubs
     signal link_number : tLinkLUT := cLinkLUT;
+    signal matrices : tCorrectionMatrixArray := NullCorrectionMatrixArray;
+    signal matrix_bus_out, matrix_bus_in : tFMBus(0 to 71);
 
 begin
 
@@ -116,6 +118,22 @@ begin
 
         -- Output Ports --
         stub_out => stubs(i)
+        -- bus_out => bus_out
+    );
+
+    GetCorrectionMatrixInstance : entity work.GetCorrectionMatrix
+    generic map(
+        index => i
+    )
+    port map(
+        -- Input Ports --
+        clk => clk,
+        stub_in => DTCIn_stubs(i),
+        bus_in => matrix_bus_in,
+        link_index => link_index,
+
+        -- Output Ports
+        matrix => matrices(i)
         -- bus_out => bus_out
     );
 end generate;

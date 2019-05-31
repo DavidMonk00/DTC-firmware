@@ -66,57 +66,24 @@ begin
 address(7 downto 0) <= std_logic_vector(link_index) & std_logic_vector(stub_in.row(10 downto 8)); -- Highest 3 bits are assumed to be the FE ID - No idea if this is correct as I didn't make the specifications
 
 
--- Entity to call LUT and read address generated from address
-PosLutInstance0 : ENTITY work.GenPromClocked
-    GENERIC MAP(
-      FileName => "random_0.mif" ,
-      BusName  => "A/PosLutA" & INTEGER'IMAGE( index )
-    )
-    PORT MAP(
-        -- Input Ports --
-        clk => clk ,
-        AddressIn => address(10 downto 0),
-        BusIn => bus_in(0)(A),
-        BusClk => clk_bus,
+gPromClocked : for i in 0 to 2 generate
+    PosLutInstance0 : ENTITY work.GenPromClocked
+        GENERIC MAP(
+          FileName => "random_" & INTEGER'IMAGE(i) & ".mif",
+          BusName  => "A/PosLutA" & INTEGER'IMAGE( index )
+        )
+        PORT MAP(
+            -- Input Ports --
+            clk => clk ,
+            AddressIn => address(10 downto 0),
+            BusIn => bus_in(i)(A),
+            BusClk => clk_bus,
 
-        -- Output Ports --
-        DataOut => pos_lut_out(17 downto 0),
-        BusOut => bus_out(0)(A)
-    );
-
-PosLutInstance1 : ENTITY work.GenPromClocked
-    GENERIC MAP(
-      FileName => "random_1.mif" ,
-      BusName  => "A/PosLutA" & INTEGER'IMAGE( index )
-    )
-    PORT MAP(
-        -- Input Ports --
-        clk => clk ,
-        AddressIn => address(10 downto 0),
-        BusIn => bus_in(1)(A),
-        BusClk => clk_bus,
-
-        -- Output Ports --
-        DataOut => pos_lut_out(35 downto 18),
-        BusOut => bus_out(1)(A)
-    );
-
-PosLutInstance2 : ENTITY work.GenPromClocked
-    GENERIC MAP(
-      FileName => "random_2.mif" ,
-      BusName  => "A/PosLutA" & INTEGER'IMAGE( index )
-    )
-    PORT MAP(
-        -- Input Ports --
-        clk => clk ,
-        AddressIn => address(10 downto 0),
-        BusIn => bus_in(2)(A),
-        BusClk => clk_bus,
-
-        -- Output Ports --
-        DataOut => pos_lut_out(53 downto 36),
-        BusOut => bus_out(2)(A)
-    );
+            -- Output Ports --
+            DataOut => pos_lut_out(18*i + 17 downto 18*i),
+            BusOut => bus_out(i)(A)
+        );
+end generate;
 
 
 -- Process to use LUT data to produce r, phi, z coordinates to the stubs. This

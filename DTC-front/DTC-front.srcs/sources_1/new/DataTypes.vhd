@@ -154,5 +154,9 @@ package data_types is
     constant testCorrectionMatrix : tCorrectionMatrix := (
         0, 1, 2, 3, 4, 5
     ); -- placeholder matrix to test the framework for the correction.
+    type tUnconstrainedCorrectionMatrixArray is array(integer range <>) of tCorrectionMatrix;
+    subtype tCorrectionMatrixArray is tUnconstrainedCorrectionMatrixArray(0 to link_count*stubs_per_word - 1);
+    constant NullCorrectionMatrixArray : tCorrectionMatrixArray := (others => NullCorrectionMatrix);
+
 
 end package data_types;
