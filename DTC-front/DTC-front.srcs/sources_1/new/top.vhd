@@ -15,6 +15,7 @@
 -- Revision:
 -- Revision 0.01 - File Created
 -- Revision 0.1 - Documentation added
+-- Revision 0.2 - Code Review: 20190531
 -- Additional Comments:
 --
 ----------------------------------------------------------------------------------
@@ -50,8 +51,8 @@ architecture Behavioral of top is
     signal links_in : tLinksIn := NullLinksIn; -- Input word for CIC
     signal header : tDTCInHeaderArray := NullDTCInHeaderArray; -- Header of CIC word
     signal DTCIn_stubs : tDTCInStubArray; -- Array of CIC stubs formed from CIC word
-    -- signal stubs : tStubArray; -- Array of converted stubs
-    -- signal link_number : tLinkLUT := cLinkLUT;
+    signal stubs : tStubArray; -- Array of converted stubs
+    signal link_number : tLinkLUT := cLinkLUT;
 
 begin
 
@@ -64,21 +65,21 @@ begin
 end process;
 
 -- Connections required for test synthesis
--- links_in <= data_in;
+links_in <= data_in;
 header_out <= header;
--- data_out <= stubs;
+data_out <= stubs;
 
 
 gLinksFormat : for i in 0 to link_count - 1 generate
     -- Dummy instance to generate CIC words from file
-    LinkGeneratorInstance : entity work.LinkGenerator
-    port map(
-       -- Input Ports --
-       clk => clk,
-
-       -- Output Ports --
-       links_out => links_in(i)
-    );
+    -- LinkGeneratorInstance : entity work.LinkGenerator
+    -- port map(
+    --    -- Input Ports --
+    --    clk => clk,
+    --
+    --    -- Output Ports --
+    --    links_out => links_in(i)
+    -- );
 
     -- Input links are formatted into a more readable format, separates out header
     LinkFormatterInstance : entity work.LinkFormatter
@@ -96,28 +97,28 @@ end generate;
 
 
 -- Each CIC stub is then converted into psuedo-global coordinates
--- gStubFormatter : for i in 0 to stubs_per_word*link_count - 1 generate
---     signal link_index : unsigned(4 downto 0) := (others => '0');
--- begin
---     link_index <= to_unsigned(link_number(0 + i), 5);
---
---     StubFormatterInstance : entity work.StubFormatter
---     generic map(
---         index => i
---     )
---     port map(
---         -- Input Ports --
---         clk => clk,
---         header => header(0),
---         stub_in => DTCIn_stubs(i),
---         bus_in => bus_in,
---         link_index => link_index,
---
---         -- Output Ports --
---         stub_out => stubs(i)
---         -- bus_out => bus_out
---     );
--- end generate;
+gStubFormatter : for i in 0 to stubs_per_word*link_count - 1 generate
+    signal link_index : unsigned(4 downto 0) := (others => '0');
+begin
+    link_index <= to_unsigned(link_number(i), 5);
+
+    StubFormatterInstance : entity work.StubFormatter
+    generic map(
+        index => i
+    )
+    port map(
+        -- Input Ports --
+        clk => clk,
+        header => header(i/2),
+        stub_in => DTCIn_stubs(i),
+        bus_in => bus_in,
+        link_index => link_index,
+
+        -- Output Ports --
+        stub_out => stubs(i)
+        -- bus_out => bus_out
+    );
+end generate;
 
 
 -- Test entity for checking if IP core creation would work

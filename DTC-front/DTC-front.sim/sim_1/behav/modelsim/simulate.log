@@ -13,8 +13,154 @@
 # //
 # do {top_simulate.do}
 # vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
-# Start time: 14:36:43 on May 30,2019
+# Start time: 12:05:19 on May 31,2019
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 36 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 37 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 38 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 39 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 40 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 41 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 42 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 43 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 44 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 45 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 46 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 47 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 48 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 49 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 50 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 51 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 52 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 53 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 54 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 55 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 56 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 57 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 58 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 59 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 60 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 61 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 62 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 63 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 64 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 65 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 66 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 67 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 68 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 69 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 70 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 71 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(138): Vopt Compiler exiting
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 2.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./top_simulate.do PAUSED at line 9
+do {top_simulate.do}
+# vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
+# Start time: 12:05:19 on May 31,2019
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 36 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 37 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 38 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 39 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 40 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 41 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 42 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 43 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 44 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 45 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 46 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 47 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 48 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 49 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 50 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 51 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 52 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 53 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 54 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 55 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 56 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 57 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 58 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 59 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 60 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 61 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 62 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 63 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 64 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 65 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 66 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 67 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 68 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 69 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 70 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(111): (vopt-1152) Index value 71 is out of index range 0 to 35 of xil_defaultlib.data_types.tDTCInHeaderArray.
+# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(138): Vopt Compiler exiting
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 2.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./top_simulate.do PAUSED at line 9
+do {top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+# Start time: 12:07:00 on May 31,2019
+# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling package utilities_pkg
+# -- Compiling package body utilities_pkg
+# -- Loading package utilities_pkg
+# -- Loading package utilities_pkg
+# -- Compiling package FunkyMiniBus
+# -- Compiling package body FunkyMiniBus
+# -- Loading package FunkyMiniBus
+# -- Loading package FunkyMiniBus
+# -- Compiling entity FMBusRamDecoder
+# -- Compiling architecture behavioral of FMBusRamDecoder
+# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
+# -- Compiling entity FMBusRegDecoder
+# -- Compiling architecture behavioral of FMBusRegDecoder
+# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
+# -- Compiling entity FMBusMaster
+# -- Compiling architecture behavioral of FMBusMaster
+# -- Compiling package data_types
+# -- Loading package std_logic_textio
+# -- Compiling entity GenPromClocked
+# -- Compiling architecture behavioral of GenPromClocked
+# ** Warning: ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd(66): (vcom-1236) Shared variables must be of a protected type.
+# -- Loading entity FMBusRamDecoder
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package data_types
+# -- Compiling entity LinkFormatter
+# -- Compiling architecture Behavioral of LinkFormatter
+# -- Compiling entity LinkGenerator
+# -- Compiling architecture Behavioral of LinkGenerator
+# -- Compiling entity StubFormatter
+# -- Compiling architecture Behavioral of StubFormatter
+# -- Loading entity GenPromClocked
+# -- Compiling entity top
+# -- Compiling architecture Behavioral of top
+# -- Loading entity LinkGenerator
+# -- Loading entity LinkFormatter
+# -- Loading entity StubFormatter
+# End time: 12:07:00 on May 31,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+do {top_simulate.do}
+# vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
+# Start time: 12:05:19 on May 31,2019
+# ** Note: (vsim-3812) Design is being optimized...
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -34,7 +180,6 @@
 # Loading work.fmbusramdecoder(behavioral)#1
 # Loading work.genpromclocked(behavioral)#2
 # Loading work.genpromclocked(behavioral)#3
-# Loading work.coordinatecorrector(behavioral)#1
 # Loading work.stubformatter(behavioral)#2
 # Loading work.stubformatter(behavioral)#3
 # Loading work.stubformatter(behavioral)#4
@@ -111,126 +256,11 @@
 # .main_pane.wave.interior.cs.body.pw.wf
 # .main_pane.structure.interior.cs.body.struct
 # .main_pane.objects.interior.cs.body.tree
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 14:39:23 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
-# ** Error (suppressible): ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(61): (vcom-1427) OTHERS choice must specify elements all of the same type.
-#    Elements represented are:
-#         offset : ieee.NUMERIC_STD.UNSIGNED
-#         id : ieee.NUMERIC_STD.UNSIGNED
-#         strip : ieee.NUMERIC_STD.SIGNED
-#         bend : ieee.NUMERIC_STD.SIGNED
-# ** Error (suppressible): ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(83): (vcom-1427) OTHERS choice must specify elements all of the same type.
-#    Elements represented are:
-#         bx : ieee.NUMERIC_STD.UNSIGNED
-#         r : ieee.NUMERIC_STD.UNSIGNED
-#         z : ieee.NUMERIC_STD.SIGNED
-#         phi : ieee.NUMERIC_STD.SIGNED
-#         alpha : ieee.NUMERIC_STD.SIGNED
-#         bend : ieee.NUMERIC_STD.SIGNED
-#         layer : ieee.NUMERIC_STD.UNSIGNED
-#         nonant : ieee.NUMERIC_STD.UNSIGNED
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(126): VHDL Compiler exiting
-# End time: 14:39:23 on May 30,2019, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 2
-# ** Error: /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-# Error in macro ./top_compile.do line 26
-# /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-#     while executing
-# "vcom -64 -2008 -work xil_defaultlib  \
-# "../../../../DTC-front.srcs/sources_1/new/utilities.vhd" \
-# "../../../../DTC-front.srcs/sources_1/new/FunkyMiniB..."
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 14:39:48 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
-# -- Loading package data_types
-# -- Compiling entity CoordinateCorrector
-# -- Compiling architecture Behavioral of CoordinateCorrector
-# -- Loading package std_logic_textio
-# -- Compiling entity GenPromClocked
-# -- Compiling architecture behavioral of GenPromClocked
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd(66): (vcom-1236) Shared variables must be of a protected type.
-# -- Loading entity FMBusRamDecoder
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LinkFormatter
-# -- Compiling architecture Behavioral of LinkFormatter
-# -- Compiling entity LinkGenerator
-# -- Compiling architecture Behavioral of LinkGenerator
-# -- Compiling entity StubFormatter
-# -- Compiling architecture Behavioral of StubFormatter
-# -- Loading entity GenPromClocked
-# -- Compiling entity top
-# -- Compiling architecture Behavioral of top
-# -- Loading entity LinkGenerator
-# -- Loading entity LinkFormatter
-# -- Loading entity StubFormatter
-# -- Loading entity CoordinateCorrector
-# End time: 14:39:48 on May 30,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 3
 do {top_simulate.do}
-# End time: 14:39:50 on May 30,2019, Elapsed time: 0:03:07
-# Errors: 4, Warnings: 5
+# End time: 12:07:28 on May 31,2019, Elapsed time: 0:02:09
+# Errors: 76, Warnings: 0
 # vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
-# Start time: 14:39:50 on May 30,2019
+# Start time: 12:07:28 on May 31,2019
 # ** Note: (vsim-8009) Loading existing optimized design _opt1
 # Loading std.standard
 # Loading std.textio(body)
@@ -251,7 +281,6 @@ do {top_simulate.do}
 # Loading work.fmbusramdecoder(behavioral)#1
 # Loading work.genpromclocked(behavioral)#2
 # Loading work.genpromclocked(behavioral)#3
-# Loading work.coordinatecorrector(behavioral)#1
 # Loading work.stubformatter(behavioral)#2
 # Loading work.stubformatter(behavioral)#3
 # Loading work.stubformatter(behavioral)#4
@@ -328,11 +357,14 @@ do {top_simulate.do}
 # .main_pane.wave.interior.cs.body.pw.wf
 # .main_pane.structure.interior.cs.body.struct
 # .main_pane.objects.interior.cs.body.tree
+run 10000ns
+add wave -position insertpoint  \
+sim:/top/gStubFormatter(0)/StubFormatterInstance/tmp_buff
 do {top_simulate.do}
-# End time: 15:12:50 on May 30,2019, Elapsed time: 0:33:00
+# End time: 12:21:43 on May 31,2019, Elapsed time: 0:14:15
 # Errors: 0, Warnings: 0
 # vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
-# Start time: 15:12:50 on May 30,2019
+# Start time: 12:21:43 on May 31,2019
 # ** Note: (vsim-8009) Loading existing optimized design _opt1
 # Loading std.standard
 # Loading std.textio(body)
@@ -353,7 +385,6 @@ do {top_simulate.do}
 # Loading work.fmbusramdecoder(behavioral)#1
 # Loading work.genpromclocked(behavioral)#2
 # Loading work.genpromclocked(behavioral)#3
-# Loading work.coordinatecorrector(behavioral)#1
 # Loading work.stubformatter(behavioral)#2
 # Loading work.stubformatter(behavioral)#3
 # Loading work.stubformatter(behavioral)#4
@@ -430,68 +461,11 @@ do {top_simulate.do}
 # .main_pane.wave.interior.cs.body.pw.wf
 # .main_pane.structure.interior.cs.body.struct
 # .main_pane.objects.interior.cs.body.tree
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 15:13:53 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
-# -- Loading package data_types
-# -- Compiling entity CoordinateCorrector
-# -- Compiling architecture Behavioral of CoordinateCorrector
-# -- Loading package std_logic_textio
-# -- Compiling entity GenPromClocked
-# -- Compiling architecture behavioral of GenPromClocked
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd(66): (vcom-1236) Shared variables must be of a protected type.
-# -- Loading entity FMBusRamDecoder
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LinkFormatter
-# -- Compiling architecture Behavioral of LinkFormatter
-# -- Compiling entity LinkGenerator
-# -- Compiling architecture Behavioral of LinkGenerator
-# -- Compiling entity StubFormatter
-# -- Compiling architecture Behavioral of StubFormatter
-# -- Loading entity GenPromClocked
-# -- Compiling entity top
-# -- Compiling architecture Behavioral of top
-# -- Loading entity LinkGenerator
-# -- Loading entity LinkFormatter
-# -- Loading entity StubFormatter
-# -- Loading entity CoordinateCorrector
-# End time: 15:13:53 on May 30,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 3
 do {top_simulate.do}
-# End time: 15:14:00 on May 30,2019, Elapsed time: 0:01:10
-# Errors: 0, Warnings: 3
+# End time: 12:26:53 on May 31,2019, Elapsed time: 0:05:10
+# Errors: 0, Warnings: 0
 # vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
-# Start time: 15:14:00 on May 30,2019
+# Start time: 12:26:53 on May 31,2019
 # ** Note: (vsim-8009) Loading existing optimized design _opt1
 # Loading std.standard
 # Loading std.textio(body)
@@ -512,7 +486,6 @@ do {top_simulate.do}
 # Loading work.fmbusramdecoder(behavioral)#1
 # Loading work.genpromclocked(behavioral)#2
 # Loading work.genpromclocked(behavioral)#3
-# Loading work.coordinatecorrector(behavioral)#1
 # Loading work.stubformatter(behavioral)#2
 # Loading work.stubformatter(behavioral)#3
 # Loading work.stubformatter(behavioral)#4
@@ -586,127 +559,18 @@ do {top_simulate.do}
 # Loading work.stubformatter(behavioral)#72
 # 1
 # 1
-# .main_pane.wave.interior.cs.body.pw.wf
-# .main_pane.structure.interior.cs.body.struct
-# .main_pane.objects.interior.cs.body.tree
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 15:15:21 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
-# -- Loading package data_types
-# -- Compiling entity CoordinateCorrector
-# -- Compiling architecture Behavioral of CoordinateCorrector
-# -- Loading package std_logic_textio
-# -- Compiling entity GenPromClocked
-# -- Compiling architecture behavioral of GenPromClocked
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd(66): (vcom-1236) Shared variables must be of a protected type.
-# -- Loading entity FMBusRamDecoder
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LinkFormatter
-# -- Compiling architecture Behavioral of LinkFormatter
-# -- Compiling entity LinkGenerator
-# -- Compiling architecture Behavioral of LinkGenerator
-# -- Compiling entity StubFormatter
-# -- Compiling architecture Behavioral of StubFormatter
-# -- Loading entity GenPromClocked
-# -- Compiling entity top
-# -- Compiling architecture Behavioral of top
-# -- Loading entity LinkGenerator
-# -- Loading entity LinkFormatter
-# -- Loading entity StubFormatter
-# End time: 15:15:22 on May 30,2019, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 3
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 15:15:26 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
-# -- Loading package data_types
-# -- Compiling entity CoordinateCorrector
-# -- Compiling architecture Behavioral of CoordinateCorrector
-# -- Loading package std_logic_textio
-# -- Compiling entity GenPromClocked
-# -- Compiling architecture behavioral of GenPromClocked
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd(66): (vcom-1236) Shared variables must be of a protected type.
-# -- Loading entity FMBusRamDecoder
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LinkFormatter
-# -- Compiling architecture Behavioral of LinkFormatter
-# -- Compiling entity LinkGenerator
-# -- Compiling architecture Behavioral of LinkGenerator
-# -- Compiling entity StubFormatter
-# -- Compiling architecture Behavioral of StubFormatter
-# -- Loading entity GenPromClocked
-# -- Compiling entity top
-# -- Compiling architecture Behavioral of top
-# -- Loading entity LinkGenerator
-# -- Loading entity LinkFormatter
-# -- Loading entity StubFormatter
-# End time: 15:15:26 on May 30,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 3
+# ** Error: (vish-4014) No objects found matching '/top/stubs(0).valid'.
+# Error in macro ./top_wave.do line 31
+# (vish-4014) No objects found matching '/top/stubs(0).valid'.
+#     while executing
+# "add wave -position insertpoint sim:/top/DTCIn_stubs(0).valid"
+
 do {top_simulate.do}
-# End time: 15:15:28 on May 30,2019, Elapsed time: 0:01:28
-# Errors: 0, Warnings: 6
+# End time: 12:27:09 on May 31,2019, Elapsed time: 0:00:16
+# Errors: 3, Warnings: 0
 # vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
-# Start time: 15:15:28 on May 30,2019
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Start time: 12:27:09 on May 31,2019
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -802,132 +666,13 @@ do {top_simulate.do}
 # .main_pane.wave.interior.cs.body.pw.wf
 # .main_pane.structure.interior.cs.body.struct
 # .main_pane.objects.interior.cs.body.tree
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 15:21:27 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
-# -- Loading package data_types
-# -- Compiling entity CoordinateCorrector
-# -- Compiling architecture Behavioral of CoordinateCorrector
-# -- Loading package std_logic_textio
-# -- Compiling entity GenPromClocked
-# -- Compiling architecture behavioral of GenPromClocked
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd(66): (vcom-1236) Shared variables must be of a protected type.
-# -- Loading entity FMBusRamDecoder
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LinkFormatter
-# -- Compiling architecture Behavioral of LinkFormatter
-# -- Compiling entity LinkGenerator
-# -- Compiling architecture Behavioral of LinkGenerator
-# -- Compiling entity StubFormatter
-# -- Compiling architecture Behavioral of StubFormatter
-# -- Loading entity GenPromClocked
-# -- Compiling entity top
-# -- Compiling architecture Behavioral of top
-# -- Loading entity LinkGenerator
-# -- Loading entity LinkFormatter
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(104): near "StubFormatterInstanc": (vcom-1576) expecting ';'.
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(138): VHDL Compiler exiting
-# End time: 15:21:27 on May 30,2019, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 3
-# ** Error: /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-# Error in macro ./top_compile.do line 26
-# /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-#     while executing
-# "vcom -64 -2008 -work xil_defaultlib  \
-# "../../../../DTC-front.srcs/sources_1/new/utilities.vhd" \
-# "../../../../DTC-front.srcs/sources_1/new/FunkyMiniB..."
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 15:21:35 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
-# -- Loading package data_types
-# -- Compiling entity CoordinateCorrector
-# -- Compiling architecture Behavioral of CoordinateCorrector
-# -- Loading package std_logic_textio
-# -- Compiling entity GenPromClocked
-# -- Compiling architecture behavioral of GenPromClocked
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd(66): (vcom-1236) Shared variables must be of a protected type.
-# -- Loading entity FMBusRamDecoder
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LinkFormatter
-# -- Compiling architecture Behavioral of LinkFormatter
-# -- Compiling entity LinkGenerator
-# -- Compiling architecture Behavioral of LinkGenerator
-# -- Compiling entity StubFormatter
-# -- Compiling architecture Behavioral of StubFormatter
-# -- Loading entity GenPromClocked
-# -- Compiling entity top
-# -- Compiling architecture Behavioral of top
-# -- Loading entity LinkGenerator
-# -- Loading entity LinkFormatter
-# -- Loading entity StubFormatter
-# End time: 15:21:36 on May 30,2019, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 3
+run 1000ns
 do {top_simulate.do}
-# End time: 15:21:37 on May 30,2019, Elapsed time: 0:06:09
-# Errors: 5, Warnings: 6
+# End time: 12:29:35 on May 31,2019, Elapsed time: 0:02:26
+# Errors: 0, Warnings: 0
 # vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
-# Start time: 15:21:37 on May 30,2019
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Start time: 12:29:35 on May 31,2019
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -1023,6 +768,7 @@ do {top_simulate.do}
 # .main_pane.wave.interior.cs.body.pw.wf
 # .main_pane.structure.interior.cs.body.struct
 # .main_pane.objects.interior.cs.body.tree
+run 10000ns
 do {top_compile.do}
 # ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
 # ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
@@ -1031,8 +777,8 @@ do {top_compile.do}
 # vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
 # Modifying modelsim.ini
 # Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 17:26:17 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
+# Start time: 12:30:10 on May 31,2019
+# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -1055,146 +801,6 @@ do {top_compile.do}
 # -- Compiling entity FMBusMaster
 # -- Compiling architecture behavioral of FMBusMaster
 # -- Compiling package data_types
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(75): near "end": (vcom-1576) expecting ';'.
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(77): (vcom-1136) Unknown identifier "tStubHeader".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(77): (vcom-1061) OTHERS choice is allowed only in the last element association.
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(91): near ";": (vcom-1576) expecting ')'.
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(95): (vcom-1136) Unknown identifier "tStubHeader".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(99): (vcom-1136) Unknown identifier "NullStubPayload".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(142): VHDL Compiler exiting
-# End time: 17:26:17 on May 30,2019, Elapsed time: 0:00:00
-# Errors: 7, Warnings: 2
-# ** Error: /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-# Error in macro ./top_compile.do line 26
-# /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-#     while executing
-# "vcom -64 -2008 -work xil_defaultlib  \
-# "../../../../DTC-front.srcs/sources_1/new/utilities.vhd" \
-# "../../../../DTC-front.srcs/sources_1/new/FunkyMiniB..."
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 17:26:52 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(77): (vcom-1061) OTHERS choice is allowed only in the last element association.
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(91): near ";": (vcom-1576) expecting ')'.
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(99): (vcom-1136) Unknown identifier "NullStubPayload".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(142): VHDL Compiler exiting
-# End time: 17:26:52 on May 30,2019, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 2
-# ** Error: /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-# Error in macro ./top_compile.do line 26
-# /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-#     while executing
-# "vcom -64 -2008 -work xil_defaultlib  \
-# "../../../../DTC-front.srcs/sources_1/new/utilities.vhd" \
-# "../../../../DTC-front.srcs/sources_1/new/FunkyMiniB..."
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 17:27:38 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(91): near ";": (vcom-1576) expecting ')'.
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(99): (vcom-1136) Unknown identifier "NullStubPayload".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd(142): VHDL Compiler exiting
-# End time: 17:27:38 on May 30,2019, Elapsed time: 0:00:00
-# Errors: 3, Warnings: 2
-# ** Error: /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-# Error in macro ./top_compile.do line 26
-# /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-#     while executing
-# "vcom -64 -2008 -work xil_defaultlib  \
-# "../../../../DTC-front.srcs/sources_1/new/utilities.vhd" \
-# "../../../../DTC-front.srcs/sources_1/new/FunkyMiniB..."
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 17:27:56 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
-# -- Loading package data_types
-# -- Compiling entity CoordinateCorrector
-# -- Compiling architecture Behavioral of CoordinateCorrector
 # -- Loading package std_logic_textio
 # -- Compiling entity GenPromClocked
 # -- Compiling architecture behavioral of GenPromClocked
@@ -1202,405 +808,26 @@ do {top_compile.do}
 # -- Loading entity FMBusRamDecoder
 # -- Loading package std_logic_arith
 # -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LinkFormatter
-# -- Compiling architecture Behavioral of LinkFormatter
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd(48): (vcom-1136) Unknown identifier "links_in".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd(49): (vcom-1136) Unknown identifier "links_in".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd(52): (vcom-1136) Unknown identifier "links_in".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd(53): (vcom-1312) Unknown record element "offset" for selected name prefix "stubs(i)" of record type "work.data_types.tDTCInStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd(54): (vcom-1312) Unknown record element "id" for selected name prefix "stubs(i)" of record type "work.data_types.tDTCInStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd(55): (vcom-1312) Unknown record element "strip" for selected name prefix "stubs(i)" of record type "work.data_types.tDTCInStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd(56): (vcom-1136) Unknown identifier "links_in".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd(59): VHDL Compiler exiting
-# End time: 17:27:56 on May 30,2019, Elapsed time: 0:00:00
-# Errors: 8, Warnings: 3
-# ** Error: /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-# Error in macro ./top_compile.do line 26
-# /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-#     while executing
-# "vcom -64 -2008 -work xil_defaultlib  \
-# "../../../../DTC-front.srcs/sources_1/new/utilities.vhd" \
-# "../../../../DTC-front.srcs/sources_1/new/FunkyMiniB..."
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 17:28:21 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
 # -- Loading package data_types
-# -- Compiling entity CoordinateCorrector
-# -- Compiling architecture Behavioral of CoordinateCorrector
-# -- Loading package std_logic_textio
-# -- Compiling entity GenPromClocked
-# -- Compiling architecture behavioral of GenPromClocked
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd(66): (vcom-1236) Shared variables must be of a protected type.
-# -- Loading entity FMBusRamDecoder
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LinkFormatter
-# -- Compiling architecture Behavioral of LinkFormatter
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd(53): (vcom-1312) Unknown record element "offset" for selected name prefix "stubs(i)" of record type "work.data_types.tDTCInStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd(54): (vcom-1312) Unknown record element "id" for selected name prefix "stubs(i)" of record type "work.data_types.tDTCInStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd(55): (vcom-1312) Unknown record element "strip" for selected name prefix "stubs(i)" of record type "work.data_types.tDTCInStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd(59): VHDL Compiler exiting
-# End time: 17:28:21 on May 30,2019, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 3
-# ** Error: /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-# Error in macro ./top_compile.do line 26
-# /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-#     while executing
-# "vcom -64 -2008 -work xil_defaultlib  \
-# "../../../../DTC-front.srcs/sources_1/new/utilities.vhd" \
-# "../../../../DTC-front.srcs/sources_1/new/FunkyMiniB..."
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 17:43:12 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
-# -- Loading package data_types
-# -- Compiling entity CoordinateCorrector
-# -- Compiling architecture Behavioral of CoordinateCorrector
-# -- Loading package std_logic_textio
-# -- Compiling entity GenPromClocked
-# -- Compiling architecture behavioral of GenPromClocked
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd(66): (vcom-1236) Shared variables must be of a protected type.
-# -- Loading entity FMBusRamDecoder
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LinkFormatter
-# -- Compiling architecture Behavioral of LinkFormatter
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd(67): Target type ieee.NUMERIC_STD.UNRESOLVED_SIGNED in signal assignment is different from expression type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED.
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd(83): VHDL Compiler exiting
-# End time: 17:43:12 on May 30,2019, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 3
-# ** Error: /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-# Error in macro ./top_compile.do line 26
-# /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-#     while executing
-# "vcom -64 -2008 -work xil_defaultlib  \
-# "../../../../DTC-front.srcs/sources_1/new/utilities.vhd" \
-# "../../../../DTC-front.srcs/sources_1/new/FunkyMiniB..."
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 17:43:23 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
-# -- Loading package data_types
-# -- Compiling entity CoordinateCorrector
-# -- Compiling architecture Behavioral of CoordinateCorrector
-# -- Loading package std_logic_textio
-# -- Compiling entity GenPromClocked
-# -- Compiling architecture behavioral of GenPromClocked
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd(66): (vcom-1236) Shared variables must be of a protected type.
-# -- Loading entity FMBusRamDecoder
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
 # -- Compiling entity LinkFormatter
 # -- Compiling architecture Behavioral of LinkFormatter
 # -- Compiling entity LinkGenerator
 # -- Compiling architecture Behavioral of LinkGenerator
 # -- Compiling entity StubFormatter
 # -- Compiling architecture Behavioral of StubFormatter
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(65): (vcom-1312) Unknown record element "id" for selected name prefix "stub_in" of record type "work.data_types.tDTCInStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(65): ** Error: (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
 # -- Loading entity GenPromClocked
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(131): (vcom-1312) Unknown record element "offset" for selected name prefix "stub_in" of record type "work.data_types.tDTCInStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(131): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'mod'.
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(131): Bad right hand side (infix expression) in signal assignment.
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(137): (vcom-1312) Unknown record element "valid" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(138): (vcom-1312) Unknown record element "bx" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(139): (vcom-1312) Unknown record element "bend" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(142): (vcom-1312) Unknown record element "r" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(143): (vcom-1312) Unknown record element "z" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(144): (vcom-1312) Unknown record element "phi" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(145): (vcom-1312) Unknown record element "alpha" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(146): (vcom-1312) Unknown record element "layer" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(147): (vcom-1312) Unknown record element "nonant" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(158): VHDL Compiler exiting
-# End time: 17:43:23 on May 30,2019, Elapsed time: 0:00:00
-# Errors: 15, Warnings: 3
-# ** Error: /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-# Error in macro ./top_compile.do line 26
-# /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-#     while executing
-# "vcom -64 -2008 -work xil_defaultlib  \
-# "../../../../DTC-front.srcs/sources_1/new/utilities.vhd" \
-# "../../../../DTC-front.srcs/sources_1/new/FunkyMiniB..."
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 17:43:39 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
-# -- Loading package data_types
-# -- Compiling entity CoordinateCorrector
-# -- Compiling architecture Behavioral of CoordinateCorrector
-# -- Loading package std_logic_textio
-# -- Compiling entity GenPromClocked
-# -- Compiling architecture behavioral of GenPromClocked
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd(66): (vcom-1236) Shared variables must be of a protected type.
-# -- Loading entity FMBusRamDecoder
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LinkFormatter
-# -- Compiling architecture Behavioral of LinkFormatter
-# -- Compiling entity LinkGenerator
-# -- Compiling architecture Behavioral of LinkGenerator
-# -- Compiling entity StubFormatter
-# -- Compiling architecture Behavioral of StubFormatter
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(65): (vcom-1312) Unknown record element "id" for selected name prefix "stub_in" of record type "work.data_types.tDTCInStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(65): ** Error: (vcom-1583) Illegal type converson from 'unknown' to 'ieee.std_logic_1164.STD_LOGIC_VECTOR' (operand type is not known).
-# -- Loading entity GenPromClocked
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(131): (vcom-1312) Unknown record element "offset" for selected name prefix "stub_in" of record type "work.data_types.tDTCInStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(131): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'mod'.
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(131): Bad right hand side (infix expression) in signal assignment.
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(137): (vcom-1312) Unknown record element "valid" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(138): (vcom-1312) Unknown record element "bx" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(139): (vcom-1312) Unknown record element "bend" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(142): (vcom-1312) Unknown record element "r" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(143): (vcom-1312) Unknown record element "z" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(144): (vcom-1312) Unknown record element "phi" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(145): (vcom-1312) Unknown record element "alpha" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(146): (vcom-1312) Unknown record element "layer" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(147): (vcom-1312) Unknown record element "nonant" for selected name prefix "stub_out" of record type "work.data_types.tStub".
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd(158): VHDL Compiler exiting
-# End time: 17:43:39 on May 30,2019, Elapsed time: 0:00:00
-# Errors: 15, Warnings: 3
-# ** Error: /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-# Error in macro ./top_compile.do line 26
-# /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-#     while executing
-# "vcom -64 -2008 -work xil_defaultlib  \
-# "../../../../DTC-front.srcs/sources_1/new/utilities.vhd" \
-# "../../../../DTC-front.srcs/sources_1/new/FunkyMiniB..."
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 17:44:26 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
-# -- Loading package data_types
-# -- Compiling entity CoordinateCorrector
-# -- Compiling architecture Behavioral of CoordinateCorrector
-# -- Loading package std_logic_textio
-# -- Compiling entity GenPromClocked
-# -- Compiling architecture behavioral of GenPromClocked
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd(66): (vcom-1236) Shared variables must be of a protected type.
-# -- Loading entity FMBusRamDecoder
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LinkFormatter
-# -- Compiling architecture Behavioral of LinkFormatter
-# -- Compiling entity LinkGenerator
-# -- Compiling architecture Behavioral of LinkGenerator
-# -- Compiling entity StubFormatter
-# -- Compiling architecture Behavioral of StubFormatter
-# -- Compiling entity top
-# -- Compiling architecture Behavioral of top
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(69): (vcom-1136) Unknown identifier "stubs".
-# -- Loading entity LinkGenerator
-# -- Loading entity LinkFormatter
-# ** Error: ../../../../DTC-front.srcs/sources_1/new/top.vhd(138): VHDL Compiler exiting
-# End time: 17:44:26 on May 30,2019, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 3
-# ** Error: /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-# Error in macro ./top_compile.do line 26
-# /opt/MentorGraphics/modeltech/linux_x86_64/vcom failed.
-#     while executing
-# "vcom -64 -2008 -work xil_defaultlib  \
-# "../../../../DTC-front.srcs/sources_1/new/utilities.vhd" \
-# "../../../../DTC-front.srcs/sources_1/new/FunkyMiniB..."
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 17:44:58 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
-# -- Loading package data_types
-# -- Compiling entity CoordinateCorrector
-# -- Compiling architecture Behavioral of CoordinateCorrector
-# -- Loading package std_logic_textio
-# -- Compiling entity GenPromClocked
-# -- Compiling architecture behavioral of GenPromClocked
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd(66): (vcom-1236) Shared variables must be of a protected type.
-# -- Loading entity FMBusRamDecoder
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LinkFormatter
-# -- Compiling architecture Behavioral of LinkFormatter
-# -- Compiling entity LinkGenerator
-# -- Compiling architecture Behavioral of LinkGenerator
-# -- Compiling entity StubFormatter
-# -- Compiling architecture Behavioral of StubFormatter
 # -- Compiling entity top
 # -- Compiling architecture Behavioral of top
 # -- Loading entity LinkGenerator
 # -- Loading entity LinkFormatter
-# End time: 17:44:58 on May 30,2019, Elapsed time: 0:00:00
+# -- Loading entity StubFormatter
+# End time: 12:30:10 on May 31,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 3
 do {top_simulate.do}
-# End time: 17:44:59 on May 30,2019, Elapsed time: 2:23:22
-# Errors: 87, Warnings: 27
+# End time: 12:30:12 on May 31,2019, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 3
 # vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
-# Start time: 17:44:59 on May 30,2019
+# Start time: 12:30:12 on May 31,2019
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading std.standard
 # Loading std.textio(body)
@@ -1615,102 +842,83 @@ do {top_simulate.do}
 # Loading work.top(behavioral)#1
 # Loading work.linkgenerator(behavioral)#1
 # Loading work.linkformatter(behavioral)#1
-# 1
-# 1
-# .main_pane.wave.interior.cs.body.pw.wf
-# .main_pane.structure.interior.cs.body.struct
-# .main_pane.objects.interior.cs.body.tree
-run 1000ns
-add wave -position insertpoint  \
-sim:/top/counter
-add wave -position insertpoint  \
-sim:/top/gLinksFormat(0)/LinkFormatterInstance/counter
-run 1000ns
-# ** Fatal: (vsim-3421) Value 64 is out of range 0 to 63.
-#    Time: 1587500 ps  Iteration: 0  Process: /top/gLinksFormat(35)/LinkFormatterInstance/line__48 File: ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd
-# Fatal error in Process line__48 at ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd line 51
-# 
-# HDL call sequence:
-# Stopped at ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd 51 Process line__48
-# 
-run 1000ns
-# Cannot continue because of fatal error.
-# HDL call sequence:
-# Stopped at ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd 51 Process line__48
-# 
-do {top_compile.do}
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
-# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
-# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
-# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 17:47:58 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Loading package MATH_REAL
-# -- Compiling package utilities_pkg
-# -- Compiling package body utilities_pkg
-# -- Loading package utilities_pkg
-# -- Loading package utilities_pkg
-# -- Compiling package FunkyMiniBus
-# -- Compiling package body FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Loading package FunkyMiniBus
-# -- Compiling entity FMBusRamDecoder
-# -- Compiling architecture behavioral of FMBusRamDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusRegDecoder
-# -- Compiling architecture behavioral of FMBusRegDecoder
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
-# -- Compiling entity FMBusMaster
-# -- Compiling architecture behavioral of FMBusMaster
-# -- Compiling package data_types
-# -- Loading package data_types
-# -- Compiling entity CoordinateCorrector
-# -- Compiling architecture Behavioral of CoordinateCorrector
-# -- Loading package std_logic_textio
-# -- Compiling entity GenPromClocked
-# -- Compiling architecture behavioral of GenPromClocked
-# ** Warning: ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd(66): (vcom-1236) Shared variables must be of a protected type.
-# -- Loading entity FMBusRamDecoder
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Compiling entity LinkFormatter
-# -- Compiling architecture Behavioral of LinkFormatter
-# -- Compiling entity LinkGenerator
-# -- Compiling architecture Behavioral of LinkGenerator
-# -- Compiling entity StubFormatter
-# -- Compiling architecture Behavioral of StubFormatter
-# -- Compiling entity top
-# -- Compiling architecture Behavioral of top
-# -- Loading entity LinkGenerator
-# -- Loading entity LinkFormatter
-# End time: 17:47:58 on May 30,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 3
-do {top_simulate.do}
-# End time: 17:48:01 on May 30,2019, Elapsed time: 0:03:02
-# Errors: 3, Warnings: 3
-# vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
-# Start time: 17:48:01 on May 30,2019
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading ieee.math_real(body)
-# Loading work.utilities_pkg(body)
-# Loading work.funkyminibus(body)
-# Loading work.data_types
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.top(behavioral)#1
-# Loading work.linkgenerator(behavioral)#1
-# Loading work.linkformatter(behavioral)#1
+# Loading ieee.std_logic_textio(body)
+# Loading work.stubformatter(behavioral)#1
+# Loading work.genpromclocked(behavioral)#1
+# Loading work.fmbusramdecoder(behavioral)#1
+# Loading work.genpromclocked(behavioral)#2
+# Loading work.genpromclocked(behavioral)#3
+# Loading work.stubformatter(behavioral)#2
+# Loading work.stubformatter(behavioral)#3
+# Loading work.stubformatter(behavioral)#4
+# Loading work.stubformatter(behavioral)#5
+# Loading work.stubformatter(behavioral)#6
+# Loading work.stubformatter(behavioral)#7
+# Loading work.stubformatter(behavioral)#8
+# Loading work.stubformatter(behavioral)#9
+# Loading work.stubformatter(behavioral)#10
+# Loading work.stubformatter(behavioral)#11
+# Loading work.stubformatter(behavioral)#12
+# Loading work.stubformatter(behavioral)#13
+# Loading work.stubformatter(behavioral)#14
+# Loading work.stubformatter(behavioral)#15
+# Loading work.stubformatter(behavioral)#16
+# Loading work.stubformatter(behavioral)#17
+# Loading work.stubformatter(behavioral)#18
+# Loading work.stubformatter(behavioral)#19
+# Loading work.stubformatter(behavioral)#20
+# Loading work.stubformatter(behavioral)#21
+# Loading work.stubformatter(behavioral)#22
+# Loading work.stubformatter(behavioral)#23
+# Loading work.stubformatter(behavioral)#24
+# Loading work.stubformatter(behavioral)#25
+# Loading work.stubformatter(behavioral)#26
+# Loading work.stubformatter(behavioral)#27
+# Loading work.stubformatter(behavioral)#28
+# Loading work.stubformatter(behavioral)#29
+# Loading work.stubformatter(behavioral)#30
+# Loading work.stubformatter(behavioral)#31
+# Loading work.stubformatter(behavioral)#32
+# Loading work.stubformatter(behavioral)#33
+# Loading work.stubformatter(behavioral)#34
+# Loading work.stubformatter(behavioral)#35
+# Loading work.stubformatter(behavioral)#36
+# Loading work.stubformatter(behavioral)#37
+# Loading work.stubformatter(behavioral)#38
+# Loading work.stubformatter(behavioral)#39
+# Loading work.stubformatter(behavioral)#40
+# Loading work.stubformatter(behavioral)#41
+# Loading work.stubformatter(behavioral)#42
+# Loading work.stubformatter(behavioral)#43
+# Loading work.stubformatter(behavioral)#44
+# Loading work.stubformatter(behavioral)#45
+# Loading work.stubformatter(behavioral)#46
+# Loading work.stubformatter(behavioral)#47
+# Loading work.stubformatter(behavioral)#48
+# Loading work.stubformatter(behavioral)#49
+# Loading work.stubformatter(behavioral)#50
+# Loading work.stubformatter(behavioral)#51
+# Loading work.stubformatter(behavioral)#52
+# Loading work.stubformatter(behavioral)#53
+# Loading work.stubformatter(behavioral)#54
+# Loading work.stubformatter(behavioral)#55
+# Loading work.stubformatter(behavioral)#56
+# Loading work.stubformatter(behavioral)#57
+# Loading work.stubformatter(behavioral)#58
+# Loading work.stubformatter(behavioral)#59
+# Loading work.stubformatter(behavioral)#60
+# Loading work.stubformatter(behavioral)#61
+# Loading work.stubformatter(behavioral)#62
+# Loading work.stubformatter(behavioral)#63
+# Loading work.stubformatter(behavioral)#64
+# Loading work.stubformatter(behavioral)#65
+# Loading work.stubformatter(behavioral)#66
+# Loading work.stubformatter(behavioral)#67
+# Loading work.stubformatter(behavioral)#68
+# Loading work.stubformatter(behavioral)#69
+# Loading work.stubformatter(behavioral)#70
+# Loading work.stubformatter(behavioral)#71
+# Loading work.stubformatter(behavioral)#72
 # 1
 # 1
 # .main_pane.wave.interior.cs.body.pw.wf
@@ -1718,10 +926,10 @@ do {top_simulate.do}
 # .main_pane.objects.interior.cs.body.tree
 run 10000ns
 do {top_simulate.do}
-# End time: 17:56:10 on May 30,2019, Elapsed time: 0:08:09
+# End time: 13:09:18 on May 31,2019, Elapsed time: 0:39:06
 # Errors: 0, Warnings: 0
 # vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
-# Start time: 17:56:10 on May 30,2019
+# Start time: 13:09:18 on May 31,2019
 # ** Note: (vsim-8009) Loading existing optimized design _opt1
 # Loading std.standard
 # Loading std.textio(body)
@@ -1736,16 +944,94 @@ do {top_simulate.do}
 # Loading work.top(behavioral)#1
 # Loading work.linkgenerator(behavioral)#1
 # Loading work.linkformatter(behavioral)#1
+# Loading ieee.std_logic_textio(body)
+# Loading work.stubformatter(behavioral)#1
+# Loading work.genpromclocked(behavioral)#1
+# Loading work.fmbusramdecoder(behavioral)#1
+# Loading work.genpromclocked(behavioral)#2
+# Loading work.genpromclocked(behavioral)#3
+# Loading work.stubformatter(behavioral)#2
+# Loading work.stubformatter(behavioral)#3
+# Loading work.stubformatter(behavioral)#4
+# Loading work.stubformatter(behavioral)#5
+# Loading work.stubformatter(behavioral)#6
+# Loading work.stubformatter(behavioral)#7
+# Loading work.stubformatter(behavioral)#8
+# Loading work.stubformatter(behavioral)#9
+# Loading work.stubformatter(behavioral)#10
+# Loading work.stubformatter(behavioral)#11
+# Loading work.stubformatter(behavioral)#12
+# Loading work.stubformatter(behavioral)#13
+# Loading work.stubformatter(behavioral)#14
+# Loading work.stubformatter(behavioral)#15
+# Loading work.stubformatter(behavioral)#16
+# Loading work.stubformatter(behavioral)#17
+# Loading work.stubformatter(behavioral)#18
+# Loading work.stubformatter(behavioral)#19
+# Loading work.stubformatter(behavioral)#20
+# Loading work.stubformatter(behavioral)#21
+# Loading work.stubformatter(behavioral)#22
+# Loading work.stubformatter(behavioral)#23
+# Loading work.stubformatter(behavioral)#24
+# Loading work.stubformatter(behavioral)#25
+# Loading work.stubformatter(behavioral)#26
+# Loading work.stubformatter(behavioral)#27
+# Loading work.stubformatter(behavioral)#28
+# Loading work.stubformatter(behavioral)#29
+# Loading work.stubformatter(behavioral)#30
+# Loading work.stubformatter(behavioral)#31
+# Loading work.stubformatter(behavioral)#32
+# Loading work.stubformatter(behavioral)#33
+# Loading work.stubformatter(behavioral)#34
+# Loading work.stubformatter(behavioral)#35
+# Loading work.stubformatter(behavioral)#36
+# Loading work.stubformatter(behavioral)#37
+# Loading work.stubformatter(behavioral)#38
+# Loading work.stubformatter(behavioral)#39
+# Loading work.stubformatter(behavioral)#40
+# Loading work.stubformatter(behavioral)#41
+# Loading work.stubformatter(behavioral)#42
+# Loading work.stubformatter(behavioral)#43
+# Loading work.stubformatter(behavioral)#44
+# Loading work.stubformatter(behavioral)#45
+# Loading work.stubformatter(behavioral)#46
+# Loading work.stubformatter(behavioral)#47
+# Loading work.stubformatter(behavioral)#48
+# Loading work.stubformatter(behavioral)#49
+# Loading work.stubformatter(behavioral)#50
+# Loading work.stubformatter(behavioral)#51
+# Loading work.stubformatter(behavioral)#52
+# Loading work.stubformatter(behavioral)#53
+# Loading work.stubformatter(behavioral)#54
+# Loading work.stubformatter(behavioral)#55
+# Loading work.stubformatter(behavioral)#56
+# Loading work.stubformatter(behavioral)#57
+# Loading work.stubformatter(behavioral)#58
+# Loading work.stubformatter(behavioral)#59
+# Loading work.stubformatter(behavioral)#60
+# Loading work.stubformatter(behavioral)#61
+# Loading work.stubformatter(behavioral)#62
+# Loading work.stubformatter(behavioral)#63
+# Loading work.stubformatter(behavioral)#64
+# Loading work.stubformatter(behavioral)#65
+# Loading work.stubformatter(behavioral)#66
+# Loading work.stubformatter(behavioral)#67
+# Loading work.stubformatter(behavioral)#68
+# Loading work.stubformatter(behavioral)#69
+# Loading work.stubformatter(behavioral)#70
+# Loading work.stubformatter(behavioral)#71
+# Loading work.stubformatter(behavioral)#72
 # 1
 # 1
 # .main_pane.wave.interior.cs.body.pw.wf
 # .main_pane.structure.interior.cs.body.struct
 # .main_pane.objects.interior.cs.body.tree
+run 10000ns
 do {top_simulate.do}
-# End time: 17:56:23 on May 30,2019, Elapsed time: 0:00:13
+# End time: 13:09:49 on May 31,2019, Elapsed time: 0:00:31
 # Errors: 0, Warnings: 0
 # vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
-# Start time: 17:56:23 on May 30,2019
+# Start time: 13:09:49 on May 31,2019
 # ** Note: (vsim-8009) Loading existing optimized design _opt1
 # Loading std.standard
 # Loading std.textio(body)
@@ -1760,63 +1046,89 @@ do {top_simulate.do}
 # Loading work.top(behavioral)#1
 # Loading work.linkgenerator(behavioral)#1
 # Loading work.linkformatter(behavioral)#1
+# Loading ieee.std_logic_textio(body)
+# Loading work.stubformatter(behavioral)#1
+# Loading work.genpromclocked(behavioral)#1
+# Loading work.fmbusramdecoder(behavioral)#1
+# Loading work.genpromclocked(behavioral)#2
+# Loading work.genpromclocked(behavioral)#3
+# Loading work.stubformatter(behavioral)#2
+# Loading work.stubformatter(behavioral)#3
+# Loading work.stubformatter(behavioral)#4
+# Loading work.stubformatter(behavioral)#5
+# Loading work.stubformatter(behavioral)#6
+# Loading work.stubformatter(behavioral)#7
+# Loading work.stubformatter(behavioral)#8
+# Loading work.stubformatter(behavioral)#9
+# Loading work.stubformatter(behavioral)#10
+# Loading work.stubformatter(behavioral)#11
+# Loading work.stubformatter(behavioral)#12
+# Loading work.stubformatter(behavioral)#13
+# Loading work.stubformatter(behavioral)#14
+# Loading work.stubformatter(behavioral)#15
+# Loading work.stubformatter(behavioral)#16
+# Loading work.stubformatter(behavioral)#17
+# Loading work.stubformatter(behavioral)#18
+# Loading work.stubformatter(behavioral)#19
+# Loading work.stubformatter(behavioral)#20
+# Loading work.stubformatter(behavioral)#21
+# Loading work.stubformatter(behavioral)#22
+# Loading work.stubformatter(behavioral)#23
+# Loading work.stubformatter(behavioral)#24
+# Loading work.stubformatter(behavioral)#25
+# Loading work.stubformatter(behavioral)#26
+# Loading work.stubformatter(behavioral)#27
+# Loading work.stubformatter(behavioral)#28
+# Loading work.stubformatter(behavioral)#29
+# Loading work.stubformatter(behavioral)#30
+# Loading work.stubformatter(behavioral)#31
+# Loading work.stubformatter(behavioral)#32
+# Loading work.stubformatter(behavioral)#33
+# Loading work.stubformatter(behavioral)#34
+# Loading work.stubformatter(behavioral)#35
+# Loading work.stubformatter(behavioral)#36
+# Loading work.stubformatter(behavioral)#37
+# Loading work.stubformatter(behavioral)#38
+# Loading work.stubformatter(behavioral)#39
+# Loading work.stubformatter(behavioral)#40
+# Loading work.stubformatter(behavioral)#41
+# Loading work.stubformatter(behavioral)#42
+# Loading work.stubformatter(behavioral)#43
+# Loading work.stubformatter(behavioral)#44
+# Loading work.stubformatter(behavioral)#45
+# Loading work.stubformatter(behavioral)#46
+# Loading work.stubformatter(behavioral)#47
+# Loading work.stubformatter(behavioral)#48
+# Loading work.stubformatter(behavioral)#49
+# Loading work.stubformatter(behavioral)#50
+# Loading work.stubformatter(behavioral)#51
+# Loading work.stubformatter(behavioral)#52
+# Loading work.stubformatter(behavioral)#53
+# Loading work.stubformatter(behavioral)#54
+# Loading work.stubformatter(behavioral)#55
+# Loading work.stubformatter(behavioral)#56
+# Loading work.stubformatter(behavioral)#57
+# Loading work.stubformatter(behavioral)#58
+# Loading work.stubformatter(behavioral)#59
+# Loading work.stubformatter(behavioral)#60
+# Loading work.stubformatter(behavioral)#61
+# Loading work.stubformatter(behavioral)#62
+# Loading work.stubformatter(behavioral)#63
+# Loading work.stubformatter(behavioral)#64
+# Loading work.stubformatter(behavioral)#65
+# Loading work.stubformatter(behavioral)#66
+# Loading work.stubformatter(behavioral)#67
+# Loading work.stubformatter(behavioral)#68
+# Loading work.stubformatter(behavioral)#69
+# Loading work.stubformatter(behavioral)#70
+# Loading work.stubformatter(behavioral)#71
+# Loading work.stubformatter(behavioral)#72
 # 1
 # 1
 # .main_pane.wave.interior.cs.body.pw.wf
 # .main_pane.structure.interior.cs.body.struct
 # .main_pane.objects.interior.cs.body.tree
-do {top_simulate.do}
-# End time: 17:56:30 on May 30,2019, Elapsed time: 0:00:07
-# Errors: 0, Warnings: 0
-# vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
-# Start time: 17:56:30 on May 30,2019
-# ** Note: (vsim-8009) Loading existing optimized design _opt1
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading ieee.math_real(body)
-# Loading work.utilities_pkg(body)
-# Loading work.funkyminibus(body)
-# Loading work.data_types
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.top(behavioral)#1
-# Loading work.linkgenerator(behavioral)#1
-# Loading work.linkformatter(behavioral)#1
-# 1
-# 1
-# .main_pane.wave.interior.cs.body.pw.wf
-# .main_pane.structure.interior.cs.body.struct
-# .main_pane.objects.interior.cs.body.tree
-run 1000ns
-add wave -position insertpoint  \
-sim:/top/gLinksFormat(0)/LinkFormatterInstance/counter
-do {top_simulate.do}
-# End time: 17:57:43 on May 30,2019, Elapsed time: 0:01:13
-# Errors: 0, Warnings: 0
-# vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
-# Start time: 17:57:43 on May 30,2019
-# ** Note: (vsim-8009) Loading existing optimized design _opt1
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading ieee.math_real(body)
-# Loading work.utilities_pkg(body)
-# Loading work.funkyminibus(body)
-# Loading work.data_types
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.top(behavioral)#1
-# Loading work.linkgenerator(behavioral)#1
-# Loading work.linkformatter(behavioral)#1
-# 1
-# 1
-# .main_pane.wave.interior.cs.body.pw.wf
-# .main_pane.structure.interior.cs.body.struct
-# .main_pane.objects.interior.cs.body.tree
-run 1000ns
+run 10000ns
 do {top_compile.do}
 # ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
 # ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
@@ -1825,8 +1137,8 @@ do {top_compile.do}
 # vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
 # Modifying modelsim.ini
 # Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 17:58:34 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
+# Start time: 15:06:33 on May 31,2019
+# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -1849,9 +1161,6 @@ do {top_compile.do}
 # -- Compiling entity FMBusMaster
 # -- Compiling architecture behavioral of FMBusMaster
 # -- Compiling package data_types
-# -- Loading package data_types
-# -- Compiling entity CoordinateCorrector
-# -- Compiling architecture Behavioral of CoordinateCorrector
 # -- Loading package std_logic_textio
 # -- Compiling entity GenPromClocked
 # -- Compiling architecture behavioral of GenPromClocked
@@ -1859,23 +1168,26 @@ do {top_compile.do}
 # -- Loading entity FMBusRamDecoder
 # -- Loading package std_logic_arith
 # -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package data_types
 # -- Compiling entity LinkFormatter
 # -- Compiling architecture Behavioral of LinkFormatter
 # -- Compiling entity LinkGenerator
 # -- Compiling architecture Behavioral of LinkGenerator
 # -- Compiling entity StubFormatter
 # -- Compiling architecture Behavioral of StubFormatter
+# -- Loading entity GenPromClocked
 # -- Compiling entity top
 # -- Compiling architecture Behavioral of top
 # -- Loading entity LinkGenerator
 # -- Loading entity LinkFormatter
-# End time: 17:58:34 on May 30,2019, Elapsed time: 0:00:00
+# -- Loading entity StubFormatter
+# End time: 15:06:34 on May 31,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 3
 do {top_simulate.do}
-# End time: 17:58:36 on May 30,2019, Elapsed time: 0:00:53
+# End time: 15:06:37 on May 31,2019, Elapsed time: 1:56:48
 # Errors: 0, Warnings: 3
 # vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
-# Start time: 17:58:36 on May 30,2019
+# Start time: 15:06:37 on May 31,2019
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading std.standard
 # Loading std.textio(body)
@@ -1890,6 +1202,83 @@ do {top_simulate.do}
 # Loading work.top(behavioral)#1
 # Loading work.linkgenerator(behavioral)#1
 # Loading work.linkformatter(behavioral)#1
+# Loading ieee.std_logic_textio(body)
+# Loading work.stubformatter(behavioral)#1
+# Loading work.genpromclocked(behavioral)#1
+# Loading work.fmbusramdecoder(behavioral)#1
+# Loading work.genpromclocked(behavioral)#2
+# Loading work.genpromclocked(behavioral)#3
+# Loading work.stubformatter(behavioral)#2
+# Loading work.stubformatter(behavioral)#3
+# Loading work.stubformatter(behavioral)#4
+# Loading work.stubformatter(behavioral)#5
+# Loading work.stubformatter(behavioral)#6
+# Loading work.stubformatter(behavioral)#7
+# Loading work.stubformatter(behavioral)#8
+# Loading work.stubformatter(behavioral)#9
+# Loading work.stubformatter(behavioral)#10
+# Loading work.stubformatter(behavioral)#11
+# Loading work.stubformatter(behavioral)#12
+# Loading work.stubformatter(behavioral)#13
+# Loading work.stubformatter(behavioral)#14
+# Loading work.stubformatter(behavioral)#15
+# Loading work.stubformatter(behavioral)#16
+# Loading work.stubformatter(behavioral)#17
+# Loading work.stubformatter(behavioral)#18
+# Loading work.stubformatter(behavioral)#19
+# Loading work.stubformatter(behavioral)#20
+# Loading work.stubformatter(behavioral)#21
+# Loading work.stubformatter(behavioral)#22
+# Loading work.stubformatter(behavioral)#23
+# Loading work.stubformatter(behavioral)#24
+# Loading work.stubformatter(behavioral)#25
+# Loading work.stubformatter(behavioral)#26
+# Loading work.stubformatter(behavioral)#27
+# Loading work.stubformatter(behavioral)#28
+# Loading work.stubformatter(behavioral)#29
+# Loading work.stubformatter(behavioral)#30
+# Loading work.stubformatter(behavioral)#31
+# Loading work.stubformatter(behavioral)#32
+# Loading work.stubformatter(behavioral)#33
+# Loading work.stubformatter(behavioral)#34
+# Loading work.stubformatter(behavioral)#35
+# Loading work.stubformatter(behavioral)#36
+# Loading work.stubformatter(behavioral)#37
+# Loading work.stubformatter(behavioral)#38
+# Loading work.stubformatter(behavioral)#39
+# Loading work.stubformatter(behavioral)#40
+# Loading work.stubformatter(behavioral)#41
+# Loading work.stubformatter(behavioral)#42
+# Loading work.stubformatter(behavioral)#43
+# Loading work.stubformatter(behavioral)#44
+# Loading work.stubformatter(behavioral)#45
+# Loading work.stubformatter(behavioral)#46
+# Loading work.stubformatter(behavioral)#47
+# Loading work.stubformatter(behavioral)#48
+# Loading work.stubformatter(behavioral)#49
+# Loading work.stubformatter(behavioral)#50
+# Loading work.stubformatter(behavioral)#51
+# Loading work.stubformatter(behavioral)#52
+# Loading work.stubformatter(behavioral)#53
+# Loading work.stubformatter(behavioral)#54
+# Loading work.stubformatter(behavioral)#55
+# Loading work.stubformatter(behavioral)#56
+# Loading work.stubformatter(behavioral)#57
+# Loading work.stubformatter(behavioral)#58
+# Loading work.stubformatter(behavioral)#59
+# Loading work.stubformatter(behavioral)#60
+# Loading work.stubformatter(behavioral)#61
+# Loading work.stubformatter(behavioral)#62
+# Loading work.stubformatter(behavioral)#63
+# Loading work.stubformatter(behavioral)#64
+# Loading work.stubformatter(behavioral)#65
+# Loading work.stubformatter(behavioral)#66
+# Loading work.stubformatter(behavioral)#67
+# Loading work.stubformatter(behavioral)#68
+# Loading work.stubformatter(behavioral)#69
+# Loading work.stubformatter(behavioral)#70
+# Loading work.stubformatter(behavioral)#71
+# Loading work.stubformatter(behavioral)#72
 # 1
 # 1
 # .main_pane.wave.interior.cs.body.pw.wf
@@ -1903,8 +1292,8 @@ do {top_compile.do}
 # vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
 # Modifying modelsim.ini
 # Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-# Start time: 17:58:39 on May 30,2019
-# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
+# Start time: 15:08:34 on May 31,2019
+# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -1927,9 +1316,6 @@ do {top_compile.do}
 # -- Compiling entity FMBusMaster
 # -- Compiling architecture behavioral of FMBusMaster
 # -- Compiling package data_types
-# -- Loading package data_types
-# -- Compiling entity CoordinateCorrector
-# -- Compiling architecture Behavioral of CoordinateCorrector
 # -- Loading package std_logic_textio
 # -- Compiling entity GenPromClocked
 # -- Compiling architecture behavioral of GenPromClocked
@@ -1937,23 +1323,282 @@ do {top_compile.do}
 # -- Loading entity FMBusRamDecoder
 # -- Loading package std_logic_arith
 # -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package data_types
 # -- Compiling entity LinkFormatter
 # -- Compiling architecture Behavioral of LinkFormatter
 # -- Compiling entity LinkGenerator
 # -- Compiling architecture Behavioral of LinkGenerator
 # -- Compiling entity StubFormatter
 # -- Compiling architecture Behavioral of StubFormatter
+# -- Loading entity GenPromClocked
 # -- Compiling entity top
 # -- Compiling architecture Behavioral of top
 # -- Loading entity LinkGenerator
 # -- Loading entity LinkFormatter
-# End time: 17:58:39 on May 30,2019, Elapsed time: 0:00:00
+# -- Loading entity StubFormatter
+# End time: 15:08:34 on May 31,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 3
 do {top_simulate.do}
-# End time: 17:58:43 on May 30,2019, Elapsed time: 0:00:07
+# End time: 15:08:36 on May 31,2019, Elapsed time: 0:01:59
 # Errors: 0, Warnings: 3
 # vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
-# Start time: 17:58:43 on May 30,2019
+# Start time: 15:08:36 on May 31,2019
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.utilities_pkg(body)
+# Loading work.funkyminibus(body)
+# Loading work.data_types
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.top(behavioral)#1
+# Loading work.linkgenerator(behavioral)#1
+# Loading work.linkformatter(behavioral)#1
+# Loading ieee.std_logic_textio(body)
+# Loading work.stubformatter(behavioral)#1
+# Loading work.genpromclocked(behavioral)#1
+# Loading work.fmbusramdecoder(behavioral)#1
+# Loading work.genpromclocked(behavioral)#2
+# Loading work.genpromclocked(behavioral)#3
+# Loading work.stubformatter(behavioral)#2
+# Loading work.stubformatter(behavioral)#3
+# Loading work.stubformatter(behavioral)#4
+# Loading work.stubformatter(behavioral)#5
+# Loading work.stubformatter(behavioral)#6
+# Loading work.stubformatter(behavioral)#7
+# Loading work.stubformatter(behavioral)#8
+# Loading work.stubformatter(behavioral)#9
+# Loading work.stubformatter(behavioral)#10
+# Loading work.stubformatter(behavioral)#11
+# Loading work.stubformatter(behavioral)#12
+# Loading work.stubformatter(behavioral)#13
+# Loading work.stubformatter(behavioral)#14
+# Loading work.stubformatter(behavioral)#15
+# Loading work.stubformatter(behavioral)#16
+# Loading work.stubformatter(behavioral)#17
+# Loading work.stubformatter(behavioral)#18
+# Loading work.stubformatter(behavioral)#19
+# Loading work.stubformatter(behavioral)#20
+# Loading work.stubformatter(behavioral)#21
+# Loading work.stubformatter(behavioral)#22
+# Loading work.stubformatter(behavioral)#23
+# Loading work.stubformatter(behavioral)#24
+# Loading work.stubformatter(behavioral)#25
+# Loading work.stubformatter(behavioral)#26
+# Loading work.stubformatter(behavioral)#27
+# Loading work.stubformatter(behavioral)#28
+# Loading work.stubformatter(behavioral)#29
+# Loading work.stubformatter(behavioral)#30
+# Loading work.stubformatter(behavioral)#31
+# Loading work.stubformatter(behavioral)#32
+# Loading work.stubformatter(behavioral)#33
+# Loading work.stubformatter(behavioral)#34
+# Loading work.stubformatter(behavioral)#35
+# Loading work.stubformatter(behavioral)#36
+# Loading work.stubformatter(behavioral)#37
+# Loading work.stubformatter(behavioral)#38
+# Loading work.stubformatter(behavioral)#39
+# Loading work.stubformatter(behavioral)#40
+# Loading work.stubformatter(behavioral)#41
+# Loading work.stubformatter(behavioral)#42
+# Loading work.stubformatter(behavioral)#43
+# Loading work.stubformatter(behavioral)#44
+# Loading work.stubformatter(behavioral)#45
+# Loading work.stubformatter(behavioral)#46
+# Loading work.stubformatter(behavioral)#47
+# Loading work.stubformatter(behavioral)#48
+# Loading work.stubformatter(behavioral)#49
+# Loading work.stubformatter(behavioral)#50
+# Loading work.stubformatter(behavioral)#51
+# Loading work.stubformatter(behavioral)#52
+# Loading work.stubformatter(behavioral)#53
+# Loading work.stubformatter(behavioral)#54
+# Loading work.stubformatter(behavioral)#55
+# Loading work.stubformatter(behavioral)#56
+# Loading work.stubformatter(behavioral)#57
+# Loading work.stubformatter(behavioral)#58
+# Loading work.stubformatter(behavioral)#59
+# Loading work.stubformatter(behavioral)#60
+# Loading work.stubformatter(behavioral)#61
+# Loading work.stubformatter(behavioral)#62
+# Loading work.stubformatter(behavioral)#63
+# Loading work.stubformatter(behavioral)#64
+# Loading work.stubformatter(behavioral)#65
+# Loading work.stubformatter(behavioral)#66
+# Loading work.stubformatter(behavioral)#67
+# Loading work.stubformatter(behavioral)#68
+# Loading work.stubformatter(behavioral)#69
+# Loading work.stubformatter(behavioral)#70
+# Loading work.stubformatter(behavioral)#71
+# Loading work.stubformatter(behavioral)#72
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do {top_compile.do}
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 2017
+# vmap xil_defaultlib modelsim_lib/msim/xil_defaultlib 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
+# Start time: 15:33:17 on May 31,2019
+# vcom -reportprogress 300 -64 -2008 -work xil_defaultlib ../../../../DTC-front.srcs/sources_1/new/utilities.vhd ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd ../../../../DTC-front.srcs/sources_1/new/DataTypes.vhd ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd ../../../../DTC-front.srcs/sources_1/new/LinkFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/LinkGenerator.vhd ../../../../DTC-front.srcs/sources_1/new/StubFormatter.vhd ../../../../DTC-front.srcs/sources_1/new/top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling package utilities_pkg
+# -- Compiling package body utilities_pkg
+# -- Loading package utilities_pkg
+# -- Loading package utilities_pkg
+# -- Compiling package FunkyMiniBus
+# -- Compiling package body FunkyMiniBus
+# -- Loading package FunkyMiniBus
+# -- Loading package FunkyMiniBus
+# -- Compiling entity FMBusRamDecoder
+# -- Compiling architecture behavioral of FMBusRamDecoder
+# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(209): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
+# -- Compiling entity FMBusRegDecoder
+# -- Compiling architecture behavioral of FMBusRegDecoder
+# ** Warning: ../../../../DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd(409): (vcom-1515) Prefix of predefined attribute "LENGTH" is function call "Strip".
+# -- Compiling entity FMBusMaster
+# -- Compiling architecture behavioral of FMBusMaster
+# -- Compiling package data_types
+# -- Loading package std_logic_textio
+# -- Compiling entity GenPromClocked
+# -- Compiling architecture behavioral of GenPromClocked
+# ** Warning: ../../../../DTC-front.srcs/sources_1/new/GenPromClocked.vhd(66): (vcom-1236) Shared variables must be of a protected type.
+# -- Loading entity FMBusRamDecoder
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package data_types
+# -- Compiling entity LinkFormatter
+# -- Compiling architecture Behavioral of LinkFormatter
+# -- Compiling entity LinkGenerator
+# -- Compiling architecture Behavioral of LinkGenerator
+# -- Compiling entity StubFormatter
+# -- Compiling architecture Behavioral of StubFormatter
+# -- Loading entity GenPromClocked
+# -- Compiling entity top
+# -- Compiling architecture Behavioral of top
+# -- Loading entity LinkGenerator
+# -- Loading entity LinkFormatter
+# -- Loading entity StubFormatter
+# End time: 15:33:18 on May 31,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 3
+do {top_simulate.do}
+# End time: 15:33:19 on May 31,2019, Elapsed time: 0:24:43
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
+# Start time: 15:33:19 on May 31,2019
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.utilities_pkg(body)
+# Loading work.funkyminibus(body)
+# Loading work.data_types
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.top(behavioral)#1
+# Loading work.linkgenerator(behavioral)#1
+# Loading work.linkformatter(behavioral)#1
+# Loading ieee.std_logic_textio(body)
+# Loading work.stubformatter(behavioral)#1
+# Loading work.genpromclocked(behavioral)#1
+# Loading work.fmbusramdecoder(behavioral)#1
+# Loading work.genpromclocked(behavioral)#2
+# Loading work.genpromclocked(behavioral)#3
+# Loading work.stubformatter(behavioral)#2
+# Loading work.stubformatter(behavioral)#3
+# Loading work.stubformatter(behavioral)#4
+# Loading work.stubformatter(behavioral)#5
+# Loading work.stubformatter(behavioral)#6
+# Loading work.stubformatter(behavioral)#7
+# Loading work.stubformatter(behavioral)#8
+# Loading work.stubformatter(behavioral)#9
+# Loading work.stubformatter(behavioral)#10
+# Loading work.stubformatter(behavioral)#11
+# Loading work.stubformatter(behavioral)#12
+# Loading work.stubformatter(behavioral)#13
+# Loading work.stubformatter(behavioral)#14
+# Loading work.stubformatter(behavioral)#15
+# Loading work.stubformatter(behavioral)#16
+# Loading work.stubformatter(behavioral)#17
+# Loading work.stubformatter(behavioral)#18
+# Loading work.stubformatter(behavioral)#19
+# Loading work.stubformatter(behavioral)#20
+# Loading work.stubformatter(behavioral)#21
+# Loading work.stubformatter(behavioral)#22
+# Loading work.stubformatter(behavioral)#23
+# Loading work.stubformatter(behavioral)#24
+# Loading work.stubformatter(behavioral)#25
+# Loading work.stubformatter(behavioral)#26
+# Loading work.stubformatter(behavioral)#27
+# Loading work.stubformatter(behavioral)#28
+# Loading work.stubformatter(behavioral)#29
+# Loading work.stubformatter(behavioral)#30
+# Loading work.stubformatter(behavioral)#31
+# Loading work.stubformatter(behavioral)#32
+# Loading work.stubformatter(behavioral)#33
+# Loading work.stubformatter(behavioral)#34
+# Loading work.stubformatter(behavioral)#35
+# Loading work.stubformatter(behavioral)#36
+# Loading work.stubformatter(behavioral)#37
+# Loading work.stubformatter(behavioral)#38
+# Loading work.stubformatter(behavioral)#39
+# Loading work.stubformatter(behavioral)#40
+# Loading work.stubformatter(behavioral)#41
+# Loading work.stubformatter(behavioral)#42
+# Loading work.stubformatter(behavioral)#43
+# Loading work.stubformatter(behavioral)#44
+# Loading work.stubformatter(behavioral)#45
+# Loading work.stubformatter(behavioral)#46
+# Loading work.stubformatter(behavioral)#47
+# Loading work.stubformatter(behavioral)#48
+# Loading work.stubformatter(behavioral)#49
+# Loading work.stubformatter(behavioral)#50
+# Loading work.stubformatter(behavioral)#51
+# Loading work.stubformatter(behavioral)#52
+# Loading work.stubformatter(behavioral)#53
+# Loading work.stubformatter(behavioral)#54
+# Loading work.stubformatter(behavioral)#55
+# Loading work.stubformatter(behavioral)#56
+# Loading work.stubformatter(behavioral)#57
+# Loading work.stubformatter(behavioral)#58
+# Loading work.stubformatter(behavioral)#59
+# Loading work.stubformatter(behavioral)#60
+# Loading work.stubformatter(behavioral)#61
+# Loading work.stubformatter(behavioral)#62
+# Loading work.stubformatter(behavioral)#63
+# Loading work.stubformatter(behavioral)#64
+# Loading work.stubformatter(behavioral)#65
+# Loading work.stubformatter(behavioral)#66
+# Loading work.stubformatter(behavioral)#67
+# Loading work.stubformatter(behavioral)#68
+# Loading work.stubformatter(behavioral)#69
+# Loading work.stubformatter(behavioral)#70
+# Loading work.stubformatter(behavioral)#71
+# Loading work.stubformatter(behavioral)#72
+# 1
+# 1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do {top_simulate.do}
+# End time: 15:35:11 on May 31,2019, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -L xil_defaultlib -L secureip -L xpm -lib xil_defaultlib xil_defaultlib.top 
+# Start time: 15:35:11 on May 31,2019
 # ** Note: (vsim-8009) Loading existing optimized design _opt1
 # Loading std.standard
 # Loading std.textio(body)
@@ -1968,12 +1613,85 @@ do {top_simulate.do}
 # Loading work.top(behavioral)#1
 # Loading work.linkgenerator(behavioral)#1
 # Loading work.linkformatter(behavioral)#1
+# Loading ieee.std_logic_textio(body)
+# Loading work.stubformatter(behavioral)#1
+# Loading work.genpromclocked(behavioral)#1
+# Loading work.fmbusramdecoder(behavioral)#1
+# Loading work.genpromclocked(behavioral)#2
+# Loading work.genpromclocked(behavioral)#3
+# Loading work.stubformatter(behavioral)#2
+# Loading work.stubformatter(behavioral)#3
+# Loading work.stubformatter(behavioral)#4
+# Loading work.stubformatter(behavioral)#5
+# Loading work.stubformatter(behavioral)#6
+# Loading work.stubformatter(behavioral)#7
+# Loading work.stubformatter(behavioral)#8
+# Loading work.stubformatter(behavioral)#9
+# Loading work.stubformatter(behavioral)#10
+# Loading work.stubformatter(behavioral)#11
+# Loading work.stubformatter(behavioral)#12
+# Loading work.stubformatter(behavioral)#13
+# Loading work.stubformatter(behavioral)#14
+# Loading work.stubformatter(behavioral)#15
+# Loading work.stubformatter(behavioral)#16
+# Loading work.stubformatter(behavioral)#17
+# Loading work.stubformatter(behavioral)#18
+# Loading work.stubformatter(behavioral)#19
+# Loading work.stubformatter(behavioral)#20
+# Loading work.stubformatter(behavioral)#21
+# Loading work.stubformatter(behavioral)#22
+# Loading work.stubformatter(behavioral)#23
+# Loading work.stubformatter(behavioral)#24
+# Loading work.stubformatter(behavioral)#25
+# Loading work.stubformatter(behavioral)#26
+# Loading work.stubformatter(behavioral)#27
+# Loading work.stubformatter(behavioral)#28
+# Loading work.stubformatter(behavioral)#29
+# Loading work.stubformatter(behavioral)#30
+# Loading work.stubformatter(behavioral)#31
+# Loading work.stubformatter(behavioral)#32
+# Loading work.stubformatter(behavioral)#33
+# Loading work.stubformatter(behavioral)#34
+# Loading work.stubformatter(behavioral)#35
+# Loading work.stubformatter(behavioral)#36
+# Loading work.stubformatter(behavioral)#37
+# Loading work.stubformatter(behavioral)#38
+# Loading work.stubformatter(behavioral)#39
+# Loading work.stubformatter(behavioral)#40
+# Loading work.stubformatter(behavioral)#41
+# Loading work.stubformatter(behavioral)#42
+# Loading work.stubformatter(behavioral)#43
+# Loading work.stubformatter(behavioral)#44
+# Loading work.stubformatter(behavioral)#45
+# Loading work.stubformatter(behavioral)#46
+# Loading work.stubformatter(behavioral)#47
+# Loading work.stubformatter(behavioral)#48
+# Loading work.stubformatter(behavioral)#49
+# Loading work.stubformatter(behavioral)#50
+# Loading work.stubformatter(behavioral)#51
+# Loading work.stubformatter(behavioral)#52
+# Loading work.stubformatter(behavioral)#53
+# Loading work.stubformatter(behavioral)#54
+# Loading work.stubformatter(behavioral)#55
+# Loading work.stubformatter(behavioral)#56
+# Loading work.stubformatter(behavioral)#57
+# Loading work.stubformatter(behavioral)#58
+# Loading work.stubformatter(behavioral)#59
+# Loading work.stubformatter(behavioral)#60
+# Loading work.stubformatter(behavioral)#61
+# Loading work.stubformatter(behavioral)#62
+# Loading work.stubformatter(behavioral)#63
+# Loading work.stubformatter(behavioral)#64
+# Loading work.stubformatter(behavioral)#65
+# Loading work.stubformatter(behavioral)#66
+# Loading work.stubformatter(behavioral)#67
+# Loading work.stubformatter(behavioral)#68
+# Loading work.stubformatter(behavioral)#69
+# Loading work.stubformatter(behavioral)#70
+# Loading work.stubformatter(behavioral)#71
+# Loading work.stubformatter(behavioral)#72
 # 1
 # 1
 # .main_pane.wave.interior.cs.body.pw.wf
 # .main_pane.structure.interior.cs.body.struct
 # .main_pane.objects.interior.cs.body.tree
-run 1000ns
-run 1000ns
-run 1000ns
-run 1000ns

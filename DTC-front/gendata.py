@@ -119,26 +119,26 @@ class Stub:
 
 
 def genRandomDTCInStubs():
-    word_count = 8
+    frame_width = 64
+    header_frames = 6
     boxcar_count = 3655
     stub_count = 16
-    loops = 5
+    loops = 1
 
     print("Output:")
     with open(source_path, "w") as f:
         for loop in range(loops):
             for boxcar in range(boxcar_count):
-                for word in range(word_count):
+                for i in range(header_frames):
                     header = format(boxcar*8, '012b') + \
-                             format(stub_count, '06b')
+                        format(stub_count, '06b') + format(0, '046b')
+                    data = format(int(header, 2), '016x')
+                    f.write(data + "\n")
+                for i in range(frame_width - header_frames):
                     payload = "1" + ("").join([str(
-                        np.random.randint(low=0, high=2)) for i in range(22)
+                        np.random.randint(low=0, high=2)) for i in range(63)
                     ])
-                    payload += "1" + ("").join([str(
-                        np.random.randint(low=0, high=2)) for i in range(22)
-                    ])
-                    data = format(int(header + payload, 2), '016x')
-                    print(data)
+                    data = format(int(payload, 2), '016x')
                     f.write(data + "\n")
 
 
@@ -160,7 +160,9 @@ def genMif():
 
 
 def main():
-    genMif()
+    # genMif()
+    genRandomDTCInStubs()
+
 
 
 if __name__ == '__main__':

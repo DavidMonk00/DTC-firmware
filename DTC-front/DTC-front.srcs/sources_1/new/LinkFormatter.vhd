@@ -15,6 +15,7 @@
 -- Revision:
 -- Revision 0.01 - File Created
 -- Revision 0.1 - Added Documentation
+-- Revision 0.2 - Code Review: 20190531
 -- Additional Comments:
 --
 ----------------------------------------------------------------------------------
@@ -42,29 +43,31 @@ entity LinkFormatter is
 end LinkFormatter;
 
 architecture Behavioral of LinkFormatter is
-    signal counter : integer range 0 to 63 := 63;
+    signal counter : integer range 0 to (frames - 1) := (frames - 1);
 
 begin
-    process(clk)
+    pCounter : process(clk)
     begin
         if rising_edge(clk) then
-            if counter = 63 then
+            if counter = (frames - 1) then
                 counter <= 0;
             else
                 counter <= counter + 1;
             end if;
         end if;
-    end process;
+    end process pCounter;
 
     pHeaderSeparation : process(clk)
     begin
         if rising_edge(clk) then
-            if counter < 6 then
+            -- Separate out header words from payload
+            if counter < header_frames then
                 header.boxcar_number <= unsigned(link_in(63 downto 52));
                 header.stub_count <= unsigned(link_in(51 downto 46));
                 stubs(0).valid <= '0';
                 stubs(1).valid <= '0';
             else
+                -- Conversion to current DTC input word format
                 fStubAssignment : for i in 0 to stubs_per_word - 1 loop
                     stubs(i).valid  <= link_in(63 - i * stub_width);
                     stubs(i).bx     <= unsigned(link_in(63 - (i * stub_width + 1) downto 63 - (i * stub_width + 7)));
