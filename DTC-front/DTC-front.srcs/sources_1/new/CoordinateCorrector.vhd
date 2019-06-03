@@ -53,40 +53,70 @@ architecture Behavioral of CoordinateCorrector is
         z : integer;
     end record;
 
-    signal multiplied_matrix : tCorrectionMatrix := NullCorrectionMatrix;
-    signal buff : tUnconstrainedStubArray(0 to 1) := (others => NullStub);
-    signal vector : tCoordVector := (others => 0);
+    signal multiplied_matrix, matrix_buffer : tCorrectionMatrix := NullCorrectionMatrix;
+    signal buff : tUnconstrainedStubArray(0 to 23) := (others => NullStub);
+    signal vector, vector_buff : tCoordVector := (others => 0);
+    signal strip, column : integer := 0;
 
 begin
-    pCorrection : process(clk)
+    pBuffer : process(clk)
     begin
         if rising_edge(clk) then
             buff(0).header <= stub_in.header;
             buff(0).payload <= stub_in.payload;
             buff(1) <= buff(0);
+            buff(2) <= buff(1);
+            buff(3) <= buff(2);
 
-            lMultiplication : for i in 0 to 5 loop
-                if (i mod 2) = 0 then
-                    multiplied_matrix(i) <= matrix(i)*to_integer(stub_in.intrinsic.strip);
-                else
-                    multiplied_matrix(i) <= matrix(i)*to_integer(stub_in.intrinsic.column);
-                end if;
-            end loop;
+            strip <= to_integer(stub_in.intrinsic.strip);
+            column <= to_integer(stub_in.intrinsic.column);
 
-            vector.r <= multiplied_matrix(0) + multiplied_matrix(1);
-            vector.phi <= multiplied_matrix(2) + multiplied_matrix(3);
-            vector.z <= multiplied_matrix(4) + multiplied_matrix(5);
-
-            stub_out.header <= buff(1).header;
-            stub_out.payload.r <= buff(1).payload.r + vector.r;
-            stub_out.payload.z <= buff(1).payload.z + vector.z;
-            stub_out.payload.phi <= buff(1).payload.phi + vector.phi;
-            stub_out.payload.alpha <= buff(1).payload.alpha;
-            stub_out.payload.layer <= buff(1).payload.layer;
-            stub_out.payload.barrel <= buff(1).payload.barrel;
-            stub_out.payload.module <= buff(1).payload.module;
-            stub_out.payload.valid <= buff(1).payload.valid;
-            stub_out.payload.bend <= buff(1).payload.bend;
+            matrix_buffer <= matrix;
         end if;
     end process;
+
+
+    pMultiplication : process(clk)
+    begin
+        if rising_edge(clk) then
+            lMultiplication : for i in 0 to 5 loop
+                if (i mod 2) = 0 then
+                    multiplied_matrix(i) <= matrix_buffer(i)*strip;
+                else
+                    multiplied_matrix(i) <= matrix_buffer(i)*column;
+                end if;
+            end loop;
+        end if;
+    end process;
+
+
+    pAddition : process(clk)
+    begin
+        if rising_edge(clk) then
+            vector_buff.r <= multiplied_matrix(0) + multiplied_matrix(1);
+            vector_buff.phi <= multiplied_matrix(2) + multiplied_matrix(3);
+            vector_buff.z <= multiplied_matrix(4) + multiplied_matrix(5);
+
+            vector.r <= buff(2).payload.r + vector_buff.r;
+            vector.z <= buff(2).payload.z + vector_buff.z;
+            vector.phi <= buff(2).payload.phi + vector_buff.phi;
+        end if;
+    end process;
+
+    pOutput : process(clk)
+    begin
+        if rising_edge(clk) then
+            stub_out.header <= buff(3).header;
+            stub_out.payload.r <= vector.r;
+            stub_out.payload.z <= vector.z;
+            stub_out.payload.phi <= vector.phi;
+            stub_out.payload.alpha <= buff(3).payload.alpha;
+            stub_out.payload.layer <= buff(3).payload.layer;
+            stub_out.payload.barrel <= buff(3).payload.barrel;
+            stub_out.payload.module <= buff(3).payload.module;
+            stub_out.payload.valid <= buff(3).payload.valid;
+            stub_out.payload.bend <= buff(3).payload.bend;
+        end if;
+    end process;
+
 end Behavioral;

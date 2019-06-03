@@ -40,7 +40,7 @@ entity top is
 
         -- Output Ports --
         header_out : out tDTCInHeaderArray := NullDTCInHeaderArray;
-        data_out : out tPreCorrectionStubArray
+        data_out : out tStubArray
     );
 end top;
 
@@ -70,7 +70,7 @@ end process;
 -- Connections required for test synthesis
 links_in <= data_in;
 header_out <= header;
-data_out <= pre_stubs;
+data_out <= stubs;
 
 
 gLinksFormat : for i in 0 to link_count - 1 generate

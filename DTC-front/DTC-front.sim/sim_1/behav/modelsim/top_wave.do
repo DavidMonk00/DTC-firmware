@@ -11,11 +11,11 @@
 ### General Simulation ###
 add wave -position insertpoint sim:/top/clk
 add wave -position insertpoint sim:/top/counter
-add wave -position insertpoint sim:/top/links_in(1)
-add wave -position insertpoint sim:/top/header(1)
-add wave -position insertpoint sim:/top/DTCIn_stubs(1)
-add wave -position insertpoint sim:/top/pre_stubs(1)
-add wave -position insertpoint sim:/top/stubs(1)
+add wave -position insertpoint sim:/top/links_in(0)
+add wave -position insertpoint sim:/top/header(0)
+add wave -position insertpoint sim:/top/DTCIn_stubs(0)
+add wave -position insertpoint sim:/top/pre_stubs(0)
+add wave -position insertpoint sim:/top/stubs(0)
 add wave -divider
 
 
@@ -39,8 +39,8 @@ add wave -divider
 #add wave -divider
 
 ### CoordinateCorrector ###
-add wave -radix decimal -position insertpoint sim:/top/gStubFormatter(1)/CoordinateCorrectorInstance/stub_in.intrinsic
-add wave -radix decimal -position insertpoint sim:/top/gStubFormatter(1)/CoordinateCorrectorInstance/matrix
-add wave -radix decimal -position insertpoint sim:/top/gStubFormatter(1)/CoordinateCorrectorInstance/multiplied_matrix
-add wave -position insertpoint sim:/top/gStubFormatter(1)/CoordinateCorrectorInstance/stub_out
+add wave -radix decimal -position insertpoint sim:/top/gStubFormatter(0)/CoordinateCorrectorInstance/stub_in.intrinsic
+add wave -radix decimal -position insertpoint sim:/top/gStubFormatter(0)/CoordinateCorrectorInstance/matrix
+add wave -radix decimal -position insertpoint sim:/top/gStubFormatter(0)/CoordinateCorrectorInstance/multiplied_matrix
+add wave -position insertpoint sim:/top/gStubFormatter(0)/CoordinateCorrectorInstance/stub_out
 add wave -divider

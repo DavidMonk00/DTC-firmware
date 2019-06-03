@@ -59,7 +59,7 @@ begin
     MatrixLutInstance : ENTITY work.GenPromClocked
         GENERIC MAP(
           FileName => "random_0.mif",
-          BusName  => "A/PosLutA" & INTEGER'IMAGE( index )
+          BusName  => "A/MatrixA" & INTEGER'IMAGE( index )
         )
         PORT MAP(
             -- Input Ports --
