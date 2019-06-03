@@ -136,7 +136,10 @@ def genRandomDTCInStubs():
                     f.write(data + "\n")
                 for i in range(frame_width - header_frames):
                     payload = "1" + ("").join([str(
-                        np.random.randint(low=0, high=2)) for i in range(63)
+                        np.random.randint(low=0, high=2)) for i in range(31)
+                    ])
+                    payload += "1" + ("").join([str(
+                        np.random.randint(low=0, high=2)) for i in range(31)
                     ])
                     data = format(int(payload, 2), '016x')
                     f.write(data + "\n")
@@ -162,7 +165,6 @@ def genMif():
 def main():
     # genMif()
     genRandomDTCInStubs()
-
 
 
 if __name__ == '__main__':

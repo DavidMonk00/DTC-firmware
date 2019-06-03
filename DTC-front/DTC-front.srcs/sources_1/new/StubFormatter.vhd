@@ -44,7 +44,7 @@ entity StubFormatter is
         link_index : in unsigned(4 downto 0);
 
         -- Output Ports --
-        stub_out : out tStub := NullStub;
+        stub_out : out tPreCorrectionStub := NullPreCorrectionStub;
         bus_out : out tFMBusArray
     );
 end StubFormatter;
@@ -97,24 +97,29 @@ begin
         tmp_buff.valid <= stub_in.valid;
         tmp_buff.bx <= (header.boxcar_number(4 downto 0) + stub_in.bx(2 downto 0)) mod 18;
         tmp_buff.bend <= stub_in.bend;
+        tmp_buff.strip <= stub_in.row(7 downto 0);
+        tmp_buff.column <= stub_in.column;
+
         if (tmp_buff.valid = '1') then
             -- Read buffer values
             stub_out.header.bx <= tmp_buff.bx;
             stub_out.payload.valid <= tmp_buff.valid;
             stub_out.payload.bend <= tmp_buff.bend;
+            stub_out.intrinsic.strip <= tmp_buff.strip;
+            stub_out.intrinsic.column <= tmp_buff.column;
 
             -- Require LUT
             stub_out.header.nonant <= pos_lut_out(1 downto 0);
-            stub_out.payload.r <= unsigned(pos_lut_out(13 downto 2));
-            stub_out.payload.z <= signed(pos_lut_out(25 downto 14));
-            stub_out.payload.phi <= signed(pos_lut_out(42 downto 26));
+            stub_out.payload.r <= to_integer(unsigned(pos_lut_out(13 downto 2)));
+            stub_out.payload.z <= to_integer(signed(pos_lut_out(25 downto 14)));
+            stub_out.payload.phi <= to_integer(signed(pos_lut_out(42 downto 26)));
             stub_out.payload.alpha <= signed(pos_lut_out(45 downto 42));
             stub_out.payload.layer <= unsigned(pos_lut_out(47 downto 46));
             stub_out.payload.barrel <= pos_lut_out(48);
             stub_out.payload.module <= pos_lut_out(49);
 
         else
-            stub_out <= NullStub;
+            stub_out <= NullPreCorrectionStub;
         end if;
     end if;
 end process;

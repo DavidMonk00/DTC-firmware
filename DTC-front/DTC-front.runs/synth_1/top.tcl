@@ -40,7 +40,9 @@ read_vhdl -library xil_defaultlib {
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/utilities.vhd
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/FunkyMiniBus.vhd
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/DataTypes.vhd
+  /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/CoordinateCorrector.vhd
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/GenPromClocked.vhd
+  /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/GetCorrectionMatrix.vhd
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/LinkFormatter.vhd
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd

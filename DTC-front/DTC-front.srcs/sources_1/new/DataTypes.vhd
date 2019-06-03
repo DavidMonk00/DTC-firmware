@@ -87,23 +87,35 @@ package data_types is
     constant NullStubHeader : tStubHeader := ((others => '0'), (others => '0'));
 
 
+    type tStubIntrinsicCoordinates is record
+        strip   : signed(7 downto 0);
+        column  : signed(4 downto 0);
+    end record;
+    constant NullStubIntrinsicCoordinates : tStubIntrinsicCoordinates := (others => (others => '0'));
+
+
     type tStubPayload is record
         valid   : std_logic;
-        r       : unsigned(11 downto 0);
-        z       : signed(11 downto 0);
-        phi     : signed(16 downto 0);
+        r       : integer;
+        z       : integer;
+        phi     : integer;
         alpha   : signed(3 downto 0);
         bend    : signed(3 downto 0);
         layer   : unsigned(1 downto 0);
         barrel  : std_logic;
         module  : std_logic;
     end record;
-    constant NullStubPayload : tStubPayload :=  ('0',
-                                                (others => '0'), (others => '0'),
-                                                (others => '0'), (others => '0'),
+    constant NullStubPayload : tStubPayload :=  ('0', 0, 0, 0,(others => '0'),
                                                 (others => '0'), (others => '0'),
                                                 '0', '0');
 
+
+    type tPreCorrectionStub is record
+        header  : tStubHeader;
+        intrinsic : tStubIntrinsicCoordinates;
+        payload : tStubPayload;
+    end record;
+    constant NullPreCorrectionStub : tPreCorrectionStub := (NullStubHeader, NullStubIntrinsicCoordinates, NullStubPayload);
 
     -- Stub format as described in most recent DTC Interface Document
     type tStub is record
@@ -112,6 +124,12 @@ package data_types is
     end record;
     constant NullStub : tStub := (NullStubHeader, NullStubPayload);
 
+
+    type tUnconstrainedPreCorrectionStubArray is array(integer range <>) of tPreCorrectionStub;
+    subtype tPreCorrectionStubWordArray is tUnconstrainedPreCorrectionStubArray(0 to stubs_per_word - 1);
+    constant NullPreCorrectionStubWordArray : tPreCorrectionStubWordArray := (others => NullPreCorrectionStub);
+    subtype tPreCorrectionStubArray is tUnconstrainedPreCorrectionStubArray(0 to link_count*stubs_per_word - 1);
+    constant NullPreCorrectionStubArray : tPreCorrectionStubArray := (others => NullPreCorrectionStub);
 
     type tUnconstrainedStubArray is array(integer range <>) of tStub;
     subtype tStubWordArray is tUnconstrainedStubArray(0 to stubs_per_word - 1);
@@ -124,8 +142,10 @@ package data_types is
         valid   : std_logic;
         bx      : unsigned(4 downto 0);
         bend    : signed(3 downto 0);
+        strip   : signed(7 downto 0);
+        column  : signed(4 downto 0);
     end record;
-    constant NullNonLUTBuff : tNonLUTBuf := ('0', (others => '0'), (others => '0'));
+    constant NullNonLUTBuff : tNonLUTBuf := ('0', (others => '0'), (others => '0'), (others => '0'),  (others => '0'));
 
 
     -- LUT for giving the link number as a port for the stub formatter.
@@ -149,7 +169,7 @@ package data_types is
 
     -- Correction matrix - exact format is still undecided as I do not know the
     -- range of values for the module dimensions.
-    type tCorrectionMatrix is array(integer range 0 to 5) of integer range -16 to 15;
+    type tCorrectionMatrix is array(integer range 0 to 5) of integer; -- range -16 to 15;
     constant NullCorrectionMatrix : tCorrectionMatrix := (others => 0);
     constant testCorrectionMatrix : tCorrectionMatrix := (
         0, 1, 2, 3, 4, 5

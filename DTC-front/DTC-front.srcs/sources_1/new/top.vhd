@@ -33,14 +33,14 @@ use work.utilities_pkg.all;
 
 
 entity top is
-    PORT(
+    PORT (
         -- Input Ports --
         clk : in std_logic;
         data_in : in tLinksIn;
 
         -- Output Ports --
         header_out : out tDTCInHeaderArray := NullDTCInHeaderArray;
-        data_out : out tStubArray
+        data_out : out tPreCorrectionStubArray
     );
 end top;
 
@@ -51,7 +51,8 @@ architecture Behavioral of top is
     signal links_in : tLinksIn := NullLinksIn; -- Input word for CIC
     signal header : tDTCInHeaderArray := NullDTCInHeaderArray; -- Header of CIC word
     signal DTCIn_stubs : tDTCInStubArray; -- Array of CIC stubs formed from CIC word
-    signal stubs : tStubArray; -- Array of converted stubs
+    signal pre_stubs : tPreCorrectionStubArray; -- Array of converted stubs
+    signal stubs : tStubArray;
     signal link_number : tLinkLUT := cLinkLUT;
     signal matrices : tCorrectionMatrixArray := NullCorrectionMatrixArray;
     signal matrix_bus_out, matrix_bus_in : tFMBus(0 to 71);
@@ -69,13 +70,13 @@ end process;
 -- Connections required for test synthesis
 links_in <= data_in;
 header_out <= header;
-data_out <= stubs;
+data_out <= pre_stubs;
 
 
 gLinksFormat : for i in 0 to link_count - 1 generate
     -- Dummy instance to generate CIC words from file
     -- LinkGeneratorInstance : entity work.LinkGenerator
-    -- port map(
+    -- port map (
     --    -- Input Ports --
     --    clk => clk,
     --
@@ -85,7 +86,7 @@ gLinksFormat : for i in 0 to link_count - 1 generate
 
     -- Input links are formatted into a more readable format, separates out header
     LinkFormatterInstance : entity work.LinkFormatter
-        port map(
+        port map (
             -- Input Ports --
             clk => clk,
             link_in => links_in(i),
@@ -105,10 +106,10 @@ begin
     link_index <= to_unsigned(link_number(i), 5);
 
     StubFormatterInstance : entity work.StubFormatter
-    generic map(
+    generic map (
         index => i
     )
-    port map(
+    port map (
         -- Input Ports --
         clk => clk,
         header => header(i/2),
@@ -117,15 +118,15 @@ begin
         link_index => link_index,
 
         -- Output Ports --
-        stub_out => stubs(i)
+        stub_out => pre_stubs(i)
         -- bus_out => bus_out
     );
 
     GetCorrectionMatrixInstance : entity work.GetCorrectionMatrix
-    generic map(
+    generic map (
         index => i
     )
-    port map(
+    port map (
         -- Input Ports --
         clk => clk,
         stub_in => DTCIn_stubs(i),
@@ -135,6 +136,17 @@ begin
         -- Output Ports
         matrix => matrices(i)
         -- bus_out => bus_out
+    );
+
+    CoordinateCorrectorInstance : entity work.CoordinateCorrector
+    port map (
+        -- Input Ports --
+        clk => clk,
+        stub_in => pre_stubs(i),
+        matrix => matrices(i),
+
+        -- Output Ports --
+        stub_out => stubs(i)
     );
 end generate;
 
