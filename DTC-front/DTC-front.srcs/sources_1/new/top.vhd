@@ -150,20 +150,4 @@ begin
     );
 end generate;
 
-
--- Test entity for checking if IP core creation would work
---LUTTestInstance : entity work.blk_mem_gen_0
---    port map(
---        clka => clk,
---        addra => b"0001",
---        ena => '1',
---        douta => lut_check
---    );tance : entity work.blk_mem_gen_0
---    port map(
---        clka => clk,
---        addra => b"0001",
---        ena => '1',
---        douta => lut_check
---    );
-
 end Behavioral;

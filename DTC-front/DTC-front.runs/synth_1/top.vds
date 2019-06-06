@@ -2,8 +2,8 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Mon Jun  3 17:52:00 2019
-# Process ID: 21776
+# Start of session at: Tue Jun  4 17:27:47 2019
+# Process ID: 4835
 # Current directory: /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.runs/synth_1
 # Command line: vivado -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.runs/synth_1/top.vds
@@ -16,9 +16,9 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xcku15p'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku15p'
 INFO: [Common 17-1540] The version limit for your license is '2018.12' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 21804 
+INFO: Helper process launched with PID 4906 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1422.340 ; gain = 27.000 ; free physical = 32348 ; free virtual = 52980
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1422.340 ; gain = 27.000 ; free physical = 54239 ; free virtual = 60760
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'top' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:47]
 INFO: [Synth 8-638] synthesizing module 'LinkFormatter' [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/LinkFormatter.vhd:45]
@@ -292,7 +292,7 @@ WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized2 has unconnected p
 WARNING: [Synth 8-3331] design FMBusRamDecoder__parameterized2 has unconnected port BusIn[1][Info][Size][28]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1504.348 ; gain = 109.008 ; free physical = 32324 ; free virtual = 52957
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1505.348 ; gain = 110.008 ; free physical = 54230 ; free virtual = 60742
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -301,24 +301,24 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[0].PosLutInstance0:AddressIn[10] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[0].PosLutInstance0:AddressIn[9] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[0].PosLutInstance0:AddressIn[8] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[1].PosLutInstance0:AddressIn[10] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[1].PosLutInstance0:AddressIn[9] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[1].PosLutInstance0:AddressIn[8] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[2].PosLutInstance0:AddressIn[10] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[2].PosLutInstance0:AddressIn[9] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[2].PosLutInstance0:AddressIn[8] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[0].PosLutInstance0:AddressIn[10] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[0].PosLutInstance0:AddressIn[9] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[0].PosLutInstance0:AddressIn[8] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[1].PosLutInstance0:AddressIn[10] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[1].PosLutInstance0:AddressIn[9] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[1].PosLutInstance0:AddressIn[8] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[2].PosLutInstance0:AddressIn[10] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[2].PosLutInstance0:AddressIn[9] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
-WARNING: [Synth 8-3295] tying undriven pin gPromClocked[2].PosLutInstance0:AddressIn[8] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:70]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[0].PosLutInstance0:AddressIn[10] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[0].PosLutInstance0:AddressIn[9] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[0].PosLutInstance0:AddressIn[8] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[1].PosLutInstance0:AddressIn[10] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[1].PosLutInstance0:AddressIn[9] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[1].PosLutInstance0:AddressIn[8] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[2].PosLutInstance0:AddressIn[10] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[2].PosLutInstance0:AddressIn[9] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[2].PosLutInstance0:AddressIn[8] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[0].PosLutInstance0:AddressIn[10] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[0].PosLutInstance0:AddressIn[9] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[0].PosLutInstance0:AddressIn[8] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[1].PosLutInstance0:AddressIn[10] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[1].PosLutInstance0:AddressIn[9] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[1].PosLutInstance0:AddressIn[8] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[2].PosLutInstance0:AddressIn[10] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[2].PosLutInstance0:AddressIn[9] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
+WARNING: [Synth 8-3295] tying undriven pin gPromClocked[2].PosLutInstance0:AddressIn[8] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd:69]
 WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:bus_in[0][0][Data] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:108]
 WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:bus_in[0][0][Instruction][2] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:108]
 WARNING: [Synth 8-3295] tying undriven pin gStubFormatter[0].StubFormatterInstance:bus_in[0][0][Instruction][1] to constant 0 [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd:108]
@@ -406,10 +406,10 @@ INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instan
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1504.348 ; gain = 109.008 ; free physical = 32330 ; free virtual = 52963
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1505.348 ; gain = 110.008 ; free physical = 54235 ; free virtual = 60747
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1504.348 ; gain = 109.008 ; free physical = 32330 ; free virtual = 52963
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1505.348 ; gain = 110.008 ; free physical = 54235 ; free virtual = 60747
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xcku15p-ffva1760-2-e
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -420,14 +420,14 @@ Parsing XDC File [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/con
 Finished Parsing XDC File [/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/constrs_1/new/constr.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2643.941 ; gain = 0.000 ; free physical = 31374 ; free virtual = 52007
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2643.941 ; gain = 0.000 ; free physical = 52972 ; free virtual = 59698
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2643.941 ; gain = 0.000 ; free physical = 31374 ; free virtual = 52007
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00 . Memory (MB): peak = 2643.941 ; gain = 0.000 ; free physical = 31374 ; free virtual = 52007
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2643.941 ; gain = 0.000 ; free physical = 52972 ; free virtual = 59698
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00 . Memory (MB): peak = 2643.941 ; gain = 0.000 ; free physical = 52972 ; free virtual = 59698
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 2643.941 ; gain = 1248.602 ; free physical = 31471 ; free virtual = 52104
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 2643.941 ; gain = 1248.602 ; free physical = 53000 ; free virtual = 59745
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -435,13 +435,13 @@ Start Loading Part and Timing Information
 Loading part: xcku15p-ffva1760-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 2643.941 ; gain = 1248.602 ; free physical = 31471 ; free virtual = 52104
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 2643.941 ; gain = 1248.602 ; free physical = 53000 ; free virtual = 59745
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 2643.941 ; gain = 1248.602 ; free physical = 31471 ; free virtual = 52104
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 2643.941 ; gain = 1248.602 ; free physical = 53002 ; free virtual = 59747
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "DataValid" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "WordCounter" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
@@ -476,7 +476,7 @@ INFO: [Synth 8-5546] ROM "State" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "State" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "State" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 2643.941 ; gain = 1248.602 ; free physical = 31458 ; free virtual = 52092
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:34 . Memory (MB): peak = 2643.941 ; gain = 1248.602 ; free physical = 53006 ; free virtual = 59752
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1139,7 +1139,7 @@ INFO: [Synth 8-3886] merging instance 'gStubFormatter[1].CoordinateCorrectorInst
 INFO: [Synth 8-3886] merging instance 'gStubFormatter[1].CoordinateCorrectorInstance/matrix_buffer_reg[4][5]' (FD) to 'gStubFormatter[1].CoordinateCorrectorInstance/matrix_buffer_reg[4][17]'
 INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:35 . Memory (MB): peak = 2643.941 ; gain = 1248.602 ; free physical = 31437 ; free virtual = 52077
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:36 . Memory (MB): peak = 2643.941 ; gain = 1248.602 ; free physical = 53019 ; free virtual = 59772
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1213,13 +1213,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:01:09 . Memory (MB): peak = 2854.559 ; gain = 1459.219 ; free physical = 30915 ; free virtual = 51555
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:01:12 . Memory (MB): peak = 2855.559 ; gain = 1460.219 ; free physical = 52654 ; free virtual = 59422
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:10 . Memory (MB): peak = 2868.559 ; gain = 1473.219 ; free physical = 30901 ; free virtual = 51541
+Finished Timing Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:01:14 . Memory (MB): peak = 2869.559 ; gain = 1474.219 ; free physical = 52608 ; free virtual = 59389
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1254,7 +1254,7 @@ Start Technology Mapping
 INFO: [Synth 8-6837] The timing for the instance gStubFormatter[0].GetCorrectionMatrixInstance/MatrixLutInstance/ROM_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 INFO: [Synth 8-6837] The timing for the instance gStubFormatter[1].GetCorrectionMatrixInstance/MatrixLutInstance/ROM_reg_bram_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:01:10 . Memory (MB): peak = 2890.637 ; gain = 1495.297 ; free physical = 30889 ; free virtual = 51529
+Finished Technology Mapping : Time (s): cpu = 00:00:46 ; elapsed = 00:01:14 . Memory (MB): peak = 2891.637 ; gain = 1496.297 ; free physical = 52603 ; free virtual = 59384
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1278,7 +1278,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:01:11 . Memory (MB): peak = 2890.637 ; gain = 1495.297 ; free physical = 30886 ; free virtual = 51526
+Finished IO Insertion : Time (s): cpu = 00:00:46 ; elapsed = 00:01:15 . Memory (MB): peak = 2891.637 ; gain = 1496.297 ; free physical = 52601 ; free virtual = 59382
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -1291,7 +1291,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:01:11 . Memory (MB): peak = 2890.637 ; gain = 1495.297 ; free physical = 30886 ; free virtual = 51526
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:46 ; elapsed = 00:01:15 . Memory (MB): peak = 2891.637 ; gain = 1496.297 ; free physical = 52601 ; free virtual = 59382
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -1303,25 +1303,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:01:12 . Memory (MB): peak = 2890.637 ; gain = 1495.297 ; free physical = 30886 ; free virtual = 51526
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:01:15 . Memory (MB): peak = 2891.637 ; gain = 1496.297 ; free physical = 52600 ; free virtual = 59380
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:44 ; elapsed = 00:01:12 . Memory (MB): peak = 2890.637 ; gain = 1495.297 ; free physical = 30886 ; free virtual = 51526
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:47 ; elapsed = 00:01:15 . Memory (MB): peak = 2891.637 ; gain = 1496.297 ; free physical = 52600 ; free virtual = 59380
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:44 ; elapsed = 00:01:12 . Memory (MB): peak = 2890.637 ; gain = 1495.297 ; free physical = 30886 ; free virtual = 51526
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:47 ; elapsed = 00:01:16 . Memory (MB): peak = 2891.637 ; gain = 1496.297 ; free physical = 52600 ; free virtual = 59380
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:44 ; elapsed = 00:01:12 . Memory (MB): peak = 2890.637 ; gain = 1495.297 ; free physical = 30886 ; free virtual = 51526
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:47 ; elapsed = 00:01:16 . Memory (MB): peak = 2891.637 ; gain = 1496.297 ; free physical = 52599 ; free virtual = 59380
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1425,17 +1425,17 @@ Report Instance Areas:
 |40    |    \gPromClocked[2].PosLutInstance0              |GenPromClocked__parameterized5                                                       |     2|
 +------+--------------------------------------------------+-------------------------------------------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:01:12 . Memory (MB): peak = 2890.637 ; gain = 1495.297 ; free physical = 30886 ; free virtual = 51526
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:01:16 . Memory (MB): peak = 2891.637 ; gain = 1496.297 ; free physical = 52599 ; free virtual = 59380
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1560 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:50 . Memory (MB): peak = 2890.637 ; gain = 355.703 ; free physical = 30923 ; free virtual = 51563
-Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:01:12 . Memory (MB): peak = 2890.645 ; gain = 1495.297 ; free physical = 30923 ; free virtual = 51563
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:53 . Memory (MB): peak = 2891.637 ; gain = 357.703 ; free physical = 52632 ; free virtual = 59421
+Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:01:16 . Memory (MB): peak = 2891.645 ; gain = 1496.297 ; free physical = 52632 ; free virtual = 59421
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 126 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2955.285 ; gain = 0.000 ; free physical = 30846 ; free virtual = 51486
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2956.285 ; gain = 0.000 ; free physical = 52506 ; free virtual = 59298
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 78 instances were transformed.
   BUFG => BUFGCE: 1 instances
@@ -1445,10 +1445,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 315 Infos, 322 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:01:13 . Memory (MB): peak = 2955.285 ; gain = 1574.094 ; free physical = 30919 ; free virtual = 51559
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2955.285 ; gain = 0.000 ; free physical = 30919 ; free virtual = 51559
+synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:01:18 . Memory (MB): peak = 2956.285 ; gain = 1575.094 ; free physical = 52578 ; free virtual = 59371
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2956.285 ; gain = 0.000 ; free physical = 52578 ; free virtual = 59371
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint '/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.runs/synth_1/top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Jun  3 17:53:21 2019...
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  4 17:29:13 2019...

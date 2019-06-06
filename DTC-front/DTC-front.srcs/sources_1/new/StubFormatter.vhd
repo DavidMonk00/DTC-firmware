@@ -50,7 +50,6 @@ entity StubFormatter is
 end StubFormatter;
 
 architecture Behavioral of StubFormatter is
-    signal word_number : unsigned(3 downto 0) := (others => '0');
     signal address : std_logic_vector(17 downto 0) := (others => '0');
     signal pos_lut_out : std_logic_vector(53 downto 0) := (others => '0');
     signal clk_bus : std_logic := '0';
@@ -86,11 +85,7 @@ gPromClocked : for i in 0 to 2 generate
 end generate;
 
 
--- Process to use LUT data to produce r, phi, z coordinates to the stubs. This
--- process should be a zero clock process as it is simply routing the output of
--- the LUT. Output should be timed such that the stub is assosciated with the
--- correct lookup.
-pFormat : process(clk)
+pBuffer : process(clk)
 begin
     if rising_edge(clk) then
         -- Buffer data not needed for LUTs
@@ -99,7 +94,17 @@ begin
         tmp_buff.bend <= stub_in.bend;
         tmp_buff.strip <= stub_in.row(7 downto 0);
         tmp_buff.column <= stub_in.column;
+    end if;
+end process;
 
+
+-- Process to use LUT data to produce r, phi, z coordinates to the stubs. This
+-- process should be a zero clock process as it is simply routing the output of
+-- the LUT. Output should be timed such that the stub is assosciated with the
+-- correct lookup.
+pFormat : process(clk)
+begin
+    if rising_edge(clk) then
         if (tmp_buff.valid = '1') then
             -- Read buffer values
             stub_out.header.bx <= tmp_buff.bx;
@@ -123,9 +128,5 @@ begin
         end if;
     end if;
 end process;
-
--- Not entirely sure what this is for... I guess it is calculating how many
--- word frames are in the boxcar.
-word_number <= shift_right(header.stub_count, 1)(3 downto 0);
 
 end Behavioral;
