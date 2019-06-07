@@ -17,6 +17,10 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param power.enableLutRouteBelPower 1
+set_param power.enableCarry8RouteBelPower 1
+set_param power.enableUnconnectedCarry8PinPower 1
+set_param power.BramSDPPropagationFix 1
 create_project -in_memory -part xcku15p-ffva1760-2-e
 
 set_param project.singleFileAddWarning.threshold 0
@@ -44,6 +48,7 @@ read_vhdl -library xil_defaultlib {
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/GenPromClocked.vhd
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/GetCorrectionMatrix.vhd
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/LinkFormatter.vhd
+  /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/RouterInputReformatting.vhd
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/StubFormatter.vhd
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/top.vhd
 }

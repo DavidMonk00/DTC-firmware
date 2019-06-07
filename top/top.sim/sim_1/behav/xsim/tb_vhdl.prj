@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../top.srcs/sources_1/imports/cactusupgrades/projects/tracktrigger/dtc/firmware/hdl/common/xml_utilities.vhd" \
+"../../../../top.srcs/sources_1/imports/cactusupgrades/projects/tracktrigger/dtc/firmware/hdl/common/utilities.vhd" \
+"../../../../top.srcs/sources_1/imports/cactusupgrades/components/mp7_datapath/firmware/hdl/mp7_data_types.vhd" \
+"../../../../top.srcs/sources_1/imports/cactusupgrades/projects/tracktrigger/dtc/firmware/hdl/Sorter/BinarySortTree2.vhd" \
+"../../../../top.srcs/sources_1/imports/cactusupgrades/projects/tracktrigger/dtc/firmware/hdl/packages/others.vhd" \
+"../../../../top.srcs/sources_1/imports/cactusupgrades/projects/tracktrigger/dtc/firmware/hdl/testbench/TestBench.vhd" \
+
+# Do not sort compile order
+nosort

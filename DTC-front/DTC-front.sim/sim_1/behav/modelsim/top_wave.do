@@ -10,7 +10,7 @@
 
 ### General Simulation ###
 add wave -position insertpoint sim:/top/clk
-add wave -position insertpoint sim:/top/counter
+add wave -radix decimal -position insertpoint sim:/top/counter
 add wave -position insertpoint sim:/top/links_in(0)
 add wave -position insertpoint sim:/top/header(0)
 add wave -position insertpoint sim:/top/DTCIn_stubs(0)
@@ -43,4 +43,9 @@ add wave -radix decimal -position insertpoint sim:/top/gStubFormatter(0)/Coordin
 add wave -radix decimal -position insertpoint sim:/top/gStubFormatter(0)/CoordinateCorrectorInstance/matrix
 add wave -radix decimal -position insertpoint sim:/top/gStubFormatter(0)/CoordinateCorrectorInstance/multiplied_matrix
 add wave -position insertpoint sim:/top/gStubFormatter(0)/CoordinateCorrectorInstance/stub_out
+add wave -divider
+
+### Output ###
+add wave -position insertpoint sim:/top/data_out(0)
+add wave -position insertpoint sim:/top/data_out(1)
 add wave -divider

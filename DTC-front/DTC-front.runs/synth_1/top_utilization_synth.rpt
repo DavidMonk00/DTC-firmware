@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-| Date         : Tue Jun  4 17:29:13 2019
+| Date         : Fri Jun  7 12:18:19 2019
 | Host         : daedalus running 64-bit Ubuntu 18.04.2 LTS
 | Command      : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
 | Design       : top
@@ -31,15 +31,15 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Fixed | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| CLB LUTs*                  |  484 |     0 |    522720 |  0.09 |
-|   LUT as Logic             |  364 |     0 |    522720 |  0.07 |
-|   LUT as Memory            |  120 |     0 |    161280 |  0.07 |
+| CLB LUTs*                  | 5904 |     0 |    522720 |  1.13 |
+|   LUT as Logic             | 2952 |     0 |    522720 |  0.56 |
+|   LUT as Memory            | 2952 |     0 |    161280 |  1.83 |
 |     LUT as Distributed RAM |    0 |     0 |           |       |
-|     LUT as Shift Register  |  120 |     0 |           |       |
-| CLB Registers              | 1068 |     0 |   1045440 |  0.10 |
-|   Register as Flip Flop    | 1068 |     0 |   1045440 |  0.10 |
+|     LUT as Shift Register  | 2952 |     0 |           |       |
+| CLB Registers              | 5904 |     0 |   1045440 |  0.56 |
+|   Register as Flip Flop    | 5904 |     0 |   1045440 |  0.56 |
 |   Register as Latch        |    0 |     0 |   1045440 |  0.00 |
-| CARRY8                     |   48 |     0 |     65340 |  0.07 |
+| CARRY8                     |  504 |     0 |     65340 |  0.77 |
 | F7 Muxes                   |    0 |     0 |    261360 |  0.00 |
 | F8 Muxes                   |    0 |     0 |    130680 |  0.00 |
 | F9 Muxes                   |    0 |     0 |     65340 |  0.00 |
@@ -62,7 +62,7 @@ Table of Contents
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 1068  |          Yes |       Reset |            - |
+| 5904  |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -72,9 +72,9 @@ Table of Contents
 +-------------------+------+-------+-----------+-------+
 |     Site Type     | Used | Fixed | Available | Util% |
 +-------------------+------+-------+-----------+-------+
-| Block RAM Tile    |    8 |     0 |       984 |  0.81 |
-|   RAMB36/FIFO*    |    8 |     0 |       984 |  0.81 |
-|     RAMB36E2 only |    8 |       |           |       |
+| Block RAM Tile    |   72 |     0 |       984 |  7.32 |
+|   RAMB36/FIFO*    |   72 |     0 |       984 |  7.32 |
+|     RAMB36E2 only |   72 |       |           |       |
 |   RAMB18          |    0 |     0 |      1968 |  0.00 |
 | URAM              |    0 |     0 |       128 |  0.00 |
 +-------------------+------+-------+-----------+-------+
@@ -87,19 +87,19 @@ Table of Contents
 +----------------+------+-------+-----------+-------+
 |    Site Type   | Used | Fixed | Available | Util% |
 +----------------+------+-------+-----------+-------+
-| DSPs           |   24 |     0 |      1968 |  1.22 |
-|   DSP48E2 only |   24 |       |           |       |
+| DSPs           |  432 |     0 |      1968 | 21.95 |
+|   DSP48E2 only |  432 |       |           |       |
 +----------------+------+-------+-----------+-------+
 
 
 4. I/O
 ------
 
-+------------+------+-------+-----------+-------+
-|  Site Type | Used | Fixed | Available | Util% |
-+------------+------+-------+-----------+-------+
-| Bonded IOB |  303 |     0 |       512 | 59.18 |
-+------------+------+-------+-----------+-------+
++------------+------+-------+-----------+---------+
+|  Site Type | Used | Fixed | Available |  Util%  |
++------------+------+-------+-----------+---------+
+| Bonded IOB | 9865 |     0 |       512 | 1926.76 |
++------------+------+-------+-----------+---------+
 
 
 5. CLOCK
@@ -162,20 +162,15 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     | 1068 |            Register |
-| LUT2     |  347 |                 CLB |
-| OBUF     |  250 |                 I/O |
-| SRL16E   |  120 |                 CLB |
-| INBUF    |   53 |                 I/O |
-| IBUFCTRL |   53 |              Others |
-| CARRY8   |   48 |                 CLB |
-| DSP48E2  |   24 |          Arithmetic |
-| LUT6     |   10 |                 CLB |
-| RAMB36E2 |    8 |           Block Ram |
-| LUT4     |    5 |                 CLB |
-| LUT5     |    3 |                 CLB |
-| LUT1     |    3 |                 CLB |
-| LUT3     |    1 |                 CLB |
+| OBUF     | 9864 |                 I/O |
+| FDRE     | 5904 |            Register |
+| SRL16E   | 2952 |                 CLB |
+| LUT2     | 2952 |                 CLB |
+| CARRY8   |  504 |                 CLB |
+| DSP48E2  |  432 |          Arithmetic |
+| RAMB36E2 |   72 |           Block Ram |
+| INBUF    |    1 |                 I/O |
+| IBUFCTRL |    1 |              Others |
 | BUFGCE   |    1 |               Clock |
 +----------+------+---------------------+
 

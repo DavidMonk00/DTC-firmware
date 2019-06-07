@@ -45,8 +45,6 @@ entity CoordinateCorrector is
 end CoordinateCorrector;
 
 architecture Behavioral of CoordinateCorrector is
-    -- buffer vector required? Multiplications should be performed in parallel,
-    -- therefore this should not be needed, given matrix arrives on first clock.
     type tCoordVector is record
         r : integer;
         phi : integer;
@@ -54,7 +52,7 @@ architecture Behavioral of CoordinateCorrector is
     end record;
 
     signal multiplied_matrix, matrix_buffer : tCorrectionMatrix := NullCorrectionMatrix;
-    signal buff : tUnconstrainedStubArray(0 to 23) := (others => NullStub);
+    signal buff : tUnconstrainedStubArray(0 to 3) := (others => NullStub);
     signal vector, vector_buff : tCoordVector := (others => 0);
     signal strip, column : integer := 0;
 
@@ -64,9 +62,9 @@ begin
         if rising_edge(clk) then
             buff(0).header <= stub_in.header;
             buff(0).payload <= stub_in.payload;
-            buff(1) <= buff(0);
-            buff(2) <= buff(1);
-            buff(3) <= buff(2);
+            fBuffer : for i in 1 to 3 loop
+                buff(i) <= buff(i -1);
+            end loop;
 
             strip <= to_integer(stub_in.intrinsic.strip);
             column <= to_integer(stub_in.intrinsic.column);

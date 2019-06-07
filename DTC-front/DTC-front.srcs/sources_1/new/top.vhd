@@ -40,7 +40,7 @@ entity top is
 
         -- Output Ports --
         header_out : out tDTCInHeaderArray := NullDTCInHeaderArray;
-        data_out : out tStubArray
+        data_out : out tRouterInputArray := NullRouterInputArray
     );
 end top;
 
@@ -68,9 +68,8 @@ begin
 end process;
 
 -- Connections required for test synthesis
-links_in <= data_in;
+-- links_in <= data_in;
 header_out <= header;
-data_out <= stubs;
 
 
 gLinksFormat : for i in 0 to link_count - 1 generate
@@ -147,6 +146,17 @@ begin
 
         -- Output Ports --
         stub_out => stubs(i)
+    );
+
+    RouterInputReformattingInstance : entity work.RouterInputReformatting
+    port map (
+        -- Input Ports --
+        clk => clk,
+        stub_in => stubs(i),
+
+        -- Ouput Ports --
+        word_out(0) => data_out(i * 2),
+        word_out(1) => data_out(i * 2 + 1)
     );
 end generate;
 
