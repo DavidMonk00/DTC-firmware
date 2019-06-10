@@ -92,8 +92,8 @@ begin
     begin
         if rising_edge(clk) then
             vector_buff.r <= multiplied_matrix(0) + multiplied_matrix(1);
-            vector_buff.phi <= multiplied_matrix(2) + multiplied_matrix(3);
-            vector_buff.z <= multiplied_matrix(4) + multiplied_matrix(5);
+            vector_buff.z <= multiplied_matrix(2) + multiplied_matrix(3);
+            vector_buff.phi <= multiplied_matrix(4) + multiplied_matrix(5);
 
             vector.r <= buff(2).payload.r + vector_buff.r;
             vector.z <= buff(2).payload.z + vector_buff.z;

@@ -74,14 +74,14 @@ header_out <= header;
 
 gLinksFormat : for i in 0 to link_count - 1 generate
     -- Dummy instance to generate CIC words from file
-    -- LinkGeneratorInstance : entity work.LinkGenerator
-    -- port map (
-    --    -- Input Ports --
-    --    clk => clk,
-    --
-    --    -- Output Ports --
-    --    links_out => links_in(i)
-    -- );
+     LinkGeneratorInstance : entity work.LinkGenerator
+     port map (
+        -- Input Ports --
+        clk => clk,
+    
+        -- Output Ports --
+        links_out => links_in(i)
+     );
 
     -- Input links are formatted into a more readable format, separates out header
     LinkFormatterInstance : entity work.LinkFormatter

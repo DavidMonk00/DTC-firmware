@@ -35,7 +35,6 @@ set_property ip_cache_permissions {read write} [current_project]
 add_files /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/ip/test.coe
 read_mem {
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/A_PosLutLow_11to18.mif
-  /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/new/20190521_random.mif
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/imports/mifs/random_1.mif
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/imports/mifs/random_2.mif
   /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.srcs/sources_1/imports/mifs/random_0.mif
