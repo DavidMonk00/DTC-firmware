@@ -47,35 +47,40 @@ package data_types is
 
 
     -- Input CIC header format as described in most recent DTC Interface Document
-    type tDTCInHeader is record
+    type tHeader is record
         boxcar_number : unsigned(11 downto 0);
         stub_count    : unsigned(5 downto 0);
     end record;
-    constant NullDTCInHeader : tDTCInHeader := ((others => '0'), (others => '0'));
+    constant NullHeader : tHeader := ((others => '0'), (others => '0'));
+
+    type tHeaderArray is array(integer range 0 to link_count -1) of tHeader;
+    constant NullHeaderArray : tHeaderArray := (others => NullHeader);
+
+    type tHeaderPipe is array( natural range <> ) of tHeaderArray;
 
 
-    type tDTCInHeaderArray is array(integer range 0 to link_count -1) of tDTCInHeader;
-    constant NullDTCInHeaderArray : tDTCInHeaderArray := (others => NullDTCInHeader);
 
 
     -- Input CIC stub format as described in most recent DTC Interface Document
-    type tDTCInStub is record
+    type tCICStub is record
         valid   : std_logic;
         bx      : unsigned(6 downto 0);
         row     : signed(10 downto 0);
         column  : signed(4 downto 0);
         bend    : signed(3 downto 0);
     end record;
-    constant NullDTCInStub : tDTCInStub := ('0',
-                                            (others => '0'), (others => '0'),
-                                            (others => '0'), (others => '0'));
+    constant NullCICStub : tCICStub := ('0',
+                                       (others => '0'), (others => '0'),
+                                       (others => '0'), (others => '0'));
+
+    type tUnconstrainedCICStubArray is array(integer range <>) of tCICStub;
+    subtype tCICWordStubArray is tUnconstrainedCICStubArray(0 to stubs_per_word - 1);
+    constant NullCICWordStubArray : tCICWordStubArray := (others => NullCICStub);
+    subtype tCICStubArray is tUnconstrainedCICStubArray(0 to link_count*stubs_per_word - 1);
+    constant NullCICStubArray : tCICStubArray := (others => NullCICStub);
 
 
-    type tUnconstrainedDTCInStubArray is array(integer range <>) of tDTCInStub;
-    subtype tDTCInWordStubArray is tUnconstrainedDTCInStubArray(0 to stubs_per_word - 1);
-    constant NullDTCInWordStubArray : tDTCInWordStubArray := (others => NullDTCInStub);
-    subtype tDTCInStubArray is tUnconstrainedDTCInStubArray(0 to link_count*stubs_per_word - 1);
-    constant NullDTCInStubArray : tDTCInStubArray := (others => NullDTCInStub);
+    type tCICStubPipe is array( natural range <> ) of tCICStubArray;
 
 
     -- Stub format into DTC router, comprises of two lwords, one for header and

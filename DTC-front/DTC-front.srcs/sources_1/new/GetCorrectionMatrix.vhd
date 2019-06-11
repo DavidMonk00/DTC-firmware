@@ -38,7 +38,7 @@ entity GetCorrectionMatrix is
     Port (
         -- Input Ports --
         clk : in std_logic;
-        stub_in : in tDTCInStub;
+        stub_in : in tCICStub;
         bus_in : in tFMBus(0 to 71);
         link_index : in unsigned(4 downto 0);
 

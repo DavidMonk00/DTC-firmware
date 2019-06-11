@@ -118,7 +118,7 @@ class Stub:
         return s
 
 
-def genRandomDTCInStubs():
+def genRandomCICStubs():
     frame_width = 64
     header_frames = 6
     boxcar_count = 3655
@@ -164,7 +164,7 @@ def genMif():
 
 def main():
     # genMif()
-    genRandomDTCInStubs()
+    genRandomCICStubs()
 
 
 if __name__ == '__main__':

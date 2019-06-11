@@ -63,7 +63,7 @@ begin
             buff(0).header <= stub_in.header;
             buff(0).payload <= stub_in.payload;
             fBuffer : for i in 1 to 3 loop
-                buff(i) <= buff(i -1);
+                buff(i) <= buff(i - 1);
             end loop;
 
             strip <= to_integer(stub_in.intrinsic.strip);
@@ -100,6 +100,7 @@ begin
             vector.phi <= buff(2).payload.phi + vector_buff.phi;
         end if;
     end process;
+
 
     pOutput : process(clk)
     begin

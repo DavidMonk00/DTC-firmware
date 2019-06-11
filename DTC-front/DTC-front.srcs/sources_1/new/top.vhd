@@ -36,22 +36,24 @@ entity top is
     PORT (
         -- Input Ports --
         clk : in std_logic;
-        data_in : in tLinksIn;
+        links_in : in tLinksIn;
 
         -- Output Ports --
-        header_out : out tDTCInHeaderArray := NullDTCInHeaderArray;
         data_out : out tRouterInputArray := NullRouterInputArray
     );
 end top;
 
 architecture Behavioral of top is
     signal bus_out, bus_in : tFMBusArray;
+    -- signal header : tHeaderArray := NullHeaderArray; -- Header of CIC word
+    -- signal CIC_stubs : tCICStubArray; -- Array of CIC stubs formed from CIC word
 
-    signal counter : integer := 0; -- Counter to more easily calculate latency
-    signal links_in : tLinksIn := NullLinksIn; -- Input word for CIC
-    signal header : tDTCInHeaderArray := NullDTCInHeaderArray; -- Header of CIC word
-    signal DTCIn_stubs : tDTCInStubArray; -- Array of CIC stubs formed from CIC word
-    signal pre_stubs : tPreCorrectionStubArray; -- Array of converted stubs
+    signal HeaderPipe : tHeaderPipe( 0 to 10 ) := (OTHERS=>NullHeaderArray);
+    signal CICStubPipe : tCICStubPipe( 0 to 10 ) := (OTHERS=>NullCICStubArray);
+    signal FormattedStubPipe : tStubPipe( 0 to 10 ) := (OTHERS=>NullStubArray);
+
+
+    -- signal pre_stubs : tPreCorrectionStubArray; -- Array of converted stubs
     signal stubs : tStubArray;
     signal link_number : tLinkLUT := cLinkLUT;
     signal matrices : tCorrectionMatrixArray := NullCorrectionMatrixArray;
@@ -59,43 +61,40 @@ architecture Behavioral of top is
 
 begin
 
--- Process for increasing counter by one each clock cycle
-process(clk)
-begin
-    if rising_edge(clk) then
-        counter <= counter + 1;
-    end if;
-end process;
 
--- Connections required for test synthesis
--- links_in <= data_in;
-header_out <= header;
+-- gLinksFormat : for i in 0 to link_count - 1 generate
+--     -- Input links are formatted into a more readable format, separates out header
+--     LinkFormatterInstance : entity work.LinkFormatter
+--     port map (
+--         clk => clk,
+--         link_in => links_in(i),
+--         header => header(i),
+--         stubs(0) => CIC_stubs(i * stubs_per_word),
+--         stubs(1) => CIC_stubs(i * stubs_per_word + 1)
+--     );
+-- end generate;
+
+LinkFormatterInstance : entity work.LinkFormatter2
+port map (
+    clk => clk,
+    LinksIn => links_in,
+    HeaderPipeOut => HeaderPipe,
+    StubPipeOut => CICStubPipe
+);
 
 
-gLinksFormat : for i in 0 to link_count - 1 generate
-    -- Dummy instance to generate CIC words from file
-     LinkGeneratorInstance : entity work.LinkGenerator
-     port map (
-        -- Input Ports --
-        clk => clk,
-    
-        -- Output Ports --
-        links_out => links_in(i)
-     );
 
-    -- Input links are formatted into a more readable format, separates out header
-    LinkFormatterInstance : entity work.LinkFormatter
-        port map (
-            -- Input Ports --
-            clk => clk,
-            link_in => links_in(i),
+StubFormatterInstance : entity work.StubFormatter2
+port map (
+    clk => clk,
+    bus_in => bus_in,
+    bus_out => bus_out,
+    HeaderPipeIn => HeaderPipe,
+    StubPipeIn => CICStubPipe,
+    StubPipeOut => FormattedStubPipeOut
+);
 
-            -- Output Ports --
-            header => header(i),
-            stubs(0) => DTCIn_stubs(i * stubs_per_word),
-            stubs(1) => DTCIn_stubs(i * stubs_per_word + 1)
-        );
-end generate;
+
 
 
 -- Each CIC stub is then converted into psuedo-global coordinates
@@ -104,22 +103,22 @@ gStubFormatter : for i in 0 to stubs_per_word*link_count - 1 generate
 begin
     link_index <= to_unsigned(link_number(i), 5);
 
-    StubFormatterInstance : entity work.StubFormatter
-    generic map (
-        index => i
-    )
-    port map (
-        -- Input Ports --
-        clk => clk,
-        header => header(i/2),
-        stub_in => DTCIn_stubs(i),
-        bus_in => bus_in,
-        link_index => link_index,
-
-        -- Output Ports --
-        stub_out => pre_stubs(i)
-        -- bus_out => bus_out
-    );
+    -- StubFormatterInstance : entity work.StubFormatter
+    -- generic map (
+    --     index => i
+    -- )
+    -- port map (
+    --     -- Input Ports --
+    --     clk => clk,
+    --     header => header(i/2),
+    --     stub_in => CIC_stubs(i),
+    --     bus_in => bus_in,
+    --     link_index => link_index,
+    --
+    --     -- Output Ports --
+    --     stub_out => pre_stubs(i)
+    --     -- bus_out => bus_out
+    -- );
 
     GetCorrectionMatrixInstance : entity work.GetCorrectionMatrix
     generic map (
@@ -128,7 +127,7 @@ begin
     port map (
         -- Input Ports --
         clk => clk,
-        stub_in => DTCIn_stubs(i),
+        stub_in => CIC_stubs(i),
         bus_in => matrix_bus_in,
         link_index => link_index,
 
