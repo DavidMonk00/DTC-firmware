@@ -29,18 +29,15 @@ use IEEE.numeric_std.all;
 use work.data_types.all;
 
 
--- NOTE: Not convinced this will be the final port map, the corrector should
--- take the stub and the matrix as inputs, with a corrected stub as the output.
--- Also need strip and z values for the module for matrix multiplication.
 entity CoordinateCorrector is
     PORT(
         -- Input Ports --
         clk : in std_logic;
-        stub_in : in tPreCorrectionStub;
-        matrix : in tCorrectionMatrix;
+        StubPipeIn : in tStubPipe;
+        MatricesIn : in tCorrectionMatrixArray;
 
         -- Output Ports --
-        stub_out : out tStub := NullStub
+        StubPipeOut : out tStubPipe
     );
 end CoordinateCorrector;
 
@@ -51,71 +48,59 @@ architecture Behavioral of CoordinateCorrector is
         z : integer;
     end record;
 
-    signal multiplied_matrix, matrix_buffer : tCorrectionMatrix := NullCorrectionMatrix;
-    signal buff : tUnconstrainedStubArray(0 to 3) := (others => NullStub);
-    signal vector, vector_buff : tCoordVector := (others => 0);
-    signal strip, column : integer := 0;
-
+    signal StubArray : tStubArray := NullStubArray;
 begin
-    pBuffer : process(clk)
+
+    gCoordinateCorrector : for i in 0 to link_count*stubs_per_word - 1 generate
+        signal multiplied_matrix : tCorrectionMatrix := NullCorrectionMatrix;
+        signal vector, vector_buff : tCoordVector := (others => 0);
     begin
-        if rising_edge(clk) then
-            buff(0).header <= stub_in.header;
-            buff(0).payload <= stub_in.payload;
-            fBuffer : for i in 1 to 3 loop
-                buff(i) <= buff(i - 1);
-            end loop;
 
-            strip <= to_integer(stub_in.intrinsic.strip);
-            column <= to_integer(stub_in.intrinsic.column);
+        pMultiplication : process(clk)
+        begin
+            if rising_edge(clk) then
+                lMultiplication : for j in 0 to 5 loop
+                    if (j mod 2) = 0 then
+                        multiplied_matrix(j) <= MatricesIn(i)(j)*to_integer(StubPipeIn(0)(i).intrinsic.strip);
+                    else
+                        multiplied_matrix(j) <= MatricesIn(i)(j)*to_integer(StubPipeIn(0)(i).intrinsic.column);
+                    end if;
+                end loop;
+            end if;
+        end process;
 
-            matrix_buffer <= matrix;
-        end if;
-    end process;
+        pAddition : process(clk)
+        begin
+            if rising_edge(clk) then
+                vector_buff.r <= multiplied_matrix(0) + multiplied_matrix(1);
+                vector_buff.z <= multiplied_matrix(2) + multiplied_matrix(3);
+                vector_buff.phi <= multiplied_matrix(4) + multiplied_matrix(5);
 
+                vector.r <= StubPipeIn(2)(i).payload.r + vector_buff.r;
+                vector.z <= StubPipeIn(2)(i).payload.z + vector_buff.z;
+                vector.phi <= StubPipeIn(2)(i).payload.phi + vector_buff.phi;
+            end if;
+        end process;
 
-    pMultiplication : process(clk)
-    begin
-        if rising_edge(clk) then
-            lMultiplication : for i in 0 to 5 loop
-                if (i mod 2) = 0 then
-                    multiplied_matrix(i) <= matrix_buffer(i)*strip;
-                else
-                    multiplied_matrix(i) <= matrix_buffer(i)*column;
-                end if;
-            end loop;
-        end if;
-    end process;
+        pOutput : process(clk)
+        begin
+            if rising_edge(clk) then
+                StubArray(i).header <= StubPipeIn(3)(i).header;
+                StubArray(i).payload.r <= vector.r;
+                StubArray(i).payload.z <= vector.z;
+                StubArray(i).payload.phi <= vector.phi;
+                StubArray(i).payload.alpha <= StubPipeIn(3)(i).payload.alpha;
+                StubArray(i).payload.layer <= StubPipeIn(3)(i).payload.layer;
+                StubArray(i).payload.barrel <= StubPipeIn(3)(i).payload.barrel;
+                StubArray(i).payload.module <= StubPipeIn(3)(i).payload.module;
+                StubArray(i).payload.valid <= StubPipeIn(3)(i).payload.valid;
+                StubArray(i).payload.bend <= StubPipeIn(3)(i).payload.bend;
+            end if;
+        end process;
 
+    end generate;
 
-    pAddition : process(clk)
-    begin
-        if rising_edge(clk) then
-            vector_buff.r <= multiplied_matrix(0) + multiplied_matrix(1);
-            vector_buff.z <= multiplied_matrix(2) + multiplied_matrix(3);
-            vector_buff.phi <= multiplied_matrix(4) + multiplied_matrix(5);
-
-            vector.r <= buff(2).payload.r + vector_buff.r;
-            vector.z <= buff(2).payload.z + vector_buff.z;
-            vector.phi <= buff(2).payload.phi + vector_buff.phi;
-        end if;
-    end process;
-
-
-    pOutput : process(clk)
-    begin
-        if rising_edge(clk) then
-            stub_out.header <= buff(3).header;
-            stub_out.payload.r <= vector.r;
-            stub_out.payload.z <= vector.z;
-            stub_out.payload.phi <= vector.phi;
-            stub_out.payload.alpha <= buff(3).payload.alpha;
-            stub_out.payload.layer <= buff(3).payload.layer;
-            stub_out.payload.barrel <= buff(3).payload.barrel;
-            stub_out.payload.module <= buff(3).payload.module;
-            stub_out.payload.valid <= buff(3).payload.valid;
-            stub_out.payload.bend <= buff(3).payload.bend;
-        end if;
-    end process;
+    StubPipeInstance : ENTITY work.StubPipe
+    PORT MAP( clk , StubArray , StubPipeOut );
 
 end Behavioral;

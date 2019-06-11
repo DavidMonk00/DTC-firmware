@@ -32,7 +32,7 @@ use work.utilities_pkg.all;
 
 package data_types is
     -- Number of optical links arriving from CICs
-    constant link_count : integer := 36;
+    constant link_count : integer := 1;
 
 
     type tLinksIn is array(integer range 0 to link_count - 1) of std_logic_vector(63 downto 0);
@@ -47,31 +47,31 @@ package data_types is
 
 
     -- Input CIC header format as described in most recent DTC Interface Document
-    type tHeader is record
+    type tCICHeader is record
         boxcar_number : unsigned(11 downto 0);
         stub_count    : unsigned(5 downto 0);
     end record;
-    constant NullHeader : tHeader := ((others => '0'), (others => '0'));
-
-    type tHeaderArray is array(integer range 0 to link_count -1) of tHeader;
-    constant NullHeaderArray : tHeaderArray := (others => NullHeader);
-
-    type tHeaderPipe is array( natural range <> ) of tHeaderArray;
-
-
+    constant NullCICHeader : tCICHeader := ((others => '0'), (others => '0'));
 
 
     -- Input CIC stub format as described in most recent DTC Interface Document
-    type tCICStub is record
+    type tCICPayload is record
         valid   : std_logic;
         bx      : unsigned(6 downto 0);
         row     : signed(10 downto 0);
         column  : signed(4 downto 0);
         bend    : signed(3 downto 0);
     end record;
-    constant NullCICStub : tCICStub := ('0',
+    constant NullCICPayload : tCICPayload := ('0',
                                        (others => '0'), (others => '0'),
                                        (others => '0'), (others => '0'));
+
+
+    type tCICStub is record
+        header : tCICHeader;
+        payload : tCICPayload;
+    end record;
+    constant NullCICStub : tCICStub := (NullCICHeader, NullCICPayload);
 
     type tUnconstrainedCICStubArray is array(integer range <>) of tCICStub;
     subtype tCICWordStubArray is tUnconstrainedCICStubArray(0 to stubs_per_word - 1);
@@ -114,33 +114,20 @@ package data_types is
                                                 (others => '0'), (others => '0'),
                                                 '0', '0');
 
-
-    type tPreCorrectionStub is record
+    -- Stub format as described in most recent DTC Interface Document
+    type tStub is record
         header      : tStubHeader;
         intrinsic   : tStubIntrinsicCoordinates;
         payload     : tStubPayload;
     end record;
-    constant NullPreCorrectionStub : tPreCorrectionStub := (NullStubHeader, NullStubIntrinsicCoordinates, NullStubPayload);
+    constant NullStub : tStub := (NullStubHeader, NullStubIntrinsicCoordinates, NullStubPayload);
 
-    -- Stub format as described in most recent DTC Interface Document
-    type tStub is record
-        header  : tStubHeader;
-        payload : tStubPayload;
-    end record;
-    constant NullStub : tStub := (NullStubHeader, NullStubPayload);
-
-
-    type tUnconstrainedPreCorrectionStubArray is array(integer range <>) of tPreCorrectionStub;
-    subtype tPreCorrectionStubWordArray is tUnconstrainedPreCorrectionStubArray(0 to stubs_per_word - 1);
-    constant NullPreCorrectionStubWordArray : tPreCorrectionStubWordArray := (others => NullPreCorrectionStub);
-    subtype tPreCorrectionStubArray is tUnconstrainedPreCorrectionStubArray(0 to link_count*stubs_per_word - 1);
-    constant NullPreCorrectionStubArray : tPreCorrectionStubArray := (others => NullPreCorrectionStub);
 
     type tUnconstrainedStubArray is array(integer range <>) of tStub;
-    subtype tStubWordArray is tUnconstrainedStubArray(0 to stubs_per_word - 1);
-    constant NullStubWordArray : tStubWordArray := (others => NullStub);
     subtype tStubArray is tUnconstrainedStubArray(0 to link_count*stubs_per_word - 1);
     constant NullStubArray : tStubArray := (others => NullStub);
+
+    type tStubPipe is array( natural range <> ) of tStubArray;
 
     -- Array for buffering non-LUT data for the module lookup.
     type tNonLUTBuf is record
@@ -156,14 +143,14 @@ package data_types is
     -- LUT for giving the link number as a port for the stub formatter.
     type tLinkLUT is array (0 to stubs_per_word*link_count - 1) of integer range 0 to stubs_per_word*link_count - 1;
     constant cLinkLUT : tLinkLUT := (
-        0,  1,  2,  3,  4,  5,  6,  7,  8,  9,
-        10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
-        20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
-        30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
-        40, 41, 42, 43, 44, 45, 46, 47, 48, 49,
-        50, 51, 52, 53, 54, 55, 56, 57, 58, 59,
-        60, 61, 62, 63, 64, 65, 66, 67, 68, 69,
-        70, 71
+        0,  1 --,  2,  3,  4,  5,  6,  7,  8,  9,
+        -- 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+        -- 20, 21, 22, 23, 24, 25, 26, 27, 28, 29,
+        -- 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,
+        -- 40, 41, 42, 43, 44, 45, 46, 47, 48, 49,
+        -- 50, 51, 52, 53, 54, 55, 56, 57, 58, 59,
+        -- 60, 61, 62, 63, 64, 65, 66, 67, 68, 69,
+        -- 70, 71
     );
 
 

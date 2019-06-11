@@ -32,49 +32,53 @@ use work.utilities_pkg.all;
 
 
 entity GetCorrectionMatrix is
-    GENERIC (
-        index : integer
-    );
     Port (
         -- Input Ports --
         clk : in std_logic;
-        stub_in : in tCICStub;
+        StubPipeIn : in tCICStubPipe;
         bus_in : in tFMBus(0 to 71);
-        link_index : in unsigned(4 downto 0);
 
         -- Output Ports --
-        matrix : out tCorrectionMatrix := NullCorrectionMatrix;
+        MatricesOut : out tCorrectionMatrixArray := NullCorrectionMatrixArray;
         bus_out : out tFMBus(0 to 71)
     );
 end GetCorrectionMatrix;
 
 architecture Behavioral of GetCorrectionMatrix is
-    signal address, data : std_logic_vector(17 downto 0) := (others => '0');
-    signal clk_bus : std_logic := '0';
-
-    -- Constants required for FunkyMiniBus
-    constant x : integer := bus_out'low + index;
-    subtype A is natural range x + 0 to x + 0;
+    signal link_number : tLinkLUT := cLinkLUT;
 begin
-    MatrixLutInstance : ENTITY work.GenPromClocked
-        GENERIC MAP(
-          FileName => "random_0.mif",
-          BusName  => "A/MatrixA" & INTEGER'IMAGE( index )
-        )
-        PORT MAP(
-            -- Input Ports --
-            clk => clk ,
-            AddressIn => address(10 downto 0),
-            BusIn => bus_in(A),
-            BusClk => clk_bus,
+    gGetCorrectionMatrix : for i in 0 to link_count*stubs_per_word - 1 generate
+        signal address, data : std_logic_vector(17 downto 0) := (others => '0');
+        signal clk_bus : std_logic := '0';
 
-            -- Output Ports --
-            DataOut => data,
-            BusOut => bus_out(A)
-        );
+        -- Constants required for FunkyMiniBus
+        constant x : integer := bus_out'low + i;
+        subtype A is natural range x + 0 to x + 0;
+    begin
 
-    gMatrix : for i in 0 to 5 generate
-        matrix(i) <= to_integer(signed(data(4 + i downto i)));
+        -- Highest 3 bits are assumed to be the FE ID - No idea if this is correct as I didn't make the specifications
+        address(4 downto 0) <= std_logic_vector(to_unsigned(link_number(i), 5));
+
+        MatrixLutInstance : ENTITY work.GenPromClocked
+            GENERIC MAP(
+              FileName => "random_0.mif",
+              BusName  => "A/MatrixA" & INTEGER'IMAGE(i)
+            )
+            PORT MAP(
+                -- Input Ports --
+                clk => clk ,
+                AddressIn => address(10 downto 0),
+                BusIn => bus_in(A),
+                BusClk => clk_bus,
+
+                -- Output Ports --
+                DataOut => data,
+                BusOut => bus_out(A)
+            );
+
+        gMatrix : for j in 0 to 5 generate
+            MatricesOut(i)(j) <= to_integer(signed(data(4 + j downto j)));
+        end generate;
     end generate;
 
 end Behavioral;

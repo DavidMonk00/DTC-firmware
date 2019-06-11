@@ -11,6 +11,7 @@ architecture Behavioral of Testbench is
     signal clk : std_logic := '0';
     signal counter : integer := 0; -- Counter to more easily calculate latency
     signal links_in : tLinksIn := NullLinksIn; -- Input word for CIC
+    signal links_out : tRouterInputArray := NullRouterInputArray;
 
 begin
 
@@ -37,7 +38,8 @@ begin
     TopInstance : entity work.top
     PORT MAP(
         clk => clk,
-        links_in => links_in
+        links_in => links_in,
+        data_out => links_out
     );
 
 end Behavioral;

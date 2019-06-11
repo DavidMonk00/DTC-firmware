@@ -30,10 +30,10 @@ entity RouterInputReformatting is
     port (
         -- Input Ports --
         clk : in std_logic;
-        stub_in : in tStub;
+        StubPipeIn : in tStubPipe;
 
         -- Output Ports --
-        word_out : out tRouterInputWord
+        WordsOut : out tRouterInputArray
     );
 end RouterInputReformatting;
 
@@ -41,22 +41,27 @@ architecture Behavioral of RouterInputReformatting is
 
 begin
 
-pFormat : process(clk)
-begin
-    if rising_edge(clk) then
-        word_out(0)(4 downto 0) <= std_logic_vector(stub_in.header.bx);
-        word_out(0)(6 downto 5) <= std_logic_vector(stub_in.header.nonant);
+    gRouterInputFormatter : for i in 0 to link_count*stubs_per_word - 1 generate
+    begin
+        pFormat : process(clk)
+        begin
+            if rising_edge(clk) then
+                WordsOut(2 * i)(4 downto 0) <= std_logic_vector(StubPipeIn(0)(i).header.bx);
+                WordsOut(2 * i)(6 downto 5) <= std_logic_vector(StubPipeIn(0)(i).header.nonant);
 
-        word_out(1)(0) <= stub_in.payload.valid;
-        word_out(1)(12 downto 1) <= std_logic_vector(to_unsigned(stub_in.payload.r, 12));
-        word_out(1)(24 downto 13) <= std_logic_vector(to_signed(stub_in.payload.z, 12));
-        word_out(1)(41 downto 25) <= std_logic_vector(to_signed(stub_in.payload.phi, 17));
-        word_out(1)(45 downto 42) <= std_logic_vector(stub_in.payload.alpha);
-        word_out(1)(49 downto 46) <= std_logic_vector(stub_in.payload.bend);
-        word_out(1)(51 downto 50) <= std_logic_vector(stub_in.payload.layer);
-        word_out(1)(52) <= stub_in.payload.barrel;
-        word_out(1)(53) <= stub_in.payload.module;
-    end if;
-end process;
+                WordsOut(2 * i + 1)(0) <= StubPipeIn(0)(i).payload.valid;
+                WordsOut(2 * i + 1)(12 downto 1) <= std_logic_vector(to_unsigned(StubPipeIn(0)(i).payload.r, 12));
+                WordsOut(2 * i + 1)(24 downto 13) <= std_logic_vector(to_signed(StubPipeIn(0)(i).payload.z, 12));
+                WordsOut(2 * i + 1)(41 downto 25) <= std_logic_vector(to_signed(StubPipeIn(0)(i).payload.phi, 17));
+                WordsOut(2 * i + 1)(45 downto 42) <= std_logic_vector(StubPipeIn(0)(i).payload.alpha);
+                WordsOut(2 * i + 1)(49 downto 46) <= std_logic_vector(StubPipeIn(0)(i).payload.bend);
+                WordsOut(2 * i + 1)(51 downto 50) <= std_logic_vector(StubPipeIn(0)(i).payload.layer);
+                WordsOut(2 * i + 1)(52) <= StubPipeIn(0)(i).payload.barrel;
+                WordsOut(2 * i + 1)(53) <= StubPipeIn(0)(i).payload.module;
+            end if;
+        end process;
+    end generate;
+
+
 
 end Behavioral;

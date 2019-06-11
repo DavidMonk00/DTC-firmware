@@ -10,26 +10,26 @@ use work.data_types.all;
 
 --! @brief An entity providing a StubPipe
 --! @details Detailed description
-ENTITY CICStubPipe IS
+ENTITY StubPipe IS
   PORT(
     clk      : IN STD_LOGIC               := '0'; --! The algorithm clock
-    stubsIn  : IN tCICStubArray := NullCICStubArray;
-    stubPipe : OUT tCICStubPipe
+    StubsIn  : IN tStubArray := NullStubArray;
+    StubPipe : OUT tStubPipe
   );
-END CICStubPipe;
+END StubPipe;
 
 --! @brief Architecture definition for entity StubPipe
 --! @details Detailed description
-ARCHITECTURE behavioral OF CICStubPipe IS
-    SIGNAL stubPipeInternal : tCICStubPipe( stubPipe'RANGE ) := ( OTHERS => NullCICStubArray );
+ARCHITECTURE behavioral OF StubPipe IS
+    SIGNAL StubPipeInternal : tStubPipe( stubPipe'RANGE ) := ( OTHERS => NullStubArray );
 BEGIN
 
-  stubPipeInternal( 0 ) <= stubsIn; -- since the data is clocked out , no need to clock it in as well...
+  StubPipeInternal( 0 ) <= StubsIn; -- since the data is clocked out , no need to clock it in as well...
 
-  gStubPipe : FOR i IN 1 TO stubPipe'HIGH GENERATE
-    stubPipeInternal( i ) <= stubPipeInternal( i-1 ) WHEN RISING_EDGE( clk );
+  gStubPipe : FOR i IN 1 TO StubPipe'HIGH GENERATE
+    StubPipeInternal( i ) <= StubPipeInternal( i-1 ) WHEN RISING_EDGE( clk );
   END GENERATE gStubPipe;
 
-  stubPipe <= stubPipeInternal;
+  StubPipe <= StubPipeInternal;
 
 END ARCHITECTURE behavioral;

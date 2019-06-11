@@ -8,4 +8,20 @@
 ######################################################################
 if { [catch {[add wave *]}] } {}
 
-add wave sim:/testbench/TopInstance/*
+### General Simulation ###
+add wave sim:/testbench/clk
+add wave sim:/testbench/TopInstance/CICStubPipe(0)(0)
+add wave sim:/testbench/TopInstance/FormattedStubPipe(0)(0)
+add wave sim:/testbench/TopInstance/CorrectedStubPipe(0)(0)
+add wave -divider
+
+### CoordinateCorrector ###
+add wave -radix decimal -position insertpoint sim:/testbench/TopInstance/CoordinateCorrectorInstance/StubPipeIn(0)(0).intrinsic
+add wave -radix decimal -position insertpoint sim:/testbench/TopInstance/CoordinateCorrectorInstance/MatricesIn(0)
+add wave -radix decimal -position insertpoint sim:/testbench/TopInstance/CoordinateCorrectorInstance/gCoordinateCorrector(0)/multiplied_matrix
+add wave -radix decimal -position insertpoint sim:/testbench/TopInstance/CoordinateCorrectorInstance/gCoordinateCorrector(0)/vector_buff.r
+add wave -radix decimal -position insertpoint sim:/testbench/TopInstance/CoordinateCorrectorInstance/StubPipeIn(3)(0).payload.r
+add wave -radix decimal -position insertpoint sim:/testbench/TopInstance/CoordinateCorrectorInstance/gCoordinateCorrector(0)/vector.r
+
+add wave -position insertpoint sim:/testbench/TopInstance/CoordinateCorrectorInstance/StubPipeOut(0)(0)
+add wave -divider
