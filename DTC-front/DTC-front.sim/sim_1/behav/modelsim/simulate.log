@@ -461,3 +461,5 @@ do {Testbench_simulate.do}
 #    Time: 912500 ps  Iteration: 0  Region: /testbench/TopInstance/RouterInputReformattingInstance/gRouterInputFormatter(1)
 # ** Error: (vsim-86) Argument value -227 is not in bounds of subtype NATURAL.
 #    Time: 937500 ps  Iteration: 0  Region: /testbench/TopInstance/RouterInputReformattingInstance/gRouterInputFormatter(1)
+# End time: 16:02:06 on Jun 11,2019, Elapsed time: 0:02:17
+# Errors: 20, Warnings: 8

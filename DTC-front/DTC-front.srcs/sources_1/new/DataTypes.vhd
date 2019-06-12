@@ -67,6 +67,7 @@ package data_types is
                                        (others => '0'), (others => '0'));
 
 
+
     type tCICStub is record
         header : tCICHeader;
         payload : tCICPayload;
