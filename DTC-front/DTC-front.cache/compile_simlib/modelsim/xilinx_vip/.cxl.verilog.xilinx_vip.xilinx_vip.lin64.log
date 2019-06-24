@@ -2,7 +2,7 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap xilinx_vip /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/xilinx_vip 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:02:38 on May 03,2019
+Start time: 10:54:55 on Jun 21,2019
 vlog -sv -64 "+incdir+/opt/Xilinx/Vivado/2018.3/data/xilinx_vip/include" -work xilinx_vip -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/xilinx_vip/.cxl.systemverilog.xilinx_vip.xilinx_vip.lin64.cmf 
 -- Compiling interface axi4stream_vip_axi4streampc
 -- Compiling interface axi_vip_axi4pc
@@ -23,5 +23,5 @@ vlog -sv -64 "+incdir+/opt/Xilinx/Vivado/2018.3/data/xilinx_vip/include" -work x
 
 Top level modules:
 	--none--
-End time: 13:02:39 on May 03,2019, Elapsed time: 0:00:01
+End time: 10:54:56 on Jun 21,2019, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0

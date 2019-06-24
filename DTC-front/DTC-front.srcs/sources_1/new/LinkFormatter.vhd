@@ -104,33 +104,32 @@ begin
     gLinksFormat : for i in 0 to link_count - 1 generate
     begin
 
-        pHeaderSeparation : process(clk)
-        begin
-            if rising_edge(clk) then
-                -- Separate out header words from payload
-                if counter < header_frames then
-                    fStubValid : for j in 0 to stubs_per_word - 1 loop
-                        StubArray(i * stubs_per_word + j).payload.valid <= '0';
+        fStubAssignment : for j in 0 to stubs_per_word - 1 generate
+            pHeaderSeparation : process(clk)
+            begin
+                if rising_edge(clk) then
+                    -- Separate out header words from payload
+                    if counter < header_frames then
+                            StubArray(i * stubs_per_word + j).payload.valid <= '0';
 
-                        StubArray(i * stubs_per_word + j).header.boxcar_number <= unsigned(LinksIn(i)(63 downto 52));
-                        StubArray(i * stubs_per_word + j).header.stub_count <= unsigned(LinksIn(i)(51 downto 46));
-                    end loop;
-                else
-                    -- Conversion to current DTC input word format
-                    fStubAssignment : for j in 0 to stubs_per_word - 1 loop
-                        StubArray(i * stubs_per_word + j).header.boxcar_number  <= StubArray(i * stubs_per_word + j).header.boxcar_number;
-                        StubArray(i * stubs_per_word + j).header.stub_count     <= StubArray(i * stubs_per_word + j).header.stub_count;
+                            StubArray(i * stubs_per_word + j).header.boxcar_number <= unsigned(LinksIn(i)(63 downto 52));
+                            StubArray(i * stubs_per_word + j).header.stub_count <= unsigned(LinksIn(i)(51 downto 46));
+                    else
+                        -- Conversion to current DTC input word format
 
-                        StubArray(i * stubs_per_word + j).payload.valid         <= LinksIn(i)(63 - j * stub_width);
-                        StubArray(i * stubs_per_word + j).payload.bx            <= unsigned(LinksIn(i)(63 - (j * stub_width + 1) downto 63 - (j * stub_width + 7)));
-                        StubArray(i * stubs_per_word + j).payload.row           <= signed(LinksIn(i)(63 - (j * stub_width + 8) downto 63 - (j * stub_width + 18)));
-                        StubArray(i * stubs_per_word + j).payload.column        <= signed(LinksIn(i)(63 - (j * stub_width + 19) downto 63 - (j * stub_width + 23)));
-                        StubArray(i * stubs_per_word + j).payload.bend          <= signed(LinksIn(i)(63 - (j * stub_width + 24) downto 63 - (j * stub_width + 27)));
-                    end loop;
+                            StubArray(i * stubs_per_word + j).header.boxcar_number  <= StubArray(i * stubs_per_word + j).header.boxcar_number;
+                            StubArray(i * stubs_per_word + j).header.stub_count     <= StubArray(i * stubs_per_word + j).header.stub_count;
+
+                            StubArray(i * stubs_per_word + j).payload.valid         <= LinksIn(i)(63 - j * stub_width);
+                            StubArray(i * stubs_per_word + j).payload.bx            <= unsigned(LinksIn(i)(63 - (j * stub_width + 1) downto 63 - (j * stub_width + 7)));
+                            StubArray(i * stubs_per_word + j).payload.row           <= signed(LinksIn(i)(63 - (j * stub_width + 8) downto 63 - (j * stub_width + 18)));
+                            StubArray(i * stubs_per_word + j).payload.column        <= signed(LinksIn(i)(63 - (j * stub_width + 19) downto 63 - (j * stub_width + 23)));
+                            StubArray(i * stubs_per_word + j).payload.bend          <= signed(LinksIn(i)(63 - (j * stub_width + 24) downto 63 - (j * stub_width + 27)));
+
+                    end if;
                 end if;
-            end if;
-        end process;
-
+            end process;
+        end generate;
     end generate;
 
     CICStubPipeInstance : ENTITY work.CICStubPipe

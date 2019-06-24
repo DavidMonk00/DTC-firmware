@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 d/home/dmonk
 vhigh_speed_selectio_wiz_v3_5_0_BitSlipInLogic_4b
-Z1 !s110 1556885036
+Z1 !s110 1561110970
 !i10b 1
 !s100 ?ILDB6^cT:YQLj[OnI_0M0
 IF>TWn4:mhWL[V]RD5^CgK0
@@ -23,7 +23,7 @@ Z6 OL;L;10.6b;65
 r1
 !s85 0
 31
-Z7 !s108 1556885035.000000
+Z7 !s108 1561110970.000000
 Z8 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/high_speed_selectio_wiz_v3_5/hdl/high_speed_selectio_wiz_v3_5_rfs.v|
 Z9 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|high_speed_selectio_wiz_v3_5_0|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/high_speed_selectio_wiz_v3_5_0/.cxl.verilog.high_speed_selectio_wiz_v3_5_0.high_speed_selectio_wiz_v3_5_0.lin64.cmf|
 !i113 0
@@ -260,7 +260,7 @@ R11
 R12
 nhigh_speed_selectio_wiz_v3_5_0_@c3@b@c@etc_dwnld
 vhigh_speed_selectio_wiz_v3_5_0_clk_rst_top
-Z13 !s110 1556885035
+R1
 !i10b 1
 !s100 ba6IMRJ6Rg7U0:IRSV[Am0
 I4oQN9<]V?>n>oA>hmio_l0
@@ -282,7 +282,7 @@ R10
 R11
 R12
 vhigh_speed_selectio_wiz_v3_5_0_clk_scheme
-R13
+R1
 !i10b 1
 !s100 6fbYEfje3cPf0ZOl8h05F0
 IQZJ2YfU49=McLacH3Bz]]1
@@ -372,7 +372,7 @@ R10
 R11
 R12
 vhigh_speed_selectio_wiz_v3_5_0_rst_scheme
-R13
+R1
 !i10b 1
 !s100 S8OF4ADZZ9IBXZHh?G0=Z1
 IHW@OZc22lD4432W]lJhQU3
@@ -438,7 +438,7 @@ R10
 R11
 R12
 vhigh_speed_selectio_wiz_v3_5_0_sync_cell
-R13
+R1
 !i10b 1
 !s100 O9f3g=z;EiXB4UMknT1>40
 IT>FQWB[CNWnCAVTJHldT41
@@ -504,7 +504,7 @@ R10
 R11
 R12
 vPRBS_ANY
-R13
+R1
 !i10b 1
 !s100 BALjW_^4JJAazh7gX@Il91
 I;Pl]d65?z^Yhze7g^ANOj1

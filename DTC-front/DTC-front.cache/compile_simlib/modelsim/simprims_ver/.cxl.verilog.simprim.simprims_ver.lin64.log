@@ -2,7 +2,7 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap simprims_ver /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/simprims_ver 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:02:00 on May 03,2019
+Start time: 10:54:19 on Jun 21,2019
 vlog -source "+define+XIL_TIMING" -64 -work simprims_ver -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/simprims_ver/.cxl.verilog.simprim.simprims_ver.lin64.cmf -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/simprims_ver/.cxl.verilog.simprim_diablo.simprims_ver.lin64.cmf 
 -- Compiling module IBUFDS_DIFF_OUT_INTERMDISABLE
 -- Compiling module ZHOLD_DELAY
@@ -514,5 +514,5 @@ Top level modules:
 	GTPE2_COMMON
 	IBUF
 	URAM288_BASE
-End time: 13:02:38 on May 03,2019, Elapsed time: 0:00:38
+End time: 10:54:55 on Jun 21,2019, Elapsed time: 0:00:36
 Errors: 0, Warnings: 0

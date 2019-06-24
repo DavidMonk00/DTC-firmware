@@ -21,9 +21,9 @@ V3zcbiSM0Q^g@FW[GB@KoA3
 !s100 Ie:N<d3aC3KbM4Ua;_zXa3
 Z6 OL;C;10.6b;65
 31
-Z7 !s110 1556885076
+Z7 !s110 1561111009
 !i10b 1
-Z8 !s108 1556885076.000000
+Z8 !s108 1561111009.000000
 Z9 !s90 -64|-93|-work|tmr_comparator_v1_0_2|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/tmr_comparator_v1_0_2/.cxl.vhdl.tmr_comparator_v1_0_2.tmr_comparator_v1_0_2.lin64.cmf|
 Z10 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/tmr_comparator_v1_0/hdl/tmr_comparator_v1_0_vh_rfs.vhd|
 !i113 0
@@ -380,7 +380,7 @@ Va>b3k0Kj2EoUS7?IM?@N<1
 !s100 ga=EGjB3OQS8T?6d]E0ed2
 R6
 31
-R7
+Z14 !s110 1561111010
 !i10b 1
 R8
 R9
@@ -419,7 +419,7 @@ V[U[^ebOI=h6koZ=jIXh4=0
 !s100 bE]Ya]e1kE:?@6h:fELGg2
 R6
 31
-R7
+R14
 !i10b 1
 R8
 R9

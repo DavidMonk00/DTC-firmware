@@ -2,7 +2,7 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap axi_traffic_gen_v3_0_4 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_traffic_gen_v3_0_4 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:05:55 on May 03,2019
+Start time: 10:58:06 on Jun 21,2019
 vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work axi_traffic_gen_v3_0_4 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_traffic_gen_v3_0_4/.cxl.verilog.axi_traffic_gen_v3_0_4.axi_traffic_gen_v3_0_4.lin64.cmf 
 -- Compiling module axi_traffic_gen_v3_0_4_asynch_rst_ff
 -- Compiling module axi_traffic_gen_v3_0_4_slvram_v7
@@ -38,5 +38,5 @@ vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work axi_traffic_gen_v3_0_4 -f /hom
 
 Top level modules:
 	axi_traffic_gen_v3_0_4_top
-End time: 13:05:55 on May 03,2019, Elapsed time: 0:00:00
+End time: 10:58:06 on Jun 21,2019, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0

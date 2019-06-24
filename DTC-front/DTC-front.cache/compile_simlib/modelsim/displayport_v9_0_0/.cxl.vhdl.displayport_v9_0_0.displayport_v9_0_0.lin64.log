@@ -2,8 +2,8 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap displayport_v9_0_0 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/displayport_v9_0_0 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:05:33 on May 03,2019
+Start time: 10:57:45 on Jun 21,2019
 vcom -64 -93 -work displayport_v9_0_0 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/displayport_v9_0_0/.cxl.vhdl.displayport_v9_0_0.displayport_v9_0_0.lin64.cmf 
 -- Loading package STANDARD
-End time: 13:05:34 on May 03,2019, Elapsed time: 0:00:01
+End time: 10:57:45 on Jun 21,2019, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0

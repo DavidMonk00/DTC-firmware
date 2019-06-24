@@ -2,7 +2,7 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap high_speed_selectio_wiz_v3_3_1 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/high_speed_selectio_wiz_v3_3_1 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:03:55 on May 03,2019
+Start time: 10:56:09 on Jun 21,2019
 vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work high_speed_selectio_wiz_v3_3_1 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/high_speed_selectio_wiz_v3_3_1/.cxl.verilog.high_speed_selectio_wiz_v3_3_1.high_speed_selectio_wiz_v3_3_1.lin64.cmf 
 -- Compiling module high_speed_selectio_wiz_v3_3_1_sync_cell
 -- Compiling module PRBS_ANY
@@ -34,5 +34,5 @@ Top level modules:
 	high_speed_selectio_wiz_v3_3_1_bs_ctrl_top
 	high_speed_selectio_wiz_v3_3_1_iobuf_top
 	high_speed_selectio_wiz_v3_3_1_bs_top
-End time: 13:03:55 on May 03,2019, Elapsed time: 0:00:00
+End time: 10:56:10 on Jun 21,2019, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0

@@ -2,11 +2,11 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap clk_vip_v1_0_2 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/clk_vip_v1_0_2 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:02:43 on May 03,2019
+Start time: 10:55:00 on Jun 21,2019
 vlog -64 -L clk_vip_v1_0_2 -L xilinx_vip "+incdir+/home/dmonk/.cxl.ip/incl" -sv -work clk_vip_v1_0_2 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/clk_vip_v1_0_2/.cxl.systemverilog.clk_vip_v1_0_2.clk_vip_v1_0_2.lin64.cmf 
 -- Compiling module clk_vip_v1_0_2_top
 
 Top level modules:
 	clk_vip_v1_0_2_top
-End time: 13:02:43 on May 03,2019, Elapsed time: 0:00:00
+End time: 10:55:00 on Jun 21,2019, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0

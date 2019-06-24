@@ -2,11 +2,11 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap displayport_v9_0_0 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/displayport_v9_0_0 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:05:34 on May 03,2019
+Start time: 10:57:45 on Jun 21,2019
 vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work displayport_v9_0_0 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/displayport_v9_0_0/.cxl.verilog.displayport_v9_0_0.displayport_v9_0_0.lin64.cmf 
 ** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/displayport_v9_0/hdl/displayport_v9_0_rfs.v(64): (vlog-2600) <protected>
 ** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/displayport_v9_0/hdl/displayport_v9_0_rfs.v(64): (vlog-2600) <protected>
 
 Top level modules:
-End time: 13:05:42 on May 03,2019, Elapsed time: 0:00:08
+End time: 10:57:53 on Jun 21,2019, Elapsed time: 0:00:08
 Errors: 0, Warnings: 4

@@ -2,8 +2,8 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap sid_v8_0_13 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/sid_v8_0_13 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:06:28 on May 03,2019
+Start time: 10:58:38 on Jun 21,2019
 vcom -64 -93 -work sid_v8_0_13 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/sid_v8_0_13/.cxl.vhdl.sid_v8_0_13.sid_v8_0_13.lin64.cmf 
 -- Loading package STANDARD
-End time: 13:06:29 on May 03,2019, Elapsed time: 0:00:01
+End time: 10:58:39 on Jun 21,2019, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0

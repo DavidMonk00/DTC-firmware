@@ -8,6 +8,6 @@ if { [string length $curr_wave] == 0 } {
   }
 }
 
-add_force {/top/clk} -radix hex {1 0ns} {0 12500ps} -repeat_every 25000ps
+#add_force {/top/clk} -radix hex {1 0ns} {0 12500ps} -repeat_every 25000ps
 
 run 250ns

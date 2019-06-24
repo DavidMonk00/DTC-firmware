@@ -2,7 +2,7 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap uhdsdi_gt_v1_0_3 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/uhdsdi_gt_v1_0_3 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:03:00 on May 03,2019
+Start time: 10:55:17 on Jun 21,2019
 vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work uhdsdi_gt_v1_0_3 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/uhdsdi_gt_v1_0_3/.cxl.verilog.uhdsdi_gt_v1_0_3.uhdsdi_gt_v1_0_3.lin64.cmf 
 -- Compiling module uhdsdi_drp_control
 -- Compiling module uhdsdi_rate_detect
@@ -52,5 +52,5 @@ vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work uhdsdi_gt_v1_0_3 -f /home/dmon
 Top level modules:
 	uhdsdi_control
 	uhdsdi_multigt_wrapper
-End time: 13:03:01 on May 03,2019, Elapsed time: 0:00:01
+End time: 10:55:17 on Jun 21,2019, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0

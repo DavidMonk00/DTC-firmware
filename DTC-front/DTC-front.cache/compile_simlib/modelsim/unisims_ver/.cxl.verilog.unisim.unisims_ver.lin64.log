@@ -2,7 +2,7 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap unisims_ver /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/unisims_ver 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:01:57 on May 03,2019
+Start time: 10:54:16 on Jun 21,2019
 vlog -source -64 -work unisims_ver -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/unisims_ver/.cxl.verilog.unisim.unisims_ver.lin64.cmf 
 -- Compiling module IBUFDS_DIFF_OUT_INTERMDISABLE
 -- Compiling module ZHOLD_DELAY
@@ -2186,10 +2186,10 @@ Top level modules:
 	STARTUP_SPARTAN3
 	NOR4B1
 	OBUFT_HSTL_III_18
-End time: 13:01:59 on May 03,2019, Elapsed time: 0:00:02
+End time: 10:54:19 on Jun 21,2019, Elapsed time: 0:00:03
 Errors: 0, Warnings: 0
 Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:01:59 on May 03,2019
+Start time: 10:54:19 on Jun 21,2019
 vlog -source -64 -sv -work unisims_ver -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/unisims_ver/.cxl.systemverilog.unisim.unisims_ver.lin64.cmf 
 -- Compiling module HSADC
 -- Compiling module HSDAC
@@ -2199,5 +2199,5 @@ Top level modules:
 	HSADC
 	HSDAC
 	GTM_DUAL
-End time: 13:01:59 on May 03,2019, Elapsed time: 0:00:00
+End time: 10:54:19 on Jun 21,2019, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0

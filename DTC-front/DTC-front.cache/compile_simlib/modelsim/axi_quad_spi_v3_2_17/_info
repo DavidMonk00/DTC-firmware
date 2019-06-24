@@ -30,9 +30,9 @@ VXWhJgS1jm[`6Je0EiRAI;1
 !s100 zmc2>92;b:BGL4dLhN=Sa0
 Z15 OL;C;10.6b;65
 31
-Z16 !s110 1556885182
+Z16 !s110 1561111112
 !i10b 1
-Z17 !s108 1556885181.000000
+Z17 !s108 1561111112.000000
 Z18 !s90 -64|-93|-work|axi_quad_spi_v3_2_17|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_quad_spi_v3_2_17/.cxl.vhdl.axi_quad_spi_v3_2_17.axi_quad_spi_v3_2_17.lin64.cmf|
 Z19 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/axi_quad_spi_v3_2/hdl/axi_quad_spi_v3_2_rfs.vhd|
 !i113 0
@@ -266,7 +266,7 @@ VK8P19gR@_JlHSV]NbDB[L2
 !s100 LPCWVo7QH1l58g0i7QRW?1
 R15
 31
-Z31 !s110 1556885181
+R16
 !i10b 1
 R17
 R18
@@ -288,7 +288,7 @@ VV0=6W2Vd7?FfMm?K7fm5I1
 !s100 mEH@d``T7HPMJNzROm8k`3
 R15
 31
-R31
+R16
 !i10b 1
 R17
 R18
@@ -307,7 +307,7 @@ V`PPLhHmA<OI^mKT?Zi5nk3
 !s100 72IMRVNXa:?j?8lj0H7cK3
 R15
 31
-R31
+R16
 !i10b 1
 R17
 R18
@@ -444,7 +444,7 @@ V2go_m3kjZ@8<:XPX[3YP20
 !s100 :c=8eTnTgFN9o]1WS1QUO0
 R15
 31
-R31
+R16
 !i10b 1
 R17
 R18
@@ -462,7 +462,7 @@ VQR:3?IM1R[gi<aLCV^JAh2
 !s100 ee4SdW4AOm2TA1U1j=DcD0
 R15
 31
-R31
+R16
 !i10b 1
 R17
 R18
@@ -616,7 +616,7 @@ DEx20 axi_quad_spi_v3_2_17 10 soft_reset 0 22 @gPFbMRO7mY?P]RdlaMl@0
 DEx20 axi_quad_spi_v3_2_17 25 qspi_status_slave_sel_reg 0 22 UL[4Bzlkc9`;M09_nYP_X2
 DEx20 axi_quad_spi_v3_2_17 14 qspi_cntrl_reg 0 22 gK0l65?YX6:D`;ekF0?dP0
 DEx20 axi_quad_spi_v3_2_17 23 qspi_mode_control_logic 0 22 0Nf:9zdjW]SVHEO`];?Qz2
-Z32 DPx20 axi_quad_spi_v3_2_17 9 comp_defs 0 22 K8P19gR@_JlHSV]NbDB[L2
+Z31 DPx20 axi_quad_spi_v3_2_17 9 comp_defs 0 22 K8P19gR@_JlHSV]NbDB[L2
 DEx20 axi_quad_spi_v3_2_17 18 qspi_look_up_logic 0 22 2h7dYYWgTHTTUlY=W]WYG1
 DEx20 axi_quad_spi_v3_2_17 18 qspi_mode_0_module 0 22 O>zg@afJk]VJLg^Q6Tk`d3
 R29
@@ -759,7 +759,7 @@ R21
 Eqspi_look_up_logic
 R1
 R23
-R32
+R31
 R2
 R8
 R10
@@ -787,7 +787,7 @@ Aimp
 DPx7 verilog 8 vl_types 0 22 bmGnzhS4n>6F^Dki9hX>O3
 DEx20 dist_mem_gen_v8_0_12 20 dist_mem_gen_v8_0_12 0 22 Dg1SIo80bB@j0V0VzS_@n1
 R23
-R32
+R31
 R2
 R8
 R10

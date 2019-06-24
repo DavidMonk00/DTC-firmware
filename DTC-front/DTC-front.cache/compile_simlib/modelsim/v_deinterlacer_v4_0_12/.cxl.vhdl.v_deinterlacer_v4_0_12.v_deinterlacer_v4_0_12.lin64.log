@@ -2,8 +2,8 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap v_deinterlacer_v4_0_12 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/v_deinterlacer_v4_0_12 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:04:20 on May 03,2019
+Start time: 10:56:33 on Jun 21,2019
 vcom -64 -93 -work v_deinterlacer_v4_0_12 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/v_deinterlacer_v4_0_12/.cxl.vhdl.v_deinterlacer_v4_0_12.v_deinterlacer_v4_0_12.lin64.cmf 
 -- Loading package STANDARD
-End time: 13:04:21 on May 03,2019, Elapsed time: 0:00:01
+End time: 10:56:34 on Jun 21,2019, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0

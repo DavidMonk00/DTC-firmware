@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 d/home/dmonk
 vgtwizard_ultrascale_v1_7_5_bit_synchronizer
-Z1 !s110 1556884984
+Z1 !s110 1561110920
 !i10b 1
 !s100 Qh2WYTOVaPG64NdCR2E=F1
 IQ@9n<<nfboTEMVImJ8nCW1
@@ -23,7 +23,7 @@ Z5 OL;L;10.6b;65
 r1
 !s85 0
 31
-Z6 !s108 1556884984.000000
+Z6 !s108 1561110920.000000
 Z7 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_reset_inv_sync.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_reset_sync.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_userclk_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_userclk_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_reset.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_buffbypass_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtwiz_buffbypass_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_cal_freqcnt.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_cal_freqcnt.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe3_cal_freqcnt.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe3_cpll_cal.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gtye4_delay_powergood.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gthe4_delay_powergood.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_gte4_drp_arb.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_7/hdl/gtwizard_ultrascale_v1_7_bit_sync.v|
 Z8 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|gtwizard_ultrascale_v1_7_5|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/gtwizard_ultrascale_v1_7_5/.cxl.verilog.gtwizard_ultrascale_v1_7_5.gtwizard_ultrascale_v1_7_5.lin64.cmf|
 !i113 0

@@ -2,8 +2,8 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap pc_cfr_v6_2_1 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/pc_cfr_v6_2_1 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:03:59 on May 03,2019
+Start time: 10:56:13 on Jun 21,2019
 vcom -64 -93 -work pc_cfr_v6_2_1 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/pc_cfr_v6_2_1/.cxl.vhdl.pc_cfr_v6_2_1.pc_cfr_v6_2_1.lin64.cmf 
 -- Loading package STANDARD
-End time: 13:04:00 on May 03,2019, Elapsed time: 0:00:01
+End time: 10:56:14 on Jun 21,2019, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0

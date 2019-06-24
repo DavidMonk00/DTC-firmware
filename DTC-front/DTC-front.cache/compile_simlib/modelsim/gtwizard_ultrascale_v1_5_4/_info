@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 d/home/dmonk
 vgtwizard_ultrascale_v1_5_4_bit_synchronizer
-Z1 !s110 1556884980
+Z1 !s110 1561110916
 !i10b 1
 !s100 >[kOQJcc?^6DdLU]<TNBl1
 IH_04=zA^BJ3@YINHcakAZ1
@@ -23,7 +23,7 @@ Z5 OL;L;10.6b;65
 r1
 !s85 0
 31
-Z6 !s108 1556884979.000000
+Z6 !s108 1561110916.000000
 Z7 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_reset_synchronizer.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userdata_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userdata_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userclk_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_userclk_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_reset.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_buffbypass_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gtwiz_buffbypass_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gthe3_cpll_cal_freq_counter.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_gthe3_cpll_cal.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/gtwizard_ultrascale_v1_5/hdl/verilog/gtwizard_ultrascale_v1_5_bit_synchronizer.v|
 Z8 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|gtwizard_ultrascale_v1_5_4|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/gtwizard_ultrascale_v1_5_4/.cxl.verilog.gtwizard_ultrascale_v1_5_4.gtwizard_ultrascale_v1_5_4.lin64.cmf|
 !i113 0

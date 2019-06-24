@@ -2,8 +2,8 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap switch_core_top_v1_0_6 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/switch_core_top_v1_0_6 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:05:05 on May 03,2019
+Start time: 10:57:17 on Jun 21,2019
 vcom -64 -93 -work switch_core_top_v1_0_6 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/switch_core_top_v1_0_6/.cxl.vhdl.switch_core_top_v1_0_6.switch_core_top_v1_0_6.lin64.cmf 
 -- Loading package STANDARD
-End time: 13:05:06 on May 03,2019, Elapsed time: 0:00:01
+End time: 10:57:18 on Jun 21,2019, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0

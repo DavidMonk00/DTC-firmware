@@ -8,7 +8,7 @@ z2
 !i10f 100
 cModel Technology
 Z0 d/home/dmonk
-EAkTRWZYt+FbdShp+3wU5ZA==
+E6FWH3aF/GTY24B9RogiHqg==
 Z1 w1544171280
 Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
@@ -22,18 +22,18 @@ L1375
 V]08T]k@9T21e]J1:oCc@I1
 !s100 G`HDBE[HWzG3AFciI^WQ11
 Z8 OL;C;10.6b;65
-!i8a 381919680
+!i8a 1155567888
 31
-Z9 !s110 1556884980
+Z9 !s110 1561110916
 !i10b 1
-Z10 !s108 1556884980.000000
+Z10 !s108 1561110916.000000
 Z11 !s90 -64|-93|-work|uhdsdi_gt_v1_0_3|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/uhdsdi_gt_v1_0_3/.cxl.vhdl.uhdsdi_gt_v1_0_3.uhdsdi_gt_v1_0_3.lin64.cmf|
 Z12 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/nidru/nidru_20_wrapper.vhd|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/nidru/nidru_20_v_7.vhd|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/nidru/bs_flex_v_2.vhd|
 !i113 0
 Z13 o-93 -work uhdsdi_gt_v1_0_3
 Z14 tExplicit 1 CvgOpt 0
 n8fa14d0
-AFB+HWfdr/YojkFsYJJ27JQ==
+ALhM2BmXNEC3eZbCYtn9GQA==
 R2
 R3
 R4
@@ -44,7 +44,7 @@ L1391
 Vg?Ae?R3EGFSPUbh@GT9m12
 !s100 DC@e6lJLDdFMoKR2Y0]z^1
 R8
-!i8a 1173194224
+!i8a 823415696
 31
 R9
 !i10b 1
@@ -55,7 +55,7 @@ R12
 R13
 R14
 Z15 n8cae39c
-Edm7p5/Upu1FcaM+M3GClZQ==
+EIhh6D4KBtYOoeGww6llejA==
 R1
 R2
 R3
@@ -69,7 +69,7 @@ L1638
 V7^CliNeNOCCDbI=oUI;f83
 !s100 ONmKiDRXiV_Z4H2?1@oHK2
 R8
-!i8a 633691616
+!i8a 483292384
 31
 R9
 !i10b 1
@@ -80,7 +80,7 @@ R12
 R13
 R14
 n4deada6
-ADhNfAYvk/O1ErHSQPHKoAw==
+AEUQEU7JGuYnPYPFCklh5hg==
 R2
 R3
 R4
@@ -91,7 +91,7 @@ L1654
 V_478z?f[fCjNk3E9;Y6Gd0
 !s100 _i:>AWAI@m0<Q[:O:Y^Ff3
 R8
-!i8a 1910028112
+!i8a 5751552
 31
 R9
 !i10b 1
@@ -102,7 +102,7 @@ R12
 R13
 R14
 R15
-EJkLt4/Q4zojqN06po7AD2A==
+EnEOYfdCqyZZ9Ox0MTm7gMg==
 R1
 R2
 R3
@@ -116,7 +116,7 @@ L1507
 V27H<3jUoeCEC<]Lm=hMET1
 !s100 oXmeNU3bmCb4cm6@`Y61D3
 R8
-!i8a 1080150096
+!i8a 1811604576
 31
 R9
 !i10b 1
@@ -127,7 +127,7 @@ R12
 R13
 R14
 n98fa145
-AZx+gBuPbTur0Sa0/Xp5FAw==
+Avzk9kpfWb/dUaEoOJT3aOw==
 R2
 R3
 R4
@@ -138,7 +138,7 @@ L1520
 V3YA39hjlnY9Cm:ZS4=GKI1
 !s100 6U[XAAF52DO5IMHD`UQm71
 R8
-!i8a 67033760
+!i8a 7920208
 31
 R9
 !i10b 1
@@ -149,7 +149,7 @@ R12
 R13
 R14
 R15
-Eq546zbE4R1gcvUVEdVyRyA==
+EVHOc234dyalJowZkh8C/JQ==
 R1
 Z16 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R3
@@ -164,7 +164,7 @@ L95
 VW]D;QRT1UZiLJmFH8JgSa1
 !s100 ^DUkbbB9Pid_aDP39fB_T1
 R8
-!i8a 181073584
+!i8a 892633984
 31
 R9
 !i10b 1
@@ -175,7 +175,7 @@ R12
 R13
 R14
 n995d2a8
-AKxIU6o6Q4qjxWOrhaY4aDQ==
+AC4GIUjjJDo44mT7g0bCUjg==
 R16
 R3
 R2
@@ -187,7 +187,7 @@ L113
 V0DQI?Gfoe@9`R@9@3[`Kc2
 !s100 9=L_RVCdX<MFnJV`FJ9MF3
 R8
-!i8a 1077331024
+!i8a 485258480
 31
 R9
 !i10b 1
@@ -198,7 +198,7 @@ R12
 R13
 R14
 Z19 nbe8cae2
-Ej8HjGqHixTLgKPZFOjryxQ==
+E3iY8ACk56wdC0BEz5uUTUg==
 R1
 R2
 R3
@@ -212,7 +212,7 @@ L1281
 V^A`IS[6Si:@E;GiK4o;g]3
 !s100 TBahIelSiPEE6[oPMFicl3
 R8
-!i8a 618859056
+!i8a 1296215456
 31
 R9
 !i10b 1
@@ -223,7 +223,7 @@ R12
 R13
 R14
 n697
-A0tKS+G7fuar+37UItP98aQ==
+AD3acxhHjxNN5gUrvXt40Cw==
 R2
 R3
 R4
@@ -234,7 +234,7 @@ L1297
 V;9o1TSC9lkSjnH4afgZmV1
 !s100 eG81NDVd0iTXBENMTGPWg2
 R8
-!i8a 984398832
+!i8a 560882048
 31
 R9
 !i10b 1
@@ -245,7 +245,7 @@ R12
 R13
 R14
 R15
-EfnO01MDYclIFDlkhIB8Kzw==
+ERmWwvMtK3zEuKji5qHRMSg==
 R1
 R16
 R3
@@ -260,7 +260,7 @@ L309
 V@V;JfcllOk7FTTX6iI57i0
 !s100 Od6N_]Xc:=DScFEmiOaT_0
 R8
-!i8a 150369168
+!i8a 192835328
 31
 R9
 !i10b 1
@@ -271,7 +271,7 @@ R12
 R13
 R14
 na65b93c
-AqcVAP8LoCff+fMQIXrhcxg==
+AudfjutDIWPskoQlFC8jdDA==
 R16
 R3
 R2
@@ -283,7 +283,7 @@ L327
 VkkIYa;^QKBmZee8m];<n@1
 !s100 Z=CM8?YTA:>E;0=ggO7O_0
 R8
-!i8a 269651984
+!i8a 283446544
 31
 R9
 !i10b 1
@@ -294,7 +294,7 @@ R12
 R13
 R14
 R19
-ErzRVkUq6LCDvAtgsjayHgw==
+E/Wg80TBNjBW5vCaIcN4ohw==
 R1
 R2
 R3
@@ -308,7 +308,7 @@ L111
 VTNPcT=QcXekRSV_dcBSYM3
 !s100 2J:32]a_g`V6:;_go;6mN2
 R8
-!i8a 1407589712
+!i8a 2064881424
 31
 R9
 !i10b 1
@@ -319,7 +319,7 @@ R12
 R13
 R14
 n6b95
-A3A7/z8X4/Q0UT8sQOAI/aw==
+ANqImg8+IV1Y5ASi2XF92sA==
 R2
 R3
 R4
@@ -330,7 +330,7 @@ L159
 VzGfP1o[VB1?g]ClR0CkRR0
 !s100 @k`GYNR3=@CEE`cI]Yb[O3
 R8
-!i8a 1658120464
+!i8a 743165120
 31
 R9
 !i10b 1
@@ -342,578 +342,578 @@ R13
 R14
 R15
 vgtwizard_ultrascale_v1_7_1_bit_synchronizer
-R9
+Z20 !s110 1561110917
 !i10b 1
 !s100 mc1i3^lg`GBA=Ln0lAVCP3
 I6F=6@QR]bWheC84@RQG3b1
-Z20 VDg1SIo80bB@j0V0VzS_@n1
+Z21 VDg1SIo80bB@j0V0VzS_@n1
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_bit_sync.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_bit_sync.v
-Z21 L0 55
-Z22 OL;L;10.6b;65
+Z22 L0 55
+Z23 OL;L;10.6b;65
 r1
 !s85 0
 31
-R10
-Z23 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/uhdsdi_multigt_wrapper.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/gt_common/uhdsdi_gtwiz_gtye4_common_wrapper.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/gt_common/gtwizard_ultrascale_v1_7_gtye4_common.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/synth/uhdsdi_gtwiz_gtwizard_gtye4.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/synth/uhdsdi_gtwiz_gtye4_channel_wrapper.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/synth/uhdsdi_gtwiz_gtye4.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/synth/gtwizard_ultrascale_v1_7_gtye4_channel.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/gt_common/uhdsdi_gthe4_common_wrapper.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/gt_common/uhdsdi_gthe4_common.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/synth/uhdsdi_gtwiz_gtwizard_gthe4.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/synth/uhdsdi_gtwiz_gthe4_channel_wrapper.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/synth/uhdsdi_gtwiz_gthe4.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/synth/gtwizard_ultrascale_v1_7_gthe4_channel.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/uhdsdi_gtwiz_gtwizard_top.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_reset_sync.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_reset_inv_sync.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_delay_powergood.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_cal_freqcnt.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_userclk_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_userclk_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_reset.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_buffbypass_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_buffbypass_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_delay_powergood.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_cal_freqcnt.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe3_cpll_cal.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe3_cal_freqcnt.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gte4_drp_arb.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_bit_sync.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_drp_control_fsm.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_gt_sync_block.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_tx_control.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_rx_control.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_control.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_rate_detect.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_drp_control.v|
-Z24 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|uhdsdi_gt_v1_0_3|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/uhdsdi_gt_v1_0_3/.cxl.verilog.uhdsdi_gt_v1_0_3.uhdsdi_gt_v1_0_3.lin64.cmf|
+Z24 !s108 1561110917.000000
+Z25 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/uhdsdi_multigt_wrapper.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/gt_common/uhdsdi_gtwiz_gtye4_common_wrapper.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/gt_common/gtwizard_ultrascale_v1_7_gtye4_common.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/synth/uhdsdi_gtwiz_gtwizard_gtye4.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/synth/uhdsdi_gtwiz_gtye4_channel_wrapper.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/synth/uhdsdi_gtwiz_gtye4.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/synth/gtwizard_ultrascale_v1_7_gtye4_channel.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/gt_common/uhdsdi_gthe4_common_wrapper.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/gt_common/uhdsdi_gthe4_common.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/synth/uhdsdi_gtwiz_gtwizard_gthe4.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/synth/uhdsdi_gtwiz_gthe4_channel_wrapper.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/synth/uhdsdi_gtwiz_gthe4.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/synth/gtwizard_ultrascale_v1_7_gthe4_channel.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/uhdsdi_gtwiz_gtwizard_top.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_reset_sync.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_reset_inv_sync.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_delay_powergood.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_cal_freqcnt.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_userclk_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_userclk_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_reset.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_buffbypass_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_buffbypass_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_delay_powergood.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_tx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_rx.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_cal_freqcnt.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe3_cpll_cal.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe3_cal_freqcnt.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gte4_drp_arb.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_bit_sync.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_drp_control_fsm.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_gt_sync_block.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_tx_control.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_rx_control.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_control.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_rate_detect.v|/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_drp_control.v|
+Z26 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|uhdsdi_gt_v1_0_3|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/uhdsdi_gt_v1_0_3/.cxl.verilog.uhdsdi_gt_v1_0_3.uhdsdi_gt_v1_0_3.lin64.cmf|
 !i113 0
-Z25 o-work uhdsdi_gt_v1_0_3 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z26 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work uhdsdi_gt_v1_0_3 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z27 tCvgOpt 0
+Z27 o-work uhdsdi_gt_v1_0_3 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z28 !s92 +incdir+/home/dmonk/.cxl.ip/incl -work uhdsdi_gt_v1_0_3 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z29 tCvgOpt 0
 vgtwizard_ultrascale_v1_7_1_gte4_drp_arb
-R9
+R20
 !i10b 1
 !s100 996gVUZjm8Bi@ZD_LJZG92
 I1XAV;6`[iPMJU1WXUXE?Q3
-R20
+R21
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gte4_drp_arb.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gte4_drp_arb.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gthe3_cpll_cal
-R9
+R20
 !i10b 1
 !s100 VRXBjI>KWP=0gzLdVU0I>2
 IDdcMz>eFR?7nDjmRm@_L?0
-R20
+R21
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe3_cpll_cal.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe3_cpll_cal.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gthe3_cpll_cal_freq_counter
-R9
+R20
 !i10b 1
 !s100 NPIT5=TU@O4n:OE8T=G3D2
 IJj3UgH;l>:9fl^2;C_^jk3
-R20
+R21
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe3_cal_freqcnt.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe3_cal_freqcnt.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gthe4_channel
-Z28 !s110 1556884981
+R20
 !i10b 1
 !s100 V@fET:Ucbb9CeK?_<9X^43
 I4H<=DY8kC[_:FG@?Sao^13
-R20
+R21
 R0
-Z29 w1544171279
+Z30 w1544171279
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/synth/gtwizard_ultrascale_v1_7_gthe4_channel.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/synth/gtwizard_ultrascale_v1_7_gthe4_channel.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gthe4_cpll_cal
-R9
+R20
 !i10b 1
 !s100 1oHc?X0]cZTLi6@F@RW>L3
 IRS2lP^i3E<QkD_mkRQlA71
-R20
+R21
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gthe4_cpll_cal_freq_counter
-R9
+R20
 !i10b 1
 !s100 k=`1COnA>Ia9`@`zJPXDT0
 ImB=YNUHdl@gQA[ZSMYTTg1
-R20
+R21
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_cal_freqcnt.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_cal_freqcnt.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gthe4_cpll_cal_rx
-R9
+R20
 !i10b 1
 !s100 kPWIH5NXgfh??cG2TMn=_1
 ICH?>FIbFLiPkEIZKlQ;A80
-R20
+R21
 R0
-R29
+R30
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_rx.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_rx.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gthe4_cpll_cal_tx
-R9
+R20
 !i10b 1
 !s100 fY8Ah16J:KEd=OQC[HFbh0
 I[V>kL:l[nUYTgZi<JRTPN2
-R20
+R21
 R0
-R29
+R30
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_tx.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_cpll_cal_tx.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gthe4_delay_powergood
-R9
+R20
 !i10b 1
 !s100 85zz>]:N5XL6T3M[OP[fg3
 Im7C[JEjA^zfj@z[Y;idBf2
-R20
+R21
 R0
-R29
+R30
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_delay_powergood.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gthe4_delay_powergood.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gtwiz_buffbypass_rx
-R9
+R20
 !i10b 1
 !s100 `5?lod^hg5QR`UlRf=Ec]0
 IB@95e`NU=91WIKmdcn0Rl3
-R20
+R21
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_buffbypass_rx.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_buffbypass_rx.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gtwiz_buffbypass_tx
-R9
+R20
 !i10b 1
 !s100 ;1AcnOkMO_2H9A57J]h[41
 I>XQ2_Qi8NGYM;6`?8zI_<1
-R20
+R21
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_buffbypass_tx.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_buffbypass_tx.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gtwiz_reset
-R9
+R20
 !i10b 1
 !s100 LSj]DEGI3S5zC4jhIQ?=T0
 I6Lo^e2PHa0d:9j`8iQ>CJ1
-R20
+R21
 R0
-R29
+R30
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_reset.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_reset.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gtwiz_userclk_rx
-R9
+R20
 !i10b 1
 !s100 f4E8X[g<dQ1EYVF0ASZea1
 I`nC4W54JM=07^O=fNiL040
-R20
+R21
 R0
-R29
+R30
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_userclk_rx.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_userclk_rx.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gtwiz_userclk_tx
-R9
+R20
 !i10b 1
 !s100 Whi[DbB[ED^:T31KSL[P<2
 IjC55`C1Q=DN=oJ`Z_HWL>1
-R20
+R21
 R0
-R29
+R30
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_userclk_tx.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_userclk_tx.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gtwiz_userdata_rx
-R9
+R20
 !i10b 1
 !s100 k<Q[:13aP95JJ=lYY5<5Q0
 I^]F^Yf3D>TNf^<BA[SI@P2
-R20
+R21
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_rx.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_rx.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gtwiz_userdata_tx
-R9
+R20
 !i10b 1
 !s100 ^AVEJEed<7n0WCVFBnini3
 I1So7j40?DQ8cohHI1AKb<0
-R20
+R21
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_tx.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtwiz_userdata_tx.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
-vgtwizard_ultrascale_v1_7_1_gtye4_channel
 R28
+R29
+vgtwizard_ultrascale_v1_7_1_gtye4_channel
+R20
 !i10b 1
 !s100 :N`7KY@:U[j7zRIGNV:g>2
 IcR>CI;^HNS@E]L4Z47h^X3
-R20
+R21
 R0
-Z30 w1544171281
+Z31 w1544171281
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/synth/gtwizard_ultrascale_v1_7_gtye4_channel.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/synth/gtwizard_ultrascale_v1_7_gtye4_channel.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
-vgtwizard_ultrascale_v1_7_1_gtye4_common
 R28
+R29
+vgtwizard_ultrascale_v1_7_1_gtye4_common
+R20
 !i10b 1
 !s100 gH?l2hRWLJIL4PMdEjYTH0
 IOIkDVm;bHefEil3LSi:lY3
-R20
+R21
 R0
-R30
+R31
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/gt_common/gtwizard_ultrascale_v1_7_gtye4_common.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/gt_common/gtwizard_ultrascale_v1_7_gtye4_common.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gtye4_cpll_cal
-R9
+R20
 !i10b 1
 !s100 J[UMT[mFzRKJzUAZJ=So?1
 Ia8hYffPIo04hRb8_?fPI]3
-R20
+R21
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gtye4_cpll_cal_freq_counter
-R9
+R20
 !i10b 1
 !s100 S[Jd=bS:De=4aHo8]cFce3
 IYP`lkAi3Fa]ET5Q]BgR7H2
-R20
+R21
 R0
-R29
+R30
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_cal_freqcnt.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_cal_freqcnt.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gtye4_cpll_cal_rx
-R9
+R20
 !i10b 1
 !s100 oKG;_ZhYElkGoN:@?WMfW0
 ImIMWRhlB@dGWYzlGSjm:@0
-R20
+R21
 R0
-R29
+R30
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal_rx.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal_rx.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gtye4_cpll_cal_tx
-R9
+R20
 !i10b 1
 !s100 `Vdh=3O_FW:Lf4JQ`0CPI3
 IkGmj4faSWA3NEHU=YSR>^0
-R20
+R21
 R0
-R29
+R30
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal_tx.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_cpll_cal_tx.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_gtye4_delay_powergood
-R9
+R20
 !i10b 1
 !s100 DJS?WDdJ=JO?`@F`@dlgf3
 IQ?VRmOF1B_l5O6KAa2lKG2
-R20
+R21
 R0
-R29
+R30
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_delay_powergood.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_gtye4_delay_powergood.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_reset_inv_synchronizer
-R9
+R20
 !i10b 1
 !s100 30?4b3[Y1cZcC`5g64VG^1
 In`HM:FYn67[_bJjAZ6?Ib1
-R20
+R21
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_reset_inv_sync.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_reset_inv_sync.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vgtwizard_ultrascale_v1_7_1_reset_synchronizer
-R9
+R20
 !i10b 1
 !s100 ZSHU6=k6H?h>VFn=<0lTP3
 If@h9<1j4LAhRJj@8T6QKK2
-R20
+R21
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_reset_sync.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/hdl/gtwizard_ultrascale_v1_7_reset_sync.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
-E2U+WmGwtOhIyqwpkZ+crqg==
+R28
+R29
+EvyWKOcsZLAr8J5kvOPiWxQ==
 R1
 R16
 R2
@@ -928,7 +928,7 @@ L642
 VmVCNU1NfTfYCZJ@FDH:=G0
 !s100 BCfRG`K=agWPdY:SiiW723
 R8
-!i8a 1052589120
+!i8a 988100432
 31
 R9
 !i10b 1
@@ -939,7 +939,7 @@ R12
 R13
 R14
 n5d049a2
-AByKIMEHOjWRq4QAylZmRWw==
+ApqWx0Sz3p6nyloq2MqQShw==
 R16
 R2
 R3
@@ -951,7 +951,7 @@ L668
 V`kTo@lM:`I^f^zZ:D31f:0
 !s100 G;_KC7Z8TWmSkIlAI[?211
 R8
-!i8a 812732784
+!i8a 1799873536
 31
 R9
 !i10b 1
@@ -962,7 +962,7 @@ R12
 R13
 R14
 R15
-EnEk6oQKnLc9JMXEsJpbaig==
+ESoj6bMwIR1G6QKbnO8siGA==
 R1
 R16
 R2
@@ -977,7 +977,7 @@ L1753
 VSn[`PWTB8bO`C<o;7d;Qb1
 !s100 ?A`5gk=j@Feh?7R^DY2Wh0
 R8
-!i8a 346947952
+!i8a 734262880
 31
 R9
 !i10b 1
@@ -988,7 +988,7 @@ R12
 R13
 R14
 n49a3b2
-AJdiToEc2agKPpMGgkA29SQ==
+AUkoYPR5yz2bVz/CKBykJ+A==
 R16
 R2
 R3
@@ -1000,7 +1000,7 @@ L1780
 V_XRim=UTCd]>NZjPM9OfN3
 !s100 UknNh3<eXT`4RiDk721>=1
 R8
-!i8a 1628289312
+!i8a 1809853488
 31
 R9
 !i10b 1
@@ -1011,21 +1011,21 @@ R12
 R13
 R14
 R15
-EePHee5zh2U7o88Mg98JCg/olB3gjxbZWObsrg0InZIY=
+Ei5mV5RLw5MyIM24yV9VBMCslHJ3FLGm6cMbOlMmCGw8=
 R1
 R2
 R3
 R4
 R5
 R0
-Z31 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/nidru/nidru_20_wrapper.vhd
-Z32 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/nidru/nidru_20_wrapper.vhd
+Z32 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/nidru/nidru_20_wrapper.vhd
+Z33 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/nidru/nidru_20_wrapper.vhd
 l0
 L70
 V5bU8X77`_lFn<gbA@l_9;0
 !s100 aXSckJc8SVRG>d^R`7;[Q2
 R8
-!i8a 1913262992
+!i8a 148660496
 31
 R9
 !i10b 1
@@ -1036,7 +1036,7 @@ R12
 R13
 R14
 n73d6d12
-AgopKviLlflUjvCmKF5995w==
+AUMkIwEmeP51dbfXTGmFDTQ==
 R2
 R3
 R4
@@ -1047,7 +1047,7 @@ L117
 V6]P78Ue2o>Ja:>CU]M5XX3
 !s100 DKH=FaVIUAYlge8alF;hH3
 R8
-!i8a 689195328
+!i8a 1421346256
 31
 R9
 !i10b 1
@@ -1058,11 +1058,11 @@ R12
 R13
 R14
 R15
-EN7NMROpbXq2ihZfdLwJRWg==
+E4aT47HqZZjl30RQPj64oBw==
 R1
 R16
 R3
-Z33 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z34 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
 R4
 R5
 R0
@@ -1073,7 +1073,7 @@ L773
 Ve=mE:5QCMNmfI3P85;a3M1
 !s100 ]7zlSMEnm:SnmzLiU<U?N1
 R8
-!i8a 588298528
+!i8a 1582758832
 31
 R9
 !i10b 1
@@ -1084,10 +1084,10 @@ R12
 R13
 R14
 n764
-A1he0i7yRh/sevGE5dkbyjQ==
+AOAg6QZkAZ6wNWu4qblultQ==
 R16
 R3
-R33
+R34
 R4
 R5
 DEx4 work 2 pd 0 22 e=mE:5QCMNmfI3P85;a3M1
@@ -1096,7 +1096,7 @@ L796
 VD@NK2QRl7Z<U9CCfh^b;n1
 !s100 ?<7Dce5N5HT4?PZYS03bm2
 R8
-!i8a 305524720
+!i8a 2103280272
 31
 R9
 !i10b 1
@@ -1107,7 +1107,7 @@ R12
 R13
 R14
 R15
-E5nizMI5gvb5XqPkzhi7kCA==
+EzJkj9gbRNbztiIvlUQvDsg==
 R1
 R16
 R3
@@ -1122,7 +1122,7 @@ L1884
 V<Rh`UL?j0hL3I6iElCf5[0
 !s100 iKK7OoamDDIbl27U>5=NU1
 R8
-!i8a 1408856160
+!i8a 545197008
 31
 R9
 !i10b 1
@@ -1133,7 +1133,7 @@ R12
 R13
 R14
 n76a62
-AsiHW/4XcAFWcuSLpDCm5Eg==
+APdre1oCMiPkc713FEDhcHg==
 R16
 R3
 R2
@@ -1145,7 +1145,7 @@ L1909
 VNzR1Q1N^eiSeQUH4iYJh:1
 !s100 1j63SF76UMcWl70[GDC<A0
 R8
-!i8a 318968112
+!i8a 2052760064
 31
 R9
 !i10b 1
@@ -1156,7 +1156,7 @@ R12
 R13
 R14
 R15
-EeCZvRXPptzE5gU+IIWAqmg==
+Eeg/Luliuq4nUE9FcXqhxSw==
 R1
 R16
 R3
@@ -1171,7 +1171,7 @@ L426
 V>BT<_9leJWNAcOYG@JQoE1
 !s100 OEWR5J73TW;dmbLAef>i42
 R8
-!i8a 7047152
+!i8a 1888817104
 31
 R9
 !i10b 1
@@ -1182,7 +1182,7 @@ R12
 R13
 R14
 n796bdb4
-Ah1DUZZa5RFpBEDL0snlklw==
+ABClnUup6PziZe+Rt2rVz0w==
 R16
 R3
 R2
@@ -1194,7 +1194,7 @@ L444
 V7i7`_]CZ65c4YJ@od;2Eb3
 !s100 oUdJ_>?HNl7hTMJ@[I_PX0
 R8
-!i8a 2003436272
+!i8a 587965136
 31
 R9
 !i10b 1
@@ -1205,7 +1205,7 @@ R12
 R13
 R14
 R19
-EoopY4L+Z5BYumwfaeYvnCw==
+EJmtuveb+xN8lJKU01lEppw==
 R1
 R16
 R3
@@ -1220,7 +1220,7 @@ L1117
 V]k9z;<ZnnOo0UV^fZcBg`1
 !s100 fbdNm>D;MRRzb2cF@Ab>N3
 R8
-!i8a 50779728
+!i8a 937979456
 31
 R9
 !i10b 1
@@ -1231,7 +1231,7 @@ R12
 R13
 R14
 n7a3
-AQ7i4ESo92TXCLkCeM+0uLg==
+AK7nh0BjlElvL/Ck3ZRrWCg==
 R16
 R3
 R2
@@ -1243,7 +1243,7 @@ L1140
 VjRi?D5O]0OY[JMj3LzJNN3
 !s100 ;CY>e1<e8L2VAeGjVdKmD3
 R8
-!i8a 920333488
+!i8a 1648368400
 31
 R9
 !i10b 1
@@ -1254,7 +1254,7 @@ R12
 R13
 R14
 R15
-EDaa3soA85Eyi+Hwz19vNOg==
+EcyNVig4A6uoxwkeYmjgntA==
 R1
 R16
 R3
@@ -1269,7 +1269,7 @@ L2109
 V2^a4]^FagT;fd0dl:zSzU0
 !s100 >oMV1MLH]d4E=dRfUGc0S0
 R8
-!i8a 313242256
+!i8a 1115263088
 31
 R9
 !i10b 1
@@ -1280,7 +1280,7 @@ R12
 R13
 R14
 n7a962
-Ar7P+/JhOjnelJqIsORsGlg==
+AQAKhSHZKWKdcZSq2K0cavg==
 R16
 R3
 R2
@@ -1292,7 +1292,7 @@ L2133
 V=YEG>A7Z8DKjM[kPeS56C3
 !s100 @dHZZgAoMzdgV87L8n=HL1
 R8
-!i8a 2139515744
+!i8a 1323615536
 31
 R9
 !i10b 1
@@ -1303,7 +1303,7 @@ R12
 R13
 R14
 R15
-EoqiH9hRZZNGaAVO0L617dg==
+EefNxl6kfH7mF/LTGgELWbg==
 R1
 R16
 R3
@@ -1318,7 +1318,7 @@ L575
 V`OnGfSS>QE5nko:YIV]mh1
 !s100 1Pc[4f:AWV<cQWm?6fo?f3
 R8
-!i8a 976372144
+!i8a 1111207872
 31
 R9
 !i10b 1
@@ -1329,7 +1329,7 @@ R12
 R13
 R14
 n7a4
-AuHnKMyq1C7ztTWZ2Dx+vsg==
+AH3MOhD3zl1omjN66w5cvkw==
 R16
 R3
 R2
@@ -1341,7 +1341,7 @@ L591
 VzQ_h?c<W45l^MHIf9_G<42
 !s100 ck:ab=AiZjHJ:a67DCDAj3
 R8
-!i8a 2088454560
+!i8a 884725312
 31
 R9
 !i10b 1
@@ -1353,402 +1353,402 @@ R13
 R14
 R19
 vuhdsdi_control
-R9
+R20
 !i10b 1
 !s100 ?U01Qd^QB[[_T]lom=J1X3
 INlGmlU?d<l26=eI2H@ME?2
-R20
+R21
 R0
-R30
+R31
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_control.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_control.v
 L0 73
-R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vuhdsdi_drp_control
-R9
+R20
 !i10b 1
 !s100 3T8L2iEQi9_=>kj4e0b8a2
 Ig;Rk2GVD>4JVBLLin4a3F1
-R20
+R21
 R0
-R30
+R31
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_drp_control.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_drp_control.v
-Z34 L0 65
-R22
+Z35 L0 65
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vuhdsdi_drp_control_fsm
-R9
+R20
 !i10b 1
 !s100 CIL`T=:G65G@_LR85PL_91
 IUScWZ_9f;04ZTGXN3:OR:3
-R20
+R21
 R0
-R30
+R31
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_drp_control_fsm.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_drp_control_fsm.v
-R34
-R22
+R35
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vuhdsdi_gt_sync_block
-R9
+R20
 !i10b 1
 !s100 L=>Xfn:MVfEQ3^j5?C?^I1
 IXRe4j@z:_hRYATW@VGbEb3
-R20
+R21
 R0
-R30
+R31
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_gt_sync_block.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_gt_sync_block.v
 L0 3
-R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
-vuhdsdi_gthe4_common
 R28
+R29
+vuhdsdi_gthe4_common
+R20
 !i10b 1
 !s100 ^_n8@W3SO;dO^[hYMmmgP2
 I>[SbGUcJ9PBUJkWRb=c_;1
-R20
+R21
 R0
-R29
+R30
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/gt_common/uhdsdi_gthe4_common.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/gt_common/uhdsdi_gthe4_common.v
-Z35 L0 56
-R22
+Z36 L0 56
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
-vuhdsdi_gthe4_common_wrapper
 R28
+R29
+vuhdsdi_gthe4_common_wrapper
+R20
 !i10b 1
 !s100 ^g4h_IIVFK1HWQX:VjGP?2
 I2E>QHml3Wa20z3P3A?Mkl1
-R20
+R21
 R0
-R29
+R30
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/gt_common/uhdsdi_gthe4_common_wrapper.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/gt_common/uhdsdi_gthe4_common_wrapper.v
-R21
 R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
-vuhdsdi_gtwiz_gthe4
 R28
+R29
+vuhdsdi_gtwiz_gthe4
+R20
 !i10b 1
 !s100 62kf_Z_jAKDWICTHeJ05H3
 IS4NL[Y1Hg49fW@KJE7GBe2
-R20
+R21
 R0
-R29
+R30
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/synth/uhdsdi_gtwiz_gthe4.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/synth/uhdsdi_gtwiz_gthe4.v
-Z36 L0 54
-R22
+Z37 L0 54
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
-vuhdsdi_gtwiz_gthe4_channel_wrapper
 R28
+R29
+vuhdsdi_gtwiz_gthe4_channel_wrapper
+R20
 !i10b 1
 !s100 8B;eiG:kKdJ:OO]I_7Y0F1
 I7i<HP:XkSOB8MciNFS?L:3
-R20
+R21
 R0
-R29
+R30
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/synth/uhdsdi_gtwiz_gthe4_channel_wrapper.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/synth/uhdsdi_gtwiz_gthe4_channel_wrapper.v
-R35
-R22
+R36
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
-vuhdsdi_gtwiz_gtwizard_gthe4
 R28
+R29
+vuhdsdi_gtwiz_gtwizard_gthe4
+R20
 !i10b 1
 !s100 ?25_3a:dUen3PnS^LVgYz1
 IN8T6?W=<j26Lm]JkZN0g41
-R20
+R21
 R0
-R29
+R30
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/synth/uhdsdi_gtwiz_gtwizard_gthe4.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gthe4_wiz/synth/uhdsdi_gtwiz_gtwizard_gthe4.v
-Z37 L0 138
-R22
+Z38 L0 138
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
-vuhdsdi_gtwiz_gtwizard_gtye4
 R28
+R29
+vuhdsdi_gtwiz_gtwizard_gtye4
+R20
 !i10b 1
 !s100 >mYW9J2LfkB4`L]glB]WD2
 IGklUKbA_2>C[:dD[FPo5E2
-R20
+R21
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/synth/uhdsdi_gtwiz_gtwizard_gtye4.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/synth/uhdsdi_gtwiz_gtwizard_gtye4.v
-R37
-R22
+R38
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
-vuhdsdi_gtwiz_gtwizard_top
 R28
+R29
+vuhdsdi_gtwiz_gtwizard_top
+R20
 !i10b 1
 !s100 jb5Y;X=L`=dl?8ZnHQ5k<2
 IgM:FlKe_WYQ`?mKT:U7LI1
-R20
+R21
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/uhdsdi_gtwiz_gtwizard_top.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gt_shared/uhdsdi_gtwiz_gtwizard_top.v
 L0 170
-R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
-vuhdsdi_gtwiz_gtye4
 R28
+R29
+vuhdsdi_gtwiz_gtye4
+R20
 !i10b 1
 !s100 mR@V69D6`bK64HbLBT=YI2
 ITMJZcL7cANUMkN45L@27z1
-R20
+R21
 R0
-R30
+R31
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/synth/uhdsdi_gtwiz_gtye4.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/synth/uhdsdi_gtwiz_gtye4.v
-R36
-R22
+R37
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
-vuhdsdi_gtwiz_gtye4_channel_wrapper
 R28
+R29
+vuhdsdi_gtwiz_gtye4_channel_wrapper
+R20
 !i10b 1
 !s100 fUNT086=<MeFe2XUO=;`42
 IOnlm6<bEl9>2jFgh4jY6A2
-R20
+R21
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/synth/uhdsdi_gtwiz_gtye4_channel_wrapper.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/synth/uhdsdi_gtwiz_gtye4_channel_wrapper.v
-R35
-R22
+R36
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
-vuhdsdi_gtwiz_gtye4_common_wrapper
 R28
+R29
+vuhdsdi_gtwiz_gtye4_common_wrapper
+R20
 !i10b 1
 !s100 5c`_P9<o^2g^_L@hgX=KP1
 IHW;[JR1zT7OSB[>PbW5Q_3
-R20
+R21
 R0
-R30
+R31
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/gt_common/uhdsdi_gtwiz_gtye4_common_wrapper.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/gtye4_wiz/gt_common/uhdsdi_gtwiz_gtye4_common_wrapper.v
 L0 4
-R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
-vuhdsdi_multigt_wrapper
 R28
+R29
+vuhdsdi_multigt_wrapper
+R20
 !i10b 1
 !s100 n8Fm=LQkYVlRR64J4z3Y]3
 IEoMVK>>H_HLX[6?_[C:R]2
-R20
+R21
 R0
 R1
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/uhdsdi_multigt_wrapper.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/uhdsdi_multigt_wrapper.v
 L0 45
-R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vuhdsdi_rate_detect
-R9
+R20
 !i10b 1
 !s100 hiNMa1[abDlcQmASDGkWY2
 I83n9DYRbJL^zk:oMa=F6<1
-R20
+R21
 R0
-R30
+R31
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_rate_detect.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_rate_detect.v
 L0 71
-R22
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vuhdsdi_rx_control
-R9
+R20
 !i10b 1
 !s100 ^7l[9FbbLGnP9hiFamEO20
 I6P[OATdW4GEED`@WU4::f1
-R20
+R21
 R0
-R30
+R31
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_rx_control.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_rx_control.v
-Z38 L0 67
-R22
+Z39 L0 67
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
+R28
+R29
 vuhdsdi_tx_control
-R9
+R20
 !i10b 1
 !s100 A0hn`Ym[h@=;=XlN2jEOn3
 I01l<:of=4mI2Z1lS<Dz0J1
-R20
+R21
 R0
-R30
+R31
 8/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_tx_control.v
 F/opt/Xilinx/Vivado/2018.3/data/ip/xilinx/uhdsdi_gt_v1_0/hdl/drp_ctrl/uhdsdi_tx_control.v
-R38
-R22
+R39
+R23
 r1
 !s85 0
 31
-R10
-R23
 R24
-!i113 0
 R25
 R26
+!i113 0
 R27
-Eenl1wGmm5S80WAHCZCwrLg==
+R28
+R29
+EERv5UB5UrXQdRnA50OCF4A==
 R1
 R2
 R3
@@ -1762,7 +1762,7 @@ L518
 VBao4Xilh]NV3EZI[M]7YO3
 !s100 e=J84>;^`DObUO9boQ<]o0
 R8
-!i8a 2041783760
+!i8a 691373120
 31
 R9
 !i10b 1
@@ -1773,7 +1773,7 @@ R12
 R13
 R14
 n7c9f
-AepD4yTi96rwzTefx+7FzSw==
+Alcx2n/xXvM1aeoigZu3zQw==
 R2
 R3
 R4
@@ -1784,7 +1784,7 @@ L538
 VcNQabnAcRekhc4Sh21^<A3
 !s100 3_ZmPHK76R@]4IoG:`dKn1
 R8
-!i8a 1350089360
+!i8a 1287009120
 31
 R9
 !i10b 1

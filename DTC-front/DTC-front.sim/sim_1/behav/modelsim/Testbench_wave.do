@@ -22,6 +22,5 @@ add wave -radix decimal -position insertpoint sim:/testbench/TopInstance/Coordin
 add wave -radix decimal -position insertpoint sim:/testbench/TopInstance/CoordinateCorrectorInstance/gCoordinateCorrector(0)/vector_buff.r
 add wave -radix decimal -position insertpoint sim:/testbench/TopInstance/CoordinateCorrectorInstance/StubPipeIn(3)(0).payload.r
 add wave -radix decimal -position insertpoint sim:/testbench/TopInstance/CoordinateCorrectorInstance/gCoordinateCorrector(0)/vector.r
-
 add wave -position insertpoint sim:/testbench/TopInstance/CoordinateCorrectorInstance/StubPipeOut(0)(0)
 add wave -divider

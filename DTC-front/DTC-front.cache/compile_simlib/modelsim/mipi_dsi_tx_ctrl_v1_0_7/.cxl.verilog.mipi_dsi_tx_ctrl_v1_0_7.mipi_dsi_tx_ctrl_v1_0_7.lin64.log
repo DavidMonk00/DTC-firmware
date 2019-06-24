@@ -2,9 +2,9 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap mipi_dsi_tx_ctrl_v1_0_7 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/mipi_dsi_tx_ctrl_v1_0_7 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:02:41 on May 03,2019
+Start time: 10:54:58 on Jun 21,2019
 vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work mipi_dsi_tx_ctrl_v1_0_7 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/mipi_dsi_tx_ctrl_v1_0_7/.cxl.verilog.mipi_dsi_tx_ctrl_v1_0_7.mipi_dsi_tx_ctrl_v1_0_7.lin64.cmf 
 
 Top level modules:
-End time: 13:02:42 on May 03,2019, Elapsed time: 0:00:01
+End time: 10:54:59 on Jun 21,2019, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0

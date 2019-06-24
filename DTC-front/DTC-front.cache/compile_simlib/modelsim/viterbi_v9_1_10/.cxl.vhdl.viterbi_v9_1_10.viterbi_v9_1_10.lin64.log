@@ -2,8 +2,8 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap viterbi_v9_1_10 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/viterbi_v9_1_10 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:06:58 on May 03,2019
+Start time: 10:59:07 on Jun 21,2019
 vcom -64 -93 -work viterbi_v9_1_10 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/viterbi_v9_1_10/.cxl.vhdl.viterbi_v9_1_10.viterbi_v9_1_10.lin64.cmf 
 -- Loading package STANDARD
-End time: 13:06:59 on May 03,2019, Elapsed time: 0:00:01
+End time: 10:59:08 on Jun 21,2019, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0

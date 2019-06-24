@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 d/home/dmonk
 vhigh_speed_selectio_wiz_v3_3_1_BitSlipInLogic_4b
-Z1 !s110 1556885035
+Z1 !s110 1561110970
 !i10b 1
 !s100 KH:Q^g81TGh0Vm989iE8Q2
 IAgnGF;FQ2VliIKde;5kPd0
@@ -23,7 +23,7 @@ Z6 OL;L;10.6b;65
 r1
 !s85 0
 31
-Z7 !s108 1556885035.000000
+Z7 !s108 1561110969.000000
 Z8 !s107 /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/high_speed_selectio_wiz_v3_3/hdl/high_speed_selectio_wiz_v3_3_rfs.v|
 Z9 !s90 -64|+incdir+/home/dmonk/.cxl.ip/incl|-work|high_speed_selectio_wiz_v3_3_1|-f|/home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/high_speed_selectio_wiz_v3_3_1/.cxl.verilog.high_speed_selectio_wiz_v3_3_1.high_speed_selectio_wiz_v3_3_1.lin64.cmf|
 !i113 0
@@ -124,7 +124,7 @@ R11
 R12
 nhigh_speed_selectio_wiz_v3_3_1_@bit@slip@in@logic_@toplevel
 vhigh_speed_selectio_wiz_v3_3_1_bs_ctrl_top
-R1
+Z13 !s110 1561110969
 !i10b 1
 !s100 3nPn]1NU1Ae^W2O[_TnP32
 IU8;QRZ`SFDVPS[1:oV26a3
@@ -168,7 +168,7 @@ R10
 R11
 R12
 vhigh_speed_selectio_wiz_v3_3_1_C2BCEtc
-R1
+R13
 !i10b 1
 !s100 _DYhcHVKTlmFSWOGRc_Ah1
 I<NhmdaEaSmZfdQF[jAW;=3
@@ -260,7 +260,7 @@ R11
 R12
 nhigh_speed_selectio_wiz_v3_3_1_@c3@b@c@etc_dwnld
 vhigh_speed_selectio_wiz_v3_3_1_clk_rst_top
-R1
+R13
 !i10b 1
 !s100 [AMbNYbeOkooBaIZ8l?jd3
 IPT:=HE;1^BPcWSR]lI3WH1
@@ -282,7 +282,7 @@ R10
 R11
 R12
 vhigh_speed_selectio_wiz_v3_3_1_clk_scheme
-R1
+R13
 !i10b 1
 !s100 88k3lW`i>odl?kFkA`1Z>1
 Ijm85e6dBHSA;I`Pc9R_iH1
@@ -350,7 +350,7 @@ R11
 R12
 nhigh_speed_selectio_wiz_v3_3_1_@gen@pulse
 vhigh_speed_selectio_wiz_v3_3_1_iobuf_top
-R1
+R13
 !i10b 1
 !s100 Gic3^PZJKnkMB_4_lB]]L3
 IXJWSR7GBLgJ4meGo=@Ehc1
@@ -372,7 +372,7 @@ R10
 R11
 R12
 vhigh_speed_selectio_wiz_v3_3_1_rst_scheme
-R1
+R13
 !i10b 1
 !s100 Rb:b[4VTO_feJPdIP9=KB0
 I3AOl<Gf]g87Ve^CX7^@Tl2
@@ -438,7 +438,7 @@ R10
 R11
 R12
 vhigh_speed_selectio_wiz_v3_3_1_sync_cell
-R1
+R13
 !i10b 1
 !s100 ED59Wo25dFUG:HBh@j3cn3
 IVM[IZNHhG55RMI]8ZDXbG1
@@ -504,7 +504,7 @@ R10
 R11
 R12
 vPRBS_ANY
-R1
+R13
 !i10b 1
 !s100 BALjW_^4JJAazh7gX@Il91
 I:?kPdMBVa[6DN>2MV:o<K2

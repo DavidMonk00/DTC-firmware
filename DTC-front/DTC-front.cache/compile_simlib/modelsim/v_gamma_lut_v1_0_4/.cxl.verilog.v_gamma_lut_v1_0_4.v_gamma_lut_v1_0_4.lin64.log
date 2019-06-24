@@ -2,7 +2,7 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap v_gamma_lut_v1_0_4 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/v_gamma_lut_v1_0_4 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:04:01 on May 03,2019
+Start time: 10:56:16 on Jun 21,2019
 vlog -64 "+incdir+/home/dmonk/.cxl.ip/incl" -work v_gamma_lut_v1_0_4 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/v_gamma_lut_v1_0_4/.cxl.verilog.v_gamma_lut_v1_0_4.v_gamma_lut_v1_0_4.lin64.cmf 
-End time: 13:04:02 on May 03,2019, Elapsed time: 0:00:01
+End time: 10:56:16 on Jun 21,2019, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0

@@ -2,7 +2,7 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap tcc_decoder_3gpplte_v3_0_6 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/tcc_decoder_3gpplte_v3_0_6 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:03:28 on May 03,2019
+Start time: 10:55:43 on Jun 21,2019
 vcom -64 -93 -work tcc_decoder_3gpplte_v3_0_6 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/tcc_decoder_3gpplte_v3_0_6/.cxl.vhdl.tcc_decoder_3gpplte_v3_0_6.tcc_decoder_3gpplte_v3_0_6.lin64.cmf 
 -- Loading package STANDARD
 ** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/tcc_decoder_3gpplte_v3_0/hdl/tcc_decoder_3gpplte_v3_0_vh_rfs.vhd(16055): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
@@ -22,5 +22,5 @@ vcom -64 -93 -work tcc_decoder_3gpplte_v3_0_6 -f /home/dmonk/Firmware/DTC-firmwa
 ** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/tcc_decoder_3gpplte_v3_0/hdl/tcc_decoder_3gpplte_v3_0_vh_rfs.vhd(40933): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
 ** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/tcc_decoder_3gpplte_v3_0/hdl/tcc_decoder_3gpplte_v3_0_vh_rfs.vhd(41729): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
 ** Warning: /opt/Xilinx/Vivado/2018.3/data/ip/xilinx/tcc_decoder_3gpplte_v3_0/hdl/tcc_decoder_3gpplte_v3_0_vh_rfs.vhd(43431): (vcom-1515) Prefix of predefined attribute "<protected>" is function call "<protected>".
-End time: 13:03:29 on May 03,2019, Elapsed time: 0:00:01
+End time: 10:55:45 on Jun 21,2019, Elapsed time: 0:00:02
 Errors: 0, Warnings: 17

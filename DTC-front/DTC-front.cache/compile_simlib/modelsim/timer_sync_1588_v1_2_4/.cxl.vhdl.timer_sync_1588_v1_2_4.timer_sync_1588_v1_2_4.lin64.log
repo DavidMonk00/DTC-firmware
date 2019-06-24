@@ -2,8 +2,8 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap timer_sync_1588_v1_2_4 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/timer_sync_1588_v1_2_4 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:03:07 on May 03,2019
+Start time: 10:55:23 on Jun 21,2019
 vcom -64 -93 -work timer_sync_1588_v1_2_4 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/timer_sync_1588_v1_2_4/.cxl.vhdl.timer_sync_1588_v1_2_4.timer_sync_1588_v1_2_4.lin64.cmf 
 -- Loading package STANDARD
-End time: 13:03:07 on May 03,2019, Elapsed time: 0:00:00
+End time: 10:55:23 on Jun 21,2019, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0

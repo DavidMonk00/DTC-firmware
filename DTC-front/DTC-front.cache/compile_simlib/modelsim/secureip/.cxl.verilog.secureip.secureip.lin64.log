@@ -2,7 +2,7 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap secureip /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/secureip 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
-Start time: 12:59:27 on May 03,2019
+Start time: 10:51:51 on Jun 21,2019
 vlog -source -64 -work secureip -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/secureip/.cxl.verilog.secureip.secureip.lin64.cmf 
 -- Compiling module GTHE2_CHANNEL_FAST_WRAP
 -- Compiling module GTXE2_CHANNEL_FAST_WRAP
@@ -106,10 +106,10 @@ Top level modules:
 	SIP_PCIE40E4
 	SIP_HBM_ONE_STACK_INTF
 	SIP_HBM_TWO_STACK_INTF
-End time: 13:00:57 on May 03,2019, Elapsed time: 0:01:30
+End time: 10:53:14 on Jun 21,2019, Elapsed time: 0:01:23
 Errors: 0, Warnings: 0
 Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:00:57 on May 03,2019
+Start time: 10:53:14 on Jun 21,2019
 vlog -source -64 -sv -suppress vlog-2583 -work secureip -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/secureip/.cxl.systemverilog.secureip.secureip.lin64.cmf 
 -- Compiling module SIP_FE
 -- Compiling module SIP_HSDAC
@@ -139,5 +139,5 @@ Top level modules:
 	xil_hbm_two_stack_intf_mod1
 	xil_hbm_two_stack_intf_mod786
 	SIP_GTM_DUAL
-End time: 13:01:48 on May 03,2019, Elapsed time: 0:00:51
+End time: 10:54:08 on Jun 21,2019, Elapsed time: 0:00:54
 Errors: 0, Warnings: 1, Suppressed Warnings: 142

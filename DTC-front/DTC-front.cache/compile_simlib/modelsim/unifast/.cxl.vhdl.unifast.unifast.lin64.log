@@ -2,7 +2,7 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap unifast /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/unifast 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:01:56 on May 03,2019
+Start time: 10:54:15 on Jun 21,2019
 vcom -source -93 -64 -work unifast -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/unifast/.cxl.vhdl.unifast.unifast.lin64.cmf 
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -22,5 +22,5 @@ vcom -source -93 -64 -work unifast -f /home/dmonk/Firmware/DTC-firmware/DTC-fron
 -- Compiling architecture GTXE2_CHANNEL_FAST_V of GTXE2_CHANNEL
 -- Compiling entity GTHE2_CHANNEL
 -- Compiling architecture GTHE2_CHANNEL_FAST_V of GTHE2_CHANNEL
-End time: 13:01:56 on May 03,2019, Elapsed time: 0:00:00
+End time: 10:54:16 on Jun 21,2019, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0

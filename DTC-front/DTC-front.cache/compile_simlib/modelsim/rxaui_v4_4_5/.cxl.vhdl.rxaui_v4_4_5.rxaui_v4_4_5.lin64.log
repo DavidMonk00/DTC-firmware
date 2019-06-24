@@ -2,8 +2,8 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap rxaui_v4_4_5 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/rxaui_v4_4_5 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vcom 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:06:22 on May 03,2019
+Start time: 10:58:33 on Jun 21,2019
 vcom -64 -93 -work rxaui_v4_4_5 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/rxaui_v4_4_5/.cxl.vhdl.rxaui_v4_4_5.rxaui_v4_4_5.lin64.cmf 
 -- Loading package STANDARD
-End time: 13:06:22 on May 03,2019, Elapsed time: 0:00:00
+End time: 10:58:33 on Jun 21,2019, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0

@@ -2,7 +2,7 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap axi_protocol_checker_v2_0_4 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_protocol_checker_v2_0_4 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:06:50 on May 03,2019
+Start time: 10:59:00 on Jun 21,2019
 vlog -64 -L smartconnect_v1_0 -L axi_protocol_checker_v2_0_4 "+incdir+/home/dmonk/.cxl.ip/incl" -sv -work axi_protocol_checker_v2_0_4 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/axi_protocol_checker_v2_0_4/.cxl.systemverilog.axi_protocol_checker_v2_0_4.axi_protocol_checker_v2_0_4.lin64.cmf 
 -- Compiling module axi_protocol_checker_v2_0_4_axi4litepc_asr_inline
 -- Compiling module axi_protocol_checker_v2_0_4_axi4pc_asr_inline
@@ -15,5 +15,5 @@ vlog -64 -L smartconnect_v1_0 -L axi_protocol_checker_v2_0_4 "+incdir+/home/dmon
 
 Top level modules:
 	axi_protocol_checker_v2_0_4_top
-End time: 13:06:50 on May 03,2019, Elapsed time: 0:00:00
+End time: 10:59:00 on Jun 21,2019, Elapsed time: 0:00:00
 Errors: 0, Warnings: 0

@@ -2,7 +2,7 @@ Model Technology ModelSim SE-64 vmap 10.6b Lib Mapping Utility 2017.05 May 25 20
 vmap processing_system7_vip_v1_0_6 /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/processing_system7_vip_v1_0_6 
 Modifying modelsim.ini
 Model Technology ModelSim SE-64 vlog 10.6b Compiler 2017.05 May 25 2017
-Start time: 13:05:33 on May 03,2019
+Start time: 10:57:44 on Jun 21,2019
 vlog -64 -L axi_vip_v1_1_4 -L processing_system7_vip_v1_0_6 -L xilinx_vip "+incdir+/home/dmonk/.cxl.ip/incl" -sv -work processing_system7_vip_v1_0_6 -f /home/dmonk/Firmware/DTC-firmware/DTC-front/DTC-front.cache/compile_simlib/modelsim/processing_system7_vip_v1_0_6/.cxl.systemverilog.processing_system7_vip_v1_0_6.processing_system7_vip_v1_0_6.lin64.cmf 
 -- Compiling module processing_system7_vip_v1_0_6_arb_wr
 -- Compiling module processing_system7_vip_v1_0_6_arb_rd
@@ -35,5 +35,5 @@ vlog -64 -L axi_vip_v1_1_4 -L processing_system7_vip_v1_0_6 -L xilinx_vip "+incd
 Top level modules:
 	processing_system7_vip_v1_0_6_intr_wr_mem
 	processing_system7_vip_v1_0_6
-End time: 13:05:33 on May 03,2019, Elapsed time: 0:00:00
+End time: 10:57:45 on Jun 21,2019, Elapsed time: 0:00:01
 Errors: 0, Warnings: 0
