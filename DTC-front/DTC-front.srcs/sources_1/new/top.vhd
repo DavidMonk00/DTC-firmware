@@ -86,7 +86,7 @@ begin
         MatricesOut => matrices
     );
 
-    CoordinateCorrectorInstance : entity work.CoordinateCorrector
+    CoordinateCorrectorInstance : entity work.CoordinateCorrector2
     port map (
         clk => clk,
         StubPipeIn => FormattedStubPipe,
